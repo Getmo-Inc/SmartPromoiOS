@@ -1,0 +1,16 @@
+PODS:
+  - SmartPromo (0.0.1)
+
+DEPENDENCIES:
+  - SmartPromo (from `../`)
+
+EXTERNAL SOURCES:
+  SmartPromo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmartPromo: d006a1ed0caf6bae9e5eb8d61124be3d055a2db4
+
+PODFILE CHECKSUM: 3bb2cda4658239ed80bbceb328210ee47c719093
+
+COCOAPODS: 1.10.0
