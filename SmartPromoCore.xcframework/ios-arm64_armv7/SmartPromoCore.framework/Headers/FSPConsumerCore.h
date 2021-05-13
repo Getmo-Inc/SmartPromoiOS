@@ -6,8 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SmartPromoCore/FSPAddressCore.h>
-#import <SmartPromoCore/FSPGenderTypeCore.h>
+#import "FSPAddressCore.h"
+#import "FSPGenderTypeCore.h"
 
 @interface FSPConsumerCore : NSObject
 

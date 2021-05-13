@@ -1,0 +1,16 @@
+PODS:
+  - SmartPromo (0.1)
+
+DEPENDENCIES:
+  - SmartPromo
+
+SPEC REPOS:
+  trunk:
+    - SmartPromo
+
+SPEC CHECKSUMS:
+  SmartPromo: ed6b8bc3da10ea626e634ce817508dd7051a3c0e
+
+PODFILE CHECKSUM: 17133f80309e1ecd1e8d02fe03a0e35dd3a83554
+
+COCOAPODS: 1.10.1

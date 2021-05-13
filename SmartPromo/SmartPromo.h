@@ -4,9 +4,11 @@
 //
 //  Created by Rodrigo Busata on 12/21/20.
 //
+//  0.2 (1)
+//
 
 #import <UIKit/UIKit.h>
-#import "FSPConsumer.h"
+#import <SmartPromo/FSPConsumer.h>
 
 @interface SmartPromo : NSObject
 

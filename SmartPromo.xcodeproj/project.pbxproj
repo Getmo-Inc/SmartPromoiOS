@@ -7,35 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C108B9E264CB14100756D24 /* SmartPromoCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */; };
+		8C108B9F264CB14100756D24 /* SmartPromoCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C155515264B600000541C87 /* FSPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C155513264B600000541C87 /* FSPAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C155516264B600000541C87 /* FSPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C155514264B600000541C87 /* FSPAddress.m */; };
-		8C6E69DE264B5955006AB33E /* SmartPromoCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */; platformFilter = ios; };
-		8C6E69DF264B5955006AB33E /* SmartPromoCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C88832625A28E8B00F3C648 /* FSPConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C88832425A28E8B00F3C648 /* FSPConsumer.m */; };
 		8C88832725A28E8B00F3C648 /* FSPConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C88832525A28E8B00F3C648 /* FSPConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CB3092C25916FF60020A740 /* SmartPromo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB3092225916FF60020A740 /* SmartPromo.framework */; };
 		8CB3093325916FF60020A740 /* SmartPromo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB3092525916FF60020A740 /* SmartPromo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE220C9259171830058AA6A /* SmartPromo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE220C8259171830058AA6A /* SmartPromo.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8CB3092D25916FF60020A740 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8CB3091925916FF60020A740 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8CB3092125916FF60020A740;
-			remoteInfo = SmartPromo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		8C6E69E0264B5955006AB33E /* Embed Frameworks */ = {
+		8C108BA0264CB14100756D24 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8C6E69DF264B5955006AB33E /* SmartPromoCore.xcframework in Embed Frameworks */,
+				8C108B9F264CB14100756D24 /* SmartPromoCore.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,16 +34,13 @@
 /* Begin PBXFileReference section */
 		8C155513264B600000541C87 /* FSPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPAddress.h; sourceTree = "<group>"; };
 		8C155514264B600000541C87 /* FSPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPAddress.m; sourceTree = "<group>"; };
-		8C15551F264B66F000541C87 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		8C1678382649FB5000399405 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8C6E663E264B5361006AB33E /* SmartPromoCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SmartPromoCore.xcframework; path = ../../SmartPromoCore/output/SmartPromoCore.xcframework; sourceTree = "<group>"; };
 		8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SmartPromoCore.xcframework; sourceTree = SOURCE_ROOT; };
 		8C88832425A28E8B00F3C648 /* FSPConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPConsumer.m; sourceTree = "<group>"; };
 		8C88832525A28E8B00F3C648 /* FSPConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConsumer.h; sourceTree = "<group>"; };
 		8CB3092225916FF60020A740 /* SmartPromo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartPromo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB3092525916FF60020A740 /* SmartPromo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartPromo.h; sourceTree = "<group>"; };
 		8CB3092625916FF60020A740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CB3092B25916FF60020A740 /* SmartPromoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPromoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE220C8259171830058AA6A /* SmartPromo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPromo.m; sourceTree = "<group>"; };
 		8CE9E4C6259F97420049A2BA /* SmartPromo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SmartPromo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -64,15 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C6E69DE264B5955006AB33E /* SmartPromoCore.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CB3092825916FF60020A740 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CB3092C25916FF60020A740 /* SmartPromo.framework in Frameworks */,
+				8C108B9E264CB14100756D24 /* SmartPromoCore.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +60,6 @@
 		8CB3091825916FF60020A740 = {
 			isa = PBXGroup;
 			children = (
-				8C15551F264B66F000541C87 /* build.sh */,
 				8C1678382649FB5000399405 /* README.md */,
 				8CE9E4C6259F97420049A2BA /* SmartPromo.podspec */,
 				8CB3092425916FF60020A740 /* SmartPromo */,
@@ -95,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				8CB3092225916FF60020A740 /* SmartPromo.framework */,
-				8CB3092B25916FF60020A740 /* SmartPromoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */,
-				8C6E663E264B5361006AB33E /* SmartPromoCore.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -155,7 +130,7 @@
 				8CB3091E25916FF60020A740 /* Sources */,
 				8CB3091F25916FF60020A740 /* Frameworks */,
 				8CB3092025916FF60020A740 /* Resources */,
-				8C6E69E0264B5955006AB33E /* Embed Frameworks */,
+				8C108BA0264CB14100756D24 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,24 +140,6 @@
 			productName = SmartPromo;
 			productReference = 8CB3092225916FF60020A740 /* SmartPromo.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		8CB3092A25916FF60020A740 /* SmartPromoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8CB3093925916FF60020A740 /* Build configuration list for PBXNativeTarget "SmartPromoTests" */;
-			buildPhases = (
-				8CB3092725916FF60020A740 /* Sources */,
-				8CB3092825916FF60020A740 /* Frameworks */,
-				8CB3092925916FF60020A740 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8CB3092E25916FF60020A740 /* PBXTargetDependency */,
-			);
-			name = SmartPromoTests;
-			productName = SmartPromoTests;
-			productReference = 8CB3092B25916FF60020A740 /* SmartPromoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,9 +152,6 @@
 					8CB3092125916FF60020A740 = {
 						CreatedOnToolsVersion = 12.2;
 						LastSwiftMigration = 1250;
-					};
-					8CB3092A25916FF60020A740 = {
-						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -215,20 +169,12 @@
 			projectRoot = "";
 			targets = (
 				8CB3092125916FF60020A740 /* SmartPromo */,
-				8CB3092A25916FF60020A740 /* SmartPromoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8CB3092025916FF60020A740 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CB3092925916FF60020A740 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,22 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CB3092725916FF60020A740 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8CB3092E25916FF60020A740 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8CB3092125916FF60020A740 /* SmartPromo */;
-			targetProxy = 8CB3092D25916FF60020A740 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8CB3093425916FF60020A740 /* Debug */ = {
@@ -404,7 +335,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.getmo.SmartPromo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -437,7 +368,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.getmo.SmartPromo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -445,40 +376,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
-			};
-			name = Release;
-		};
-		8CB3093A25916FF60020A740 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = SmartPromoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.getmo.SmartPromoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8CB3093B25916FF60020A740 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_TESTABILITY = NO;
-				INFOPLIST_FILE = SmartPromoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.getmo.SmartPromoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -499,15 +396,6 @@
 			buildConfigurations = (
 				8CB3093725916FF60020A740 /* Debug */,
 				8CB3093825916FF60020A740 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8CB3093925916FF60020A740 /* Build configuration list for PBXNativeTarget "SmartPromoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CB3093A25916FF60020A740 /* Debug */,
-				8CB3093B25916FF60020A740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'SmartPromo'
-  s.version             = '0.1'
+  s.version             = '0.2'
   s.platform            = :ios
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.summary             = 'SmartPromo is a SDK to campaign marketing'
@@ -14,10 +14,3 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'output/SmartPromo.xcframework'
  
 end
-
-# To send a new version follow the steps:
-## Build the .xcframework: sh build.h
-## Update the Cocoapods: sudo gem install cocoapods -n /usr/local/bin
-## Validade the changes: pod lib lint SmartPromo.podspec
-## If validade was success so push the update: pod trunk push SmartPromo.podspec
-#Privacy - Camera Usage Description

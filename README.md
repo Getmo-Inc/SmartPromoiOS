@@ -15,8 +15,8 @@ Para começar a utilizar o SmartPromo, você precisa inicializar com o `id` da c
     import SmartPromo
     ...
 
-    let smartPromo = SmartPromo([campaignID])
-    smartPromo?.setupAccessKey([accessKey], andSecretKey: [secretKey])
+    let smartPromo = SmartPromo("[campaignID]")
+    smartPromo?.setupAccessKey("[accessKey]", andSecretKey: "[secretKey]")
     
 Depois é só disparar a função `go` passando uma viewController que tudo começa:
 

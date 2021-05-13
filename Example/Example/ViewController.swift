@@ -15,13 +15,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionOpen(_ sender: Any) {
-        let smartPromo = SmartPromo("[campaignID]")
-        smartPromo?.setupAccessKey("[accessKey]", andSecretKey: "[secretKey]")
+        let smartPromo = SmartPromo("{campaignID}")
+        smartPromo?.setupAccessKey("{accessKey}", andSecretKey: "{secretKey}")
         
         smartPromo?.setColor(.systemOrange)
         
         let consumer = FSPConsumer()
-        consumer.cpf = "[cpf]"
+        consumer.cpf = "{cpf}"
         smartPromo?.setConsumer(consumer)
         
         smartPromo?.go(self)
