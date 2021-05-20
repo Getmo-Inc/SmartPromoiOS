@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8C108B9E264CB14100756D24 /* SmartPromoCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */; };
-		8C108B9F264CB14100756D24 /* SmartPromoCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6E666D264B543B006AB33E /* SmartPromoCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C155515264B600000541C87 /* FSPAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C155513264B600000541C87 /* FSPAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C155516264B600000541C87 /* FSPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C155514264B600000541C87 /* FSPAddress.m */; };
 		8C88832625A28E8B00F3C648 /* FSPConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C88832425A28E8B00F3C648 /* FSPConsumer.m */; };
@@ -16,20 +15,6 @@
 		8CB3093325916FF60020A740 /* SmartPromo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB3092525916FF60020A740 /* SmartPromo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CE220C9259171830058AA6A /* SmartPromo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE220C8259171830058AA6A /* SmartPromo.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8C108BA0264CB14100756D24 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8C108B9F264CB14100756D24 /* SmartPromoCore.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C155513264B600000541C87 /* FSPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPAddress.h; sourceTree = "<group>"; };
@@ -130,7 +115,6 @@
 				8CB3091E25916FF60020A740 /* Sources */,
 				8CB3091F25916FF60020A740 /* Frameworks */,
 				8CB3092025916FF60020A740 /* Resources */,
-				8C108BA0264CB14100756D24 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,7 +319,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.getmo.SmartPromo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -368,7 +352,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.getmo.SmartPromo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

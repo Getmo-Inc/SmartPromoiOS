@@ -2,8 +2,8 @@ BCSymbolMap Version: 2.0
 Apple clang version 12.0.5 (clang-1205.0.22.9)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
 iPhoneOS14.5.sdk
-/Users/rodrigobusata/Library/Developer/Xcode/DerivedData/SmartPromo-fntnomtyrtbifubgiwvkuwaziewz/Build/Intermediates.noindex/ArchiveIntermediates/SmartPromo/IntermediateBuildFilesPath/SmartPromo.build/Release-iphoneos/SmartPromo.build/DerivedSources/SmartPromo_vers.c
-/Users/rodrigobusata/Projects/fabio/SmartPromo/iOS/SmartPromo
+/Users/rodrigobusata/Library/Developer/Xcode/DerivedData/SmartPromo-fsvmrkgvtuupolgsfccvhcibzauu/Build/Intermediates.noindex/ArchiveIntermediates/SmartPromo/IntermediateBuildFilesPath/SmartPromo.build/Release-iphoneos/SmartPromo.build/DerivedSources/SmartPromo_vers.c
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo
 -[FSPAddress zipCode]
 -[FSPAddress setZipCode:]
 -[FSPAddress streetName]
@@ -31,7 +31,7 @@ _OBJC_IVAR_$_FSPAddress._state
 __OBJC_$_INSTANCE_VARIABLES_FSPAddress
 __OBJC_$_PROP_LIST_FSPAddress
 __OBJC_CLASS_RO_$_FSPAddress
-/Users/rodrigobusata/Projects/fabio/SmartPromo/iOS/SmartPromo/SmartPromo/Models/FSPAddress.m
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo/SmartPromo/Models/FSPAddress.m
 SmartPromo/Models/FSPAddress.m
 SmartPromo/Models/FSPAddress.h
 -[FSPConsumer cpf]
@@ -61,7 +61,7 @@ _OBJC_IVAR_$_FSPConsumer._address
 __OBJC_$_INSTANCE_VARIABLES_FSPConsumer
 __OBJC_$_PROP_LIST_FSPConsumer
 __OBJC_CLASS_RO_$_FSPConsumer
-/Users/rodrigobusata/Projects/fabio/SmartPromo/iOS/SmartPromo/SmartPromo/Models/FSPConsumer.m
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo/SmartPromo/Models/FSPConsumer.m
 SmartPromo/Models/FSPConsumer.m
 SmartPromo/Models/FSPConsumer.h
 -[SmartPromo init:]
@@ -116,5 +116,5 @@ _OBJC_IVAR_$_SmartPromo._smartPromoCore
 __OBJC_$_INSTANCE_VARIABLES_SmartPromo
 __OBJC_$_PROP_LIST_SmartPromo
 __OBJC_CLASS_RO_$_SmartPromo
-/Users/rodrigobusata/Projects/fabio/SmartPromo/iOS/SmartPromo/SmartPromo/SmartPromo.m
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo/SmartPromo/SmartPromo.m
 SmartPromo/SmartPromo.m

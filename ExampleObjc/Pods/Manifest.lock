@@ -1,16 +1,16 @@
 PODS:
-  - SmartPromo (0.1)
+  - SmartPromo (0.4)
 
 DEPENDENCIES:
-  - SmartPromo
+  - SmartPromo (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - SmartPromo
+EXTERNAL SOURCES:
+  SmartPromo:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SmartPromo: ed6b8bc3da10ea626e634ce817508dd7051a3c0e
+  SmartPromo: 72a1126d7739a59dac86e6c4c2f9fab40420cf30
 
-PODFILE CHECKSUM: 17133f80309e1ecd1e8d02fe03a0e35dd3a83554
+PODFILE CHECKSUM: 24cac4d0c5023bdbb0237fb430128b77d1c8ca9c
 
 COCOAPODS: 1.10.1

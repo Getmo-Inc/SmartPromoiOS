@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'SmartPromo'
-  s.version             = '0.2'
+  s.version             = '0.4'
   s.platform            = :ios
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.summary             = 'SmartPromo is a SDK to campaign marketing'
@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
                             :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-
-  s.vendored_frameworks = 'output/SmartPromo.xcframework'
+  s.vendored_frameworks = ['SmartPromoCore.xcframework', 'output/SmartPromo.xcframework']
  
 end

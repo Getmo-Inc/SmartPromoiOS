@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/SmartPromo/SmartPromo-xcframeworks.sh
-${PODS_ROOT}/SmartPromo/output/SmartPromo.xcframework
+${PODS_ROOT}/../../SmartPromoCore.xcframework
+${PODS_ROOT}/../../output/SmartPromo.xcframework

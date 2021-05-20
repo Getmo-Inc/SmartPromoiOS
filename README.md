@@ -10,6 +10,9 @@ SmartPromo pode ser adicionado no seu projeto `Objective-C` ou `Swift` utilizand
 
 ## Utilização
 ### Basico
+Antes de mais nada, confira se o seu projeto tem declarada a permissão de camera (`NSCameraUsageDescription`) no arquivo `info.plist` a chave `NSCameraUsageDescription`.
+
+
 Para começar a utilizar o SmartPromo, você precisa inicializar com o `id` da campanha e configurar as suas `chaves de acesso`:
 
     import SmartPromo

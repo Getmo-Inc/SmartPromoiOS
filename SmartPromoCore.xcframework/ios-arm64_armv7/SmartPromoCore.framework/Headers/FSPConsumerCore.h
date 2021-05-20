@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "FSPAddressCore.h"
 #import "FSPGenderTypeCore.h"
+#import "FSPGifts.h"
 
 @interface FSPConsumerCore : NSObject
 
@@ -22,13 +23,12 @@
 @property NSArray *receipts;
 @property NSArray *coupons;
 @property NSArray *infos;
-
-@property BOOL ad;
+@property FSPGifts *gifts;
 
 - (NSString*) genderValue;
 
 + (FSPConsumerCore*) fromDict:(NSDictionary*) dict;
-- (NSDictionary*) toDict;
+- (NSMutableDictionary*) toDict;
 
 @end
 

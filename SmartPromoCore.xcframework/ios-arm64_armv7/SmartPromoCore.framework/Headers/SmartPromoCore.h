@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  0.2 (1)
+//  0.4 (1)
 //
 
 #import <UIKit/UIKit.h>
@@ -20,7 +20,6 @@
 
 - (SmartPromoCore*) setColor:(UIColor*) color;
 - (SmartPromoCore*) setConsumer:(FSPConsumerCore*) consumer;
-- (SmartPromoCore*) setMockStatus:(NSUInteger) status;
 
 - (void) go:(UIViewController *)above;
 - (UIViewController*) goWithOnDismiss: (dispatch_block_t) onDismiss;
