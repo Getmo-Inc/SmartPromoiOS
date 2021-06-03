@@ -17,6 +17,7 @@ IB_DESIGNABLE
 
 - (void) setLabelText: (NSString*) text;
 - (void) setIsOptional:(BOOL) isOptional;
+- (NSString*) clearText;
 - (void) showRequiredError;
 - (void) showInvalidError;
 - (void) showError: (NSString*) error;

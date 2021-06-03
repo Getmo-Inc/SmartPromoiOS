@@ -16,9 +16,10 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *marginBottom;
 
 - (FSPTextField*) currentTextField;
-- (void) keyboardChangeIsVisible: (BOOL) isVisible WithHeight: (CGFloat) height;
+- (void) keyboardChangeIsVisible: (BOOL) isVisible withHeight: (CGFloat) height;
 - (void) scrollToTextField: (UITextField*) textField;
 - (void) scrollToBottom;
+- (BOOL) automaticScroll;
 
 @end
 

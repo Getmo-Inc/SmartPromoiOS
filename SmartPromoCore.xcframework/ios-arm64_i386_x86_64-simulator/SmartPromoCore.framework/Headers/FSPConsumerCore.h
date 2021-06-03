@@ -30,5 +30,7 @@
 + (FSPConsumerCore*) fromDict:(NSDictionary*) dict;
 - (NSMutableDictionary*) toDict;
 
++ (BOOL) isValidName: (NSString*) name;
+
 @end
 

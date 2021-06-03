@@ -4,13 +4,15 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  1.0 (1)
+//  1.1.0 (3)
 //
 
 #import <UIKit/UIKit.h>
 
 #import "FSPConsumerCore.h"
 #import "FSPDataFormViewController.h"
+#import "FSPMessageViewController.h"
+#import "FSPBottomSheetViewController.h"
 
 @interface SmartPromoCore : NSObject
 
