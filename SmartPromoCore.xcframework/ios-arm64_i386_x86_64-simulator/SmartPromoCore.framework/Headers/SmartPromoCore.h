@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  1.1.0 (3)
+//  1.2.0 (4)
 //
 
 #import <UIKit/UIKit.h>
