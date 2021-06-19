@@ -10,127 +10,127 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Z15y1YSoiMBV+CEoFtbqBZEfPT0=
+		BFpmEKRP3UGQZ7vnW0nSTg49mIg=
 		</data>
 		<key>FSPBottomSheetView.nib/objects-11.0+.nib</key>
 		<data>
-		VHF+p4aESSnXvc9sHICuz1npuF4=
+		N3xCDXALXjXS2xFN1rrEGEHrmtw=
 		</data>
 		<key>FSPBottomSheetView.nib/runtime.nib</key>
 		<data>
-		f8wdbtyOhJg0yna8xhr0mPpxFGI=
-		</data>
-		<key>FSPCouponCell.nib</key>
-		<data>
-		p2RwYEyKKrhosO7uo4lxTseqHkM=
+		ZX1vOS6oe0oHPsctGIi2/HaS1Ng=
 		</data>
 		<key>FSPCouponsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		vzKctQRzEPTwexk06zpJQaGtOQM=
+		EE57FaULTqMYzXTjIKDI+eVkfxU=
 		</data>
 		<key>FSPCouponsViewController.nib/runtime.nib</key>
 		<data>
-		AfrpqBveia3MnrDouF/o7Cn/pS4=
+		qDATS/0Xm2pqzs1Lcisu19v5N0Q=
 		</data>
-		<key>FSPGiftsViewController.nib/objects-11.0+.nib</key>
+		<key>FSPGenericItemCell.nib</key>
 		<data>
-		Vt+mLc+LZzTXdA6h5bYtQsBrVDc=
-		</data>
-		<key>FSPGiftsViewController.nib/runtime.nib</key>
-		<data>
-		remZkpl0beAhLAcpZIDf6Enqauc=
+		jukqyAVtQtJdxgeE2fICCsHaOnM=
 		</data>
 		<key>FSPInfoView.nib</key>
 		<data>
-		d7dkd60UWrianLgz1B4ZzBMjtf8=
+		kjKKaKqo+TPne1K+Gc7hBxkCpOw=
 		</data>
 		<key>FSPMainViewController.nib/objects-11.0+.nib</key>
 		<data>
-		BoxUkO0b3jhRRCT8xyuRMyFd7Xg=
+		7wcySynnOWtmShRIl29I8VflF9g=
 		</data>
 		<key>FSPMainViewController.nib/runtime.nib</key>
 		<data>
-		KmKSQ8rV1NNoNEic4INpW41HtoQ=
+		qB4QGVeWSJbZtt8xj4pKVqVMt+o=
 		</data>
 		<key>FSPMessenger.nib/objects-11.0+.nib</key>
 		<data>
-		UlAhXmnOzcvHONFB+AKd9zklKlw=
+		GrAiUQmMuZ4+gVlXzGZrThk87xY=
 		</data>
 		<key>FSPMessenger.nib/runtime.nib</key>
 		<data>
-		JD4wg/Vp8cIu0KlHCNWgTF1iwyk=
+		4+jMj/EsCQjUIXpe9WN5839M1rU=
 		</data>
 		<key>FSPOptInFormViewController.nib/objects-11.0+.nib</key>
 		<data>
-		++grE60m5ljPutzvoAmtXp4cbcU=
+		Eg70ggiHs35qfZlLILeFngQDmLw=
 		</data>
 		<key>FSPOptInFormViewController.nib/runtime.nib</key>
 		<data>
-		cPnkSdvhrUQ76VYHFO/eypaB3Bs=
+		I0FCt9lgwrgneMm5Rtyr6K44hTw=
 		</data>
 		<key>FSPOptInIDViewController.nib/objects-11.0+.nib</key>
 		<data>
-		uOqkzI2t9Dg+m3ZbayJCFxH9TGc=
+		fbCW9w0PGh2oHeykuWKS0w1bHvE=
 		</data>
 		<key>FSPOptInIDViewController.nib/runtime.nib</key>
 		<data>
-		EaRJwqTsC/WngDO6eWiKDfPtlDo=
+		2yu6eJ3vGO+mGoPRLxVygaN5eHA=
+		</data>
+		<key>FSPPrizeViewController.nib/objects-11.0+.nib</key>
+		<data>
+		Qt2guMws0Ka6Q16x2HxL0MHhDp0=
+		</data>
+		<key>FSPPrizeViewController.nib/runtime.nib</key>
+		<data>
+		lBWszwG9UgvS+/xiGXb+bMJrDYI=
 		</data>
 		<key>FSPReceiptCaptureViewController.nib/objects-11.0+.nib</key>
 		<data>
-		18p28hxjhbTYmiNdIf1XzT2ECPM=
+		E9cL3UpHmH+rOtXnlPMEk9vd4Pw=
 		</data>
 		<key>FSPReceiptCaptureViewController.nib/runtime.nib</key>
 		<data>
-		ZlrQiXYS49pzYQUUd4xSud8+l1o=
+		E7i2rzTm11viQB4QNA9Buw47E4E=
 		</data>
 		<key>FSPReceiptCell.nib</key>
 		<data>
-		li6gkms2oj9T4UUQYMfuyAjuF04=
+		611wlviCIVKUOzSqVz/GbHOocpE=
 		</data>
 		<key>FSPReceiptManualInputViewController.nib/objects-11.0+.nib</key>
 		<data>
-		KIN3k8mR0ZVfNBYOqKwrpWB9WaU=
+		YeVg5aWlTX4s97X5tfSrGvb81lU=
 		</data>
 		<key>FSPReceiptManualInputViewController.nib/runtime.nib</key>
 		<data>
-		qkv2TiUC1RjRzqjoZSkybXJ2bFQ=
+		g6dHEXIE8KirGIclxW27t2LgIG0=
 		</data>
 		<key>FSPReceiptView.nib/objects-11.0+.nib</key>
 		<data>
-		HbgVNDsKcaFzJ5saK1UKgKjLaVE=
+		LUDOlEx+HcVVRO1J73532+/T3CE=
 		</data>
 		<key>FSPReceiptView.nib/runtime.nib</key>
 		<data>
-		wRQRkVsy3UzIAHwWQgpOnQw2iOU=
+		l+ps1o9Do54J6m2OlNo6iP0V5nU=
 		</data>
 		<key>FSPReceiptsViewController.nib/objects-11.0+.nib</key>
 		<data>
-		CvYWPxasK6I4PjDSWDYyJZti4T4=
+		K0Spu3zatMikMYkk/+qMqQJ1SYk=
 		</data>
 		<key>FSPReceiptsViewController.nib/runtime.nib</key>
 		<data>
-		zLUaartksTGvDzyGgX4tAm7AZcc=
+		Umrv1AP5inOkN2RGNCU3mb1xaN4=
 		</data>
 		<key>FSPSelectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		jF+s/+R+0y0Jg0eNUr+ZdNa5bGw=
+		JxBkeLZMrdXjMQCfbF7c8WWyhU0=
 		</data>
 		<key>FSPSelectViewController.nib/runtime.nib</key>
 		<data>
-		+jHhSArvridyKs18btx3o6GA7yo=
+		a0Vi/uWSsXbu5VK5Tlx9iwm07Xg=
 		</data>
 		<key>FSPWinnerCell.nib</key>
 		<data>
-		5kwaq5ZU6v/qF7ffR62yedAAjc4=
+		JzZrDX+OdFnJlsHlQMG6mYYHT2w=
 		</data>
 		<key>FSPWinnersViewController.nib/objects-11.0+.nib</key>
 		<data>
-		lATt06ltSD19unfWv2PSgHB0+ag=
+		QFdWVerFO/NCnD4uz9crTnVfigs=
 		</data>
 		<key>FSPWinnersViewController.nib/runtime.nib</key>
 		<data>
-		QAHRr08FGDb8JR9TocYFjsva5m4=
+		pRQWWKADVJd19d/Atsymq5PZYk0=
 		</data>
 		<key>Headers/FSPAddressCore.h</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Headers/FSPConsumerCore.h</key>
 		<data>
-		hn/fSmsiOTMuvoNSH8knowheAa4=
+		B7d/+8NTh09r3URHDh5Xt7pbhqY=
 		</data>
 		<key>Headers/FSPDataFormViewController.h</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Headers/FSPDispatchQueue+SmartPromo.h</key>
 		<data>
-		da1PyagPL+0T23lsWp6KiSVeI6w=
+		4UXdUUFEQmbI6QeU0aLi0kNFpVQ=
 		</data>
 		<key>Headers/FSPFormViewController.h</key>
 		<data>
@@ -168,13 +168,13 @@
 		<data>
 		Q5tOWFF8SeFRvZNloy8HdNZkCfo=
 		</data>
-		<key>Headers/FSPGifts.h</key>
-		<data>
-		uJgEg+sT5r+vFa/cyBGHqkt9es8=
-		</data>
 		<key>Headers/FSPMessageViewController.h</key>
 		<data>
 		WfT95kzXfLC9jWJRhCgWQ3dOjcs=
+		</data>
+		<key>Headers/FSPPrize.h</key>
+		<data>
+		hM4R+2mxoo719bwdQBDFscF5TRM=
 		</data>
 		<key>Headers/FSPTextField.h</key>
 		<data>
@@ -190,19 +190,15 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		TuxThiE11xk7yEs3+p8GuhBuxiM=
+		O0brxyzWIcqZ6tGzF6XuWPJ8s1A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+apsmda5f7nMaCu8vOS2DvtRX2A=
+		6aqdhwlH3JC+s4IotJnsQGxV6Hk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		0m+whE26kTDb8JP7CYvgV80HzV4=
-		</data>
-		<key>campaign.json</key>
-		<data>
-		9XXoIzq2eOfIApnIT9ZYfQQqUuY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -222,341 +218,341 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z15y1YSoiMBV+CEoFtbqBZEfPT0=
+			BFpmEKRP3UGQZ7vnW0nSTg49mIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1N3IQORjlNz9nqV+27cQzVpyYmkAg8ZCT9eGsvrzVyc=
+			Pnk4oI+2fjFXvGuo8eGldjgKmJ6d0ucqbng9tosiZog=
 			</data>
 		</dict>
 		<key>FSPBottomSheetView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VHF+p4aESSnXvc9sHICuz1npuF4=
+			N3xCDXALXjXS2xFN1rrEGEHrmtw=
 			</data>
 			<key>hash2</key>
 			<data>
-			A53O4JvcYI8F51XmsjfFJe0G2IceSfELSOvdtnYClUE=
+			zCJBrra3+VRSkNjz4KgkaZTO2b+oaHQP9xgsZCt4Rgk=
 			</data>
 		</dict>
 		<key>FSPBottomSheetView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f8wdbtyOhJg0yna8xhr0mPpxFGI=
+			ZX1vOS6oe0oHPsctGIi2/HaS1Ng=
 			</data>
 			<key>hash2</key>
 			<data>
-			cuowVUEXeFG7wH4uWp9/HT8S2vCSIw+4ByhtWbYPNTw=
-			</data>
-		</dict>
-		<key>FSPCouponCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			p2RwYEyKKrhosO7uo4lxTseqHkM=
-			</data>
-			<key>hash2</key>
-			<data>
-			ycwPD8z8MX9ZMvZjoWoBzkiaoMI/k0L2D84/t28KS8o=
+			BrLcj9RF0lLg5/PEMllUbRgvK072phwgQzTHgZXDbhs=
 			</data>
 		</dict>
 		<key>FSPCouponsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vzKctQRzEPTwexk06zpJQaGtOQM=
+			EE57FaULTqMYzXTjIKDI+eVkfxU=
 			</data>
 			<key>hash2</key>
 			<data>
-			1l//on8nF89xv0yf7x3va+OiyHxiLx7G+KjJmMYomxc=
+			117/5MKBACHi8aWoxAuVTK2bdHRIAGhh32bF0DuQ7mo=
 			</data>
 		</dict>
 		<key>FSPCouponsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AfrpqBveia3MnrDouF/o7Cn/pS4=
+			qDATS/0Xm2pqzs1Lcisu19v5N0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			znwafUqmrd8c27kBgjez/QRB9N4/MYAB6K+tYXaM/Zs=
+			lAh6ykjLw0X2ilZKOH/H6GAxkQB7G5ecSI/Q+tQ0g1E=
 			</data>
 		</dict>
-		<key>FSPGiftsViewController.nib/objects-11.0+.nib</key>
+		<key>FSPGenericItemCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vt+mLc+LZzTXdA6h5bYtQsBrVDc=
+			jukqyAVtQtJdxgeE2fICCsHaOnM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vtu3+F/63rYLsLkkIzDofMUSV2bBOI0dY8xoNrQfLYg=
-			</data>
-		</dict>
-		<key>FSPGiftsViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			remZkpl0beAhLAcpZIDf6Enqauc=
-			</data>
-			<key>hash2</key>
-			<data>
-			xvj7rl+rKYuXJ2+00DaG/GtK3iZ0KiFqjdG2GJxzl4s=
+			ba7TK8gwDtx9dbF+kdtzV8PDWHQxdVlLdCqRwv2XJd8=
 			</data>
 		</dict>
 		<key>FSPInfoView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d7dkd60UWrianLgz1B4ZzBMjtf8=
+			kjKKaKqo+TPne1K+Gc7hBxkCpOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			YzFlDbWICxSnhGwXi01oCKxNKeZDHT7debX/9LIdifk=
+			31ftJqAR9MkQ4FqDhwyBi+i9iR9rEtlVpolRAd6bBnw=
 			</data>
 		</dict>
 		<key>FSPMainViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BoxUkO0b3jhRRCT8xyuRMyFd7Xg=
+			7wcySynnOWtmShRIl29I8VflF9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			GsyM3QM6XP8+xhmhEWqvP2ZjOVZZKk2mQeO3tIvn82w=
+			DvqiGbmWsC0DfbrdihsMHmYZ3PIk+MsErP4lJJtMoQM=
 			</data>
 		</dict>
 		<key>FSPMainViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KmKSQ8rV1NNoNEic4INpW41HtoQ=
+			qB4QGVeWSJbZtt8xj4pKVqVMt+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			jmLbNCJLXrnTAIVIm8f4j46m7UI9SsxQO+vc+F5Bjkw=
+			hbkweXB/ULeeXlZwN/+630J0kaXYrsEG6DEFYEUxn74=
 			</data>
 		</dict>
 		<key>FSPMessenger.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UlAhXmnOzcvHONFB+AKd9zklKlw=
+			GrAiUQmMuZ4+gVlXzGZrThk87xY=
 			</data>
 			<key>hash2</key>
 			<data>
-			N5BGkGMUgVq5aSr0PncBjFbnj4BMrMecosG3omObCYU=
+			7a9NlYu7VVLbIQX1kzPPAoofkbtZUxYxFQ0GTdmujBU=
 			</data>
 		</dict>
 		<key>FSPMessenger.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JD4wg/Vp8cIu0KlHCNWgTF1iwyk=
+			4+jMj/EsCQjUIXpe9WN5839M1rU=
 			</data>
 			<key>hash2</key>
 			<data>
-			cUwyx7mjfpsiI1AC850mRNzv9vMGDqOQl3UPrpXSCls=
+			V5gTTCHh8R7Pkm5HfyDiOf65VE3vINTuSokoNjaDgmE=
 			</data>
 		</dict>
 		<key>FSPOptInFormViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			++grE60m5ljPutzvoAmtXp4cbcU=
+			Eg70ggiHs35qfZlLILeFngQDmLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			T+pKnd8i8Sj6Kjek96Ifp3DKg2bZ1ek5CHaV9yzI1c4=
+			G9LjEpRAtw+HP3SAWrcukwCs2JbdjaCStTZhka60z9A=
 			</data>
 		</dict>
 		<key>FSPOptInFormViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cPnkSdvhrUQ76VYHFO/eypaB3Bs=
+			I0FCt9lgwrgneMm5Rtyr6K44hTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			otMGWDlwlJt379gENQL27ZUzrBLErWASO4Tyg2KP3ho=
+			yZcbIbuOmIo6TV6XAC5943/ufWYKmMKK7RYl5VLiOTo=
 			</data>
 		</dict>
 		<key>FSPOptInIDViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uOqkzI2t9Dg+m3ZbayJCFxH9TGc=
+			fbCW9w0PGh2oHeykuWKS0w1bHvE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PNm+m8IBo5Atn+HKIGJtVrZMPewzSY3n9Gh4rNbTIK4=
+			ZYy3JK7/YCnct/7xJCP/P9/MnNDpfGxI5nbbYMQdGcw=
 			</data>
 		</dict>
 		<key>FSPOptInIDViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EaRJwqTsC/WngDO6eWiKDfPtlDo=
+			2yu6eJ3vGO+mGoPRLxVygaN5eHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			F9XUSNv/4KYjZdAY/zDyZjGv0OjagH443dOl2F1iOJ0=
+			AOA15LCEsmrPm04O9i4xFz8O2uTbNCkDW3HKSrKg/XE=
+			</data>
+		</dict>
+		<key>FSPPrizeViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qt2guMws0Ka6Q16x2HxL0MHhDp0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Exrc2U3WwSeN58IK5sZL5DCeNoQs1cqcVdEVfMrnIh0=
+			</data>
+		</dict>
+		<key>FSPPrizeViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lBWszwG9UgvS+/xiGXb+bMJrDYI=
+			</data>
+			<key>hash2</key>
+			<data>
+			PsR+DEOcw5WaTwXdA6LH1B/Sv9+tUl2nc1YwJ8gXsZ0=
 			</data>
 		</dict>
 		<key>FSPReceiptCaptureViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			18p28hxjhbTYmiNdIf1XzT2ECPM=
+			E9cL3UpHmH+rOtXnlPMEk9vd4Pw=
 			</data>
 			<key>hash2</key>
 			<data>
-			anhw6J8eA8eAE4xNgQdQ5RCn77o2ltJi/7i9SQntTfE=
+			u3k3tfSiUQhavm19v3BrX2zuQ/kZ7t6NbTW0PVTkkSo=
 			</data>
 		</dict>
 		<key>FSPReceiptCaptureViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZlrQiXYS49pzYQUUd4xSud8+l1o=
+			E7i2rzTm11viQB4QNA9Buw47E4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			T0HN4z/kdoZgyAZGkr3w45LrmgsTD0wdOWVtuQKbE/k=
+			USREhLN0UXEXUuDbJgQMTEZ1hU9JRtdEnhE8Znq/23Q=
 			</data>
 		</dict>
 		<key>FSPReceiptCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			li6gkms2oj9T4UUQYMfuyAjuF04=
+			611wlviCIVKUOzSqVz/GbHOocpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hFZom0yV5BL70BG16EjKbtagdVp2G08xIsr7KkGU+4g=
+			yutZFmiW6OeQYaR6/crYYeaOVhabVxvhs4jqhSELwa4=
 			</data>
 		</dict>
 		<key>FSPReceiptManualInputViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KIN3k8mR0ZVfNBYOqKwrpWB9WaU=
+			YeVg5aWlTX4s97X5tfSrGvb81lU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GpPicvAQLyvu9ROYXlasfXZTHpA/fcuHU2oR7wNMcQw=
+			+6WDvn+rJzXJI3l5ZpFazWCKIh0hJYM3jnbJt+a1AMw=
 			</data>
 		</dict>
 		<key>FSPReceiptManualInputViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qkv2TiUC1RjRzqjoZSkybXJ2bFQ=
+			g6dHEXIE8KirGIclxW27t2LgIG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			CMq4+92CR4IHOoViNyrP0Sj20wWwFUc1Xxy9zLxDBsw=
+			sxqgnmkurKwvtT9VHAqU7hNYsirMNZqn4TGxu/VGQCM=
 			</data>
 		</dict>
 		<key>FSPReceiptView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HbgVNDsKcaFzJ5saK1UKgKjLaVE=
+			LUDOlEx+HcVVRO1J73532+/T3CE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wS2JtpygtJEe8CBGy6I2JWFqdNqjwO78sdUdGBTUUjM=
+			jE9Gri74Y7UATS8/rltgsP3y4GizQ9qq38diZCyih3o=
 			</data>
 		</dict>
 		<key>FSPReceiptView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wRQRkVsy3UzIAHwWQgpOnQw2iOU=
+			l+ps1o9Do54J6m2OlNo6iP0V5nU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Atcki5fahoQNFLsQ1kTTtfKg45zexZrWeB8hRUcT/wg=
+			Ax5/jt9t7d7ejT3Pix6VhjDi2oD27OMHPD7ce2sv0YQ=
 			</data>
 		</dict>
 		<key>FSPReceiptsViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CvYWPxasK6I4PjDSWDYyJZti4T4=
+			K0Spu3zatMikMYkk/+qMqQJ1SYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			rQV8gw6wEul1B60QKjJYQ87N3vWp7a8vfs47H7wMyi0=
+			B7eNj7tvLluSBTZ1B+S710XOdU0QWGi6y6KqjYBZufc=
 			</data>
 		</dict>
 		<key>FSPReceiptsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zLUaartksTGvDzyGgX4tAm7AZcc=
+			Umrv1AP5inOkN2RGNCU3mb1xaN4=
 			</data>
 			<key>hash2</key>
 			<data>
-			J2gtfEz3oDJqCxTjZuGEQamSkPDq+MO7FYkE6eo+CUk=
+			xNJ4+AxjknfSnnntfy2CaJl9JqpFGTnColW6KPBMCuE=
 			</data>
 		</dict>
 		<key>FSPSelectViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jF+s/+R+0y0Jg0eNUr+ZdNa5bGw=
+			JxBkeLZMrdXjMQCfbF7c8WWyhU0=
 			</data>
 			<key>hash2</key>
 			<data>
-			27RBeQRNF/zjpSxQ61goXKebEued3Km+LdCykSV4UaQ=
+			wgHt3z70E6Yp3sNsUxUskjk0y1eXc3KVg0xzuvLm0NI=
 			</data>
 		</dict>
 		<key>FSPSelectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+jHhSArvridyKs18btx3o6GA7yo=
+			a0Vi/uWSsXbu5VK5Tlx9iwm07Xg=
 			</data>
 			<key>hash2</key>
 			<data>
-			yMJipF1n6mutF9kK5+wXrYH0vHbk9sTXBrdcEG338hI=
+			arNzmsIHLhMf705VxQ0NySTmohixjD0pq2pBbF6skRk=
 			</data>
 		</dict>
 		<key>FSPWinnerCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5kwaq5ZU6v/qF7ffR62yedAAjc4=
+			JzZrDX+OdFnJlsHlQMG6mYYHT2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			BVJPIX8hwryVdNVkCTisXgMk0pNuqEkK9bjAxBig4ws=
+			PEQv1Kjxj4g6iO/GsXZNt1NwIwpObWb8Pib/opNhnuk=
 			</data>
 		</dict>
 		<key>FSPWinnersViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lATt06ltSD19unfWv2PSgHB0+ag=
+			QFdWVerFO/NCnD4uz9crTnVfigs=
 			</data>
 			<key>hash2</key>
 			<data>
-			thKuwBGJwDdh0B6wtjNGkMgtG1oBdKWjGy4p13nDuvw=
+			LH9bDM0I0Ia7qCgLs9gsj1ptM1GeE4M+FaPYO+hzElk=
 			</data>
 		</dict>
 		<key>FSPWinnersViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QAHRr08FGDb8JR9TocYFjsva5m4=
+			pRQWWKADVJd19d/Atsymq5PZYk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VncHr1Q+nU6AcaDxmiO1Ss6EznfB8HbQAkmVrnCt3os=
+			fobIkd6pSCdH3jXbdudnE7CPdft0u0xX1yTU0hy/cNI=
 			</data>
 		</dict>
 		<key>Headers/FSPAddressCore.h</key>
@@ -607,11 +603,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hn/fSmsiOTMuvoNSH8knowheAa4=
+			B7d/+8NTh09r3URHDh5Xt7pbhqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZLyeuWdKz6Qc5PGH7t7LCAIpgs3WD3qwGmUEvsCk0oM=
+			xDiN1F7U8heAiCj/EsOR8qzrTvLlhdJbuQYvSgDmnQc=
 			</data>
 		</dict>
 		<key>Headers/FSPDataFormViewController.h</key>
@@ -629,11 +625,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			da1PyagPL+0T23lsWp6KiSVeI6w=
+			4UXdUUFEQmbI6QeU0aLi0kNFpVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FO5WFT9eHoWBtWESsUjTYX3ovmdo0tFOWPjXiGe9Qdc=
+			H+NYpF1Yif61SPX4pCPL1QcXICGHLxX5wQ+sJB9eKRI=
 			</data>
 		</dict>
 		<key>Headers/FSPFormViewController.h</key>
@@ -658,17 +654,6 @@
 			qshsFm7A2rptgv2XCgYPPC7cdson6CVq09HohnB3Rbk=
 			</data>
 		</dict>
-		<key>Headers/FSPGifts.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uJgEg+sT5r+vFa/cyBGHqkt9es8=
-			</data>
-			<key>hash2</key>
-			<data>
-			pzVnmE0sWVqo2KIC9gULamENwSMy03H5ZX/GW9eqNfk=
-			</data>
-		</dict>
 		<key>Headers/FSPMessageViewController.h</key>
 		<dict>
 			<key>hash</key>
@@ -678,6 +663,17 @@
 			<key>hash2</key>
 			<data>
 			6+YjVLXQe5hciVyaXiKM85R9hcuy8RozxjF7jpttLyc=
+			</data>
+		</dict>
+		<key>Headers/FSPPrize.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hM4R+2mxoo719bwdQBDFscF5TRM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z74SSruer5qZkWEgrrYQbjbmUiD1qSQDxAQl/gk53v0=
 			</data>
 		</dict>
 		<key>Headers/FSPTextField.h</key>
@@ -717,11 +713,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TuxThiE11xk7yEs3+p8GuhBuxiM=
+			O0brxyzWIcqZ6tGzF6XuWPJ8s1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			6t0CSHiDdzwcdW+pkBee/I8gCnLYlIeD7LWopN758MM=
+			dHtw7o+sCx2zFVyG9UnrxHlx0Q71TEQ6hLMAw+XGV8w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -733,17 +729,6 @@
 			<key>hash2</key>
 			<data>
 			WX7dkem7lQ4Qc5hFP3iLm5/qHcvLmztxtCgEXE3w39Q=
-			</data>
-		</dict>
-		<key>campaign.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9XXoIzq2eOfIApnIT9ZYfQQqUuY=
-			</data>
-			<key>hash2</key>
-			<data>
-			rbswtdyx9eNmM+YHql8XTS3n+olyUd/G+FjGzr8h9Q0=
 			</data>
 		</dict>
 	</dict>

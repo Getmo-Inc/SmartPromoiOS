@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "FSPAddressCore.h"
 #import "FSPGenderTypeCore.h"
-#import "FSPGifts.h"
+#import "FSPPrize.h"
 
 @interface FSPConsumerCore : NSObject
 
@@ -23,7 +23,8 @@
 @property NSArray *receipts;
 @property NSArray *coupons;
 @property NSArray *infos;
-@property FSPGifts *gifts;
+@property FSPPrize *gifts;
+@property FSPPrize *instantPrizes;
 
 - (NSString*) genderValue;
 
