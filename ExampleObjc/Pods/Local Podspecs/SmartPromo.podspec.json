@@ -1,6 +1,6 @@
 {
   "name": "SmartPromo",
-  "version": "1.3.0",
+  "version": "1.4.1",
   "platforms": {
     "ios": "10.0"
   },
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/Getmo-Inc/SmartPromoiOS.git",
-    "tag": "1.3.0"
+    "tag": "1.4.1"
   },
   "vendored_frameworks": [
     "SmartPromoCore.xcframework",
