@@ -14,6 +14,7 @@
 - (void) showLoadingView: (BOOL) animated;
 - (void) showLoadingViewOpacity: (BOOL) opaque animated: (BOOL) animated;
 - (void) hideLoadingView;
+- (void) hideMessage;
 - (void) addSwipeToClose;
 
 - (void) setupRefreshControlIn: (UIScrollView*) scrollView;
