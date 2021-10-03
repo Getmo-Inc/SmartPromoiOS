@@ -24,6 +24,7 @@
 - (void) showEmptyMessage: (NSString*) message;
 - (void) actionErrorButton:(id) sender;
 
+- (BOOL) backdropTopSafeArea;
 - (CGFloat) backdropMarginTop;
 - (UIView*) backdropParentView;
 

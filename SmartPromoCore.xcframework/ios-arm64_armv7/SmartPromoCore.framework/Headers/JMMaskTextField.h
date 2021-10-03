@@ -14,6 +14,9 @@ IB_DESIGNABLE
 @interface JMMaskTextField : UITextField
 
 @property (strong, nonatomic) IBInspectable NSString *maskString;
+@property (nonatomic) IBInspectable BOOL isMoney;
+@property (strong, nonatomic) IBInspectable NSString *currencyCode;
+
 @property (strong, nonatomic, readonly) JMStringMask *mask;
 @property (readonly, nonatomic) NSString *unmaskedText;
 

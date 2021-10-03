@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UIView *bottomSheetView;
 @property (weak, nonatomic) IBOutlet UIStackView *stackView;
+@property (weak, nonatomic) IBOutlet UIButton *closeButton;
 
 @property (strong, nonatomic) FSPBlock actionAfterDismissing;
 

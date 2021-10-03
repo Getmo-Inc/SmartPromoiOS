@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'SmartPromo'
-  s.version             = '1.4.5'
+  s.version             = '1.5.0'
   s.platform            = :ios
   s.license             = { :type => 'MIT', :file => 'LICENSE' }
   s.summary             = 'SmartPromo is a SDK to campaign marketing'

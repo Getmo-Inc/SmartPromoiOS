@@ -17,8 +17,6 @@ typedef BOOL (^FSPAction)(void);
 @property (nonatomic, strong) FSPButton* primaryButton;
 @property (nonatomic, strong) UIButton* secondaryButton;
 
-+ (FSPMessageViewController*) instance;
-
 - (FSPMessageViewController*) setTitle: (NSString*) title;
 - (FSPMessageViewController*) setMessage: (NSString*) message;
 - (FSPMessageViewController*) setPrimaryButtonTitle: (NSString*) title;
