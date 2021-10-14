@@ -14,6 +14,11 @@
             "primary_action": "Digitar",
             "secondary_action": "Continar mesmo assim"
         },
+        "invalid_qrcode_message": {
+            "title": "QRCode Inválido",
+            "body": "O QRCode encontrado não corresponde a uma Nota Fiscal",
+            "primary_action": "Entendi"
+        },
         "allow_full_manual_input": true,
         "full_manual_input_warning_message": "O preenchimento é de inteira responsabilidade do consumidor"
     },
