@@ -105,6 +105,6 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../SmartPromoCore.xcframework" "SmartPromo" "framework" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../SmartPromoCore.xcframework" "SmartPromo" "framework" "ios-arm64_i386_x86_64-simulator" "ios-arm64_armv7"
 install_xcframework "${PODS_ROOT}/../../output/SmartPromo.xcframework" "SmartPromo" "framework" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator"
 
