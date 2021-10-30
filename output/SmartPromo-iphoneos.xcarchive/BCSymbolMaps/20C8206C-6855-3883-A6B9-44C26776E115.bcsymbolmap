@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.5 (clang-1205.0.22.11)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
-iPhoneOS14.5.sdk
+Apple clang version 13.0.0 (clang-1300.0.29.3)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+iPhoneOS15.0.sdk
 /Users/rodrigobusata/Library/Developer/Xcode/DerivedData/SmartPromo-fsvmrkgvtuupolgsfccvhcibzauu/Build/Intermediates.noindex/ArchiveIntermediates/SmartPromo/IntermediateBuildFilesPath/SmartPromo.build/Release-iphoneos/SmartPromo.build/DerivedSources/SmartPromo_vers.c
 /Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo
 -[FSPAddress zipCode]
