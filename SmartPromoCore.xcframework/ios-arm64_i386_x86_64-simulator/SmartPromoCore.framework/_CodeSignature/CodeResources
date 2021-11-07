@@ -38,11 +38,11 @@
 		</data>
 		<key>FSPMainViewController.nib/objects-11.0+.nib</key>
 		<data>
-		s9VFVnTV2cTZ/44JvQJjURPnYzU=
+		gFsYEIBWj+HXTDTfXTuTA7GLSp0=
 		</data>
 		<key>FSPMainViewController.nib/runtime.nib</key>
 		<data>
-		s28RJfWXn8uDKwXbCalmShSLWuM=
+		ZsQwLWekqFpSF/n4fi/lXakjEYs=
 		</data>
 		<key>FSPMessenger+iPad.nib</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>FSPReceiptCaptureViewController.nib/objects-11.0+.nib</key>
 		<data>
-		UBM06Z31DaJFXRnBqI1+0jljLTA=
+		M9IG9GDpuxkT4TjxT0jxgRMpSLQ=
 		</data>
 		<key>FSPReceiptCaptureViewController.nib/runtime.nib</key>
 		<data>
-		rcvjggCcpo3drnNvuvFyl0ymNEs=
+		7IYj6vidWjVu4WzgUzVjwaf3JM0=
 		</data>
 		<key>FSPReceiptCell.nib</key>
 		<data>
@@ -254,11 +254,11 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		c1CgG1I6e7z36F47KqLZZrK82HQ=
+		v2WhC07LBYonY7h1GgLs4QYaxuc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3FS4AAm6FASlfCTE9lpvbhE9vKM=
+		4BO9584ECGOEhurXNV5sLDeQx3c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>campaign.json</key>
 		<data>
-		9BfZYkvwYj3j9IDjsFMxyBkGuA8=
+		ZRxTQDwG2P5BIoGapqrgnOMtEwA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -363,22 +363,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s9VFVnTV2cTZ/44JvQJjURPnYzU=
+			gFsYEIBWj+HXTDTfXTuTA7GLSp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			yA0oWrYVbytl3U1wcMV1zXwfLIpsxPUdrDaF+8nepqA=
+			uTbly7Ri0Ai8599Z8o5RTMMCQ0tf2PB9QH08MqDwAaU=
 			</data>
 		</dict>
 		<key>FSPMainViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s28RJfWXn8uDKwXbCalmShSLWuM=
+			ZsQwLWekqFpSF/n4fi/lXakjEYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			eTmv05wtX6L6GkOh221Ty4bmwTXVTNCbYwVG3ukkprg=
+			P5IoB5Es2a3xghYT6tdUqU9SY1R2qSyVaebJLGDiuQY=
 			</data>
 		</dict>
 		<key>FSPMessenger+iPad.nib</key>
@@ -528,22 +528,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UBM06Z31DaJFXRnBqI1+0jljLTA=
+			M9IG9GDpuxkT4TjxT0jxgRMpSLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kZaPokRNIZHt7Zn/XgOMynKKYMhNsawOE5MhDcafpxY=
+			ThhHJdqK630WmLkiKKkdwwSfLzPxRmuyo3yi9qGR7QU=
 			</data>
 		</dict>
 		<key>FSPReceiptCaptureViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rcvjggCcpo3drnNvuvFyl0ymNEs=
+			7IYj6vidWjVu4WzgUzVjwaf3JM0=
 			</data>
 			<key>hash2</key>
 			<data>
-			o2rk4hDBPguuwR/hdxRjmmrfaVTSrR5mX74XvMlTckQ=
+			8bTUSzHzjjx6XoaGYRgIEU1N9JzW2HITBN6SGCVKuKs=
 			</data>
 		</dict>
 		<key>FSPReceiptCell.nib</key>
@@ -957,11 +957,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c1CgG1I6e7z36F47KqLZZrK82HQ=
+			v2WhC07LBYonY7h1GgLs4QYaxuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YrX/k8HQ0NjHls2rbg7hQhu9uj5r2fVFVGHuvOST3uU=
+			KIQxo8jLgcSZjfbhjjBTvK+Sj0f7zy/Uw7ahnOdl4fo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -979,11 +979,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9BfZYkvwYj3j9IDjsFMxyBkGuA8=
+			ZRxTQDwG2P5BIoGapqrgnOMtEwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6cwQ3Xl0friKpTkpUJZD+VwvX1EeYDPuqH+qOTMi8tQ=
+			86znzoC96XbUfP939jnFuLwzgz5qXYaBBunPBnykUog=
 			</data>
 		</dict>
 	</dict>

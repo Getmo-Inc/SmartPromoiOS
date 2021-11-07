@@ -47,7 +47,7 @@
             "bdate",
             "address"
         ],
-        "block_message": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco",
+        
         "recommend_seller": true,
         "capture_mode": "ALL",
         "stores": [
@@ -139,7 +139,9 @@
                 }
             ]
         },
-        "instant_prize_mode": "CAROUSEL"
+        "instant_prize_mode": "CAROUSEL",
+        "capture_action": "QRCODE",
+        "block_message": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco"
     },
     "consumer": {
         "name": "Letícia",
