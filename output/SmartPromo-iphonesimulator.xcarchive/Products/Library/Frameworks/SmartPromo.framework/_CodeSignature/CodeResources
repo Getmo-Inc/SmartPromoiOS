@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/SmartPromo.h</key>
 		<data>
-		T5g+gVBTe8NtyEUoK0rQFd+Gb1I=
+		FzELxhN0X9KKRO3k6GJS16qbx8g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1sxOPhtVG194wC3BxWELnr8WlnE=
+		Au0bcqyuI5guhoGAg1DCFhGOqH8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,10 +29,6 @@
 	<dict>
 		<key>Headers/FSPAddress.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rawjk2MkLH7zc4yUsaZ84UQj0kk=
-			</data>
 			<key>hash2</key>
 			<data>
 			It2FkYMBuQwcVzKfz6419x0Imk8xBKn7vr1oMD9b5ec=
@@ -40,10 +36,6 @@
 		</dict>
 		<key>Headers/FSPConsumer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gUECqPy53LVM2gyCbsVy5ZBQYJg=
-			</data>
 			<key>hash2</key>
 			<data>
 			sVbpy9zWX0EjOoK8SoqILD99oUMNEM37CelMpbb1NOU=
@@ -51,21 +43,13 @@
 		</dict>
 		<key>Headers/SmartPromo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T5g+gVBTe8NtyEUoK0rQFd+Gb1I=
-			</data>
 			<key>hash2</key>
 			<data>
-			Pa9zOPWK5C5IQ6cww8ixGQ7unJ/MAhw3u+EcZBocTCc=
+			SR2yt4e6joZtNw9LVYPWkZJzOCAneiJqCLi6niWuZHM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f6extVJaPpUQksaAOf7kZoYxRZg=
-			</data>
 			<key>hash2</key>
 			<data>
 			meBlNM71uYy2Eg0MlycvqeQLTenxh69AIKtJYUNG8W4=

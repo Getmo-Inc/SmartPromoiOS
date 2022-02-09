@@ -1,0 +1,120 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.0.0 (clang-1300.0.29.3)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+iPhoneOS15.0.sdk
+/Users/rodrigobusata/Library/Developer/Xcode/DerivedData/SmartPromo-fsvmrkgvtuupolgsfccvhcibzauu/Build/Intermediates.noindex/ArchiveIntermediates/SmartPromo/IntermediateBuildFilesPath/SmartPromo.build/Release-iphoneos/SmartPromo.build/DerivedSources/SmartPromo_vers.c
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo
+-[FSPAddress zipCode]
+-[FSPAddress setZipCode:]
+-[FSPAddress streetName]
+-[FSPAddress setStreetName:]
+-[FSPAddress streetNumber]
+-[FSPAddress setStreetNumber:]
+-[FSPAddress complement]
+-[FSPAddress setComplement:]
+-[FSPAddress neighborhood]
+-[FSPAddress setNeighborhood:]
+-[FSPAddress city]
+-[FSPAddress setCity:]
+-[FSPAddress state]
+-[FSPAddress setState:]
+-[FSPAddress .cxx_destruct]
+__OBJC_METACLASS_RO_$_FSPAddress
+__OBJC_$_INSTANCE_METHODS_FSPAddress
+_OBJC_IVAR_$_FSPAddress._zipCode
+_OBJC_IVAR_$_FSPAddress._streetName
+_OBJC_IVAR_$_FSPAddress._streetNumber
+_OBJC_IVAR_$_FSPAddress._complement
+_OBJC_IVAR_$_FSPAddress._neighborhood
+_OBJC_IVAR_$_FSPAddress._city
+_OBJC_IVAR_$_FSPAddress._state
+__OBJC_$_INSTANCE_VARIABLES_FSPAddress
+__OBJC_$_PROP_LIST_FSPAddress
+__OBJC_CLASS_RO_$_FSPAddress
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo/SmartPromo/Models/FSPAddress.m
+SmartPromo/Models/FSPAddress.m
+SmartPromo/Models/FSPAddress.h
+-[FSPConsumer cpf]
+-[FSPConsumer setCpf:]
+-[FSPConsumer name]
+-[FSPConsumer setName:]
+-[FSPConsumer email]
+-[FSPConsumer setEmail:]
+-[FSPConsumer phone]
+-[FSPConsumer setPhone:]
+-[FSPConsumer gender]
+-[FSPConsumer setGender:]
+-[FSPConsumer birthday]
+-[FSPConsumer setBirthday:]
+-[FSPConsumer address]
+-[FSPConsumer setAddress:]
+-[FSPConsumer .cxx_destruct]
+__OBJC_METACLASS_RO_$_FSPConsumer
+__OBJC_$_INSTANCE_METHODS_FSPConsumer
+_OBJC_IVAR_$_FSPConsumer._cpf
+_OBJC_IVAR_$_FSPConsumer._name
+_OBJC_IVAR_$_FSPConsumer._email
+_OBJC_IVAR_$_FSPConsumer._phone
+_OBJC_IVAR_$_FSPConsumer._gender
+_OBJC_IVAR_$_FSPConsumer._birthday
+_OBJC_IVAR_$_FSPConsumer._address
+__OBJC_$_INSTANCE_VARIABLES_FSPConsumer
+__OBJC_$_PROP_LIST_FSPConsumer
+__OBJC_CLASS_RO_$_FSPConsumer
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo/SmartPromo/Models/FSPConsumer.m
+SmartPromo/Models/FSPConsumer.m
+SmartPromo/Models/FSPConsumer.h
+-[SmartPromo init:]
+-[SmartPromo setupAccessKey:andSecretKey:]
+-[SmartPromo setColor:]
+-[SmartPromo setConsumer:]
+-[SmartPromo go:]
+-[SmartPromo smartPromoCore]
+-[SmartPromo setSmartPromoCore:]
+-[SmartPromo .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+__OBJC_METACLASS_RO_$_SmartPromo
+__OBJC_$_INSTANCE_METHODS_SmartPromo
+_OBJC_IVAR_$_SmartPromo._smartPromoCore
+__OBJC_$_INSTANCE_VARIABLES_SmartPromo
+__OBJC_$_PROP_LIST_SmartPromo
+__OBJC_CLASS_RO_$_SmartPromo
+/Users/rodrigobusata/Projects/fabio/Promo/iOS/SmartPromo/SmartPromo/SmartPromo.m
+SmartPromo/SmartPromo.m
