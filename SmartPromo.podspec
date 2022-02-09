@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => 'https://github.com/Getmo-Inc/SmartPromoiOS.git',
                             :tag => s.version.to_s }
  
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.vendored_frameworks = ['SmartPromoCore.xcframework', 'output/SmartPromo.xcframework']
  
 end
