@@ -1,8 +1,8 @@
 {
   "name": "SmartPromo",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "license": {
     "type": "MIT",
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/Getmo-Inc/SmartPromoiOS.git",
-    "tag": "1.7.0"
+    "tag": "1.7.1"
   },
   "vendored_frameworks": [
     "SmartPromoCore.xcframework",

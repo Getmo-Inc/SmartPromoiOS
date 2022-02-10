@@ -328,22 +328,23 @@
 			};
 			name = Debug;
 		};
-		7C6CAB68188FFF3483CC83A110B1537F /* Debug */ = {
+		751C430B91984342B44E4D69041E02B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B12DC7D2BD87EC4FB256A6B9623BDFB /* SmartPromo.debug.xcconfig */;
+			baseConfigurationReference = F0443E210CB486D35D9270651E281BFD /* SmartPromo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		7D05A10EFF8DE081359F092BAEACC316 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -445,23 +446,22 @@
 			};
 			name = Release;
 		};
-		D273579D17926665967AA148C1BF3FF3 /* Release */ = {
+		C4F445D9BB32525CC72914834693BBD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0443E210CB486D35D9270651E281BFD /* SmartPromo.release.xcconfig */;
+			baseConfigurationReference = 7B12DC7D2BD87EC4FB256A6B9623BDFB /* SmartPromo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -553,8 +553,8 @@
 		6C0C9DD49418A339F72924C9A5274E9A /* Build configuration list for PBXAggregateTarget "SmartPromo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C6CAB68188FFF3483CC83A110B1537F /* Debug */,
-				D273579D17926665967AA148C1BF3FF3 /* Release */,
+				C4F445D9BB32525CC72914834693BBD6 /* Debug */,
+				751C430B91984342B44E4D69041E02B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
