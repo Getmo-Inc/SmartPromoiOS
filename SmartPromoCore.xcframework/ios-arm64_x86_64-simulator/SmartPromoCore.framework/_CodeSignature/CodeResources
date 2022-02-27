@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		NShCABL5s1ZubDHwWFiZLpt0jGQ=
+		CqU2N0T97ypcJl5YxIOo4Q473V8=
 		</data>
 		<key>FSPBottomSheetView.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>FSPPaymentWebViewController.nib</key>
 		<data>
-		lLpP3g4X19kPoPirBP+D4O5FsKo=
+		yhAVNlBNZp6vm0soWVgoK2a4M5A=
 		</data>
 		<key>FSPPrizeViewController.nib</key>
 		<data>
@@ -152,13 +152,17 @@
 		<data>
 		4OEvLph7nJl+3n0yUkHsU/JbgI8=
 		</data>
+		<key>Headers/FSPMessage.h</key>
+		<data>
+		E25rzoZ0bZtz8qUkcPftpE/Mzhc=
+		</data>
 		<key>Headers/FSPMessageViewController.h</key>
 		<data>
 		QWSCdb8zFj9arA4ove8VSD011V4=
 		</data>
 		<key>Headers/FSPPrize.h</key>
 		<data>
-		ew3H4xIXATgPGvDTh/RVxlYF+Uo=
+		WRYY83lscFTSv+zVLgSwTFYZfHY=
 		</data>
 		<key>Headers/FSPTextField.h</key>
 		<data>
@@ -182,11 +186,11 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		ALhhnagQuQ8BAT8PvBjfyNA9XbI=
+		KryvTyyKMKvfNbwySecJr+Vt8iw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gzi4ruRz0ADXxMQwbrFN2mAso5w=
+		+9Qqz4ms6ArYqOAfDPRoxqrvzas=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -206,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JblaQsKjfhxyozGwxO8MQvznJ8sCBojEwQwbLy3o4HU=
+			dQ+uXfFFEh7baENptmvAVjFG/o1j6M+nc/hW8kkul64=
 			</data>
 		</dict>
 		<key>FSPBottomSheetView.nib</key>
@@ -290,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sy43TVSq79JvkoKD9oGfT2EN58d2gomG9v84w1lLunY=
+			3kIAip5yUdMSyoTjBKbxkv+WomyCR7oEUk2v2bOlYC8=
 			</data>
 		</dict>
 		<key>FSPPrizeViewController.nib</key>
@@ -454,6 +458,13 @@
 			fjWcLHWx5rcK2HUlflAYggJsRK7rNOFct49c4C5Zoao=
 			</data>
 		</dict>
+		<key>Headers/FSPMessage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tgNCAuuB4etrw3kvTLJdbZz0fT0qo45t0qLgA/iqe2Q=
+			</data>
+		</dict>
 		<key>Headers/FSPMessageViewController.h</key>
 		<dict>
 			<key>hash2</key>
@@ -465,7 +476,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kf2ePBqk7iRCoFsIfh6Xn6VV1pVIhSeNQsbhVK3qbsk=
+			yb68KIpuPG0E7cDHLjh4z/gR98/It0DQBwooOi5TVEQ=
 			</data>
 		</dict>
 		<key>Headers/FSPTextField.h</key>
@@ -507,7 +518,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			94WD0C2ozxvDNXrgTKux/baYQmC9aABRYb4ld4ZQgAg=
+			J7ByGhotl/8CtLeaUnZsY85uT8zA87rVVx38VPeOnbk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

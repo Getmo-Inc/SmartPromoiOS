@@ -1,5 +1,5 @@
 PODS:
-  - SmartPromo (1.7.1)
+  - SmartPromo (1.7.2)
 
 DEPENDENCIES:
   - SmartPromo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SmartPromo: cca28c9bf8ff01e2b2919ac2e78f23a1a7b4c7f4
+  SmartPromo: cf79a678a6b6f0de0f48bdef2e16a8904b47be10
 
 PODFILE CHECKSUM: 149223db4fa25a9cff650a4bbf8c07300f22665c
 

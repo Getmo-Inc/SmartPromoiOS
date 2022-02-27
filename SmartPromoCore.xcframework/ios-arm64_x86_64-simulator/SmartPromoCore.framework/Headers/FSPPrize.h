@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FSPMessage.h"
 
 typedef NS_ENUM(NSUInteger, FSPPrizeType)
 {
@@ -23,6 +24,7 @@ typedef NS_ENUM(NSUInteger, FSPPrizeType)
 @property NSArray *items;
 @property int pending;
 @property int pendingPayments;
+@property FSPMessage* shareDataToPayMessage;
 
 + (FSPPrize*) fromDict:(NSDictionary*) dict;
 
