@@ -6,7 +6,7 @@ Esta biblioteca é compativel com o `UIKit`. Caso quera utilizar em um projeto `
 ### Cocoapods
 SmartPromo é compatível com `iOS 11+` e pode ser adicionado no seu projeto `Objective-C` ou `Swift` utilizando o  [CocoaPods](https://cocoapods.org), para isto basta adicionar a linha a seguir no seu arquivo `Podfile`:
 
-    pod 'SmartPromo', '1.7.1'
+    pod 'SmartPromo', '1.7.2'
 
 ## Utilização
 ### Basico
