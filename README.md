@@ -1,6 +1,5 @@
 # SmartPromo
 O SmartPromo é uma SDK para envio de notas em campanhas promocionais.
-Esta biblioteca é compativel com o `UIKit`. Caso quera utilizar em um projeto `SwiftUI`, você deve utilizar a nossa outra biblioteca [SmartPromoSwiftUI](https://github.com/Getmo-Inc/SmartPromoSwiftUI).
 
 ## Instalação
 ### Cocoapods
