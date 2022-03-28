@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  1.7.2
+//  1.8
 //
 
 #import <UIKit/UIKit.h>
@@ -22,8 +22,12 @@
 
 - (SmartPromoCore*) setColor:(UIColor*) color;
 - (SmartPromoCore*) setConsumer:(FSPConsumerCore*) consumer;
+- (SmartPromoCore*) setHomologMode: (BOOL) isHomolog;
 
 - (void) go:(UIViewController *)above;
 - (UIViewController*) goWithOnDismiss: (dispatch_block_t) onDismiss;
+
+- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;
+- (UIViewController*) scanWithConsumerID: (NSString*) consumerID onDismiss: (dispatch_block_t) onDismiss;
 
 @end

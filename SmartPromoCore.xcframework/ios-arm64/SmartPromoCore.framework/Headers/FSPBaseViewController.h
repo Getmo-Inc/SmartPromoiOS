@@ -28,6 +28,8 @@
 - (BOOL) backdropTopSafeArea;
 - (CGFloat) backdropMarginTop;
 - (UIView*) backdropParentView;
+- (UIActivityIndicatorViewStyle) activityIndicatorStyle;
+- (UIColor*) backdropColor;
 
 @end
 

@@ -2,11 +2,13 @@
 //  SmartPromo.h
 //  SmartPromo
 //
-//  Created by Rodrigo Busata on 12/21/20.1
+//  Created by Rodrigo Busata on 12/21/20.
+//
+//  1.5.8
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPConsumer.h"
+#import <SmartPromo/FSPConsumer.h>
 
 @interface SmartPromo : NSObject
 

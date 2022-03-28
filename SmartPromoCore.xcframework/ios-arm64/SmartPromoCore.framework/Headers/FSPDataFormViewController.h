@@ -22,7 +22,7 @@
 - (FSPTextField*) addTextField: (NSString*) label
                       withText: (NSString*) text
                         isMale:(BOOL)isMale
-                withMaskString: (NSString*) mask
+                      withMask: (JMStringMask*) mask
                andKeyboardType:(UIKeyboardType) type;
 
 - (void) clear;

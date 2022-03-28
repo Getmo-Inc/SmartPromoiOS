@@ -1,6 +1,6 @@
 target 'Example' do
   use_frameworks!
 
-  pod 'SmartPromo', path: '../'
+  pod 'SmartPromo'#, path: '../'
 
 end

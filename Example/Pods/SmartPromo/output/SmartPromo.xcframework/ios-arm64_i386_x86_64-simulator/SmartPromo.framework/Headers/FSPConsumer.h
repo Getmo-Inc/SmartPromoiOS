@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FSPAddress.h"
+#import <SmartPromo/FSPAddress.h>
 
 typedef enum : NSInteger {
     FSPGenderTypeNotInformed = 0,

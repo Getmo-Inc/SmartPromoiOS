@@ -22,11 +22,14 @@ typedef NS_ENUM(NSUInteger, FSPPrizeType)
 @property NSString *message;
 @property NSString *primaryAction;
 @property NSArray *items;
+@property NSArray *chooseItems;
 @property int pending;
-@property int pendingPayments;
+@property BOOL needsPayment;
 @property FSPMessage* shareDataToPayMessage;
+@property FSPMessage* chooseItemToPayMessage;
 
 + (FSPPrize*) fromDict:(NSDictionary*) dict;
+- (void) markAllAsPaid;
 
 @end
 

@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A2D1D98CB516701AFEB1F9AC0599832D /* PBXContainerItemProxy */ = {
+		E33189E020771B1986F7F6997317FFD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,26 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15CAB1ACE819AFE08B679A215E84DFEA /* SmartPromo.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SmartPromo.xcframework; path = output/SmartPromo.xcframework; sourceTree = "<group>"; };
+		09804EF634BB1DB777CD950A7B1E31E0 /* SmartPromoCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SmartPromoCore.xcframework; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		260A67D310C1DEFC22CC302AC9B1D58E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		327C5D093CBC652506AA43733A326923 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		7B12DC7D2BD87EC4FB256A6B9623BDFB /* SmartPromo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartPromo.debug.xcconfig; sourceTree = "<group>"; };
-		8880D74A8204F9F4000442FADE3770C6 /* SmartPromo-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SmartPromo-xcframeworks.sh"; sourceTree = "<group>"; };
-		89198683B0EBFBC7E7C78E62641A0761 /* SmartPromo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SmartPromo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88274FD68FDD13E6CE48027F3D939508 /* SmartPromo.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SmartPromo.xcframework; path = output/SmartPromo.xcframework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABC6AA327DEBEC28B5080943F44FFA13 /* SmartPromo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartPromo.release.xcconfig; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D269A2EA628BF067255903C2AC190371 /* SmartPromoCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SmartPromoCore.xcframework; sourceTree = "<group>"; };
+		C4ED16AE5FE4ACE1BAD45D20EECCC7EE /* SmartPromo-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SmartPromo-xcframeworks.sh"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0443E210CB486D35D9270651E281BFD /* SmartPromo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartPromo.release.xcconfig; sourceTree = "<group>"; };
+		FED3D5A5FEFC49A7CE4CD11D57DDD28B /* SmartPromo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartPromo.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +67,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E539B70C8FDD1AF19C5C4DB771F8B6E /* Development Pods */ = {
+		00D960B05453C0378285258C33FCEE84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D7C15AF0CC3477350B5937D26DEC02B /* SmartPromo */,
+				88274FD68FDD13E6CE48027F3D939508 /* SmartPromo.xcframework */,
+				09804EF634BB1DB777CD950A7B1E31E0 /* SmartPromoCore.xcframework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		57154274EC146FE9C98743DB36E52A70 /* Products */ = {
@@ -94,36 +92,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6AA28AF81D14D97D5B6204C799AFAD83 /* Pod */ = {
+		6332BBFECF300DC20009FA171078CD85 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				327C5D093CBC652506AA43733A326923 /* LICENSE */,
-				260A67D310C1DEFC22CC302AC9B1D58E /* README.md */,
-				89198683B0EBFBC7E7C78E62641A0761 /* SmartPromo.podspec */,
+				D6B429065C8D384D525F504AB0B34029 /* SmartPromo */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		79BD6A387F1AAB7D9E694978F79B3F89 /* Support Files */ = {
+		9781E4B3715AAF6C3327E1C22EC66D29 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8880D74A8204F9F4000442FADE3770C6 /* SmartPromo-xcframeworks.sh */,
-				7B12DC7D2BD87EC4FB256A6B9623BDFB /* SmartPromo.debug.xcconfig */,
-				F0443E210CB486D35D9270651E281BFD /* SmartPromo.release.xcconfig */,
+				C4ED16AE5FE4ACE1BAD45D20EECCC7EE /* SmartPromo-xcframeworks.sh */,
+				FED3D5A5FEFC49A7CE4CD11D57DDD28B /* SmartPromo.debug.xcconfig */,
+				ABC6AA327DEBEC28B5080943F44FFA13 /* SmartPromo.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SmartPromo";
-			sourceTree = "<group>";
-		};
-		8D7C15AF0CC3477350B5937D26DEC02B /* SmartPromo */ = {
-			isa = PBXGroup;
-			children = (
-				EBA28BE6CE04F8F5DAF4E8DC9E06F9F1 /* Frameworks */,
-				6AA28AF81D14D97D5B6204C799AFAD83 /* Pod */,
-				79BD6A387F1AAB7D9E694978F79B3F89 /* Support Files */,
-			);
-			name = SmartPromo;
-			path = ../..;
+			path = "../Target Support Files/SmartPromo";
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -155,8 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0E539B70C8FDD1AF19C5C4DB771F8B6E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6332BBFECF300DC20009FA171078CD85 /* Pods */,
 				57154274EC146FE9C98743DB36E52A70 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -170,13 +155,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBA28BE6CE04F8F5DAF4E8DC9E06F9F1 /* Frameworks */ = {
+		D6B429065C8D384D525F504AB0B34029 /* SmartPromo */ = {
 			isa = PBXGroup;
 			children = (
-				15CAB1ACE819AFE08B679A215E84DFEA /* SmartPromo.xcframework */,
-				D269A2EA628BF067255903C2AC190371 /* SmartPromoCore.xcframework */,
+				00D960B05453C0378285258C33FCEE84 /* Frameworks */,
+				9781E4B3715AAF6C3327E1C22EC66D29 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SmartPromo;
+			path = SmartPromo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +191,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3CA9FA931B5890DC95E2382051A7FEBB /* PBXTargetDependency */,
+				C89273A52B3AE8E9DFD2DE90C5457F62 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -282,11 +268,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3CA9FA931B5890DC95E2382051A7FEBB /* PBXTargetDependency */ = {
+		C89273A52B3AE8E9DFD2DE90C5457F62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SmartPromo;
 			target = 09CCA217849AE43E17B03C127457CC64 /* SmartPromo */;
-			targetProxy = A2D1D98CB516701AFEB1F9AC0599832D /* PBXContainerItemProxy */;
+			targetProxy = E33189E020771B1986F7F6997317FFD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -328,23 +314,22 @@
 			};
 			name = Debug;
 		};
-		751C430B91984342B44E4D69041E02B6 /* Release */ = {
+		7C6CAB68188FFF3483CC83A110B1537F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0443E210CB486D35D9270651E281BFD /* SmartPromo.release.xcconfig */;
+			baseConfigurationReference = FED3D5A5FEFC49A7CE4CD11D57DDD28B /* SmartPromo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		7D05A10EFF8DE081359F092BAEACC316 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -446,22 +431,23 @@
 			};
 			name = Release;
 		};
-		C4F445D9BB32525CC72914834693BBD6 /* Debug */ = {
+		D273579D17926665967AA148C1BF3FF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B12DC7D2BD87EC4FB256A6B9623BDFB /* SmartPromo.debug.xcconfig */;
+			baseConfigurationReference = ABC6AA327DEBEC28B5080943F44FFA13 /* SmartPromo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -553,8 +539,8 @@
 		6C0C9DD49418A339F72924C9A5274E9A /* Build configuration list for PBXAggregateTarget "SmartPromo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4F445D9BB32525CC72914834693BBD6 /* Debug */,
-				751C430B91984342B44E4D69041E02B6 /* Release */,
+				7C6CAB68188FFF3483CC83A110B1537F /* Debug */,
+				D273579D17926665967AA148C1BF3FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
