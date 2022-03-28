@@ -1,2 +1,2 @@
-${PODS_XCFRAMEWORKS_BUILD_DIR}/SmartPromoCore
-${PODS_XCFRAMEWORKS_BUILD_DIR}/SmartPromo
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SmartPromo/SmartPromoCore.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SmartPromo/SmartPromo.framework

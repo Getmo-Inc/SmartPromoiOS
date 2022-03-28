@@ -69,6 +69,7 @@ SmartPromo/Models/FSPConsumer.h
 -[SmartPromo setColor:]
 -[SmartPromo setConsumer:]
 -[SmartPromo go:]
+-[SmartPromo scanWithConsumerID:above:]
 -[SmartPromo smartPromoCore]
 -[SmartPromo setSmartPromoCore:]
 -[SmartPromo .cxx_destruct]
@@ -110,6 +111,7 @@ _OBJC_SELECTOR_REFERENCES_.64
 _OBJC_SELECTOR_REFERENCES_.66
 _OBJC_SELECTOR_REFERENCES_.68
 _OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
 __OBJC_METACLASS_RO_$_SmartPromo
 __OBJC_$_INSTANCE_METHODS_SmartPromo
 _OBJC_IVAR_$_SmartPromo._smartPromoCore

@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 12/21/20.
 //
-//  1.8
+//  1.8.1
 //
 
 #import <UIKit/UIKit.h>
@@ -20,5 +20,6 @@
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
 
 - (void) go:(UIViewController *)above;
+- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;
 
 @end

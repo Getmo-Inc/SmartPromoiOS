@@ -66,7 +66,11 @@
 }
 
 - (void)go:(UIViewController *)above {
-    [_smartPromoCore go:above];
+    [_smartPromoCore go: above];
+}
+
+- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above {
+    [_smartPromoCore scanWithConsumerID: consumerID above: above];
 }
 
 @end
