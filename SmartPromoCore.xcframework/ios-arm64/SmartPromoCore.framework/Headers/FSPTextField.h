@@ -14,6 +14,7 @@ IB_DESIGNABLE
 @property (strong, nonatomic) IBInspectable NSString *labelText;
 @property (nonatomic, assign) IBInspectable BOOL isMale;
 @property (nonatomic, assign) IBInspectable BOOL isOptional;
+@property (nonatomic, assign) IBInspectable BOOL canSelect;
 
 - (void) setLabelText: (NSString*) text;
 - (void) setIsOptional:(BOOL) isOptional;

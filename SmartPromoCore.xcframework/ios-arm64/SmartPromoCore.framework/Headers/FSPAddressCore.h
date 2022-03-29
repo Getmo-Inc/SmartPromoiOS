@@ -21,5 +21,7 @@
 + (FSPAddressCore*) fromDict:(NSDictionary*) dict;
 - (NSDictionary*) toDict;
 
++ (NSArray*) allStates;
+
 @end
 
