@@ -5,7 +5,7 @@ O SmartPromo é uma SDK para envio de notas em campanhas promocionais.
 ### Cocoapods
 SmartPromo é compatível com `iOS 11+` e pode ser adicionado no seu projeto `Objective-C` ou `Swift` utilizando o  [CocoaPods](https://cocoapods.org), para isto basta adicionar a linha a seguir no seu arquivo `Podfile`:
 
-    pod 'SmartPromo', '1.8.2'
+    pod 'SmartPromo', '1.9'
 
 ## Utilização
 ### Basico
