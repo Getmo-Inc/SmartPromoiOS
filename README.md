@@ -1,4 +1,4 @@
-# SmartPromo
+# SmartPromo iOS
 O SmartPromo é uma SDK para envio de notas em campanhas promocionais.
 
 ## Instalação
