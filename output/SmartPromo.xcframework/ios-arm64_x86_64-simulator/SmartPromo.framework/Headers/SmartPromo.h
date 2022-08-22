@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 12/21/20.
 //
-//  1.9
+//  1.10
 //
 
 #import <UIKit/UIKit.h>
@@ -18,6 +18,7 @@
 
 - (SmartPromo*) setColor:(UIColor*) color;
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
+- (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
 
 - (void) go:(UIViewController *)above;
 - (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;

@@ -15,6 +15,7 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable BOOL isMale;
 @property (nonatomic, assign) IBInspectable BOOL isOptional;
 @property (nonatomic, assign) IBInspectable BOOL canSelect;
+@property (nonatomic, assign) IBInspectable BOOL canSelectAndPaste;
 
 - (void) setLabelText: (NSString*) text;
 - (void) setIsOptional:(BOOL) isOptional;

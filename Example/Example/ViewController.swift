@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         let consumer = FSPConsumer()
         consumer.cpf = "{cpf}"
         smartPromo?.setConsumer(consumer)
+        smartPromo?.setIsHomolog(true)
         
         smartPromo?.go(self)
     }

@@ -19,7 +19,6 @@
 - (void) keyboardChangeIsVisible: (BOOL) isVisible withHeight: (CGFloat) height;
 - (void) scrollToTextField: (UITextField*) textField;
 - (void) scrollToBottom;
-- (BOOL) automaticScroll;
 
 @end
 

@@ -35,6 +35,11 @@
     return self;
 }
 
+- (SmartPromo*)setIsHomolog:(BOOL) isHomolog {
+    [_smartPromoCore setHomologMode: isHomolog];
+    return self;
+}
+
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer {
     if (consumer) {
         FSPConsumerCore* consumerCore = [FSPConsumerCore new];
