@@ -74,6 +74,10 @@
     [_smartPromoCore go: above];
 }
 
+- (UIViewController*) goOnDismiss: (dispatch_block_t) onDismiss {
+    return [_smartPromoCore goWithOnDismiss: onDismiss];
+}
+
 - (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above {
     [_smartPromoCore scanWithConsumerID: consumerID above: above];
 }

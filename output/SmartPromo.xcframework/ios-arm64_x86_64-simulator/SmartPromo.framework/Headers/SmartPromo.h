@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 12/21/20.
 //
-//  1.10
+//  1.12
 //
 
 #import <UIKit/UIKit.h>
@@ -21,6 +21,7 @@
 - (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
 
 - (void) go:(UIViewController *)above;
+- (UIViewController*) goOnDismiss: (dispatch_block_t) onDismiss;
 - (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;
 
 @end
