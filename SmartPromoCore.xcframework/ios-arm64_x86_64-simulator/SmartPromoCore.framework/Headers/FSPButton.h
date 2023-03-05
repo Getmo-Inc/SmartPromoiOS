@@ -7,9 +7,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FSPButton : UIButton
+@interface FSPButtonText : UIButton
 
 @property (nonatomic, assign) IBInspectable BOOL verticalIcon;
+
++ (FSPButtonText*) instance;
+
+@end
+
+
+@interface FSPButton : FSPButtonText
+
 @property (nonatomic, assign) IBInspectable BOOL shadowed;
 
 - (void) applyShadow;
