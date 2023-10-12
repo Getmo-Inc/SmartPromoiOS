@@ -7,19 +7,13 @@
 
 #import <Foundation/Foundation.h>
 #import "FSPMessage.h"
-
-typedef NS_ENUM(NSUInteger, FSPPrizeType)
-{
-    FSPPrizeTypeGift = 0,
-    FSPPrizeTypeInstant,
-};
-
+#import "FSPFilter.h"
 
 @interface FSPPrize : NSObject
 
 @property NSString *qrcode;
 @property NSString *qrcodeMessage;
-@property NSString *message;
+@property NSAttributedString *messageAttributed;
 @property NSString *primaryAction;
 @property NSArray *items;
 @property NSArray *chooseItems;
@@ -27,6 +21,7 @@ typedef NS_ENUM(NSUInteger, FSPPrizeType)
 @property BOOL needsPayment;
 @property FSPMessage* shareDataToPayMessage;
 @property FSPMessage* chooseItemToPayMessage;
+@property FSPFilter* filter;
 
 + (FSPPrize*) fromDict:(NSDictionary*) dict;
 - (void) markAllAsPaid;

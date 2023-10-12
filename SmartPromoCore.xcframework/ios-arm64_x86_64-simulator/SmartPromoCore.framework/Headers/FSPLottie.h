@@ -9,6 +9,7 @@
 
 @interface FSPLottie : NSObject
 
+@property NSString* identifier;
 @property NSString* name;
 @property NSString* json;
 @property CGFloat size;
@@ -18,7 +19,23 @@
 @property FSPLottie* backLottie;
 @property BOOL afterBody;
 
++ (FSPLottie*) initWithName: (NSString*) name;
++ (FSPLottie*) initWithName: (NSString*) name afterBody: (BOOL) afterBody;
 + (FSPLottie*) fromDict:(NSDictionary*) dict;
 - (NSDictionary*) jsonDict;
 
++ (NSString*) surveyStartID;
++ (FSPLottie*) surveyStart;
+
++ (NSString*) surveyEndID;
++ (FSPLottie*) surveyEnd;
+
++ (NSString*) instantPrizeID;
++ (FSPLottie*) instantPrize;
+
++ (NSString*) giftID;
++ (FSPLottie*) gift;
+
++ (NSString*) errorID;
++ (FSPLottie*) error;
 @end

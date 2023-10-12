@@ -4,7 +4,7 @@
 //
 //  Created by Rodrigo Busata on 12/21/20.
 //
-//  1.12
+//  2.0.0
 //
 
 #import <UIKit/UIKit.h>
@@ -20,8 +20,14 @@
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
 - (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
 
+- (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
+                                         title: (NSString*) title
+                                       message: (NSString*) message;
+
 - (void) go:(UIViewController *)above;
-- (UIViewController*) goOnDismiss: (dispatch_block_t) onDismiss;
+- (void) goWithCampaignID:(NSString*) campaignID above: (UIViewController *) above;
+
 - (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;
+- (void) scanWithCampaignID: (NSString*) campaignID above: (UIViewController *)above;
 
 @end

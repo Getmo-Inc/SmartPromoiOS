@@ -70,16 +70,27 @@
     return self;
 }
 
-- (void)go:(UIViewController *)above {
+
+- (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
+                                         title: (NSString*) title
+                                       message: (NSString*) message {
+    return [_smartPromoCore goMultiCampaignsHeadnote:headnote title:title message:message];
+}
+
+- (void) go:(UIViewController *)above {
     [_smartPromoCore go: above];
 }
 
-- (UIViewController*) goOnDismiss: (dispatch_block_t) onDismiss {
-    return [_smartPromoCore goWithOnDismiss: onDismiss];
+- (void) goWithCampaignID:(NSString*) campaignID above: (UIViewController *) above {
+    [_smartPromoCore goWithCampaignID:campaignID above:above];
 }
 
 - (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above {
-    [_smartPromoCore scanWithConsumerID: consumerID above: above];
+    [_smartPromoCore scanWithConsumerID:consumerID above:above];
+}
+
+- (void) scanWithCampaignID: (NSString*) campaignID above: (UIViewController *)above {
+    [_smartPromoCore scanWithCampaignID:campaignID above:above];
 }
 
 @end
