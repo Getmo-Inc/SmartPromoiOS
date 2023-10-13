@@ -436,6 +436,7 @@
                                 "questions": [
                                     {
                                         "type": "NUMBER",
+                                        "mask": "000000",
                                         "title": "Informe os 6 primeiros dígitos de seu cartão XP",
                                         "image": "https://drive.google.com/u/1/uc?id=17UccsPe2UiulITX75OOcLgnT5gEu8d7U",
                                         "answer": null,
@@ -461,7 +462,7 @@
             }
         ],
     },
-    "consumer___": {
+    "consumer": {
         "name": "Letícia",
         "balance": 192.4,
         "receipts": [

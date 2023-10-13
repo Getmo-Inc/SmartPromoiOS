@@ -25,6 +25,15 @@
     return self;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _smartPromoCore = [SmartPromoCore new];
+    }
+    return self;
+}
+
 - (SmartPromo*)setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey {
     [_smartPromoCore setupAccessKey: accessKey andSecretKey: secretKey];
     return self;

@@ -1,0 +1,54 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/busata/Library/Developer/Xcode/DerivedData/SmartPromo-dujideumfkknlcgwqxgudkctlaue/Build/Intermediates.noindex/ArchiveIntermediates/SmartPromo/InstallationBuildProductsLocation/Library/Frameworks/SmartPromo.framework/SmartPromo'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x556AC, size: 0x8, addend: 0x0, symName: _SmartPromoVersionString, symObjAddr: 0x0, symBinAddr: 0x3A40, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x556E1, size: 0x8, addend: 0x0, symName: _SmartPromoVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3A70, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5571E, size: 0x8, addend: 0x0, symName: '-[FSPAddress zipCode]', symObjAddr: 0x0, symBinAddr: 0x301A, symSize: 0x14 }
+  - { offsetInCU: 0x108, offset: 0x557FF, size: 0x8, addend: 0x0, symName: '-[FSPAddress zipCode]', symObjAddr: 0x0, symBinAddr: 0x301A, symSize: 0x14 }
+  - { offsetInCU: 0x13F, offset: 0x55836, size: 0x8, addend: 0x0, symName: '-[FSPAddress setZipCode:]', symObjAddr: 0x14, symBinAddr: 0x302E, symSize: 0xF }
+  - { offsetInCU: 0x17E, offset: 0x55875, size: 0x8, addend: 0x0, symName: '-[FSPAddress streetName]', symObjAddr: 0x23, symBinAddr: 0x303D, symSize: 0x14 }
+  - { offsetInCU: 0x1B5, offset: 0x558AC, size: 0x8, addend: 0x0, symName: '-[FSPAddress setStreetName:]', symObjAddr: 0x37, symBinAddr: 0x3051, symSize: 0xF }
+  - { offsetInCU: 0x1F4, offset: 0x558EB, size: 0x8, addend: 0x0, symName: '-[FSPAddress streetNumber]', symObjAddr: 0x46, symBinAddr: 0x3060, symSize: 0x14 }
+  - { offsetInCU: 0x22B, offset: 0x55922, size: 0x8, addend: 0x0, symName: '-[FSPAddress setStreetNumber:]', symObjAddr: 0x5A, symBinAddr: 0x3074, symSize: 0xF }
+  - { offsetInCU: 0x26A, offset: 0x55961, size: 0x8, addend: 0x0, symName: '-[FSPAddress complement]', symObjAddr: 0x69, symBinAddr: 0x3083, symSize: 0x14 }
+  - { offsetInCU: 0x2A1, offset: 0x55998, size: 0x8, addend: 0x0, symName: '-[FSPAddress setComplement:]', symObjAddr: 0x7D, symBinAddr: 0x3097, symSize: 0xF }
+  - { offsetInCU: 0x2E0, offset: 0x559D7, size: 0x8, addend: 0x0, symName: '-[FSPAddress neighborhood]', symObjAddr: 0x8C, symBinAddr: 0x30A6, symSize: 0x14 }
+  - { offsetInCU: 0x317, offset: 0x55A0E, size: 0x8, addend: 0x0, symName: '-[FSPAddress setNeighborhood:]', symObjAddr: 0xA0, symBinAddr: 0x30BA, symSize: 0xF }
+  - { offsetInCU: 0x356, offset: 0x55A4D, size: 0x8, addend: 0x0, symName: '-[FSPAddress city]', symObjAddr: 0xAF, symBinAddr: 0x30C9, symSize: 0x14 }
+  - { offsetInCU: 0x38D, offset: 0x55A84, size: 0x8, addend: 0x0, symName: '-[FSPAddress setCity:]', symObjAddr: 0xC3, symBinAddr: 0x30DD, symSize: 0xF }
+  - { offsetInCU: 0x3CC, offset: 0x55AC3, size: 0x8, addend: 0x0, symName: '-[FSPAddress state]', symObjAddr: 0xD2, symBinAddr: 0x30EC, symSize: 0x14 }
+  - { offsetInCU: 0x403, offset: 0x55AFA, size: 0x8, addend: 0x0, symName: '-[FSPAddress setState:]', symObjAddr: 0xE6, symBinAddr: 0x3100, symSize: 0xF }
+  - { offsetInCU: 0x442, offset: 0x55B39, size: 0x8, addend: 0x0, symName: '-[FSPAddress .cxx_destruct]', symObjAddr: 0xF5, symBinAddr: 0x310F, symSize: 0x5F }
+  - { offsetInCU: 0x27, offset: 0x55BB0, size: 0x8, addend: 0x0, symName: '-[FSPConsumer cpf]', symObjAddr: 0x0, symBinAddr: 0x316E, symSize: 0x14 }
+  - { offsetInCU: 0x1CF, offset: 0x55D58, size: 0x8, addend: 0x0, symName: '-[FSPConsumer cpf]', symObjAddr: 0x0, symBinAddr: 0x316E, symSize: 0x14 }
+  - { offsetInCU: 0x206, offset: 0x55D8F, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setCpf:]', symObjAddr: 0x14, symBinAddr: 0x3182, symSize: 0xF }
+  - { offsetInCU: 0x245, offset: 0x55DCE, size: 0x8, addend: 0x0, symName: '-[FSPConsumer name]', symObjAddr: 0x23, symBinAddr: 0x3191, symSize: 0x14 }
+  - { offsetInCU: 0x27C, offset: 0x55E05, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setName:]', symObjAddr: 0x37, symBinAddr: 0x31A5, symSize: 0xF }
+  - { offsetInCU: 0x2BB, offset: 0x55E44, size: 0x8, addend: 0x0, symName: '-[FSPConsumer email]', symObjAddr: 0x46, symBinAddr: 0x31B4, symSize: 0x14 }
+  - { offsetInCU: 0x2F2, offset: 0x55E7B, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setEmail:]', symObjAddr: 0x5A, symBinAddr: 0x31C8, symSize: 0xF }
+  - { offsetInCU: 0x331, offset: 0x55EBA, size: 0x8, addend: 0x0, symName: '-[FSPConsumer phone]', symObjAddr: 0x69, symBinAddr: 0x31D7, symSize: 0x14 }
+  - { offsetInCU: 0x368, offset: 0x55EF1, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setPhone:]', symObjAddr: 0x7D, symBinAddr: 0x31EB, symSize: 0xF }
+  - { offsetInCU: 0x3A7, offset: 0x55F30, size: 0x8, addend: 0x0, symName: '-[FSPConsumer gender]', symObjAddr: 0x8C, symBinAddr: 0x31FA, symSize: 0xA }
+  - { offsetInCU: 0x3DC, offset: 0x55F65, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setGender:]', symObjAddr: 0x96, symBinAddr: 0x3204, symSize: 0xA }
+  - { offsetInCU: 0x419, offset: 0x55FA2, size: 0x8, addend: 0x0, symName: '-[FSPConsumer birthday]', symObjAddr: 0xA0, symBinAddr: 0x320E, symSize: 0x14 }
+  - { offsetInCU: 0x450, offset: 0x55FD9, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setBirthday:]', symObjAddr: 0xB4, symBinAddr: 0x3222, symSize: 0xF }
+  - { offsetInCU: 0x48F, offset: 0x56018, size: 0x8, addend: 0x0, symName: '-[FSPConsumer address]', symObjAddr: 0xC3, symBinAddr: 0x3231, symSize: 0x14 }
+  - { offsetInCU: 0x4C6, offset: 0x5604F, size: 0x8, addend: 0x0, symName: '-[FSPConsumer setAddress:]', symObjAddr: 0xD7, symBinAddr: 0x3245, symSize: 0xF }
+  - { offsetInCU: 0x505, offset: 0x5608E, size: 0x8, addend: 0x0, symName: '-[FSPConsumer .cxx_destruct]', symObjAddr: 0xE6, symBinAddr: 0x3254, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x56105, size: 0x8, addend: 0x0, symName: '-[SmartPromo init:]', symObjAddr: 0x0, symBinAddr: 0x32A8, symSize: 0x82 }
+  - { offsetInCU: 0xD6, offset: 0x561B4, size: 0x8, addend: 0x0, symName: '-[SmartPromo init:]', symObjAddr: 0x0, symBinAddr: 0x32A8, symSize: 0x82 }
+  - { offsetInCU: 0x166, offset: 0x56244, size: 0x8, addend: 0x0, symName: '-[SmartPromo init]', symObjAddr: 0x82, symBinAddr: 0x332A, symSize: 0x5E }
+  - { offsetInCU: 0x1B5, offset: 0x56293, size: 0x8, addend: 0x0, symName: '-[SmartPromo setupAccessKey:andSecretKey:]', symObjAddr: 0xE0, symBinAddr: 0x3388, symSize: 0x2C }
+  - { offsetInCU: 0x218, offset: 0x562F6, size: 0x8, addend: 0x0, symName: '-[SmartPromo setColor:]', symObjAddr: 0x10C, symBinAddr: 0x33B4, symSize: 0x2C }
+  - { offsetInCU: 0x26B, offset: 0x56349, size: 0x8, addend: 0x0, symName: '-[SmartPromo setIsHomolog:]', symObjAddr: 0x138, symBinAddr: 0x33E0, symSize: 0x2C }
+  - { offsetInCU: 0x2BE, offset: 0x5639C, size: 0x8, addend: 0x0, symName: '-[SmartPromo setConsumer:]', symObjAddr: 0x164, symBinAddr: 0x340C, symSize: 0x51B }
+  - { offsetInCU: 0x83F, offset: 0x5691D, size: 0x8, addend: 0x0, symName: '-[SmartPromo goMultiCampaignsHeadnote:title:message:]', symObjAddr: 0x67F, symBinAddr: 0x3927, symSize: 0x16 }
+  - { offsetInCU: 0x8C5, offset: 0x569A3, size: 0x8, addend: 0x0, symName: '-[SmartPromo go:]', symObjAddr: 0x695, symBinAddr: 0x393D, symSize: 0x16 }
+  - { offsetInCU: 0x91B, offset: 0x569F9, size: 0x8, addend: 0x0, symName: '-[SmartPromo goWithCampaignID:above:]', symObjAddr: 0x6AB, symBinAddr: 0x3953, symSize: 0x16 }
+  - { offsetInCU: 0x987, offset: 0x56A65, size: 0x8, addend: 0x0, symName: '-[SmartPromo scanWithConsumerID:above:]', symObjAddr: 0x6C1, symBinAddr: 0x3969, symSize: 0x16 }
+  - { offsetInCU: 0x9F3, offset: 0x56AD1, size: 0x8, addend: 0x0, symName: '-[SmartPromo scanWithCampaignID:above:]', symObjAddr: 0x6D7, symBinAddr: 0x397F, symSize: 0x16 }
+  - { offsetInCU: 0xA5F, offset: 0x56B3D, size: 0x8, addend: 0x0, symName: '-[SmartPromo smartPromoCore]', symObjAddr: 0x6ED, symBinAddr: 0x3995, symSize: 0xA }
+  - { offsetInCU: 0xA94, offset: 0x56B72, size: 0x8, addend: 0x0, symName: '-[SmartPromo setSmartPromoCore:]', symObjAddr: 0x6F7, symBinAddr: 0x399F, symSize: 0x11 }
+  - { offsetInCU: 0xAD3, offset: 0x56BB1, size: 0x8, addend: 0x0, symName: '-[SmartPromo .cxx_destruct]', symObjAddr: 0x708, symBinAddr: 0x39B0, symSize: 0x10 }
+...

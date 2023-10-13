@@ -6,8 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FSPFilter.h"
-
 
 @interface FSPFilter : NSObject
 
