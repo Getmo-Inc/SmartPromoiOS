@@ -34,4 +34,5 @@
 - (void) refresh;
 - (void) handleResponse: (BOOL) success;
 - (void) action:(id) sender;
+- (void) updateActionButtonAnimated: (BOOL) animated;
 @end

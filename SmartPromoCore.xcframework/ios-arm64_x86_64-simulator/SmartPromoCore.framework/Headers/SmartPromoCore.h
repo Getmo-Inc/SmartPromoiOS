@@ -25,6 +25,7 @@
 - (SmartPromoCore*) setColor:(UIColor*) color;
 - (SmartPromoCore*) setConsumer:(FSPConsumerCore*) consumer;
 - (SmartPromoCore*) setHomologMode: (BOOL) isHomolog;
+- (SmartPromoCore*) setMetadata: (NSString*) metadata;
 
 
 - (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote

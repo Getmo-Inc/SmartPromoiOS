@@ -22,6 +22,7 @@ typedef NSDictionary<NSString *,NSString *> HTTPHeaders;
 + (instancetype _Nonnull) shared;
 
 @property BOOL isHomolog;
+@property NSString * _Nullable metadata;
 
 - (NSString* _Nonnull) smartPromoURL;
 

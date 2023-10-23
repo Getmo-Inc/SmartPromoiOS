@@ -49,6 +49,11 @@
     return self;
 }
 
+- (SmartPromo*) setMetadata: (NSString*) metadata {
+    [_smartPromoCore setMetadata: metadata];
+    return self;
+}
+
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer {
     if (consumer) {
         FSPConsumerCore* consumerCore = [FSPConsumerCore new];
