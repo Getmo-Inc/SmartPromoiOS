@@ -24,7 +24,7 @@ Para começar a utilizar o SmartPromo, você precisa configurar as suas `chaves 
     smartPromo.go("{campaignID}", above: {viewController})
 
 
-#### Iniciando a SDK no modo multiplas campanhas:
+#### Iniciando a SDK no modo de múltiplas campanhas:
     smartPromo.goMulti(
         withHeadnote: "{Headnote}",
         title: "{Title}",
@@ -40,6 +40,8 @@ Para começar a utilizar o SmartPromo, você precisa configurar as suas `chaves 
 É necessário realizar todas as configurações antes de iniciar a SDK.
 
 #### Homologação
+Caso queira, você pode utilizar o ambiente de homologação para realizar seus testes. Para isso basta utilizar a função:
+
     smartPromo.setIsHomolog(true)
 
 #### Cor da campanha
@@ -56,7 +58,7 @@ O SmartPromo gerencia o cadastro do consumidor por você, mas caso queira otimiz
 
 #### Metadata
 O SmartPromo também oferece a capacidade de inserir informações em um campo genérico que pode ser utilizado para diversos fins. Para fazer isso, utilizamos a seguinte função:
-
+    
     smartPromo.setMetadata("Qualquer coisa como String")
 
 
