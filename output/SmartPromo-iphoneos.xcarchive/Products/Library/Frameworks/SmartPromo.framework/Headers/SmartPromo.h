@@ -19,14 +19,10 @@
 - (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
 - (SmartPromo*) setMetadata: (NSString*) metadata;
 
-- (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
-                                         title: (NSString*) title
-                                       message: (NSString*) message;
-
 - (void) go: (NSString*) campaignID above: (UIViewController *) above;
-- (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
-                                         title: (NSString*) title
-                                       message: (NSString*) message;
+- (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
+                                    title: (NSString*) title
+                                  message: (NSString*) message;
 
 - (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above;
 

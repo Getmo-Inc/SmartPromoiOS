@@ -80,10 +80,10 @@
     [_smartPromoCore go:campaignID above:above];
 }
 
-- (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
-                                         title: (NSString*) title
-                                       message: (NSString*) message {
-    return [_smartPromoCore goMultiCampaignsHeadnote:headnote title:title message:message];
+- (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
+                                    title: (NSString*) title
+                                  message: (NSString*) message {
+    return [_smartPromoCore goMultiWithHeadnote:headnote title:title message:message];
 }
 
 - (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above {

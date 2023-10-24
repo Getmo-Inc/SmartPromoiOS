@@ -25,9 +25,9 @@
 - (SmartPromoCore*) setMetadata: (NSString*) metadata;
 
 - (void) go: (NSString*) campaignID above: (UIViewController *) above;
-- (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
-                                         title: (NSString*) title
-                                       message: (NSString*) message;
+- (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
+                                    title: (NSString*) title
+                                  message: (NSString*) message;
 
 - (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above;
 

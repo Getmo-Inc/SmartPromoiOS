@@ -44,7 +44,7 @@ relocations:
   - { offsetInCU: 0x22E, offset: 0x56421, size: 0x8, addend: 0x0, symName: '-[SmartPromo setMetadata:]', symObjAddr: 0xE2, symBinAddr: 0x344C, symSize: 0x2C }
   - { offsetInCU: 0x281, offset: 0x56474, size: 0x8, addend: 0x0, symName: '-[SmartPromo setConsumer:]', symObjAddr: 0x10E, symBinAddr: 0x3478, symSize: 0x51B }
   - { offsetInCU: 0x802, offset: 0x569F5, size: 0x8, addend: 0x0, symName: '-[SmartPromo go:above:]', symObjAddr: 0x629, symBinAddr: 0x3993, symSize: 0x16 }
-  - { offsetInCU: 0x86E, offset: 0x56A61, size: 0x8, addend: 0x0, symName: '-[SmartPromo goMultiCampaignsHeadnote:title:message:]', symObjAddr: 0x63F, symBinAddr: 0x39A9, symSize: 0x16 }
+  - { offsetInCU: 0x86E, offset: 0x56A61, size: 0x8, addend: 0x0, symName: '-[SmartPromo goMultiWithHeadnote:title:message:]', symObjAddr: 0x63F, symBinAddr: 0x39A9, symSize: 0x16 }
   - { offsetInCU: 0x8F4, offset: 0x56AE7, size: 0x8, addend: 0x0, symName: '-[SmartPromo scan:consumerID:above:]', symObjAddr: 0x655, symBinAddr: 0x39BF, symSize: 0x16 }
   - { offsetInCU: 0x976, offset: 0x56B69, size: 0x8, addend: 0x0, symName: '-[SmartPromo smartPromoCore]', symObjAddr: 0x66B, symBinAddr: 0x39D5, symSize: 0xA }
   - { offsetInCU: 0x9AB, offset: 0x56B9E, size: 0x8, addend: 0x0, symName: '-[SmartPromo setSmartPromoCore:]', symObjAddr: 0x675, symBinAddr: 0x39DF, symSize: 0x11 }
