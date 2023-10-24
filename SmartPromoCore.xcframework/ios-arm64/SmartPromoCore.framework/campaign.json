@@ -86,7 +86,7 @@
                 "loop": true,
                 "after_body": false,
                 "auto_play": true,
-                "json": null
+                "json": "{}"
             }
         ]
     },
@@ -163,7 +163,7 @@
         ],
         "instant_prize_mode": "CAROUSEL",
         "capture_action": "RECEIPT",
-        "block_message_": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco",
+        "block_message": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco",
         "surveys": [
             {
                 "id": "aaaa",

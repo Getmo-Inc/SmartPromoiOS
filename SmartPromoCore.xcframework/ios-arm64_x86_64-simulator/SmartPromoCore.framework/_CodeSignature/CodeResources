@@ -222,7 +222,7 @@
 		</data>
 		<key>Headers/FSPPrize.h</key>
 		<data>
-		ZNzUzNIYk5me9a8tzPavWP8uFL4=
+		ZWOrrme8b+frSoW+uOh0kNDLkRs=
 		</data>
 		<key>Headers/FSPTextField.h</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		428O3YFu7g8RLGEbjfZf8anzrHk=
+		9R0xmxwx25McMGuzhM4fdHz6zZ0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>campaign.json</key>
 		<data>
-		II36E14dU0dtAkZcFKZxuCCJLaw=
+		wdgJWNUYMh25CGbWrZCXqQ5g0BI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -649,7 +649,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dzPmJsSbj1fzoVj7MDkqOPBrB/AmKPR9u/omwYEwOFA=
+			d2iqIxLiW3jmJeMDICeNwkmto0jqV2S35Lqq2jEZ0xs=
 			</data>
 		</dict>
 		<key>Headers/FSPTextField.h</key>
@@ -698,7 +698,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ADRiJgYq12ITL5IdyP7sttlSW//sgnNyvju2KFyjx8Q=
+			EEGSN5SsH3QkUCIQ5csMYW+YHdUgRJqAKtHXtJ4j744=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -712,7 +712,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xGzVozMapncVcSzUPg3XJ9hvJNw897J2ZyLbC6g63ZQ=
+			YSsHTXgh17I6cMIbaAfMzqZPfTEtSLEeLRLrCaK66W4=
 			</data>
 		</dict>
 	</dict>

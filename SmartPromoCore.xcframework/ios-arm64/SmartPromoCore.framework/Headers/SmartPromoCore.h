@@ -17,9 +17,6 @@
 
 @interface SmartPromoCore : NSObject
 
-- (id)init;
-- (id)init:(NSString*)campaignID;
-
 - (SmartPromoCore*) setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey;
 
 - (SmartPromoCore*) setColor:(UIColor*) color;
@@ -27,15 +24,11 @@
 - (SmartPromoCore*) setHomologMode: (BOOL) isHomolog;
 - (SmartPromoCore*) setMetadata: (NSString*) metadata;
 
-
+- (void) go: (NSString*) campaignID above: (UIViewController *) above;
 - (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
                                          title: (NSString*) title
                                        message: (NSString*) message;
 
-- (void) go:(UIViewController *)above;
-- (void) goWithCampaignID:(NSString*) campaignID above: (UIViewController *) above;
-
-- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;
-- (void) scanWithCampaignID: (NSString*) campaignID above: (UIViewController *)above;
+- (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above;
 
 @end

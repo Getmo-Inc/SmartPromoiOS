@@ -11,8 +11,6 @@
 
 @interface FSPPrize : NSObject
 
-@property NSString *qrcode;
-@property NSString *qrcodeMessage;
 @property NSAttributedString *messageAttributed;
 @property NSString *primaryAction;
 @property NSArray *items;

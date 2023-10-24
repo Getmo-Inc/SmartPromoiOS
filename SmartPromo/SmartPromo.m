@@ -16,15 +16,6 @@
 
 @implementation SmartPromo
 
-- (id)init:(NSString*)campaignID {
-    self = [super init];
-    if(self) {
-        _smartPromoCore = [[SmartPromoCore alloc] init: campaignID];
-    }
-    
-    return self;
-}
-
 - (instancetype)init
 {
     self = [super init];
@@ -85,26 +76,18 @@
 }
 
 
+- (void) go: (NSString*) campaignID above: (UIViewController *) above {
+    [_smartPromoCore go:campaignID above:above];
+}
+
 - (UIViewController*) goMultiCampaignsHeadnote: (NSString*) headnote
                                          title: (NSString*) title
                                        message: (NSString*) message {
     return [_smartPromoCore goMultiCampaignsHeadnote:headnote title:title message:message];
 }
 
-- (void) go:(UIViewController *)above {
-    [_smartPromoCore go: above];
-}
-
-- (void) goWithCampaignID:(NSString*) campaignID above: (UIViewController *) above {
-    [_smartPromoCore goWithCampaignID:campaignID above:above];
-}
-
-- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above {
-    [_smartPromoCore scanWithConsumerID:consumerID above:above];
-}
-
-- (void) scanWithCampaignID: (NSString*) campaignID above: (UIViewController *)above {
-    [_smartPromoCore scanWithCampaignID:campaignID above:above];
+- (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above {
+    [_smartPromoCore scan:campaignID consumerID:consumerID above:above];
 }
 
 @end
