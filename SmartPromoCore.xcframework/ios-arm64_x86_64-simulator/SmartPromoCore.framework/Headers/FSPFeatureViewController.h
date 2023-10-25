@@ -12,7 +12,6 @@
 
 @interface FSPFeatureViewController : FSPFormViewController
 
-@property (strong, nonatomic) FSPFeature *feature;
 @property (strong, nonatomic) UITableView *tableView;
 
 @property (strong, nonatomic) id campaignService;
@@ -26,6 +25,8 @@
 
 - (id) initWithFeature: (FSPFeature*) feature
        campaignService: (id) campaignService;
+
+- (FSPFeature*) feature;
 
 - (NSAttributedString *) message;
 - (NSArray*) items;

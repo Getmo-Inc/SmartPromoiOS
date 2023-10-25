@@ -12,7 +12,6 @@
 @interface FSPPrize : NSObject
 
 @property NSAttributedString *messageAttributed;
-@property NSString *primaryAction;
 @property NSArray *items;
 @property NSArray *chooseItems;
 @property int pending;
