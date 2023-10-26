@@ -19,7 +19,7 @@
 }
 
 - (IBAction)actionOpen:(id)sender {
-    SmartPromo* smartPromo = [[SmartPromo alloc] init: @"{campaignID}"];
+    SmartPromo* smartPromo = [SmartPromo new];
     [smartPromo setupAccessKey:@"{accessKey}"
                   andSecretKey:@"{secretKey}"];
     
@@ -29,7 +29,7 @@
     consumer.cpf = @"{cpf}";
     [smartPromo setConsumer:consumer];
     
-    [smartPromo go:self];
+    [smartPromo go:@"{campaignID}" above: self];
 }
 
 @end
