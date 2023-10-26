@@ -17,7 +17,7 @@
 - (SmartPromo*) setColor:(UIColor*) color;
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
 - (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
-- (SmartPromo*) setMetadata: (NSString*) metadata;
+- (SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
 
 - (void) go: (NSString*) campaignID above: (UIViewController *) above;
 - (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
