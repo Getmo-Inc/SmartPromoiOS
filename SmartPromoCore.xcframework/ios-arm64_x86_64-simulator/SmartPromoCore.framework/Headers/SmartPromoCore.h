@@ -4,30 +4,31 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  1.12
+//  2.0.0
 //
 
 #import <UIKit/UIKit.h>
 
 #import "FSPConsumerCore.h"
 #import "FSPDataFormViewController.h"
-#import "FSPMessageViewController.h"
 #import "FSPBottomSheetViewController.h"
+#import "FSPMultiCampaignViewController.h"
+#import "FSPWebService.h"
 
 @interface SmartPromoCore : NSObject
-
-- (id)init:(NSString*)campaignID;
 
 - (SmartPromoCore*) setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey;
 
 - (SmartPromoCore*) setColor:(UIColor*) color;
 - (SmartPromoCore*) setConsumer:(FSPConsumerCore*) consumer;
 - (SmartPromoCore*) setHomologMode: (BOOL) isHomolog;
+- (SmartPromoCore*) setMetadata: (NSString* _Nullable) metadata;
 
-- (void) go:(UIViewController *)above;
-- (UIViewController*) goWithOnDismiss: (dispatch_block_t) onDismiss;
+- (void) go: (NSString*) campaignID above: (UIViewController *) above;
+- (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
+                                    title: (NSString*) title
+                                  message: (NSString*) message;
 
-- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above;
-- (UIViewController*) scanWithConsumerID: (NSString*) consumerID onDismiss: (dispatch_block_t) onDismiss;
+- (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above;
 
 @end

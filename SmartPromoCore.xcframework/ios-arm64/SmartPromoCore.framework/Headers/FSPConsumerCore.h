@@ -22,9 +22,11 @@
 
 @property NSArray *receipts;
 @property NSArray *coupons;
-@property NSArray *infos;
+@property NSArray *featuresCard;
+@property NSArray *statements;
 @property FSPPrize *gifts;
 @property FSPPrize *instantPrizes;
+@property FSPPrize *awards;
 
 - (NSString*) genderValue;
 

@@ -1,0 +1,1125 @@
+{
+    "error_message___": {
+        "title": "A campanha não está disponível",
+        "body": "A campanha não está disponível no momento. Por favor, tente novamente mais tarde.",
+        "primary_action": "Entendi"
+    },
+    "config": {
+        "capture_done_action": "Continuar",
+        "step_status_enabled": true,
+        "max_photo_size": 1000,
+        "delay_to_warning": 5,
+        "delay_warning_message": {
+            "title": "Quer uma ajuda?",
+            "body": "Não localizou o qrcode? Então digite a chave de acesso!",
+            "primary_action": "Digitar",
+            "primary_action_tap": "INPUT_MANUAL",
+            "secondary_action": "Continar tentando",
+            "secondary_action_tap": "INPUT_QRCODE"
+        },
+        "photo_warning_message": {
+            "title": "Atenção",
+            "body": "Fotos podem demorar até 2 dias para serem processadas. O que acha de digitar a chave manualmente?",
+            "primary_action": "Digitar",
+            "primary_action_tap": "INPUT_MANUAL",
+            "secondary_action": "Continar mesmo assim",
+            "secondary_action_tap": "INPUT_QRCODE"
+        },
+        "invalid_qrcode_message": {
+            "title": "QRCode Inválido",
+            "body": "O QRCode encontrado não corresponde a uma Nota Fiscal",
+            "primary_action": "Entendi"
+        },
+        "gift_message": {
+            "title": "Você tem brindes para resgatar!",
+            "primary_action": "Resgatar agora",
+            "secondary_action": "Ver depois",
+            "lottie": "gift"
+        },
+        "instant_prize_message": {
+            "title": "Que tal concorrer aos prêmios instantâneos?",
+            "primary_action": "Tentar a sorte",
+            "secondary_action": "Ver depois",
+            "lottie": "instant_prize"
+        },
+        "allow_full_manual_input": true,
+        "full_manual_input_warning_message": "O preenchimento é de inteira responsabilidade do consumidor",
+        "tutorial": {
+            "qrcode": {
+                "title": "Dicas para ler o QRCode da nota",
+                "primary_action": "Entendi",
+                "checklist": [
+                    "Envie apenas uma nota fiscal por foto",
+                    "Verifique que ela não está amassada",
+                    "Centralize a nota",
+                    "Certifique-se que todos os dados estão legíveis",
+                    "Guarde sua nota fiscal"
+                ]
+            },
+            "picture": {
+                "title": "Dicas para tirar uma boa foto da nota",
+                "primary_action": "Entendi",
+                "checklist": [
+                    "Envie apenas uma nota fiscal por foto",
+                    "Verifique que ela não está amassada",
+                    "Centralize a nota",
+                    "Certifique-se que todos os dados estão legíveis",
+                    "Guarde sua nota fiscal"
+                ]
+            },
+            "manual": {
+                "title": "Dicas para adicionar uma nota manualmente",
+                "primary_action": "Entendi",
+                "checklist": [
+                    "Envie apenas uma nota fiscal por foto",
+                    "Verifique que ela não está amassada",
+                    "Centralize a nota",
+                    "Certifique-se que todos os dados estão legíveis",
+                    "Guarde sua nota fiscal"
+                ]
+            }
+        },
+        "lotties": [
+            {
+                "id": "survey_start__",
+                "speed": 1,
+                "loop": true,
+                "after_body": false,
+                "auto_play": true,
+                "json": "{}"
+            }
+        ]
+    },
+    "campaign": {
+        "alert_message": {
+            "title": "Brindes esgotados!",
+            "body": "<p style=\"font-family:Arial; font-size:18px;  color: #666666\"><strong>BRINDES ESGOTADOS!</strong></p>",
+            "lottie": "error",
+            "primary_action": "Entendi!"
+        },
+        "title": "Desejos de Natal",
+        "uf": "SP",
+        "subtitle": "Concorra a prêmios instantâneos e a sorteios de até R$ 1 milhão",
+        "description": "<p style='font-family:Arial; font-size:20px'><strong>Realize seus desejos com a promoção mágica da rede.</strong></p> <p style='font-family:Arial; font-size:14px; color: #666666'>De 1º/12 a 31/12/2020, a promoção de Natal da rede Bourbon Shopping sorteará R$ 1 milhão em prêmios para você realizar seus desejos em compras. Para participar, compre nas lojas participantes dos shoppings Bourbon Wallig, Bourbon Assis Brasil, Bourbon Country, Bourbon Ipiranga, Bourbon Canoas, Bourbon São Leopoldo, Bourbon Novo Hamburgo e Bourbon San Pellegrino, e troque R$ 400,00 em notas fiscais de suas compras por um cupom para participar da promoção. No total, serão sorteados 200 prêmios de R$ 5.000,00 cada, onde os valores serão creditados em um cartão de débito exclusivo – o Bourbs – para compras a serem realizadas exclusivamente nas lojas da rede até 01/2022.</p>",
+        "end_date": "31/12/2020",
+        "status": "RUNNING",
+        "banners": [
+            "https://drive.google.com/u/0/uc?id=1h72Kaul4-gSACO9RMziF8OQVBPLDgGtW&export=download"
+        ],
+        "rules_links": [
+            {
+                "label": "Regulamento da campanha",
+                "url": "https://smartpromo.com.br/rules.html"
+            },
+            {
+                "label": "Google",
+                "url": "https://google.com"
+            }
+        ],
+        "contact": {
+            "email": "campanha@meudominio.com.br",
+            "phone": "4002-1020",
+            "whats_app": "(51) 99267-9873",
+            "whats_app_url": "https://wa.me/5551992679873",
+            "message": "<p style=\"font-family:Arial; font-size:14px; text-align: center;\">Segunda a sábado: 10h00 às 22h00, Domingos e Feriados: 14h às 20h. E-mail resposta em até 48horas.</p>"
+        },
+        "consumer_required_fields": [
+            "name",
+            "phone",
+            "email",
+            "genre",
+            "bdate",
+            "address"
+        ],
+        "recommend_seller": true,
+        "capture_mode": "ALL",
+        "stores": [
+            {
+                "cnpj": "46390932000199",
+                "fantasia": "Zaffari",
+                "group_fantasia": "Bourbon Ipiranga"
+            },
+            {
+                "cnpj": "46390932000198",
+                "fantasia": "Cinemark",
+                "group_fantasia": "Bourbon Ipiranga"
+            },
+            {
+                "cnpj": "46390932000197",
+                "fantasia": "Zaffari",
+                "group_fantasia": "Bourbon Country"
+            }
+        ],
+        "winners": [
+            {
+                "title": "Letícia",
+                "detail": "Ganhou uma viagem para NY.",
+                "is_current_consumer": true
+            },
+            {
+                "title": "Fábio",
+                "detail": "Ganhou um PS5."
+            }
+        ],
+        "instant_prize_mode": "CAROUSEL",
+        "capture_action": "RECEIPT",
+        "block_message": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco",
+        "surveys": [
+            {
+                "id": "aaaa",
+                "type": "OPTIN",
+                "pages": [
+                    {
+                        "message": {
+                            "title": "Termos e condições da campanha",
+                            "primary_action": "Aceitar"
+                        },
+                        "sections": [
+                            {
+                                "title": null,
+                                "questions": [
+                                    {
+                                        "type": "BOOLEAN",
+                                        "title": "Li e concordo com os termos e condições de campanha e estou ciente de que ao aceitar, estou aderindo aos <a href=\"https://www.geeksforgeeks.org\">termos e regulamento</a>.",
+                                        "answer": [
+                                            "false"
+                                        ],
+                                        "options": null,
+                                        "required_answer": [
+                                            "true"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "message": {
+                            "title": "LGPD",
+                            "primary_action": "Aceitar"
+                        },
+                        "sections": [
+                            {
+                                "title": null,
+                                "questions": [
+                                    {
+                                        "type": "MULTI_VERTICAL",
+                                        "title": "<a href=\"https://www.geeksforgeeks.org\">Aceito receber informativos</a>, promoções e ofertas em geral de serviços e/ou produtos das empresas participantes, de forma personalizada ou não, via:",
+                                        "answer": [],
+                                        "options": [
+                                            "E-mail",
+                                            "WhatsApp",
+                                            "Telefone",
+                                            "SMS"
+                                        ],
+                                        "required_answer": null
+                                    },
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "message": {
+                            "title": "Clientes do cartão XP tem mais vantagens",
+                            "primary_action": "Confirmar"
+                        },
+                        "sections": [
+                            {
+                                "title": null,
+                                "questions": [
+                                    {
+                                        "type": "NUMBER",
+                                        "title": "Informe os 6 primeiros dígitos de seu cartão XP",
+                                        "image": "https://drive.google.com/u/1/uc?id=17UccsPe2UiulITX75OOcLgnT5gEu8d7U",
+                                        "answer": null,
+                                        "options": null,
+                                        "required_answer": null,
+                                        "valid_answers": [
+                                            "123456", "654321"
+                                        ]
+                                    },
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "b",
+                "type": "HOME",
+                "pages": [
+                    {
+                        "message": {
+                            "title": "Pesquisa de satisfa\u00e7\u00e3o",
+                            "body": "\u00c9 r\u00e1pida e vai nos ajudar a aprimorar nossos servi\u00e7os, bora participar?",
+                            "primary_action": "Participar",
+                            "secondary_action": "Não tenho interesse!",
+                            "lottie": "survey_start"
+                        }
+                    },
+                    {
+                        "message": {
+                            "title": "Página 1 de 2",
+                            "primary_action": "Próximo"
+                        },
+                        "sections": [
+                            {
+                                "title": "Título da seção das perguntas de toggle",
+                                "questions": [
+                                    {
+                                        "type": "SINGLE_HORIZONTAL",
+                                        "title": "Pergunta com escolha única horizontal?",
+                                        "answer": [
+                                            "Não"
+                                        ],
+                                        "options": [
+                                            "Não",
+                                            "Sim"
+                                        ],
+                                        "required_answer": [
+                                            "Sim"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MULTI_HORIZONTAL",
+                                        "title": "Pergunta com escolha múltipla horizontal com imagem?",
+                                        "answer": [
+                                            "3",
+                                            "5"
+                                        ],
+                                        "options": [
+                                            "1",
+                                            "2",
+                                            "3",
+                                            "4",
+                                            "5"
+                                        ],
+                                        "required_answer": [
+                                            "1",
+                                            "2",
+                                            "3",
+                                            "4",
+                                            "5"
+                                        ],
+                                        "image": "https://delighted.com/wp-content/uploads/2021/11/52-customer-satisfaction-survey-questions-2021-08.png?w=1200"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Verticais",
+                                "questions": [
+                                    {
+                                        "type": "SINGLE_VERTICAL",
+                                        "title": "Pergunta com escolha única vertical?",
+                                        "answer": [
+                                            "Não"
+                                        ],
+                                        "options": [
+                                            "Não",
+                                            "Sim"
+                                        ],
+                                        "required_answer": [
+                                            "Sim"
+                                        ]
+                                    },
+                                    {
+                                        "type": "MULTI_VERTICAL",
+                                        "title": "Pergunta com escolha múltipla vertical?",
+                                        "answer": [
+                                            "Email",
+                                            "SMS"
+                                        ],
+                                        "options": [
+                                            "Email",
+                                            "Telefone",
+                                            "SMS"
+                                        ],
+                                        "required_answer": [
+                                            "Email",
+                                            "Telefone",
+                                            "SMS"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Verdadeiro ou Falso",
+                                "questions": [
+                                    {
+                                        "type": "BOOLEAN",
+                                        "title": "Pergunta com apenas Verdadeiro ou Falso como resposta e <a href=\"https://link.com\">link</a>?",
+                                        "answer": [
+                                            "true"
+                                        ],
+                                        "required_answer": [
+                                            "true"
+                                        ]
+                                    },
+                                    {
+                                        "type": "BOOLEAN",
+                                        "title": "Pergunta com apenas Verdadeiro ou Falso como resposta?",
+                                        "answer": [
+                                            "false"
+                                        ],
+                                        "required_answer": [
+                                            "true"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Textos",
+                                "questions": [
+                                    {
+                                        "type": "TEXT",
+                                        "title": "Pergunta com texto livre?",
+                                        "answer": [
+                                            "Sim"
+                                        ],
+                                        "required_answer": [
+                                            "Sim"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "message": {
+                            "title": "Página 2 de 2",
+                            "primary_action": "Concluir"
+                        },
+                        "sections": [
+                            {
+                                "title": "Toggles",
+                                "questions": [
+                                    {
+                                        "type": "SINGLE_HORIZONTAL",
+                                        "title": "Pergunta com escolha única horizontal?",
+                                        "answer": [
+                                            "Não"
+                                        ],
+                                        "options": [
+                                            "Não",
+                                            "Sim"
+                                        ],
+                                        "required_answer": [
+                                            "Sim"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "message": {
+                            "title": "Enviado!",
+                            "body": "Muito obrigado por ter participado da nossa pesquisa.",
+                            "primary_action": "Fechar",
+                            "lottie": "survey_end"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "xp",
+                "type": "ACTION",
+                "pages": [
+                    {
+                        "message": {
+                            "title": "Clientes do cartão XP tem mais vantagens",
+                            "primary_action": "Confirmar"
+                        },
+                        "sections": [
+                            {
+                                "title": null,
+                                "questions": [
+                                    {
+                                        "type": "NUMBER",
+                                        "mask": "000000",
+                                        "title": "Informe os 6 primeiros dígitos de seu cartão XP",
+                                        "image": "https://drive.google.com/u/1/uc?id=17UccsPe2UiulITX75OOcLgnT5gEu8d7U",
+                                        "answer": null,
+                                        "options": null,
+                                        "required_answer": null,
+                                        "valid_answers": [
+                                            "123456", "654321"
+                                        ]
+                                    },
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "message": {
+                            "title": "Enviado!",
+                            "body": "Cartão registrado com sucesso!",
+                            "primary_action": "Fechar",
+                            "lottie": "survey_end"
+                        }
+                    }
+                ]
+            }
+        ],
+    },
+    "consumer": {
+        "name": "Letícia",
+        "balance": 192.4,
+        "receipts": [
+            {
+                "id": "A",
+                "store_name": "COMPANHIA",
+                "amount": "0",
+                "number": "343353",
+                "date": "2021-01-23",
+                "status": "ANALYZING",
+                "status_message": "Em analise",
+                "message": "Está nota fiscal já foi enviada nesta campanha.",
+                "qrcode": "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43220393015006002833651180004404191829159281%7C2%7C1%7C1%7C5986C6F94BC91B1CE038949D801FC1AFCB3DE9A9",
+                "url": "https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43220393015006002833651180004404191829159281%7C2%7C1%7C1%7C5986C6F94BC91B1CE038949D801FC1AFCB3DE9A9",
+                "nf_key": "43220393015006002833651180004404191829159281",
+                "seller": "Rodrigo Busata",
+                "consumer": "Fabio Licks",
+                "uf": "RS"
+            },
+            {
+                "id": "B",
+                "store_name": "COMPANHIA",
+                "amountX": "338.27",
+                "number": "343353",
+                "date": "2021-01-23",
+                "status": "ACCEPTED",
+                "status_message": "Aprovada",
+                "message": null,
+                "image_url": "https://blog.grupofatos.com.br/wp-content/uploads/2018/01/151580-entenda-como-funcionam-os-creditos-da-nota-fiscal-paulista-para-pj-1280x720.jpg",
+                "nf_key": "43220393015006002833651180004404191829159281"
+            },
+            {
+                "id": "C",
+                "store_name": "COMPANHIA",
+                "amount": "338.27",
+                "number": "343353",
+                "date": "2021-01-23",
+                "status": "REJECTED",
+                "status_message": "Recusada",
+                "message": "Está nota fiscal já foi enviada nesta campanha.",
+                "nf_key": "43220393015006002833651180004404191829159281"
+            },
+            {
+                "id": "B",
+                "store_name": "COMPANHIA",
+                "amount": "338.27",
+                "number": "343353",
+                "date": "2021-01-23",
+                "status": "DELETED",
+                "status_message": "Apagado",
+                "message": null,
+                "image_url": "https://blog.grupofatos.com.br/wp-content/uploads/2018/01/151580-entenda-como-funcionam-os-creditos-da-nota-fiscal-paulista-para-pj-1280x720.jpg",
+                "nf_key": "43220393015006002833651180004404191829159281"
+            }
+        ],
+        "coupons": [
+            {
+                "title": "Nº 23214",
+                "detail": "21/01/2021"
+            },
+            {
+                "title": "Nº 23215",
+                "detail": "21/01/2021"
+            },
+            {
+                "title": "Nº 23216",
+                "detail": "21/01/2021"
+            }
+        ],
+        "gifts": {
+            "pending": 1,
+            "needs_payment": true,
+            "message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Limitado a <strong>3</strong> brindes por CPF</p>",
+            "items": [
+                {
+                    "id": "a",
+                    "headnote": "Pendente",
+                    "title": "Escolha seu brinde",
+                    "detail": "Você tem até o dia 31/12/2020 para escolher seu brinde",
+                    "status": "CHOOSE"
+                },
+                {
+                    "id": "b",
+                    "headnote": "R$ 49,90",
+                    "price": 49.90,
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Resgatar até o dia 31/12/2020",
+                    "status": "CHOSEN",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "removable": true,
+                        "primary_action": "Remover"
+                    }
+                },
+                {
+                    "id": "c",
+                    "headnote": "Aguarando retirada",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Resgatar até o dia 31/12/2020",
+                    "status": "WAITING",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "removable": true,
+                        "primary_action": "Remover",
+                        "qrcode": {
+                            "action": "Ver QRCode",
+                            "back_action": "Ver Detalhes",
+                            "content": "https://getmo.com",
+                            "message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Apresente este QRCode no balcão de trocas</p>"
+                        }
+                    }
+                },
+                {
+                    "id": "c",
+                    "headnote": "Entregue",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Resgatado no dia 31/12/2020",
+                    "status": "DONE",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "primary_link": {
+                            "label": "Manual do usuário",
+                            "url": "https://link.com"
+                        },
+                        "secondary_link": {
+                            "label": "Ver termos",
+                            "url": "https://link-termos.com"
+                        }
+                    }
+                }
+            ],
+            "share_data_to_pay_message": {
+                "title": "Pagamento",
+                "body": "Precisamos de algumas informações adicionais para concluir pagamento. Você autoriza o compartilhamento dos seus dados de identificação, já fornecidos, com a empresa de pagamento?",
+                "primary_action": "Concordo",
+                "secondary_action": "Prosseguir sem compartilhar"
+            },
+            "choose_item_to_pay_message": {
+                "title": "Pagamento",
+                "body": "Você precisa selecionar ao menos um brinde para realizar o pagamento",
+                "primary_action": "Entendi"
+            },
+            "choose_items": [
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 49.90,
+                    "headnote": "R$ 49,90",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "primary_action": "Escolher (R$ 49,90)"
+                    }
+                },
+                {
+                    "id": "f",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "headnote": "ESGOTADO",
+                    "title": "Cafeteira PrimaLatte II Oster Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "status": "UNAVAILABLE"
+                }
+            ]
+        },
+        "instant_prizes": {
+            "qrcode": "https://getmo.com",
+            "pending": 20,
+            "message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Limitado a <strong>3</strong> prêmios por CPF</p>",
+            "qrcode_message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Apresente este QRCode ao final da campanha para resgatar seus prêmios</p>",
+            "items": [
+                {
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Resgatar até o dia 31/12/2020",
+                    "status": "WAITING",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "qrcode": {
+                            "action": "Ver QRCode",
+                            "back_action": "Ver Detalhes",
+                            "content": "https://getmo.com",
+                            "message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Apresente este QRCode no balcão de trocas</p>"
+                        }
+                    }
+                },
+                {
+                    "title": "Torradeira",
+                    "detail": "Resgatado dia 31/12/2020",
+                    "status": "DONE",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site."
+                    }
+                }
+            ]
+        },
+        "statements": [
+            {
+                "title": "Hoje",
+                "items": [
+                    {
+                        "title": "Resgate",
+                        "info": "-10 pts",
+                        "detail": "Compra de 10 selos",
+                        "negative": true
+                    },
+                    {
+                        "title": "Compra no Supermercado",
+                        "info": "100 pts",
+                        "detail": "Compra no valor de R$ 100,00"
+                    },
+                    {
+                        "title": "Restaurante",
+                        "info": "50 pts",
+                        "detail": "Jantar com amigos"
+                    },
+                    {
+                        "title": "Resgate",
+                        "info": "-150 pts",
+                        "negative": true
+                    },
+                    {
+                        "title": "Posto de Gasolina",
+                        "info": "30 pts",
+                        "detail": "Abastecimento de combustível"
+                    },
+                    {
+                        "title": "Farmácia",
+                        "info": "20 pts",
+                        "detail": "Compra de medicamentos"
+                    },
+                    {
+                        "title": "Resgate",
+                        "info": "-110 pts",
+                        "negative": true
+                    },
+                    {
+                        "title": "Cinema",
+                        "info": "80 pts",
+                        "detail": "Ingressos para filme"
+                    }
+                ]
+            },
+            {
+                "title": "22/05/2023",
+                "items": [
+                    {
+                        "title": "Compra no Supermercado",
+                        "info": "100 pts",
+                        "detail": "Compra no valor de R$ 100,00"
+                    },
+                    {
+                        "title": "Restaurante",
+                        "info": "70 pts",
+                        "detail": "Almoço com a família"
+                    },
+                    {
+                        "title": "Resgate",
+                        "info": "-51 pts",
+                        "negative": true
+                    },
+                    {
+                        "title": "Loja de Roupas",
+                        "info": "50 pts",
+                        "detail": "Compra de roupas"
+                    }
+                ]
+            },
+            {
+                "title": "20/05/2023",
+                "items": [
+                    {
+                        "title": "Posto de Gasolina",
+                        "info": "80 pts",
+                        "detail": "Abastecimento de combustível"
+                    },
+                    {
+                        "title": "Farmácia",
+                        "info": "30 pts",
+                        "detail": "Compra de medicamentos"
+                    },
+                    {
+                        "title": "Shopping",
+                        "info": "120 pts",
+                        "detail": "Compras variadas"
+                    }
+                ]
+            },
+            {
+                "title": "18/05/2023",
+                "items": [
+                    {
+                        "title": "Restaurante",
+                        "info": "90 pts",
+                        "detail": "Jantar romântico"
+                    },
+                    {
+                        "title": "Supermercado",
+                        "info": "60 pts",
+                        "detail": "Compras mensais"
+                    }
+                ]
+            }
+        ],
+        "awards": {
+            "filter": {
+                "title_off": "Cardápio",
+                "title_on": "Resgates",
+                "action": "Ver Resgates"
+            },
+            "items": [
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg",
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "choose_group_action": "Escolha o shopping",
+                        "groups": [
+                            {
+                                "id": "a",
+                                "name": "Bourbon Ipiranga"
+                            },
+                            {
+                                "id": "b",
+                                "name": "Bourbon Country"
+                            }
+                        ],
+                        "primary_action": "Reservar (1200 pontos)"
+                    }
+                },
+                {
+                    "id": "f",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "headnote": "ESGOTADO",
+                    "title": "Cafeteira PrimaLatte II Oster Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "status": "UNAVAILABLE"
+                },
+                {
+                    "id": "e",
+                    "images": [
+                        "https://d3qoj2c6mu9s8x.cloudfront.net/Custom/Content/Products/40/01/4001036_cafeteira-espresso-oster-xpert-perfect-brew_m2_637236021663355915.jpg"
+                    ],
+                    "price": 1200,
+                    "headnote": "1200 pontos",
+                    "title": "Cafeteira PrimaLatte II Oster",
+                    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "filter": "Ver Resgates",
+                    "status": "WAITING",
+                    "details": {
+                        "description": "Cafeteira PrimaLatte II Oster a partir de 49,90 com 50% de desconto que pode ser usado em qualquer produto da loja com validade de 30 dias e não cumulativo com outras promoções. Consulte condições no site.",
+                        "removable": true,
+                        "primary_action": "Desistir"
+                    }
+                }
+            ]
+        },
+        "infos": [
+            {
+                "id": "xp",
+                "headnote": null,
+                "title": null,
+                "type": "SURVEY",
+                "colored": false,
+                "message": null,
+                "show_icon": false,
+                "image": "https://drive.google.com/u/1/uc?id=17UccsPe2UiulITX75OOcLgnT5gEu8d7U"
+            },
+            {
+                "headnote": "Multi & Você",
+                "title": "19.582 pts",
+                "type": "AWARDS",
+                "colored": false,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Atualizado ás 12:49</p>",
+                "show_icon": true
+            },
+            {
+                "headnote": "Selos",
+                "title": "10",
+                "type": "STAMP",
+                "colored": true,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Extrato de pontos</p>",
+                "show_icon": true
+            },
+            {
+                "headnote": "Vencedores",
+                "title": "10",
+                "type": "WINNER",
+                "colored": false,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Confira os vencedores da campanha</p>"
+            },
+            {
+                "headnote": "Notas",
+                "title": "34",
+                "type": "RECEIPT",
+                "colored": false,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Faltam <strong>R$ 100,00</strong> para garantir um cupom</p>"
+            },
+            {
+                "headnote": "Cupons",
+                "title": "2",
+                "type": "COUPON",
+                "colored": false,
+                "percentage": 60,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Faltam <strong>R$ 100,00</strong> para garantir um cupom</p>"
+            },
+            {
+                "headnote": "Brindes",
+                "title": "0",
+                "type": "GIFT",
+                "colored": false,
+                "percentage": 20,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Faltam <strong>R$ 120,00</strong> para garantir um brinde</p>"
+            },
+            {
+                "headnote": "Prêmios",
+                "title": "1",
+                "type": "INSTANT_PRIZE",
+                "colored": false,
+                "percentage": 20,
+                "message": "<p style=\"font-family:Arial; font-size:16px; text-align: left;\">Faltam <strong>R$ 120,00</strong> para garantir mais um prêmio</p>"
+            }
+        ]
+    }
+}

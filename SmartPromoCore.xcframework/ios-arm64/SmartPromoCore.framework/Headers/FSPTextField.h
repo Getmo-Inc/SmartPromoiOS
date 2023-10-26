@@ -27,4 +27,7 @@ IB_DESIGNABLE
 - (void) showLoading;
 - (void) hideLoading;
 
+- (void) hideCheckmark;
+- (void) showCheckmark;
+
 @end

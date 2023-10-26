@@ -20,6 +20,9 @@ IB_DESIGNABLE
 @property (strong, nonatomic, readonly) JMStringMask *mask;
 @property (readonly, nonatomic) NSString *unmaskedText;
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField;
+- (void)textFieldDidEndEditing:(UITextField *)textField;
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
 
 @end

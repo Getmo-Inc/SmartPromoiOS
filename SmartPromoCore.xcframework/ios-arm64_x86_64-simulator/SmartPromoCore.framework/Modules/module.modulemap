@@ -1,6 +1,6 @@
 framework module SmartPromoCore {
   umbrella header "SmartPromoCore.h"
-
   export *
+
   module * { export * }
 }

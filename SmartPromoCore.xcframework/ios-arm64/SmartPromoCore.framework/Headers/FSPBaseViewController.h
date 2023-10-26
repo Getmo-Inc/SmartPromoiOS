@@ -16,7 +16,9 @@
 - (void) showLoadingViewOpacity: (BOOL) opaque animated: (BOOL) animated;
 - (void) hideLoadingView;
 - (void) hideMessage;
+- (void) hideMessage: (BOOL) animated;
 - (void) addSwipeToClose;
+- (BOOL) emptyAnimation;
 - (void) showMessage: (NSString*) message withLottie: (NSString*) lottie andButtonTitle: (NSString*) buttonTitle;
 
 - (void) setupRefreshControlIn: (UIScrollView*) scrollView;
@@ -31,6 +33,8 @@
 - (UIView*) backdropParentView;
 - (UIActivityIndicatorViewStyle) activityIndicatorStyle;
 - (UIColor*) backdropColor;
+- (UIEdgeInsets) safeAreaInsets;
+- (BOOL) statusBarIconLight;
 
 @end
 

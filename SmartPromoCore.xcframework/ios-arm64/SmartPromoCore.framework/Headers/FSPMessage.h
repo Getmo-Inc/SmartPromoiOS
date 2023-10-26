@@ -12,12 +12,13 @@
 
 @property NSString *title;
 @property NSString *body;
-@property FSPLottie *lottie;
+@property NSString *lottie;
 @property NSString *primaryAction;
 @property NSString *primaryActionTap;
 @property NSString *secondaryAction;
 @property NSString *secondaryActionTap;
 
 + (FSPMessage*) fromDict:(NSDictionary*) dict;
+- (NSDictionary*) toDict;
 
 @end

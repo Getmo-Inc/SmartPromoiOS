@@ -16,12 +16,12 @@
 
 @implementation SmartPromo
 
-- (id)init:(NSString*)campaignID {
+- (instancetype)init
+{
     self = [super init];
-    if(self) {
-        _smartPromoCore = [[SmartPromoCore alloc] init: campaignID];
+    if (self) {
+        _smartPromoCore = [SmartPromoCore new];
     }
-    
     return self;
 }
 
@@ -37,6 +37,11 @@
 
 - (SmartPromo*)setIsHomolog:(BOOL) isHomolog {
     [_smartPromoCore setHomologMode: isHomolog];
+    return self;
+}
+
+- (SmartPromo*) setMetadata: (NSString*) metadata {
+    [_smartPromoCore setMetadata: metadata];
     return self;
 }
 
@@ -70,16 +75,19 @@
     return self;
 }
 
-- (void)go:(UIViewController *)above {
-    [_smartPromoCore go: above];
+
+- (void) go: (NSString*) campaignID above: (UIViewController *) above {
+    [_smartPromoCore go:campaignID above:above];
 }
 
-- (UIViewController*) goOnDismiss: (dispatch_block_t) onDismiss {
-    return [_smartPromoCore goWithOnDismiss: onDismiss];
+- (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
+                                    title: (NSString*) title
+                                  message: (NSString*) message {
+    return [_smartPromoCore goMultiWithHeadnote:headnote title:title message:message];
 }
 
-- (void) scanWithConsumerID: (NSString*) consumerID above: (UIViewController *)above {
-    [_smartPromoCore scanWithConsumerID: consumerID above: above];
+- (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above {
+    [_smartPromoCore scan:campaignID consumerID:consumerID above:above];
 }
 
 @end

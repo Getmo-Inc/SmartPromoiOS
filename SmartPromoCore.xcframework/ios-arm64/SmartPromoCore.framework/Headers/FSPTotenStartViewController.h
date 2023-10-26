@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPMainViewController.h"
+#import "FSPHomeViewController.h"
 #import "FSPTotenConfig.h"
 
 @interface FSPTotenStartViewController : FSPBaseHomeViewController
