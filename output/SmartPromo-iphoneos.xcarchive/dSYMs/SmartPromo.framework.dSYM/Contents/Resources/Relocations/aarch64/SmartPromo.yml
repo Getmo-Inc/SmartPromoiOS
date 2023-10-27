@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/busata/Library/Developer/Xcode/DerivedData/SmartPromo-dujideumfkknlcgwqxgudkctlaue/Build/Intermediates.noindex/ArchiveIntermediates/SmartPromo/InstallationBuildProductsLocation/Library/Frameworks/SmartPromo.framework/SmartPromo'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x53C45, size: 0x8, addend: 0x0, symName: _SmartPromoVersionString, symObjAddr: 0x0, symBinAddr: 0x4CB8, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x53C7A, size: 0x8, addend: 0x0, symName: _SmartPromoVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4CE8, symSize: 0x0 }
+  - { offsetInCU: 0x34, offset: 0x53C45, size: 0x8, addend: 0x0, symName: _SmartPromoVersionString, symObjAddr: 0x0, symBinAddr: 0x4CE0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x53C7A, size: 0x8, addend: 0x0, symName: _SmartPromoVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4D10, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x53CB7, size: 0x8, addend: 0x0, symName: '-[FSPAddress zipCode]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
   - { offsetInCU: 0x108, offset: 0x53D98, size: 0x8, addend: 0x0, symName: '-[FSPAddress zipCode]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
   - { offsetInCU: 0x13F, offset: 0x53DCF, size: 0x8, addend: 0x0, symName: '-[FSPAddress setZipCode:]', symObjAddr: 0xC, symBinAddr: 0x400C, symSize: 0x8 }
@@ -44,9 +44,10 @@ relocations:
   - { offsetInCU: 0x1F2, offset: 0x5486B, size: 0x8, addend: 0x0, symName: '-[SmartPromo setMetadata:]', symObjAddr: 0xF4, symBinAddr: 0x42D4, symSize: 0x30 }
   - { offsetInCU: 0x239, offset: 0x548B2, size: 0x8, addend: 0x0, symName: '-[SmartPromo setConsumer:]', symObjAddr: 0x124, symBinAddr: 0x4304, symSize: 0x404 }
   - { offsetInCU: 0x29F, offset: 0x54918, size: 0x8, addend: 0x0, symName: '-[SmartPromo go:above:]', symObjAddr: 0x528, symBinAddr: 0x4708, symSize: 0x8 }
-  - { offsetInCU: 0x2EE, offset: 0x54967, size: 0x8, addend: 0x0, symName: '-[SmartPromo goMultiWithHeadnote:title:message:]', symObjAddr: 0x530, symBinAddr: 0x4710, symSize: 0x8 }
-  - { offsetInCU: 0x34F, offset: 0x549C8, size: 0x8, addend: 0x0, symName: '-[SmartPromo scan:consumerID:above:]', symObjAddr: 0x538, symBinAddr: 0x4718, symSize: 0x8 }
-  - { offsetInCU: 0x3AC, offset: 0x54A25, size: 0x8, addend: 0x0, symName: '-[SmartPromo smartPromoCore]', symObjAddr: 0x540, symBinAddr: 0x4720, symSize: 0x8 }
-  - { offsetInCU: 0x3E3, offset: 0x54A5C, size: 0x8, addend: 0x0, symName: '-[SmartPromo setSmartPromoCore:]', symObjAddr: 0x548, symBinAddr: 0x4728, symSize: 0xC }
-  - { offsetInCU: 0x424, offset: 0x54A9D, size: 0x8, addend: 0x0, symName: '-[SmartPromo .cxx_destruct]', symObjAddr: 0x554, symBinAddr: 0x4734, symSize: 0xC }
+  - { offsetInCU: 0x2EE, offset: 0x54967, size: 0x8, addend: 0x0, symName: '-[SmartPromo go:onDismiss:]', symObjAddr: 0x530, symBinAddr: 0x4710, symSize: 0x8 }
+  - { offsetInCU: 0x341, offset: 0x549BA, size: 0x8, addend: 0x0, symName: '-[SmartPromo goMultiWithHeadnote:title:message:]', symObjAddr: 0x538, symBinAddr: 0x4718, symSize: 0x8 }
+  - { offsetInCU: 0x3A2, offset: 0x54A1B, size: 0x8, addend: 0x0, symName: '-[SmartPromo scan:consumerID:above:]', symObjAddr: 0x540, symBinAddr: 0x4720, symSize: 0x8 }
+  - { offsetInCU: 0x3FF, offset: 0x54A78, size: 0x8, addend: 0x0, symName: '-[SmartPromo smartPromoCore]', symObjAddr: 0x548, symBinAddr: 0x4728, symSize: 0x8 }
+  - { offsetInCU: 0x436, offset: 0x54AAF, size: 0x8, addend: 0x0, symName: '-[SmartPromo setSmartPromoCore:]', symObjAddr: 0x550, symBinAddr: 0x4730, symSize: 0xC }
+  - { offsetInCU: 0x477, offset: 0x54AF0, size: 0x8, addend: 0x0, symName: '-[SmartPromo .cxx_destruct]', symObjAddr: 0x55C, symBinAddr: 0x473C, symSize: 0xC }
 ...
