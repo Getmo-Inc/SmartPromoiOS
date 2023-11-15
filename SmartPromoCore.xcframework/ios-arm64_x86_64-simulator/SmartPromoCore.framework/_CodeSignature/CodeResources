@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Dy4z/AhYJBvvH2QnN8fLSoTo4g4=
+		qcMrQCTH1I7FSjV+Yqo1drpFhqg=
 		</data>
 		<key>FSPBottomSheetView.nib</key>
 		<data>
@@ -40,6 +40,10 @@
 		<data>
 		jj1vm+AhT4q7SmHv6FEezKFSPII=
 		</data>
+		<key>FSPFeatureViewController+iPad.nib</key>
+		<data>
+		HLCNadFkHDdOdweJnMEtm3ZAu5E=
+		</data>
 		<key>FSPFeatureViewController.nib</key>
 		<data>
 		FrorX6NIybvX+uP9mpffczkjEbs=
@@ -47,6 +51,10 @@
 		<key>FSPGenericItemCell.nib</key>
 		<data>
 		Wy6qVYSHZlIlsTaoAyQD1uXPdrY=
+		</data>
+		<key>FSPHomeViewController+iPad.nib</key>
+		<data>
+		bSB1jWK8TJ+Vtmj/3odrRTnpFIA=
 		</data>
 		<key>FSPHomeViewController.nib</key>
 		<data>
@@ -78,7 +86,7 @@
 		</data>
 		<key>FSPOptInFormViewController+iPad.nib</key>
 		<data>
-		1JTgMe5cgoJRv3HAf7vDu6UEOPE=
+		Bgn8y6VzPk5Wp3hTDrsz2gFDzwY=
 		</data>
 		<key>FSPOptInFormViewController.nib</key>
 		<data>
@@ -102,7 +110,7 @@
 		</data>
 		<key>FSPReceiptCaptureViewController.nib</key>
 		<data>
-		oAPi//SaCF+tEOZ+i1MKK2eKcO4=
+		ZV9J8QwKHX1gg+F4dHYlvRNawWQ=
 		</data>
 		<key>FSPReceiptCell.nib</key>
 		<data>
@@ -110,11 +118,11 @@
 		</data>
 		<key>FSPReceiptManualInputViewController+iPad.nib</key>
 		<data>
-		EJ4EMD7sJCHwRP2VcQZUtda6F0s=
+		9UR3KNjXTz9Qh4LPko2tHWhs0/0=
 		</data>
 		<key>FSPReceiptManualInputViewController.nib</key>
 		<data>
-		AXr3hyVsfbDxj8D59UZ1DVbiIkc=
+		dI6XT3Pt91VmF4/haf0SuPU1WXI=
 		</data>
 		<key>FSPReceiptView.nib</key>
 		<data>
@@ -138,7 +146,7 @@
 		</data>
 		<key>FSPTotenEndViewController.nib</key>
 		<data>
-		XpLVVC9ct8posagvBqHMcqv1Yl4=
+		6Tljwz0yMQVL8TQfW6PZ5k3885E=
 		</data>
 		<key>FSPTotenStartViewController.nib</key>
 		<data>
@@ -250,11 +258,11 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		LAnG0VcbuPF2I3EAgc/tx+3NEj4=
+		ATi2uQ48LVkeqnrZvquW4tpEbsM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Edl858wuYwOTw/e1aaiSt4v8SCg=
+		YqZcUniyJoSLG0LXXOTeS2yOs+A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -262,7 +270,7 @@
 		</data>
 		<key>campaign.json</key>
 		<data>
-		x3GECKqvFSscyXExVHx+wCASg5Y=
+		mmqVyaRq6BsjKLGCy7b6KB9Ss+w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -278,7 +286,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KCStlIE3kw8duP6bhFpUdIC3JARPwO/IZ2tuyNfr2P4=
+			b5xB5xiRPFmf/h1+ytj9msq5U0ciKECxhxgP1+cxSbY=
 			</data>
 		</dict>
 		<key>FSPBottomSheetView.nib</key>
@@ -330,6 +338,13 @@
 			9AQ3O5wE915NdLLfogBNGc8Vn9ibyVulFD6HXemsiuk=
 			</data>
 		</dict>
+		<key>FSPFeatureViewController+iPad.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hQMBJS3bh6Pgzm+/6Mln0mrHXTOPxFC9/dpkNtelFUo=
+			</data>
+		</dict>
 		<key>FSPFeatureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -342,6 +357,13 @@
 			<key>hash2</key>
 			<data>
 			UxEX2hzRn0I3QMQ93rXEMm3hul8QMXvOalSmdNpE/Tc=
+			</data>
+		</dict>
+		<key>FSPHomeViewController+iPad.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AtS+KhNeR7QD3LEOOcdqM+fgtriIZhdJ4rTN58aDl+o=
 			</data>
 		</dict>
 		<key>FSPHomeViewController.nib</key>
@@ -397,7 +419,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dAXWa6NiIM+hPKUBQrP3PgnE+919EUAjVD2zlAjoJJ8=
+			50JwSyL9yo8A8H2f97GsxW6gISetd0wvg4VsBlch130=
 			</data>
 		</dict>
 		<key>FSPOptInFormViewController.nib</key>
@@ -439,7 +461,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yx++f84QjuRxHVTCZ+YrDo7KF2G6f0ETP2Ji9CFWcTM=
+			+bqI4FR8zr5IYQyHL1MPMGh+c1k6MjdP0fSkps8bsG8=
 			</data>
 		</dict>
 		<key>FSPReceiptCell.nib</key>
@@ -453,14 +475,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EGJoIxvLHswpfsK7M7OKtzFrGnue/aEtqw+4rkOVX0I=
+			OpuQKMMOa5yEXRsws1GXJ7Fbw2J8SGnj6uZsiuIUTw4=
 			</data>
 		</dict>
 		<key>FSPReceiptManualInputViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			06dW6fnejAm/R9Z/qJ6U4PMnlFkD4WVIlQTvOqxu0IY=
+			+f5f9ik6HrjtOHgw+sCJRGE4aJ243Sc92OJO2MXlIx4=
 			</data>
 		</dict>
 		<key>FSPReceiptView.nib</key>
@@ -502,7 +524,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eC0M1GBbmU7pFjbL4eotLe9ThYj48+mybfoH446uceQ=
+			o6WpZNG2quJq4yNaRRLsikzQ1SzAhnwtmcQDDI9bqkk=
 			</data>
 		</dict>
 		<key>FSPTotenStartViewController.nib</key>
@@ -698,7 +720,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJmLUE0BbvbVs9xuaWr+a8YMD8ZnXbD6wVDQHb3sQ3c=
+			84GqL86Ts4m+rsrX3JqHmkgjzrvSkk8fm4sC0PZYfdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -712,7 +734,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rD69fHMdvCbgKlu9sknmZPXhz033nQiORindPgN7fgk=
+			QbGZ95XbljRWH2x1L5XPg5higgjD5hYi0RIQwqZJ/sc=
 			</data>
 		</dict>
 	</dict>

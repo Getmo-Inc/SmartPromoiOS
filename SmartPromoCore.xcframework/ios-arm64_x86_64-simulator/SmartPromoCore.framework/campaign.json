@@ -91,7 +91,7 @@
         ]
     },
     "campaign": {
-        "alert_message": {
+        "alert_message__": {
             "title": "Brindes esgotados!",
             "body": "<p style=\"font-family:Arial; font-size:18px;  color: #666666\"><strong>BRINDES ESGOTADOS!</strong></p>",
             "lottie": "error",
@@ -164,7 +164,7 @@
         "instant_prize_mode": "CAROUSEL",
         "capture_action": "RECEIPT",
         "block_message": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco",
-        "surveys": [
+        "surveys__": [
             {
                 "id": "aaaa",
                 "type": "OPTIN",
@@ -533,7 +533,7 @@
             }
         ],
         "gifts": {
-            "pending": 1,
+            "pending": 0,
             "needs_payment": true,
             "message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Limitado a <strong>3</strong> brindes por CPF</p>",
             "items": [
@@ -643,7 +643,7 @@
         },
         "instant_prizes": {
             "qrcode": "https://getmo.com",
-            "pending": 20,
+            "pending": 0,
             "message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Limitado a <strong>3</strong> prêmios por CPF</p>",
             "qrcode_message": "<p style=\"font-family:Arial; font-size:16px; text-align: center;\">Apresente este QRCode ao final da campanha para resgatar seus prêmios</p>",
             "items": [
