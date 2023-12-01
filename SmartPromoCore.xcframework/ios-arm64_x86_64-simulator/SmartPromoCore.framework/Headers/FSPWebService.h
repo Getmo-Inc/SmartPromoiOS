@@ -6,12 +6,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FSPMessage.h"
 
 extern bool MOCK_ENABLED;
 
 typedef void(^FSPResponse)(NSString * _Nullable json, BOOL success);
 typedef void(^FSPSimpleResponse)(BOOL success);
 typedef void(^FSPStringResponse)(NSString* _Nullable string, BOOL success);
+typedef void(^FSPMessageResponse)(FSPMessage* _Nullable string, BOOL success);
 
 typedef NSDictionary<NSString *,NSString *> HTTPHeaders;
 

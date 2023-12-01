@@ -246,7 +246,7 @@
 		</data>
 		<key>Headers/FSPWebService.h</key>
 		<data>
-		kRY97GyEmzliUlYg9nl8dYrMUAM=
+		tWlOV8fE9fFrejVdPQ1acdDI5IE=
 		</data>
 		<key>Headers/JMMaskTextField.h</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		ATi2uQ48LVkeqnrZvquW4tpEbsM=
+		tIUUQoDcf4S5vwEBOrna+FHQn0I=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -270,7 +270,11 @@
 		</data>
 		<key>campaign.json</key>
 		<data>
-		mmqVyaRq6BsjKLGCy7b6KB9Ss+w=
+		j0XoTxlHyINy3GguHOEhxuDc1VU=
+		</data>
+		<key>optin_error.json</key>
+		<data>
+		mFc4j7bY9G0MsegUpc4m0r25QHM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -699,7 +703,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gUVsluiGM4BGFFCe4YB+LzPzPFbeOfzJqXIy5Ptshrs=
+			wD5AJlXkYwLhzgtPOSt/1c1q4Om404AekAnI6nvoA8U=
 			</data>
 		</dict>
 		<key>Headers/JMMaskTextField.h</key>
@@ -720,7 +724,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			84GqL86Ts4m+rsrX3JqHmkgjzrvSkk8fm4sC0PZYfdg=
+			wkJhtCbrqkCQN2+dNyf33R5MIOWQot20eDvfbODpVpQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -734,7 +738,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbGZ95XbljRWH2x1L5XPg5higgjD5hYi0RIQwqZJ/sc=
+			rfvwJ9mJVspMgZuTqr3D8PmvQ5Gx1oiNaZMQ4KJwvhw=
+			</data>
+		</dict>
+		<key>optin_error.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uA2AdWezU/SiQxd4vFkOzL5s0LdrmkWoEBhoA0/Gupk=
 			</data>
 		</dict>
 	</dict>

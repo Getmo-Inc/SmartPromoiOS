@@ -164,7 +164,7 @@
         "instant_prize_mode": "CAROUSEL",
         "capture_action": "RECEIPT",
         "block_message": "Você já ganhou todos os brindes a que tem direito, em caso de dúvida entre em contato conosco",
-        "surveys__": [
+        "surveys": [
             {
                 "id": "aaaa",
                 "type": "OPTIN",
@@ -179,14 +179,12 @@
                                 "title": null,
                                 "questions": [
                                     {
-                                        "type": "BOOLEAN",
+                                        "type": "MULTI_VERTICAL",
                                         "title": "Li e concordo com os termos e condições de campanha e estou ciente de que ao aceitar, estou aderindo aos <a href=\"https://www.geeksforgeeks.org\">termos e regulamento</a>.",
-                                        "answer": [
-                                            "false"
-                                        ],
-                                        "options": null,
+                                        "answer": null,
+                                        "options": ["Aceito"],
                                         "required_answer": [
-                                            "true"
+                                            "Aceito"
                                         ]
                                     }
                                 ]
@@ -462,7 +460,7 @@
             }
         ],
     },
-    "consumer": {
+    "consumer__": {
         "name": "Letícia",
         "balance": 192.4,
         "receipts": [
