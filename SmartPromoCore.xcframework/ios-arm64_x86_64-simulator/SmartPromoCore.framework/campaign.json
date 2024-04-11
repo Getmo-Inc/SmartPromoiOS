@@ -5,6 +5,14 @@
         "primary_action": "Entendi"
     },
     "config": {
+        "recommend_seller": {
+            "action": "Quero indicar o vendedor",
+            "title": "Código do vendedor",
+            "message": "Peça o código ao vendedor que você gostaria de indicar",
+            "success_message": "Vendedor: <b>{name}</b>",
+            "not_found_message": "Vendedor não encontrado.",
+            "error_message": "Não foi possível pesquisar o vendedor."
+        },
         "capture_done_action": "Continuar",
         "step_status_enabled": true,
         "max_photo_size": 1000,

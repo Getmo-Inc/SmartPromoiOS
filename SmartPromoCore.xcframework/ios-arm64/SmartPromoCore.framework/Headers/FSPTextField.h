@@ -17,6 +17,9 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable BOOL canSelect;
 @property (nonatomic, assign) IBInspectable BOOL canSelectAndPaste;
 
+@property (nonatomic, assign) CGFloat labelPaddingStart;
+@property (nonatomic, assign) CGFloat messageMarginTop;
+
 - (void) setLabelText: (NSString*) text;
 - (void) setIsOptional:(BOOL) isOptional;
 - (NSString*) clearText;
@@ -24,6 +27,8 @@ IB_DESIGNABLE
 - (void) showInvalidError;
 - (void) showError: (NSString*) error;
 - (void) hideError;
+- (void) showMessage: (NSAttributedString*) message;
+- (void) hideMessage;
 - (void) showLoading;
 - (void) hideLoading;
 
