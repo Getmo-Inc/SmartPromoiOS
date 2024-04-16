@@ -125,11 +125,13 @@
             }
         ],
         "contact": {
-            "email": "campanha@meudominio.com.br",
-            "phone": "4002-1020",
-            "whats_app": "(51) 99267-9873",
-            "whats_app_url": "https://wa.me/5551992679873",
-            "message": "<p style=\"font-family:Arial; font-size:14px; text-align: center;\">Segunda a sábado: 10h00 às 22h00, Domingos e Feriados: 14h às 20h. E-mail resposta em até 48horas.</p>"
+          "email": "campanha@meudominio.com.br",
+          "phone": "4002-1020",
+          "whats_app": "(51) 99267-9873",
+          "whats_app_url": "https://wa.me/555193146032?text=Body%20Contato%20campanha%20-%20Natal%20%2812%29%2C%20cliente%20Rodrigo%20%28031%29",
+          "message": "<p style=\"font-family:Arial; font-size:14px; text-align: center;\">Segunda a sábado: 10h00 às 22h00, Domingos e Feriados: 14h às 20h. E-mail resposta em até 48horas.</p>",
+          "email_subject": "Contato campanha - Natal (12), cliente Rodrigo (031)",
+          "email_body": "Body Contato campanha - Natal (12), cliente Rodrigo (031)"
         },
         "consumer_required_fields": [
             "name",
@@ -468,7 +470,7 @@
             }
         ],
     },
-    "consumer__": {
+    "consumer": {
         "name": "Letícia",
         "balance": 192.4,
         "receipts": [
