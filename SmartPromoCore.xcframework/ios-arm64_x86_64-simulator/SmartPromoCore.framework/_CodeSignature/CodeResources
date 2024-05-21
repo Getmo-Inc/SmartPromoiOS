@@ -110,11 +110,11 @@
 		</data>
 		<key>FSPReceiptCaptureViewController.nib</key>
 		<data>
-		ZV9J8QwKHX1gg+F4dHYlvRNawWQ=
+		N8f3JbddBaPEJD/Gm9XFMGWqZ9w=
 		</data>
 		<key>FSPReceiptCell.nib</key>
 		<data>
-		gXrM22eie4euhWKKmXBxKCFHGIs=
+		XNOZ4MPUQnHCBJGXbaErJ7o2nCY=
 		</data>
 		<key>FSPReceiptManualInputViewController+iPad.nib</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>FSPReceiptView.nib</key>
 		<data>
-		imeSAgCeLqnGYn4GGPRyzyJAoag=
+		sbhhF0bTzn+J8221RshXgErXqvA=
 		</data>
 		<key>FSPReceiptsViewController.nib</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		yHEpbIkJAIL4BVMYEWtCY8g3dYQ=
+		cdNrHPz7Wqr00mkU9j2cKEDw3bw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/1nWjPRYgLB5TWGO/34/M1buGOg=
+		Me97FAcoq0+HwR6voYHD4R5sa+0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -270,7 +270,7 @@
 		</data>
 		<key>campaign.json</key>
 		<data>
-		GJ9TdWoG+tSbaoUUjTbO4xHz6Zw=
+		Y7lEorqLxjyvk5JZabGL6ulh9y4=
 		</data>
 		<key>optin_error.json</key>
 		<data>
@@ -465,14 +465,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+bqI4FR8zr5IYQyHL1MPMGh+c1k6MjdP0fSkps8bsG8=
+			ym93cm2xbcshfjI9AVDwYfc+8ZK5NbzHZB60AkewD10=
 			</data>
 		</dict>
 		<key>FSPReceiptCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+BxBuHJn7jMnzps7ntthPPMAmCkEM55DYOGJdZtEkw=
+			OevB4MZBmOC7tLgaPyMIGmvrUKuaASsEKzJd3BdajQQ=
 			</data>
 		</dict>
 		<key>FSPReceiptManualInputViewController+iPad.nib</key>
@@ -493,7 +493,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t7g05likowAyU+DUcXwmW2+QuQdzpjeKMw3CnhXBw7E=
+			QNshLttqSsYeXf3+oXsow0Kxr4CU7saemMyavtxacvg=
 			</data>
 		</dict>
 		<key>FSPReceiptsViewController.nib</key>
@@ -724,7 +724,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AbAhx4i8Tz0tTt66Oxr06GF5bvnyBXhJlb5N+kcfYMQ=
+			8U4cjbn+s4F3JQf4Oao7ls78l1SVRzuC9ZG3ce1BwPI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -738,7 +738,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4RIiZQUxBDuBCQW5T0W8jbnVTBjeMMq22SBS+jMA8Ps=
+			gxN8C0hy+EOpVyEIiSpmcYMs7/c1saaWp2rFsL7zIsY=
 			</data>
 		</dict>
 		<key>optin_error.json</key>
