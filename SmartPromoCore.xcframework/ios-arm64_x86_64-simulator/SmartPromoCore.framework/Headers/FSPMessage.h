@@ -11,6 +11,7 @@
 @interface FSPMessage : NSObject
 
 @property NSString *title;
+@property NSString *subtitle;
 @property NSString *body;
 @property NSString *lottie;
 @property NSString *primaryAction;

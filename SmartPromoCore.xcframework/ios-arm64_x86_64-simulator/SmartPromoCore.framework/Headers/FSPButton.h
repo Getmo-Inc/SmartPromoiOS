@@ -8,6 +8,8 @@
 #import <UIKit/UIKit.h>
 #import "FSPTextView.h"
 
+typedef void (^FSPToggleButtonDidChange)(BOOL);
+
 // MARK: - FSPButtonText
 @interface FSPButtonText : UIButton
 
@@ -17,15 +19,20 @@
 
 @end
 
-
 // MARK: - FSPButton
 @interface FSPButton : FSPButtonText
 
 @property (nonatomic, assign) IBInspectable BOOL shadowed;
+@property (nonatomic, assign) IBInspectable BOOL blured;
 @property CGFloat horizontalPadding;
+@property FSPToggleButtonDidChange didChange;
 
 - (void) applyShadow;
 + (void) impact;
+
+- (BOOL) on;
+- (void) setOn:(BOOL)on;
+- (void) setOn:(BOOL)on animated:(BOOL)animated;
 
 @end
 
@@ -35,20 +42,9 @@
 
 @end
 
-
 // MARK: - FSPToggleButton
-typedef void (^FSPToggleButtonDidChange)(BOOL);
-
 @interface FSPToggleButton : FSPButton
-
-@property FSPToggleButtonDidChange didChange;
-
-- (BOOL) on;
-- (void) setOn:(BOOL)on;
-- (void) setOn:(BOOL)on animated:(BOOL)animated;
-
 @end
-
 
 // MARK: - FSPCheckBox
 typedef void (^FSPCheckBoxDidChange)(BOOL);

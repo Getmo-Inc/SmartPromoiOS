@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rbP0OKvVVv98nb0Kl+f+Br8XRhw=
+		cl1pbMfz4PSYM/sLHa4t8fprYr4=
 		</data>
 		<key>FSPBottomSheetView.nib</key>
 		<data>
@@ -106,23 +106,15 @@
 		</data>
 		<key>FSPPrizeCell.nib</key>
 		<data>
-		QgnZBZPtEl0bX4nBmMniRn+B25w=
+		uII0jfh5gOt6rve+M8/90tQ5IpM=
 		</data>
 		<key>FSPReceiptCaptureViewController.nib</key>
 		<data>
-		N8f3JbddBaPEJD/Gm9XFMGWqZ9w=
+		rlBM0VCIRw0/32P+PoHy1DawkXA=
 		</data>
 		<key>FSPReceiptCell.nib</key>
 		<data>
 		XNOZ4MPUQnHCBJGXbaErJ7o2nCY=
-		</data>
-		<key>FSPReceiptManualInputViewController+iPad.nib</key>
-		<data>
-		9UR3KNjXTz9Qh4LPko2tHWhs0/0=
-		</data>
-		<key>FSPReceiptManualInputViewController.nib</key>
-		<data>
-		dI6XT3Pt91VmF4/haf0SuPU1WXI=
 		</data>
 		<key>FSPReceiptView.nib</key>
 		<data>
@@ -174,7 +166,7 @@
 		</data>
 		<key>Headers/FSPButton.h</key>
 		<data>
-		KusbWe7qLxvZNbVJ2N7A3oEcfvg=
+		Y1ki8g/v1rpdQLZRC0qwwDnpPjk=
 		</data>
 		<key>Headers/FSPConsumerCore.h</key>
 		<data>
@@ -190,7 +182,7 @@
 		</data>
 		<key>Headers/FSPFeature.h</key>
 		<data>
-		TcMJBgqsdN4s/REqdgPSAk43TSQ=
+		9+x+KouAHP2l9q1O+4/HS8J/1nI=
 		</data>
 		<key>Headers/FSPFeatureViewController.h</key>
 		<data>
@@ -214,11 +206,11 @@
 		</data>
 		<key>Headers/FSPLottie.h</key>
 		<data>
-		SpjfI91bMiqklJtuaypxmG+RJDw=
+		0qtSdoDjFeoEtJDjqohsjB7KsPg=
 		</data>
 		<key>Headers/FSPMessage.h</key>
 		<data>
-		4FZ2xvYA4lnQLjLh602QV/9odAg=
+		UQLx6RmEsRJwmzaoa0d3vd9Ss9A=
 		</data>
 		<key>Headers/FSPMessageViewController.h</key>
 		<data>
@@ -246,7 +238,7 @@
 		</data>
 		<key>Headers/FSPWebService.h</key>
 		<data>
-		K5dZlEVPquTR5R+FhOFL178N4xc=
+		YCrWmQDu6vSyGcu4ZA3jn7eVx40=
 		</data>
 		<key>Headers/JMMaskTextField.h</key>
 		<data>
@@ -258,11 +250,11 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		cdNrHPz7Wqr00mkU9j2cKEDw3bw=
+		Q+d5EixN8al27+O3+rpdEeH3iP4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Me97FAcoq0+HwR6voYHD4R5sa+0=
+		e6M+66TGlSLdXjOL5xvEBZmQe98=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -270,7 +262,11 @@
 		</data>
 		<key>campaign.json</key>
 		<data>
-		Y7lEorqLxjyvk5JZabGL6ulh9y4=
+		YhaaeXI7MhCv1/dEbwteTtPqb74=
+		</data>
+		<key>gifts_error.json</key>
+		<data>
+		ZxyaOMH0tg5LEyxFEUy0272OhgQ=
 		</data>
 		<key>optin_error.json</key>
 		<data>
@@ -290,7 +286,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AKQD4TfiqO1Loe4PlhICy7Vcru+XLwTBuA+2Sv22/+A=
+			o/+pYwce1CaCkQeovF1rBjlAv0/W2/ACQO8husBzoYo=
 			</data>
 		</dict>
 		<key>FSPBottomSheetView.nib</key>
@@ -458,14 +454,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mq5UhKX7Flc4icF7Pe2yTfO04Ltlaz7f4fF5ab+DPlE=
+			I54aal+sCmAv/NPC05X+D10EkIKNxYCU9T5YpMecMBs=
 			</data>
 		</dict>
 		<key>FSPReceiptCaptureViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ym93cm2xbcshfjI9AVDwYfc+8ZK5NbzHZB60AkewD10=
+			A5zqXbLxm/OOLlpv1negqUDd4leGKQ5dn96ipt2XIds=
 			</data>
 		</dict>
 		<key>FSPReceiptCell.nib</key>
@@ -473,20 +469,6 @@
 			<key>hash2</key>
 			<data>
 			OevB4MZBmOC7tLgaPyMIGmvrUKuaASsEKzJd3BdajQQ=
-			</data>
-		</dict>
-		<key>FSPReceiptManualInputViewController+iPad.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OpuQKMMOa5yEXRsws1GXJ7Fbw2J8SGnj6uZsiuIUTw4=
-			</data>
-		</dict>
-		<key>FSPReceiptManualInputViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+f5f9ik6HrjtOHgw+sCJRGE4aJ243Sc92OJO2MXlIx4=
 			</data>
 		</dict>
 		<key>FSPReceiptView.nib</key>
@@ -577,7 +559,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lYgSNR89weXV4Elb4iDKD8OmnMMz6LZagNMqdmR78W0=
+			zuNDR30+SFN8JMy7BkKWLRgqaCN46G/JmN9HtqTjYM8=
 			</data>
 		</dict>
 		<key>Headers/FSPConsumerCore.h</key>
@@ -605,7 +587,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HgBuWjAMJjQlKbhx5HYaweepgPLbEK61+MLkX7Yy+Og=
+			PjLMCd0hSa/tiK/5XikxM4KlfQVLS1ocCM+zJ780b/Y=
 			</data>
 		</dict>
 		<key>Headers/FSPFeatureViewController.h</key>
@@ -647,14 +629,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F/+MeFcZzRJpVxMP+wG15J3B2nX3Tdbj7TxxNkX+xDI=
+			R749bh2OCo6pMCUHhpdwkXUYS37Wzt0ZImoVjxzYY6M=
 			</data>
 		</dict>
 		<key>Headers/FSPMessage.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3spJTpOItNiRUKPyJgisnOwPOdClJX2p9jK1t8hojww=
+			7+pwUFOXHGdxIhpEIZ+nNnddm37HWMj7UA/LqAcdEmk=
 			</data>
 		</dict>
 		<key>Headers/FSPMessageViewController.h</key>
@@ -703,7 +685,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			28HvOHhVZV9kD7LLszFNK5K9LSiUGWNjXGvQT9xJKH0=
+			DQMmq0ssoGxrhIYP05kuSIhXXFWSKmjILbaKlN3fL58=
 			</data>
 		</dict>
 		<key>Headers/JMMaskTextField.h</key>
@@ -724,7 +706,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8U4cjbn+s4F3JQf4Oao7ls78l1SVRzuC9ZG3ce1BwPI=
+			d3tFyZRl/KHYkte/aZzGPWvjD0UwHA8ic5kl5G+ef08=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -738,7 +720,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gxN8C0hy+EOpVyEIiSpmcYMs7/c1saaWp2rFsL7zIsY=
+			ZNU3d1dH0e8iL4PhmPRnfQ4i1dUAwUM6FqPD19qnusY=
+			</data>
+		</dict>
+		<key>gifts_error.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VM5L2v6GlBKTylY7POWkuXLtmiPO1fW4ElkuUg0S648=
 			</data>
 		</dict>
 		<key>optin_error.json</key>
