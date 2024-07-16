@@ -13,7 +13,7 @@ extern bool MOCK_ENABLED;
 typedef void(^FSPResponse)(NSString * _Nullable json, BOOL success, NSInteger statusCode);
 typedef void(^FSPSimpleResponse)(BOOL success);
 typedef void(^FSPStringResponse)(NSString* _Nullable string, BOOL success);
-typedef void(^FSPMessageResponse)(FSPMessage* _Nullable string, BOOL success);
+typedef void(^FSPMessageResponse)(FSPMessage* _Nullable message, BOOL success);
 
 typedef NSDictionary<NSString *,NSString *> HTTPHeaders;
 

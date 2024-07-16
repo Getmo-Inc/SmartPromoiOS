@@ -18,7 +18,7 @@ typedef NS_ENUM(NSUInteger, FSPFeatureType)
     FSPFeatureTypeWinner,
     FSPFeatureTypeChoose,
     FSPFeatureTypeAwards,
-    FSPFeatureTypeSurvey,
+    FSPFeatureTypeSurvey
 };
 
 @interface FSPFeature : NSObject
@@ -29,6 +29,7 @@ typedef NS_ENUM(NSUInteger, FSPFeatureType)
 @property NSString *title;;
 @property NSString *message;
 @property NSAttributedString *messageAttributed;
+@property NSString *url;
 @property FSPFeatureType type;
 @property int progress;
 @property (nonatomic, assign) BOOL colored;

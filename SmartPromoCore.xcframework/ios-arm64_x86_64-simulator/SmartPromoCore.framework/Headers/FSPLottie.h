@@ -17,10 +17,8 @@
 @property int speed;
 @property BOOL loop;
 @property FSPLottie* backLottie;
-@property BOOL afterBody;
 
 + (FSPLottie*) initWithName: (NSString*) name;
-+ (FSPLottie*) initWithName: (NSString*) name afterBody: (BOOL) afterBody;
 + (FSPLottie*) fromDict:(NSDictionary*) dict;
 - (NSDictionary*) jsonDict;
 
