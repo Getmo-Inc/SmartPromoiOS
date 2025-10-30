@@ -9,6 +9,8 @@
 #import "FSPFormViewController.h"
 #import "FSPFeature.h"
 #import "FSPFilter.h"
+#import "FSPConfig.h"
+#import "FSPPromptCoordinator.h"
 
 @interface FSPFeatureViewController : FSPFormViewController
 
@@ -17,9 +19,7 @@
 @property (strong, nonatomic) id campaignService;
 @property NSArray* filteredItems;
 
-@property (weak, nonatomic) IBOutlet UIView *actionButton;
-@property (weak, nonatomic) IBOutlet UIImageView *actionButtonImage;
-@property (weak, nonatomic) IBOutlet UILabel *actionButtonTitle;
+@property (strong, nonatomic) FSPPromptCoordinator* promptCoordinator;
 
 @property NSString* searchQuery;
 
@@ -35,5 +35,6 @@
 - (void) refresh;
 - (void) handleResponse: (BOOL) success;
 - (void) action:(id) sender;
-- (void) updateActionButtonAnimated: (BOOL) animated;
+- (void) updateActionButton;
+- (FSPConfigViewState*) viewConfig;
 @end

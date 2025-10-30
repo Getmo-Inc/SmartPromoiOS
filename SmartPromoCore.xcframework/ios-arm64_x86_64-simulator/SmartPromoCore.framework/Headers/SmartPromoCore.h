@@ -4,14 +4,13 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  2.6.4
+//  3.0.0
 //
 
 #import <UIKit/UIKit.h>
 
 #import "FSPConsumerCore.h"
 #import "FSPDataFormViewController.h"
-#import "FSPBottomSheetViewController.h"
 #import "FSPMultiCampaignViewController.h"
 #import "FSPWebService.h"
 

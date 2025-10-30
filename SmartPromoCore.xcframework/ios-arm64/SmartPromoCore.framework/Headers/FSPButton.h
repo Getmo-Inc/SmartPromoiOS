@@ -10,6 +10,12 @@
 
 typedef void (^FSPToggleButtonDidChange)(BOOL);
 
+@interface UIButton (SmartPromo)
+
+- (void) applyCloseConfiguration;
+    
+@end
+    
 // MARK: - FSPButtonText
 @interface FSPButtonText : UIButton
 

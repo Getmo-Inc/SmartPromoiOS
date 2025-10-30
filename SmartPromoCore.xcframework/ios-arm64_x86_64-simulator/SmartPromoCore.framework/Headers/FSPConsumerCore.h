@@ -9,6 +9,7 @@
 #import "FSPAddressCore.h"
 #import "FSPGenderTypeCore.h"
 #import "FSPPrize.h"
+#import "FSPPrompt.h"
 
 @interface FSPConsumerCore : NSObject
 
@@ -28,6 +29,8 @@
 @property FSPPrize *instantPrizes;
 @property FSPPrize *awards;
 
+@property FSPPrompt *profile;
+
 - (NSString*) genderValue;
 
 + (FSPConsumerCore*) fromDict:(NSDictionary*) dict;
@@ -36,4 +39,3 @@
 + (BOOL) isValidName: (NSString*) name;
 
 @end
-

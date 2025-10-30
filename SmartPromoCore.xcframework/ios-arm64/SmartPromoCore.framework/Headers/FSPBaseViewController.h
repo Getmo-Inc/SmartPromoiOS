@@ -10,6 +10,8 @@
 
 @interface FSPBaseViewController : UIViewController
 
+@property (strong) UIButton* floatActionButton;
+
 - (id)initXib:(NSString*) xibName;
 
 - (void) showLoadingView: (BOOL) animated;
@@ -18,7 +20,6 @@
 - (void) hideMessage;
 - (void) hideMessage: (BOOL) animated;
 - (void) addSwipeToClose;
-- (BOOL) emptyAnimation;
 - (void) showMessage: (NSString*) message withLottie: (NSString*) lottie andButtonTitle: (NSString*) buttonTitle;
 
 - (void) setupRefreshControlIn: (UIScrollView*) scrollView;
@@ -28,13 +29,16 @@
 - (void) showEmptyMessage: (NSString*) message;
 - (void) actionErrorButton:(id) sender;
 
+- (NSString*) emptyLottie;
+- (NSString*) emptyButtonTitle;
+
 - (BOOL) backdropTopSafeArea;
 - (CGFloat) backdropMarginTop;
 - (UIView*) backdropParentView;
 - (UIActivityIndicatorViewStyle) activityIndicatorStyle;
 - (UIColor*) backdropColor;
 - (UIEdgeInsets) safeAreaInsets;
-- (BOOL) statusBarIconLight;
+- (void) configureFloatButtonWithImage: (UIImage*) image title: (NSString*) title selector: (SEL) selector;
 
 @end
 

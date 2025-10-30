@@ -20,20 +20,5 @@
 
 + (FSPLottie*) initWithName: (NSString*) name;
 + (FSPLottie*) fromDict:(NSDictionary*) dict;
-- (NSDictionary*) jsonDict;
 
-+ (NSString*) surveyStartID;
-+ (FSPLottie*) surveyStart;
-
-+ (NSString*) surveyEndID;
-+ (FSPLottie*) surveyEnd;
-
-+ (NSString*) instantPrizeID;
-+ (FSPLottie*) instantPrize;
-
-+ (NSString*) giftID;
-+ (FSPLottie*) gift;
-
-+ (NSString*) errorID;
-+ (FSPLottie*) error;
 @end

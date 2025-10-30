@@ -24,5 +24,4 @@ IB_DESIGNABLE
 - (void)textFieldDidEndEditing:(UITextField *)textField;
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
-
 @end

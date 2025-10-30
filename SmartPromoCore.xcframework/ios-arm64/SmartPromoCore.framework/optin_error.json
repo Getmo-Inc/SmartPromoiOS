@@ -1,7 +1,0 @@
-{
-    "error_message": {
-        "title": "Cadastro Duplicado",
-        "body": "O E-mail utilizado já possui cadastro.",
-        "primary_action": "Entendi"
-    }
-}

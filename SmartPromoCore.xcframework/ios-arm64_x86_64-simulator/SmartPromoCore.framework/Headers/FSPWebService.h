@@ -6,14 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPMessage.h"
-
-extern bool MOCK_ENABLED;
+#import "FSPPrompt.h"
 
 typedef void(^FSPResponse)(NSString * _Nullable json, BOOL success, NSInteger statusCode);
 typedef void(^FSPSimpleResponse)(BOOL success);
 typedef void(^FSPStringResponse)(NSString* _Nullable string, BOOL success);
-typedef void(^FSPMessageResponse)(FSPMessage* _Nullable message, BOOL success);
+typedef void(^FSPPromptResponse)(FSPPrompt* _Nullable prompt, BOOL success);
 
 typedef NSDictionary<NSString *,NSString *> HTTPHeaders;
 
@@ -31,10 +29,6 @@ typedef NSDictionary<NSString *,NSString *> HTTPHeaders;
 - (void) setupAccessKey: (NSString* _Nonnull) accessKey
            andSecretKey: (NSString* _Nonnull) secretKey;
 
-- (void) requestURL: (NSString* _Nonnull) url
-        uploadImage: (UIImage* _Nonnull) image
-      andCompletion: (FSPStringResponse _Nonnull) completion;
-
 - (void)requestURL: (NSString* _Nonnull) url
         withMethod: (NSString* _Nonnull) method
      andConsumerID: (NSString* _Nullable) consumerID
@@ -42,10 +36,16 @@ typedef NSDictionary<NSString *,NSString *> HTTPHeaders;
            andBody: (id _Nullable) body
      andCompletion: (FSPResponse _Nonnull) completion;
 
-- (nullable id) fromJson:(NSString*_Nonnull) json;
+- (void)requestURL: (NSString* _Nonnull) url
+        withMethod: (NSString* _Nonnull) method
+     andConsumerID: (NSString* _Nullable) consumerID
+      andAuthToken: (NSString* _Nullable) authToken
+           andBody: (NSDictionary* _Nullable) body
+             image: (nullable UIImage*) image
+      maxImageSize: (NSInteger) maxImageSize
+     andCompletion: (FSPResponse _Nonnull) completion;
 
-- (void) addMock: (NSString* _Nonnull) url jsonFile:(NSString* _Nonnull) jsonFile;
-- (void) removeMock: (NSString* _Nonnull) url;
+- (nullable id) fromJson:(NSString*_Nonnull) json;
 
 - (NSString* _Nullable) jsonFromFile: (NSString* _Nonnull) filename;
 
