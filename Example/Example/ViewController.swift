@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
     @IBAction func actionOpen(_ sender: Any) {
         let smartPromo = SmartPromo()
+        smartPromo.delegate = self
+        
         smartPromo.setupAccessKey("{accessKey}", andSecretKey: "{secretKey}")
         
         smartPromo.setColor(.systemOrange)
@@ -26,5 +28,18 @@ class ViewController: UIViewController {
         smartPromo.setIsHomolog(true)
         
         smartPromo.go("{campaignID}", above: self)
+    }
+}
+
+extension ViewController: SmartPromoDelegate {
+    
+    func smartPromoDidReceiveEvent(_ eventKey: String, values: [String : Any]?) {
+        print("[SmartPromo] Event received: \(eventKey)");
+            
+        if let values {
+            print("[SmartPromo] Event values: \(values)");
+        } else {
+            print("[SmartPromo] No values attached to event");
+        }
     }
 }

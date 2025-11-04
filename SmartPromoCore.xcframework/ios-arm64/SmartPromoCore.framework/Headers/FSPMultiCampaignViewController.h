@@ -10,6 +10,8 @@
 @interface FSPMultiCampaignViewController : FSPFeatureViewController
 
 @property id smartPromo;
+@property NSString* currentCampaignId;
+
 - (id) initWithFeature: (FSPFeature*) feature smartPromo: (id) smartPromo;
 
 @end

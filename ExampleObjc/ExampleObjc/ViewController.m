@@ -8,7 +8,7 @@
 #import "ViewController.h"
 #import <SmartPromo/SmartPromo.h>
 
-@interface ViewController ()
+@interface ViewController ()<SmartPromoDelegate>
 
 @end
 
@@ -20,6 +20,8 @@
 
 - (IBAction)actionOpen:(id)sender {
     SmartPromo* smartPromo = [SmartPromo new];
+    smartPromo.delegate = self;
+    
     [smartPromo setupAccessKey:@"{accessKey}"
                   andSecretKey:@"{secretKey}"];
     
@@ -30,6 +32,16 @@
     [smartPromo setConsumer:consumer];
     
     [smartPromo go:@"{campaignID}" above: self];
+}
+
+- (void)smartPromoDidReceiveEvent:(NSString *)eventKey values:(NSDictionary<NSString *,id> *)values {
+    NSLog(@"[SmartPromo] Event received: %@", eventKey);
+    
+    if (values.count > 0) {
+        NSLog(@"[SmartPromo] Event values: %@", values);
+    } else {
+        NSLog(@"[SmartPromo] No values attached to event");
+    }
 }
 
 @end

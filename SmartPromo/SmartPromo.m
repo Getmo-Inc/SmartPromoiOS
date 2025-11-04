@@ -25,6 +25,10 @@
     return self;
 }
 
+- (void)setDelegate:(id<SmartPromoDelegate>)delegate {
+    _smartPromoCore.delegate = delegate;
+}
+
 - (SmartPromo*)setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey {
     [_smartPromoCore setupAccessKey: accessKey andSecretKey: secretKey];
     return self;
