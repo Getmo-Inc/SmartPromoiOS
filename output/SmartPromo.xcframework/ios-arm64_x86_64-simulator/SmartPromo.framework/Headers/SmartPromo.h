@@ -31,6 +31,7 @@ extern NSString* const SmartPromoEventCampaignSelected;
 - (SmartPromo*) setColor:(UIColor*) color;
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
 - (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
+- (void)enableSwitchCampaign;
 - (SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
 
 - (void) go: (NSString*) campaignID above: (UIViewController *) above;

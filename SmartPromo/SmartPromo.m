@@ -29,6 +29,10 @@
     _smartPromoCore.delegate = delegate;
 }
 
+- (void)enableSwitchCampaign {
+    [_smartPromoCore enableSwitchCampaign];
+}
+
 - (SmartPromo*)setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey {
     [_smartPromoCore setupAccessKey: accessKey andSecretKey: secretKey];
     return self;
