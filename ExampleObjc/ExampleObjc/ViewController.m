@@ -25,8 +25,6 @@
     [smartPromo setupAccessKey:@"{accessKey}"
                   andSecretKey:@"{secretKey}"];
     
-    [smartPromo setColor: UIColor.systemOrangeColor];
-    
     FSPConsumer* consumer = [FSPConsumer new];
     consumer.cpf = @"{cpf}";
     [smartPromo setConsumer:consumer];

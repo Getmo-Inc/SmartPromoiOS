@@ -20,8 +20,6 @@ class ViewController: UIViewController {
         
         smartPromo.setupAccessKey("{accessKey}", andSecretKey: "{secretKey}")
         
-        smartPromo.setColor(.systemOrange)
-        
         let consumer = FSPConsumer()
         consumer.cpf = "{cpf}"
         smartPromo.setConsumer(consumer)

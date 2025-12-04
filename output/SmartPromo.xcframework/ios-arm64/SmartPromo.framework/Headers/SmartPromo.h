@@ -29,7 +29,7 @@ extern NSString* const SmartPromoEventCampaignSelected;
 - (SmartPromo*) setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey;
 
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
-- (SmartPromo*) setHomologMode: (BOOL) isHomolog;
+- (SmartPromo*) setIsHomolog: (BOOL) isHomolog;
 - (SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
 - (SmartPromo*) enableSwitchCampaignWithHeadnote: (NSString*) headnote
                                                title: (NSString*) title

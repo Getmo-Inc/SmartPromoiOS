@@ -41,7 +41,7 @@ relocations:
   - { offset: 0x805F0, size: 0x8, addend: 0x0, symName: '-[SmartPromo setDelegate:]', symObjAddr: 0x56, symBinAddr: 0xD4C, symSize: 0x16 }
   - { offset: 0x80646, size: 0x8, addend: 0x0, symName: '-[SmartPromo setupAccessKey:andSecretKey:]', symObjAddr: 0x6C, symBinAddr: 0xD62, symSize: 0x2C }
   - { offset: 0x806A9, size: 0x8, addend: 0x0, symName: '-[SmartPromo setConsumer:]', symObjAddr: 0x98, symBinAddr: 0xD8E, symSize: 0x511 }
-  - { offset: 0x80BDA, size: 0x8, addend: 0x0, symName: '-[SmartPromo setHomologMode:]', symObjAddr: 0x5A9, symBinAddr: 0x129F, symSize: 0x2C }
+  - { offset: 0x80BDA, size: 0x8, addend: 0x0, symName: '-[SmartPromo setIsHomolog:]', symObjAddr: 0x5A9, symBinAddr: 0x129F, symSize: 0x2C }
   - { offset: 0x80C2D, size: 0x8, addend: 0x0, symName: '-[SmartPromo setMetadata:]', symObjAddr: 0x5D5, symBinAddr: 0x12CB, symSize: 0x2C }
   - { offset: 0x80C80, size: 0x8, addend: 0x0, symName: '-[SmartPromo enableSwitchCampaignWithHeadnote:title:message:]', symObjAddr: 0x601, symBinAddr: 0x12F7, symSize: 0x2C }
   - { offset: 0x80CF3, size: 0x8, addend: 0x0, symName: '-[SmartPromo go:above:]', symObjAddr: 0x62D, symBinAddr: 0x1323, symSize: 0x16 }

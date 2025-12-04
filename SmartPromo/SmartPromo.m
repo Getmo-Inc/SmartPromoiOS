@@ -63,7 +63,7 @@
     return self;
 }
 
-- (SmartPromo*) setHomologMode: (BOOL) isHomolog {
+- (SmartPromo*) setIsHomolog: (BOOL) isHomolog {
     [_smartPromoCore setHomologMode: isHomolog];
     return self;
 }
