@@ -1,0 +1,146 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios14 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SmartPromoCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import DeveloperToolsSupport
+import Foundation
+@_exported import SmartPromoCore
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Foundation.NSAttributedString {
+  public func strike() -> Foundation.NSAttributedString
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency final public class FSPOptInFormView : SmartPromoCore.FSPOptInBaseFormView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override public init(consumer: SmartPromoCore.FSPConsumerCore, filter: [Swift.String]?, themed: any SmartPromoCore.FSPThemed)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPOptInBaseFormView : SmartPromoCore.FSPBaseOptInView {
+  @objc @_Concurrency.MainActor @preconcurrency final public let consumer: SmartPromoCore.FSPConsumerCore
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency public init(consumer: SmartPromoCore.FSPConsumerCore, filter: [Swift.String]?, themed: any SmartPromoCore.FSPThemed)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override open func actionTap()
+  @_Concurrency.MainActor @preconcurrency @objc override public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+extension SmartPromoCore.FSPOptInBaseFormView : UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPOptInAuthView : SmartPromoCore.FSPBaseOptInView {
+  @objc @_Concurrency.MainActor @preconcurrency public init(authRequired: SmartPromoCore.FSPAuthRequired, themed: any SmartPromoCore.FSPThemed)
+  @objc @_Concurrency.MainActor @preconcurrency public var codeTextField: SmartPromoCore.FSPCodeInput {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc public func setupOptInUI()
+  @_Concurrency.MainActor @preconcurrency @objc override public func viewDidAppear()
+  @_Concurrency.MainActor @preconcurrency @objc override public func actionTap()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPFormView : SmartPromoCore.FSPScrollableView, UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor @preconcurrency @objc public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor @preconcurrency @objc public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override public init(themed: any SmartPromoCore.FSPThemed)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency open var themed: any SmartPromoCore.FSPThemed {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public init(themed: any SmartPromoCore.FSPThemed)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency open func setupUI()
+  @objc @_Concurrency.MainActor @preconcurrency open func updateColors()
+  @objc @_Concurrency.MainActor @preconcurrency open func attach(to viewController: UIKit.UIViewController)
+  @objc @_Concurrency.MainActor @preconcurrency open func viewDidAppear()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPBaseOptInView : SmartPromoCore.FSPFormView {
+  @objc @_Concurrency.MainActor @preconcurrency public var action: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public var actionButton: SmartPromoCore.FSPButtonText {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open func setup(title: Swift.String, button: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override public func setupUI()
+  @objc @_Concurrency.MainActor @preconcurrency open func actionTap()
+  @_Concurrency.MainActor @preconcurrency @objc override public init(themed: any SmartPromoCore.FSPThemed)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPScrollableView : SmartPromoCore.FSPView {
+  @objc @_Concurrency.MainActor @preconcurrency final public let scrollView: UIKit.UIScrollView
+  @objc @_Concurrency.MainActor @preconcurrency final public let contentView: UIKit.UIView
+  @objc @_Concurrency.MainActor @preconcurrency final public let stackView: UIKit.UIStackView
+  @_Concurrency.MainActor @preconcurrency @objc override open func setupUI()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func addArrangedSubview(_ view: UIKit.UIView, at index: Swift.Int? = nil)
+  #endif
+  @objc @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func addFlexibleSpacer() -> UIKit.UIView
+  @objc @discardableResult
+  @_Concurrency.MainActor @preconcurrency public func addFixedSpacer(height: CoreFoundation.CGFloat = 0) -> UIKit.UIView
+  @_Concurrency.MainActor @preconcurrency @objc override public init(themed: any SmartPromoCore.FSPThemed)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency final public class FSPMyDataFormView : SmartPromoCore.FSPOptInBaseFormView {
+  @objc @_Concurrency.MainActor @preconcurrency final public var cpfTextField: SmartPromoCore.FSPTextField {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override final public func setupUI()
+  @_Concurrency.MainActor @preconcurrency @objc final public func buildFields()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func actionTap()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override public init(consumer: SmartPromoCore.FSPConsumerCore, filter: [Swift.String]?, themed: any SmartPromoCore.FSPThemed)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPOptInIDView : SmartPromoCore.FSPBaseOptInView {
+  @objc @_Concurrency.MainActor @preconcurrency public var cpfTextField: SmartPromoCore.FSPTextField {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc public func setupOptInUI()
+  @_Concurrency.MainActor @preconcurrency @objc override public func viewDidAppear()
+  @_Concurrency.MainActor @preconcurrency @objc override public func actionTap()
+  @_Concurrency.MainActor @preconcurrency @objc override public init(themed: any SmartPromoCore.FSPThemed)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
+  @objc deinit
+}

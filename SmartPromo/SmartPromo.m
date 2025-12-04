@@ -29,27 +29,8 @@
     _smartPromoCore.delegate = delegate;
 }
 
-- (void)enableSwitchCampaign {
-    [_smartPromoCore enableSwitchCampaign];
-}
-
-- (SmartPromo*)setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey {
+- (SmartPromo*) setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey {
     [_smartPromoCore setupAccessKey: accessKey andSecretKey: secretKey];
-    return self;
-}
-
-- (SmartPromo*)setColor:(UIColor*) color {
-    [_smartPromoCore setColor: color];
-    return self;
-}
-
-- (SmartPromo*)setIsHomolog:(BOOL) isHomolog {
-    [_smartPromoCore setHomologMode: isHomolog];
-    return self;
-}
-
-- (SmartPromo*) setMetadata: (NSString*) metadata {
-    [_smartPromoCore setMetadata: metadata];
     return self;
 }
 
@@ -79,11 +60,26 @@
         
         [_smartPromoCore setConsumer: consumerCore];
     }
-    
     return self;
 }
 
+- (SmartPromo*) setHomologMode: (BOOL) isHomolog {
+    [_smartPromoCore setHomologMode: isHomolog];
+    return self;
+}
 
+- (SmartPromo*) setMetadata: (NSString* _Nullable) metadata {
+    [_smartPromoCore setMetadata: metadata];
+    return self;
+}
+
+- (SmartPromo*) enableSwitchCampaignWithHeadnote: (NSString*) headnote
+                                               title: (NSString*) title
+                                             message: (NSString*) message {
+    [_smartPromoCore enableSwitchCampaignWithHeadnote:headnote title:title message:message];
+    return self;
+}
+    
 - (void) go: (NSString*) campaignID above: (UIViewController *) above {
     [_smartPromoCore go:campaignID above:above];
 }
@@ -96,6 +92,10 @@
                                     title: (NSString*) title
                                   message: (NSString*) message {
     return [_smartPromoCore goMultiWithHeadnote:headnote title:title message:message];
+}
+
+- (void) goSwitch: (UINavigationController *) above {
+    [_smartPromoCore goSwitch:above];
 }
 
 - (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above {

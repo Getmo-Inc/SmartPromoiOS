@@ -6,13 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPFormViewController.h"
 #import "FSPFeature.h"
 #import "FSPFilter.h"
 #import "FSPConfig.h"
 #import "FSPPromptCoordinator.h"
 
-@interface FSPFeatureViewController : FSPFormViewController
+@interface FSPFeatureViewController : FSPBaseViewController
 
 @property (strong, nonatomic) UITableView *tableView;
 
@@ -34,7 +33,6 @@
 - (void) setupViews;
 - (void) refresh;
 - (void) handleResponse: (BOOL) success;
-- (void) action:(id) sender;
 - (void) updateActionButton;
 - (FSPConfigViewState*) viewConfig;
 @end

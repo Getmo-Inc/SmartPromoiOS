@@ -28,17 +28,20 @@ extern NSString* const SmartPromoEventCampaignSelected;
 
 - (SmartPromo*) setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey;
 
-- (SmartPromo*) setColor:(UIColor*) color;
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
-- (SmartPromo*) setIsHomolog:(BOOL) isHomolog;
-- (void)enableSwitchCampaign;
+- (SmartPromo*) setHomologMode: (BOOL) isHomolog;
 - (SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
-
+- (SmartPromo*) enableSwitchCampaignWithHeadnote: (NSString*) headnote
+                                               title: (NSString*) title
+                                             message: (NSString*) message;
+    
 - (void) go: (NSString*) campaignID above: (UIViewController *) above;
 - (UIViewController*) go: (NSString*) campaignID onDismiss: (dispatch_block_t) onDismiss;
 - (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
                                     title: (NSString*) title
                                   message: (NSString*) message;
+
+- (void) goSwitch: (UINavigationController *) above;
 
 - (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above;
 

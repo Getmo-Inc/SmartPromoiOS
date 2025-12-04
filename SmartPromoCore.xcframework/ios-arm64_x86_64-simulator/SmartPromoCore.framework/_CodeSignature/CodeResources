@@ -38,11 +38,11 @@
 		</data>
 		<key>FSPHomeViewController+iPad.nib</key>
 		<data>
-		w7uTgyaSfMAKSQLJzVRryag/hnw=
+		izYpYRGejyZU6a/mm/1+LQeiOc0=
 		</data>
 		<key>FSPHomeViewController.nib</key>
 		<data>
-		eCnZGz8lBM4e1lB620MrYU3wOXI=
+		Wq9oP5R5FWvrAwkFe5XdBrj8C+E=
 		</data>
 		<key>FSPImageViewerViewController.nib</key>
 		<data>
@@ -50,31 +50,7 @@
 		</data>
 		<key>FSPNumberPad.nib</key>
 		<data>
-		3MJsUltQT6NqdnXxyaWKYccpwe4=
-		</data>
-		<key>FSPOptInAuthViewController+iPad.nib</key>
-		<data>
-		D6WfUPET1QqO/vgNhsmSxuiduTg=
-		</data>
-		<key>FSPOptInAuthViewController.nib</key>
-		<data>
-		brFiCFGUYOmdvdFmav5JN+hv/FY=
-		</data>
-		<key>FSPOptInFormViewController+iPad.nib</key>
-		<data>
-		Ae0MtFqBz0Das36qt2+8qQhXwBk=
-		</data>
-		<key>FSPOptInFormViewController.nib</key>
-		<data>
-		5kkJl9zr58Jierl0sNiNYbgogsg=
-		</data>
-		<key>FSPOptInIDViewController+iPad.nib</key>
-		<data>
-		HeTNb6Qnj7aBCzdq7bzQDBRFS30=
-		</data>
-		<key>FSPOptInIDViewController.nib</key>
-		<data>
-		F2Fqu1LhUaTNFgcKsXIjrZ8XP/I=
+		pNv5O3cmXHAyKGymRn7OybjYPNg=
 		</data>
 		<key>FSPPrizeCell.nib</key>
 		<data>
@@ -106,7 +82,7 @@
 		</data>
 		<key>FSPSearchBar.nib</key>
 		<data>
-		KdchTwfnRpg26irN8ezjThuM5b8=
+		l5pEDlv7Qyfbf/YMO0XcxgeCLvQ=
 		</data>
 		<key>FSPStatementCell.nib</key>
 		<data>
@@ -136,25 +112,29 @@
 		<data>
 		EpXe+Ue1uQc7nRAQTD1r/jIG7QM=
 		</data>
+		<key>Headers/FSPAuthRequired.h</key>
+		<data>
+		EArKZ4vnNvyy41liOV0Ee33r3eQ=
+		</data>
 		<key>Headers/FSPBaseViewController.h</key>
 		<data>
-		+ZUt7GhHlb+A5t1++Du0db7Ky08=
+		cgVOMVUjLdQP7nSai0qYV5m1hY0=
 		</data>
 		<key>Headers/FSPButton.h</key>
 		<data>
-		YosrTEcYzeQ9Creg7Sj64vyt/L0=
+		R2CA8gQ/LMQ7zZ7WpXs58UcA8JA=
+		</data>
+		<key>Headers/FSPCodeInput.h</key>
+		<data>
+		G3stQzXWnzL8deq9cz/Z09yXlDc=
 		</data>
 		<key>Headers/FSPConfig.h</key>
 		<data>
-		inFQLs86tmwPWTzK+RX3KdDCSGU=
+		bVHobHP+lMcTBZnjD8X6o2TNV9M=
 		</data>
 		<key>Headers/FSPConsumerCore.h</key>
 		<data>
 		EBpKeAcegEn+ryQIVHUvfx8wNnA=
-		</data>
-		<key>Headers/FSPDataFormViewController.h</key>
-		<data>
-		RoL6/nQYlNsYUlQngtaX6oxOWcY=
 		</data>
 		<key>Headers/FSPDispatchQueue+SmartPromo.h</key>
 		<data>
@@ -166,15 +146,11 @@
 		</data>
 		<key>Headers/FSPFeatureViewController.h</key>
 		<data>
-		527CUlxFO+GEiGIRKHWHO2xAnO8=
+		bImJmHsdAwLSBmp3KM0NQkmsIak=
 		</data>
 		<key>Headers/FSPFilter.h</key>
 		<data>
 		U3/k4qGHjhSGbmwnLUok/JDogAM=
-		</data>
-		<key>Headers/FSPFormViewController.h</key>
-		<data>
-		1oXzs7T0+aqQEK1IQNOAkS1E6GM=
 		</data>
 		<key>Headers/FSPGenderTypeCore.h</key>
 		<data>
@@ -192,6 +168,10 @@
 		<data>
 		Q2XPsFegBx0ONfQrDA1FckFLw9Y=
 		</data>
+		<key>Headers/FSPNavigationViewController.h</key>
+		<data>
+		Gi17MKEIH/YEWJV/f3IKefjeiDg=
+		</data>
 		<key>Headers/FSPPrize.h</key>
 		<data>
 		ktxtVHHZK3wU4mV8R04z/8ZUdSw=
@@ -202,7 +182,7 @@
 		</data>
 		<key>Headers/FSPPromptCoordinator.h</key>
 		<data>
-		W91PqcTTpVoTGAiNsC8u5kCa+eQ=
+		XixH2u4Otjt5XtwSrmjkFFcxKkk=
 		</data>
 		<key>Headers/FSPRecommendSeller.h</key>
 		<data>
@@ -210,7 +190,15 @@
 		</data>
 		<key>Headers/FSPTextField.h</key>
 		<data>
-		/gE2Y+MQAxxrwKOMyTQuZdunI2c=
+		8B76oXJ7RFiyb3+5u8rUct5LrCE=
+		</data>
+		<key>Headers/FSPTextView.h</key>
+		<data>
+		nzITr74htgFBPYjZulRbNL510DY=
+		</data>
+		<key>Headers/FSPThemed.h</key>
+		<data>
+		PX9QQbkfb2DiNZAwE+tQpID8EbQ=
 		</data>
 		<key>Headers/FSPToten.h</key>
 		<data>
@@ -224,6 +212,10 @@
 		<data>
 		ASTW+ePgq4LnP24s5Jm5pbA+XCE=
 		</data>
+		<key>Headers/InternalSmartPromoCore.h</key>
+		<data>
+		9iowHhfqnu/KuhVGjLZLxvvIVXc=
+		</data>
 		<key>Headers/JMMaskTextField.h</key>
 		<data>
 		YhW0L18nM22iNnt2BfYZHsCFB9c=
@@ -232,17 +224,61 @@
 		<data>
 		ZwlAewFYAXzKsIezsRL4iALNAC0=
 		</data>
+		<key>Headers/SmartPromoCore-Swift.h</key>
+		<data>
+		dGXaF7v+9kuYk97movGWbdgATws=
+		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		LMhm5QMEPHrzaiHlSCBVYb+KIdM=
+		BAHdgquUmqobeYE9x9rCdMMbz1U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TvBSIAy/Eqhb30sNjVMiXedn2P8=
+		dZajSbpKuISg8Sz61pPTgLDpIYg=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		5OMf9kzuMLJpyXW8K2YOCSBocyw=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		XIU1DrWAfS3QVFYPsmfOgywuJ98=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		1Y0lZ5JDFbx9+FuAYIJbiS28sgI=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		XIU1DrWAfS3QVFYPsmfOgywuJ98=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		BdGvQCYOePThYoAVbjIcJrqTnXs=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		5OMf9kzuMLJpyXW8K2YOCSBocyw=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		WAItIGqkJ/vn6VabhFwN7ODNlqY=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		xHkhx8RfyP4BeViqaIRcCnhDnSM=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		WAItIGqkJ/vn6VabhFwN7ODNlqY=
+		</data>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		3jpdH0b5dXIqZqZnIeUh1qDYAKA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		waAvwU19PteVJbDZsK+JVEWv5Is=
+		ivlqzkY6apNlJmGl5/OvrGy8vtY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -307,14 +343,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zf/FV655XRYuo5JJFRTHO/AvAU5uL4b34hQI3iRoJF4=
+			UjJh5aVN+QyVEZWywsGDek0YVdCQHldW7gTKMcKN3DY=
 			</data>
 		</dict>
 		<key>FSPHomeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYNfBdY6JFWNlxRR6xRdc3/4tMZx7IbYJA6WwFNlzPg=
+			Iab6eSRhmIwUe7EZlqm2tlkVIIrUmBrF2sCc5rNBiCM=
 			</data>
 		</dict>
 		<key>FSPImageViewerViewController.nib</key>
@@ -328,49 +364,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			We4mG1CXsFJa4DyMiWVoFLBAoqAcjpmRYzM/B2eLH68=
-			</data>
-		</dict>
-		<key>FSPOptInAuthViewController+iPad.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8P3cJoJTRZkIpWWAzzvHnc7eWUdGsXaWEIphHxiQMZ0=
-			</data>
-		</dict>
-		<key>FSPOptInAuthViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8tcCqhCteNZJK980Jd91NN+HCKp/VQoXmLgd1LkwZKQ=
-			</data>
-		</dict>
-		<key>FSPOptInFormViewController+iPad.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			38ICkKO27k7Ul5GFI6CL1Z4FQTaffG2M5Dk43XelWPE=
-			</data>
-		</dict>
-		<key>FSPOptInFormViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HBaYr1MfAwDwqp1ZoLOwhnV1KSkniH+zuaOa0iTZZoc=
-			</data>
-		</dict>
-		<key>FSPOptInIDViewController+iPad.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			l/WlDECoZKuA3YVRJdURl93/g4Yy22cXNAMepK0OHhQ=
-			</data>
-		</dict>
-		<key>FSPOptInIDViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WhK0FKmZyUsoKvcWEjllS0ez0moGHeMl85mraC+7nrU=
+			is6B2TxxVnx2c2DCzA6xLgQlUmwJ1/mQMHTYz/UThHc=
 			</data>
 		</dict>
 		<key>FSPPrizeCell.nib</key>
@@ -426,7 +420,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbPplbvFBjZn+oDiYy4TUJOBT4/vUH5BhWnniw7CebE=
+			bXfRBbCBxgxaInUGQBoe3OifhfahY+uTOgr7Jmas76Y=
 			</data>
 		</dict>
 		<key>FSPStatementCell.nib</key>
@@ -478,25 +472,39 @@
 			O73N/wi/pUqF+VsXi7gGeIxtN7q20/O6ZDDX14LsZAU=
 			</data>
 		</dict>
+		<key>Headers/FSPAuthRequired.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9GAIRcGC+GhN+pRNfPc/78fIcJc5/Hxe/4HMili+o9Q=
+			</data>
+		</dict>
 		<key>Headers/FSPBaseViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mJ7/jlXqSMY3O4XPF+hvZAhs13JPWIarZls7zzhCS3k=
+			1q7dTiPHk2fbMbyZ/bTO9TmuAegk70gMPBjsRogWJUI=
 			</data>
 		</dict>
 		<key>Headers/FSPButton.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3S3DhiO2SEgFQPlkMLpJkRnBPx3UXkQd1HYaN1TWac=
+			gs2Yi0qIlybvXrxIymX7eynx2k7rBfoRC/VRXx91uBY=
+			</data>
+		</dict>
+		<key>Headers/FSPCodeInput.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nl+0Kd062/vGAPS73uRmaiLEprS9Vx2GqV0FjcTCRxk=
 			</data>
 		</dict>
 		<key>Headers/FSPConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mzd8KX1It0KCFudJJ38SoNdRe16+fE3G8UYb7akM+KY=
+			HXwHTX1MIxiv9jbVwuxCfJs1fj8s4p3SpOKhc+OefUo=
 			</data>
 		</dict>
 		<key>Headers/FSPConsumerCore.h</key>
@@ -504,13 +512,6 @@
 			<key>hash2</key>
 			<data>
 			aVzWHJtmU2hb98GArvGE9BIGIl9UBQ7e+Nc3KGC/TNA=
-			</data>
-		</dict>
-		<key>Headers/FSPDataFormViewController.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ggLKQ7AYmnl8l9rvtDZ7EpqKmJwMZptWg1BEGYTW80E=
 			</data>
 		</dict>
 		<key>Headers/FSPDispatchQueue+SmartPromo.h</key>
@@ -531,7 +532,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S8B3A0Gxlx+f5C951KXqzWg0iNARXBevHqqFhh+jT/A=
+			3a5IHA2gzUycSd0hSY57LToVA4lkFjUsdM3gjvkD04I=
 			</data>
 		</dict>
 		<key>Headers/FSPFilter.h</key>
@@ -539,13 +540,6 @@
 			<key>hash2</key>
 			<data>
 			gaUmIahYufTOGvpsrB3xuao5TN+gsROfPrq/EvnoZX0=
-			</data>
-		</dict>
-		<key>Headers/FSPFormViewController.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pKGaazbyG+OHivUiJH3+vZxVIyKs9xVcYTbcPcWLxJM=
 			</data>
 		</dict>
 		<key>Headers/FSPGenderTypeCore.h</key>
@@ -576,6 +570,13 @@
 			euAY/K8ttnixUKDAISOwYxKtMVTtMA+u+KhJV6/1fyU=
 			</data>
 		</dict>
+		<key>Headers/FSPNavigationViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HlNHNYeWdBuE8uubP+ctI8UeM6YX14120tpt5/NyP7U=
+			</data>
+		</dict>
 		<key>Headers/FSPPrize.h</key>
 		<dict>
 			<key>hash2</key>
@@ -594,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YjpzAjQyUNP67rPxYdiSDVKMGx7JFI6dFvXxY+jnyO8=
+			99PnzyMpxj6bb+UPCRWWaS/g/iGyPH/jsNI7SW/m9sI=
 			</data>
 		</dict>
 		<key>Headers/FSPRecommendSeller.h</key>
@@ -608,7 +609,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tw9ifwcFZ9xm0JXnP/kRXSh9oJNV15O3D0KMFXeILMo=
+			L9/2a9aL/tnB+w4MUmVVOTObYU/+spkufIapfkNrNvY=
+			</data>
+		</dict>
+		<key>Headers/FSPTextView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CzCGWshbIq9Dol2yVkoju8NNDzg1KZPyR2NLiTAACVc=
+			</data>
+		</dict>
+		<key>Headers/FSPThemed.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NtH2OPXXq+EX+uWjgGgLvERSTNt4Ink9QZNQDtOGou4=
 			</data>
 		</dict>
 		<key>Headers/FSPToten.h</key>
@@ -632,6 +647,13 @@
 			Vw/OPG5Nla1rMl59/DbcRlofFrJAW552HyzKPGEs0Mg=
 			</data>
 		</dict>
+		<key>Headers/InternalSmartPromoCore.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			78z8CG2YcFZ51PdQ+DYCMq87+8kaLNCqITjzqT5FM48=
+			</data>
+		</dict>
 		<key>Headers/JMMaskTextField.h</key>
 		<dict>
 			<key>hash2</key>
@@ -646,18 +668,95 @@
 			3R4mPxhS16q4jEW2FlxFNBAvEg5qePjw13mU0LuZIa0=
 			</data>
 		</dict>
+		<key>Headers/SmartPromoCore-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ReOLGgrvC6/jEWYkTch89ij9Fwz1kchni1grWEFGcvA=
+			</data>
+		</dict>
 		<key>Headers/SmartPromoCore.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/426g8WO7HqYOwy4vfq9c17HjkIENcCXqwKW8av6PKQ=
+			fT6t7LVEn/7JE2TjFKrGOPDLyJfBhasxWQTSwu6eCuY=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h7J8uQe06dbkiHsHFM46vzo2kMNrcoMUthb7xte/M5s=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SZNA88KbHGOclhdIAUVT5w2zlzINpjUZih8S6gG0noE=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uOQRGaboq05T0hly/e1McsU+Y0woEmdZIByMXWrax5w=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SZNA88KbHGOclhdIAUVT5w2zlzINpjUZih8S6gG0noE=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TSj17oFPlocM/nens8xtUTF1kLcgI2QG0anzBVx0Lrc=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h7J8uQe06dbkiHsHFM46vzo2kMNrcoMUthb7xte/M5s=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NUDN+K9H9KtkLKHMRzGz8ixAwx+Q3ig44FYhhM0E5V4=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tf3EKUDZ1Q66PkgHvfWSD2qDzSKdzhonmAopA+k2Kvw=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NUDN+K9H9KtkLKHMRzGz8ixAwx+Q3ig44FYhhM0E5V4=
+			</data>
+		</dict>
+		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gvHwGxkumyM5bfbXhdAQyBaF/jLD3kBh/tc8ER9bpZs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vH0DiuPOS0ruHivCdzOZFnboRXCLtIwmeavodnubO4A=
+			hxEDouqgO7moHyecK2a5YIswohUP8XP1hoslJ5IttUo=
 			</data>
 		</dict>
 	</dict>

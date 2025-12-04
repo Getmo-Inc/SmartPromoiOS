@@ -1,3 +1,5 @@
+platform :ios, '14.0'
+
 target 'Example' do
   use_frameworks!
 

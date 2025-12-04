@@ -7,12 +7,17 @@
 
 #import <UIKit/UIKit.h>
 #import "FSPDispatchQueue+SmartPromo.h"
+#import "FSPConfig.h"
+#import "FSPThemed.h"
 
-@interface FSPBaseViewController : UIViewController
+@interface FSPBaseViewController : UIViewController <FSPThemed>
 
 @property (strong) UIButton* floatActionButton;
 
 - (id)initXib:(NSString*) xibName;
+
+- (UIColor*) fspCurrentColor;
+- (UIColor*) fpsDefaultColor;
 
 - (void) showLoadingView: (BOOL) animated;
 - (void) showLoadingViewOpacity: (BOOL) opaque animated: (BOOL) animated;
@@ -39,6 +44,7 @@
 - (UIColor*) backdropColor;
 - (UIEdgeInsets) safeAreaInsets;
 - (void) configureFloatButtonWithImage: (UIImage*) image title: (NSString*) title selector: (SEL) selector;
+- (void) updateThemed;
 
 @end
 

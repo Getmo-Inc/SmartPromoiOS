@@ -6,9 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPFormViewController.h"
 #import "FSPPrompt.h"
 #import "FSPLottie.h"
+#import "FSPThemed.h"
+#import "FSPBaseViewController.h"
 
 typedef void (^FSPAction)(NSString* action);
 
@@ -25,9 +26,12 @@ typedef void (^FSPAction)(NSString* action);
 
 @end
 
-@interface FSPPromptCoordinator : FSPFormViewController <UIScrollViewDelegate>
+@interface FSPPromptCoordinator : FSPBaseViewController <UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *contentView;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @property UIStackView *stackView;
 @property UIButton *closeButton;
 
@@ -53,9 +57,9 @@ typedef void (^FSPAction)(NSString* action);
 - (void) setButtonEnabled: (NSString*) action enabled:(BOOL) enabled;
 
 + (UILabel*) makeTitle: (FSPPromptContent*) content;
-+ (UITextView*) makeBody: (FSPPromptContent*) content;
++ (UITextView*) makeBody: (FSPPromptContent*) content themed: (id<FSPThemed>) themed;
 + (UIView*) makeSpace;
 + (UIView*) makeSpace: (CGFloat) height;
-+ (UIButton*) makeButton: (NSString*) title textStyle: (BOOL) textStyle;
++ (UIButton*) makeButton: (NSString*) title textStyle: (BOOL) textStyle themed: (id<FSPThemed>) themed ;
 - (void) updateSize;
 @end

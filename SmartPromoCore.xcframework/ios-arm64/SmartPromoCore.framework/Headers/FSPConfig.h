@@ -5,7 +5,7 @@
 //  Created by Rodrigo Busata on 09/30/21.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "FSPPrompt.h"
 #import "FSPLottie.h"
 #import "FSPRecommendSeller.h"

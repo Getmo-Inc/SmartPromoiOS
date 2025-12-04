@@ -7,9 +7,12 @@
 
 #import <UIKit/UIKit.h>
 #import "JMMaskTextField.h"
+#import "FSPThemed.h"
 
 IB_DESIGNABLE
 @interface FSPTextField : JMMaskTextField
+
+@property (nonatomic, strong) id<FSPThemed> themed;
 
 @property (strong, nonatomic) IBInspectable NSString *labelText;
 @property (nonatomic, assign) IBInspectable BOOL isMale;
