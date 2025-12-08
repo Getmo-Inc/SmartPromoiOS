@@ -43,7 +43,6 @@ extern NSString* const SmartPromoEventCampaignSelected;
                                              message: (NSString*) message;
     
 - (void) go: (NSString*) campaignID above: (UIViewController *) above;
-- (UIViewController*) go: (NSString*) campaignID onDismiss: (dispatch_block_t) onDismiss;
 - (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
                                     title: (NSString*) title
                                   message: (NSString*) message;

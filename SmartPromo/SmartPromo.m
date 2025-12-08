@@ -84,10 +84,6 @@
     [_smartPromoCore go:campaignID above:above];
 }
 
-- (UIViewController*) go: (NSString*) campaignID onDismiss: (dispatch_block_t) onDismiss {
-    return [_smartPromoCore go:campaignID onDismiss:onDismiss];
-}
-
 - (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
                                     title: (NSString*) title
                                   message: (NSString*) message {
