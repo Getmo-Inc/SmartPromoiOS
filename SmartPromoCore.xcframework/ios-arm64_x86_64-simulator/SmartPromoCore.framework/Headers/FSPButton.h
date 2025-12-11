@@ -19,7 +19,6 @@ typedef void (^FSPToggleButtonDidChange)(BOOL);
 // MARK: - FSPButtonText
 @interface FSPButtonText : UIButton
 
-@property (nonatomic, assign) IBInspectable BOOL verticalIcon;
 @property (nonatomic, strong) id<FSPThemed> themed;
 - (void) setupColor;
 

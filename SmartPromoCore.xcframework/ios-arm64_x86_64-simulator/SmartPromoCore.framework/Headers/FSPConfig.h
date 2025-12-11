@@ -81,6 +81,8 @@
 @property (nonatomic, strong) NSString *appStoreMessage;
 @property (nonatomic, strong) NSString *floatActionCapture;
 @property (nonatomic, strong) FSPPrompt *signOutMessage;
+@property (nonatomic, assign) CGFloat largeCardAspectRatio;
+@property (nonatomic, assign) CGFloat smallCardAspectRatio;
 
 @end
 
