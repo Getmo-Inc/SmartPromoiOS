@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FSPDispatchQueue+SmartPromo.h"
-#import "FSPConfig.h"
+#import "SmartPromoSharedAliases.h"
 #import "FSPThemed.h"
 
 @interface FSPBaseViewController : UIViewController <FSPThemed>

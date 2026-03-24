@@ -19,17 +19,16 @@
 }
 
 - (IBAction)actionOpen:(id)sender {
-    SmartPromo* smartPromo = [SmartPromo new];
+    SmartPromo* smartPromo = [[SmartPromo alloc] initWithAccessKey:@"{accessKey}"
+                                                           secretKey:@"{secretKey}"
+                                                           isHomolog:NO];
     smartPromo.delegate = self;
-    
-    [smartPromo setupAccessKey:@"{accessKey}"
-                  andSecretKey:@"{secretKey}"];
-    
+
     FSPConsumer* consumer = [FSPConsumer new];
     consumer.cpf = @"{cpf}";
     [smartPromo setConsumer:consumer];
-    
-    [smartPromo go:@"{campaignID}" above: self];
+
+    [smartPromo go:@"{campaignID}" viewController:self];
 }
 
 - (void)smartPromoDidReceiveEvent:(NSString *)eventKey values:(NSDictionary<NSString *,id> *)values {

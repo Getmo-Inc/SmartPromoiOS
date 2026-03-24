@@ -1,0 +1,8 @@
+framework module "SmartPromoShared" {
+    umbrella header "SmartPromoShared.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}

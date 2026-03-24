@@ -6,10 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPFeature.h"
-#import "FSPFilter.h"
-#import "FSPConfig.h"
 #import "FSPPromptCoordinator.h"
+#import "SmartPromoSharedAliases.h"
 
 @interface FSPFeatureViewController : FSPBaseViewController
 

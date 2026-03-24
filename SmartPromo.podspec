@@ -11,5 +11,9 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '14.0'
   s.vendored_frameworks = ['SmartPromoCore.xcframework', 'output/SmartPromo.xcframework']
+  s.preserve_paths = 'SmartPromoShared.xcframework'
+  s.xcconfig = {
+    'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/SmartPromo/SmartPromoShared.xcframework/ios-arm64_x86_64-simulator $(PODS_ROOT)/SmartPromo/SmartPromoShared.xcframework/ios-arm64'
+  }
  
 end

@@ -15,17 +15,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionOpen(_ sender: Any) {
-        let smartPromo = SmartPromo()
+        let smartPromo = SmartPromo(accessKey: "{accessKey}", secretKey: "{secretKey}", isHomolog: false)
         smartPromo.delegate = self
-        
-        smartPromo.setupAccessKey("{accessKey}", andSecretKey: "{secretKey}")
-        
+
         let consumer = FSPConsumer()
         consumer.cpf = "{cpf}"
         smartPromo.setConsumer(consumer)
-        smartPromo.setIsHomolog(true)
-        
-        smartPromo.go("{campaignID}", above: self)
+
+        smartPromo.go("{campaignID}", viewController: self)
     }
 }
 

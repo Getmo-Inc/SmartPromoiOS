@@ -8,4 +8,4 @@
 #import "FSPButton.h"
 #import "FSPTextField.h"
 #import "FSPCodeInput.h"
-#import "FSPAuthRequired.h"
+#import "SmartPromoSharedAliases.h"

@@ -6,8 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPPrompt.h"
-#import "FSPLottie.h"
+#import "SmartPromoSharedAliases.h"
 #import "FSPThemed.h"
 #import "FSPBaseViewController.h"
 

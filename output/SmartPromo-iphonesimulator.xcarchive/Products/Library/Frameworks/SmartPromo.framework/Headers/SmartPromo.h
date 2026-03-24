@@ -26,22 +26,25 @@ extern NSString* const SmartPromoEventCampaignSelected;
 
 @property (nonatomic, weak) id<SmartPromoDelegate> delegate;
 
-- (SmartPromo*) setupAccessKey: (NSString*) accessKey andSecretKey: (NSString*) secretKey;
+- (nonnull instancetype) initWithAccessKey: (nonnull NSString*) accessKey
+                                 secretKey: (nonnull NSString*) secretKey
+                                 isHomolog: (BOOL) isHomolog NS_DESIGNATED_INITIALIZER;
 
 - (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
-- (SmartPromo*) setIsHomolog: (BOOL) isHomolog;
 - (SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
 - (SmartPromo*) enableSwitchCampaignWithHeadnote: (NSString*) headnote
                                                title: (NSString*) title
                                              message: (NSString*) message;
     
-- (void) go: (NSString*) campaignID above: (UIViewController *) above;
-- (UIViewController*) goMultiWithHeadnote: (NSString*) headnote
-                                    title: (NSString*) title
-                                  message: (NSString*) message;
+- (void) go: (NSString*) campaignID viewController: (UIViewController *) viewController;
+- (void) goMultiWithHeadnote: (NSString*) headnote
+                        title: (NSString*) title
+                      message: (NSString*) message
+               viewController: (UIViewController*) viewController;
 
-- (void) goSwitch: (UINavigationController *) above;
+- (void) goSwitch: (UINavigationController *) viewController;
+- (void) goSwitch: (UINavigationController *) viewController currentCampaignId: (NSString*) currentCampaignId;
 
-- (void) scan: (NSString*)campaignID consumerID: (NSString*) consumerID above: (UIViewController *) above;
+- (void) goScan: (NSString*) campaignID consumerId: (NSString*) consumerId viewController: (UIViewController *) viewController;
 
 @end
