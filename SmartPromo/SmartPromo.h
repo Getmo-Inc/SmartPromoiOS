@@ -44,8 +44,8 @@ extern NSString* _Nonnull const SmartPromoEventCampaignSelected;
                viewController: (nonnull UIViewController*) viewController;
 
 - (void) goSwitch: (nonnull UINavigationController *) viewController;
-- (void) goSwitch: (nonnull UINavigationController *) viewController currentCampaignId: (nonnull NSString*) currentCampaignId;
+- (void) goSwitch: (nonnull UINavigationController *) viewController currentCampaignId: (nullable NSString*) currentCampaignId;
 
-- (void) goScan: (nonnull NSString*) campaignID consumerId: (nonnull NSString*) consumerId viewController: (nonnull UIViewController *) viewController;
+- (void) goScan: (nonnull NSString*) campaignID consumerId: (nullable NSString*) consumerId viewController: (nonnull UIViewController *) viewController;
 
 @end

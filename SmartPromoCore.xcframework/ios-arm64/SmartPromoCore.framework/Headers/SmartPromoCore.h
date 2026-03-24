@@ -29,7 +29,7 @@ extern NSString* _Nonnull const SmartPromoEventCampaignSelected;
 
 @property (nonatomic, weak) id<SmartPromoDelegate> delegate;
 
-- (nonnull SmartPromoCore*) setConsumer:(nonnull FSPConsumerCore*) consumer;
+- (nonnull SmartPromoCore*) setConsumer:(nullable FSPConsumerCore*) consumer;
 - (nonnull SmartPromoCore*) setMetadata: (NSString* _Nullable) metadata;
 - (void) go: (nonnull NSString*) campaignId viewController: (nonnull UIViewController *) viewController;
 - (void) goMultiWithHeadnote: (nonnull NSString*) headnote
