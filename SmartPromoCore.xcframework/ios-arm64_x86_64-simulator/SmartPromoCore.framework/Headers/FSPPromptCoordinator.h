@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SmartPromoSharedAliases.h"
-#import "FSPThemed.h"
-#import "FSPBaseViewController.h"
+#import <SmartPromoCore/SmartPromoSharedAliases.h>
+#import <SmartPromoCore/FSPThemed.h>
+#import <SmartPromoCore/FSPBaseViewController.h>
 
 typedef void (^FSPAction)(NSString* action);
 

@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SmartPromoSharedAliases.h"
+#import <SmartPromoCore/SmartPromoSharedAliases.h>
 
 typedef void(^FSPResponse)(NSString * _Nullable json, BOOL success, NSInteger statusCode);
 typedef void(^FSPSimpleResponse)(BOOL success);

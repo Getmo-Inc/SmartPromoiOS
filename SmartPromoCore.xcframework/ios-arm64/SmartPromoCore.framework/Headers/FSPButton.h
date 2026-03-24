@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPTextView.h"
+#import <SmartPromoCore/FSPTextView.h>
 
 typedef void (^FSPToggleButtonDidChange)(BOOL);
 

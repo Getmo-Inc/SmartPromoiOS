@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <SmartPromo/FSPConsumer.h>
 
-extern NSString* const SmartPromoEventCampaignSelected;
+extern NSString* _Nonnull const SmartPromoEventCampaignSelected;
 
 @protocol SmartPromoDelegate<NSObject>
 
@@ -29,22 +29,23 @@ extern NSString* const SmartPromoEventCampaignSelected;
 - (nonnull instancetype) initWithAccessKey: (nonnull NSString*) accessKey
                                  secretKey: (nonnull NSString*) secretKey
                                  isHomolog: (BOOL) isHomolog NS_DESIGNATED_INITIALIZER;
+- (instancetype) init NS_UNAVAILABLE;
 
-- (SmartPromo*) setConsumer:(FSPConsumer*) consumer;
-- (SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
-- (SmartPromo*) enableSwitchCampaignWithHeadnote: (NSString*) headnote
-                                               title: (NSString*) title
-                                             message: (NSString*) message;
-    
-- (void) go: (NSString*) campaignID viewController: (UIViewController *) viewController;
-- (void) goMultiWithHeadnote: (NSString*) headnote
-                        title: (NSString*) title
-                      message: (NSString*) message
-               viewController: (UIViewController*) viewController;
+- (nonnull SmartPromo*) setConsumer:(nullable FSPConsumer*) consumer;
+- (nonnull SmartPromo*) setMetadata: (NSString* _Nullable) metadata;
+- (nonnull SmartPromo*) enableSwitchCampaignWithHeadnote: (nonnull NSString*) headnote
+                                                    title: (nonnull NSString*) title
+                                                  message: (nonnull NSString*) message;
 
-- (void) goSwitch: (UINavigationController *) viewController;
-- (void) goSwitch: (UINavigationController *) viewController currentCampaignId: (NSString*) currentCampaignId;
+- (void) go: (nonnull NSString*) campaignID viewController: (nonnull UIViewController *) viewController;
+- (void) goMultiWithHeadnote: (nonnull NSString*) headnote
+                        title: (nonnull NSString*) title
+                      message: (nonnull NSString*) message
+               viewController: (nonnull UIViewController*) viewController;
 
-- (void) goScan: (NSString*) campaignID consumerId: (NSString*) consumerId viewController: (UIViewController *) viewController;
+- (void) goSwitch: (nonnull UINavigationController *) viewController;
+- (void) goSwitch: (nonnull UINavigationController *) viewController currentCampaignId: (nonnull NSString*) currentCampaignId;
+
+- (void) goScan: (nonnull NSString*) campaignID consumerId: (nonnull NSString*) consumerId viewController: (nonnull UIViewController *) viewController;
 
 @end

@@ -8,12 +8,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SmartPromoSharedAliases.h"
-#import "FSPMultiCampaignViewController.h"
-#import "FSPWebService.h"
+#import <SmartPromoCore/SmartPromoSharedAliases.h>
+#import <SmartPromoCore/FSPMultiCampaignViewController.h>
+#import <SmartPromoCore/FSPWebService.h>
 #import <SmartPromoCore/InternalSmartPromoCore.h>
 
-extern NSString* const SmartPromoEventCampaignSelected;
+extern NSString* _Nonnull const SmartPromoEventCampaignSelected;
 
 @protocol SmartPromoDelegate<NSObject>
 
@@ -29,17 +29,17 @@ extern NSString* const SmartPromoEventCampaignSelected;
 
 @property (nonatomic, weak) id<SmartPromoDelegate> delegate;
 
-- (SmartPromoCore*) setConsumer:(FSPConsumerCore*) consumer;
-- (SmartPromoCore*) setMetadata: (NSString* _Nullable) metadata;
-- (void) go: (NSString*) campaignId viewController: (UIViewController *) viewController;
-- (void) goMultiWithHeadnote: (NSString*) headnote
-                       title: (NSString*) title
-                     message: (NSString*) message
-              viewController: (UIViewController*) viewController;
+- (nonnull SmartPromoCore*) setConsumer:(nonnull FSPConsumerCore*) consumer;
+- (nonnull SmartPromoCore*) setMetadata: (NSString* _Nullable) metadata;
+- (void) go: (nonnull NSString*) campaignId viewController: (nonnull UIViewController *) viewController;
+- (void) goMultiWithHeadnote: (nonnull NSString*) headnote
+                       title: (nonnull NSString*) title
+                     message: (nonnull NSString*) message
+              viewController: (nonnull UIViewController*) viewController;
 
-- (void) goSwitch: (UINavigationController *) viewController;
-- (void) goSwitch: (UINavigationController *) viewController currentCampaignId: (NSString*) currentCampaignId;
+- (void) goSwitch: (nonnull UINavigationController *) viewController;
+- (void) goSwitch: (nonnull UINavigationController *) viewController currentCampaignId: (nonnull NSString*) currentCampaignId;
 
-- (void) goScan: (NSString*) campaignId consumerId: (NSString*) consumerId viewController: (UIViewController *) viewController;
+- (void) goScan: (nonnull NSString*) campaignId consumerId: (nonnull NSString*) consumerId viewController: (nonnull UIViewController *) viewController;
 
 @end

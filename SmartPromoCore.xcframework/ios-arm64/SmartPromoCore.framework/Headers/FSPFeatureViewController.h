@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPPromptCoordinator.h"
-#import "SmartPromoSharedAliases.h"
+#import <SmartPromoCore/FSPPromptCoordinator.h>
+#import <SmartPromoCore/SmartPromoSharedAliases.h>
 
 @interface FSPFeatureViewController : FSPBaseViewController
 

@@ -5,7 +5,7 @@
 //  Created by Rodrigo Busata on 09/07/23.
 //
 
-#import "FSPFeatureViewController.h"
+#import <SmartPromoCore/FSPFeatureViewController.h>
 
 @interface FSPMultiCampaignViewController : FSPFeatureViewController
 

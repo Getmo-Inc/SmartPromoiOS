@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
-#import "FSPTextField.h"
-#import "SmartPromoSharedAliases.h"
+#import <SmartPromoCore/FSPTextField.h>
+#import <SmartPromoCore/SmartPromoSharedAliases.h>
 
 typedef void (^FSPCodeInputCompletion)(void);
 

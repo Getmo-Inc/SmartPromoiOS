@@ -6,8 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JMMaskTextField.h"
-#import "FSPThemed.h"
+#import <SmartPromoCore/JMMaskTextField.h>
+#import <SmartPromoCore/FSPThemed.h>
 
 IB_DESIGNABLE
 @interface FSPTextField : JMMaskTextField

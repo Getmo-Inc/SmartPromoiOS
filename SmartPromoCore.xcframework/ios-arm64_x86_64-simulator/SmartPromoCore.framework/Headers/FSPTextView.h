@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPThemed.h"
+#import <SmartPromoCore/FSPThemed.h>
 
 @interface FSPTextView : UITextView
 

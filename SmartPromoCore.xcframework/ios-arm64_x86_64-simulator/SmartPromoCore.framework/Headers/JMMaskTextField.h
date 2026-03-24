@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "JMStringMask.h"
+#import <SmartPromoCore/JMStringMask.h>
 
 IB_DESIGNABLE
 @interface JMMaskTextField : UITextField

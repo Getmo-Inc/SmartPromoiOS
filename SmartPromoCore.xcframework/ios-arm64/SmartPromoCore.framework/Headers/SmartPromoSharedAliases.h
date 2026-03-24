@@ -31,11 +31,11 @@
 FSP_PARSING_INTERFACE(SPSFSPPrompt)
 
 @interface SPSFSPPromptContent (Convenience)
-+ (instancetype)withValue:(NSString * _Nullable)value type:(SPSFSPPromptContentType *)type;
++ (nonnull instancetype)withValue:(NSString * _Nullable)value type:(nonnull SPSFSPPromptContentType *)type;
 @end
 
 @interface SPSFSPPrompt (New)
-+ (instancetype)new;
++ (nonnull instancetype)new;
 @end
 #define FSPPromptCompanion       SPSFSPPromptCompanion
 #define FSPPromptContent         SPSFSPPromptContent
@@ -53,7 +53,7 @@ FSP_PARSING_INTERFACE(SPSFSPPrompt)
 FSP_PARSING_INTERFACE(SPSFSPConsumerCore)
 
 @interface SPSFSPConsumerCore (New)
-+ (instancetype)new;
++ (nonnull instancetype)new;
 @end
 
 // MARK: - FSPAddress
@@ -62,7 +62,7 @@ FSP_PARSING_INTERFACE(SPSFSPConsumerCore)
 FSP_PARSING_INTERFACE(SPSFSPAddress)
 
 @interface SPSFSPAddress (New)
-+ (instancetype)new;
++ (nonnull instancetype)new;
 @end
 
 // MARK: - FSPFeature
@@ -70,10 +70,10 @@ FSP_PARSING_INTERFACE(SPSFSPAddress)
 #define FSPFeature               SPSFSPFeatureCard
 
 @interface SPSFSPFeatureCard (Convenience)
-+ (instancetype)withAction:(NSString * _Nullable)action
-                  headnote:(NSString * _Nullable)headnote
-                     title:(NSString * _Nullable)title
-                   message:(NSString * _Nullable)message;
++ (nonnull instancetype)withAction:(NSString * _Nullable)action
+                          headnote:(NSString * _Nullable)headnote
+                             title:(NSString * _Nullable)title
+                           message:(NSString * _Nullable)message;
 @end
 
 #define FSPGenre                 SPSFSPGenre
@@ -91,7 +91,7 @@ FSP_PARSING_INTERFACE(SPSFSPAddress)
 FSP_PARSING_INTERFACE(SPSFSPLottie)
 
 @interface SPSFSPLottie (InitWithName)
-+ (instancetype)initWithName:(NSString *)name;
++ (nonnull instancetype)initWithName:(nonnull NSString *)name;
 @end
 
 // MARK: - FSPReceiptStatus
@@ -104,7 +104,7 @@ FSP_PARSING_INTERFACE(SPSFSPLottie)
 FSP_PARSING_INTERFACE(SPSFSPReceipt)
 
 @interface SPSFSPReceipt (New)
-+ (instancetype)new;
++ (nonnull instancetype)new;
 @end
 
 // MARK: - FSPReceiptSection
@@ -164,7 +164,7 @@ FSP_PARSING_INTERFACE(SPSFSPCampaignWinner)
 FSP_PARSING_INTERFACE(SPSFSPSurvey)
 
 @interface SPSFSPSurvey (PromptsToDict)
-- (NSArray<NSDictionary *> *)promptsToDict;
+- (nonnull NSArray<NSDictionary *> *)promptsToDict;
 @end
 
 // MARK: - FSPGenericItem
@@ -224,7 +224,7 @@ FSP_PARSING_INTERFACE(SPSFSPConfig)
 @interface SPSFSPConfig (Migration)
 + (void)setGlobalConfig:(SPSFSPConfig * _Nullable)config;
 + (SPSFSPConfig * _Nullable)globalConfig;
-+ (instancetype)new;
++ (nonnull instancetype)new;
 + (BOOL)isRunningUITest;
 @end
 
