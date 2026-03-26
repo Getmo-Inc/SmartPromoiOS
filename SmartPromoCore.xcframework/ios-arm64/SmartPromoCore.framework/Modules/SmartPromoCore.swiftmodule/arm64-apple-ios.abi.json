@@ -4234,15 +4234,22 @@
     },
     {
       "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
       "kind": "Array",
-      "offset": 1318,
+      "offset": 1357,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
       "kind": "Array",
-      "offset": 1404,
+      "offset": 1443,
       "length": 2,
       "value": "[]"
     },

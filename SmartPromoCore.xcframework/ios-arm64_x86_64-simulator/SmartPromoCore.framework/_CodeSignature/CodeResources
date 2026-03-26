@@ -186,7 +186,7 @@
 		</data>
 		<key>Headers/SmartPromoCore.h</key>
 		<data>
-		MQ9EJzwktWwvaviSuJpPLSP6+g8=
+		G8ep8oldmBOouMaIhPUGSfoUHdo=
 		</data>
 		<key>Headers/SmartPromoSharedAliases.h</key>
 		<data>
@@ -194,11 +194,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Pll9H45z+Dp2NeCvTMRptxMsDCk=
+		GXCdBYJOwYnLX3mDDQ6zW9RoT+8=
 		</data>
 		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vMyHNvcYIoa6MrKolulnu5xe7ms=
+		BRVLeqas9qjqCWOUr8xgeROeEXM=
 		</data>
 		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -214,11 +214,11 @@
 		</data>
 		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AbIweh/hBnNmjeFVPdMsgKcs24Y=
+		wWyAopaQ+H6Z1xKibBfl9g5mhlU=
 		</data>
 		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vMyHNvcYIoa6MrKolulnu5xe7ms=
+		BRVLeqas9qjqCWOUr8xgeROeEXM=
 		</data>
 		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tSEr3TcUORjmEksiSN2o+OY/dJ0=
+		eDpGuQ+GbPxWO4pSxTUvegTjevc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -562,7 +562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pclMX3eWjc7y7ahrZ+yBCzsTvaOZZL78NLuRshmofFY=
+			5w1mwe0+oniZ2baZ0/JYQQ3LtnsPv3/422mFvMu3e08=
 			</data>
 		</dict>
 		<key>Headers/SmartPromoSharedAliases.h</key>
@@ -576,7 +576,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7J06VPD4mVZXu8BSXyrbClpWE7vbZjSzThP05gQ+efI=
+			PA7e8wK62usp7HZXuoSq+UuNLS3rj3hH7mmUNoHIlyQ=
 			</data>
 		</dict>
 		<key>Modules/SmartPromoCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -604,14 +604,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvoReZ8ih4iXk1hiGI71qEyMUM+pquMpwhsWma/2WwM=
+			yKv8PT7gjzwICSV8KU6b1bPE2HPI7ztBVMEnsGjPD40=
 			</data>
 		</dict>
 		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7J06VPD4mVZXu8BSXyrbClpWE7vbZjSzThP05gQ+efI=
+			PA7e8wK62usp7HZXuoSq+UuNLS3rj3hH7mmUNoHIlyQ=
 			</data>
 		</dict>
 		<key>Modules/SmartPromoCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -639,7 +639,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrmhSf3/O6w4aLZ988VLm8sXP14vnKhH1ud/upYqAnk=
+			jiS7IWkvsZgqXMsNGBGWZn7gLToTaB3QYHBzeqx9ksQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
