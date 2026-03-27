@@ -154,7 +154,7 @@ __attribute__((swift_name("FSPSharedSmartPromo")))
 - (void)goScanCampaignId:(NSString *)campaignId consumerId:(NSString *)consumerId context:(id)context __attribute__((swift_name("goScan(campaignId:consumerId:context:)")));
 - (void)goSwitchCurrentCampaignId:(NSString * _Nullable)currentCampaignId context:(id)context __attribute__((swift_name("goSwitch(currentCampaignId:context:)")));
 - (void)performGoCampaignId:(NSString *)campaignId context:(id)context __attribute__((swift_name("performGo(campaignId:context:)")));
-- (void)performGoMultiHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message context:(id)context __attribute__((swift_name("performGoMulti(headnote:title:message:context:)")));
+- (void)performGoMultiHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message currentCampaignId:(NSString * _Nullable)currentCampaignId context:(id)context __attribute__((swift_name("performGoMulti(headnote:title:message:currentCampaignId:context:)")));
 - (void)performGoScanCampaignId:(NSString *)campaignId consumerId:(NSString *)consumerId context:(id)context __attribute__((swift_name("performGoScan(campaignId:consumerId:context:)")));
 - (SPSFSPSharedSmartPromo *)setConsumerConsumer:(SPSFSPConsumerCore * _Nullable)consumer __attribute__((swift_name("setConsumer(consumer:)")));
 - (SPSFSPSharedSmartPromo *)setMetadataMetadata:(NSString * _Nullable)metadata __attribute__((swift_name("setMetadata(metadata:)")));
@@ -1507,14 +1507,14 @@ __attribute__((swift_name("FSPPrizeItemDetail.FSPGroupCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrompt")))
 @interface SPSFSPPrompt : SPSBase
-- (instancetype)initWithId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> * _Nullable)content __attribute__((swift_name("init(id:closable:content:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> *)content __attribute__((swift_name("init(id:closable:content:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPromptCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPPrompt *)doCopyId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> * _Nullable)content __attribute__((swift_name("doCopy(id:closable:content:)")));
+- (SPSFSPPrompt *)doCopyId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> *)content __attribute__((swift_name("doCopy(id:closable:content:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL closable __attribute__((swift_name("closable")));
-@property NSMutableArray<SPSFSPPromptContent *> * _Nullable content __attribute__((swift_name("content")));
+@property NSMutableArray<SPSFSPPromptContent *> *content __attribute__((swift_name("content")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @end
 
