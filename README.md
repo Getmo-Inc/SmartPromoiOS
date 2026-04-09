@@ -2,7 +2,7 @@
 O SmartPromo é uma SDK para envio de notas em campanhas promocionais.
 
 ## Instalação
-### Swift Package Manager (Recomendado)
+### Swift Package Manager
 SmartPromo é compatível com `iOS 14+` e pode ser adicionado no seu projeto `Swift` utilizando o [Swift Package Manager](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app):
 
 1. No Xcode, vá em **File → Add Package Dependencies...**
