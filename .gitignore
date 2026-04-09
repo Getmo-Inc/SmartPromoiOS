@@ -1,4 +1,6 @@
 .DS_Store
+.build/
+.swiftpm/
 Example/Pods
 ExampleObjc/Pods
 Example/Example.xcworkspace/xcuserdata
