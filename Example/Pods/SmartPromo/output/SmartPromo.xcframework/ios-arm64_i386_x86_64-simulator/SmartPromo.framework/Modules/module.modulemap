@@ -1,6 +1,0 @@
-framework module SmartPromo {
-  umbrella header "SmartPromo.h"
-
-  export *
-  module * { export * }
-}

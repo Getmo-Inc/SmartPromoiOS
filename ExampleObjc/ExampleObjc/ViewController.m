@@ -8,7 +8,7 @@
 #import "ViewController.h"
 #import <SmartPromo/SmartPromo.h>
 
-@interface ViewController ()
+@interface ViewController ()<SmartPromoDelegate>
 
 @end
 
@@ -19,17 +19,26 @@
 }
 
 - (IBAction)actionOpen:(id)sender {
-    SmartPromo* smartPromo = [SmartPromo new];
-    [smartPromo setupAccessKey:@"{accessKey}"
-                  andSecretKey:@"{secretKey}"];
-    
-    [smartPromo setColor: UIColor.systemOrangeColor];
-    
+    SmartPromo* smartPromo = [[SmartPromo alloc] initWithAccessKey:@"{accessKey}"
+                                                           secretKey:@"{secretKey}"
+                                                           isHomolog:NO];
+    smartPromo.delegate = self;
+
     FSPConsumer* consumer = [FSPConsumer new];
     consumer.cpf = @"{cpf}";
     [smartPromo setConsumer:consumer];
+
+    [smartPromo go:@"{campaignID}" viewController:self];
+}
+
+- (void)smartPromoDidReceiveEvent:(NSString *)eventKey values:(NSDictionary<NSString *,id> *)values {
+    NSLog(@"[SmartPromo] Event received: %@", eventKey);
     
-    [smartPromo go:@"{campaignID}" above: self];
+    if (values.count > 0) {
+        NSLog(@"[SmartPromo] Event values: %@", values);
+    } else {
+        NSLog(@"[SmartPromo] No values attached to event");
+    }
 }
 
 @end

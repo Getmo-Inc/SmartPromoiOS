@@ -15,16 +15,26 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionOpen(_ sender: Any) {
-        let smartPromo = SmartPromo()
-        smartPromo.setupAccessKey("{accessKey}", andSecretKey: "{secretKey}")
-        
-        smartPromo.setColor(.systemOrange)
-        
+        let smartPromo = SmartPromo(accessKey: "{accessKey}", secretKey: "{secretKey}", isHomolog: false)
+        smartPromo.delegate = self
+
         let consumer = FSPConsumer()
         consumer.cpf = "{cpf}"
         smartPromo.setConsumer(consumer)
-        smartPromo.setIsHomolog(true)
-        
-        smartPromo.go("{campaignID}", above: self)
+
+        smartPromo.go("{campaignID}", viewController: self)
+    }
+}
+
+extension ViewController: SmartPromoDelegate {
+    
+    func smartPromoDidReceiveEvent(_ eventKey: String, values: [String : Any]?) {
+        print("[SmartPromo] Event received: \(eventKey)");
+            
+        if let values {
+            print("[SmartPromo] Event values: \(values)");
+        } else {
+            print("[SmartPromo] No values attached to event");
+        }
     }
 }

@@ -1,6 +1,18 @@
-framework module SmartPromoCore {
-  umbrella header "SmartPromoCore.h"
-  export *
+//
+//  smartpromo.modulemap
+//  SmartPromoCore
+//
+//  Created by Rodrigo Busata on 11/29/25.
+//
 
-  module * { export * }
+framework module SmartPromoCore {
+    umbrella header "SmartPromoCore.h"
+
+    export *
+    module * { export * }
+}
+
+module SmartPromoCore.Swift {
+  header "SmartPromoCore-Swift.h"
+  requires objc
 }

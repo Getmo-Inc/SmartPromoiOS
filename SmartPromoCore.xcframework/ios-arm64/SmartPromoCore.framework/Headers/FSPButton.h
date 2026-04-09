@@ -6,16 +6,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPTextView.h"
+#import <SmartPromoCore/FSPTextView.h>
 
 typedef void (^FSPToggleButtonDidChange)(BOOL);
 
+@interface UIButton (SmartPromo)
+
+- (void) applyCloseConfiguration;
+    
+@end
+    
 // MARK: - FSPButtonText
 @interface FSPButtonText : UIButton
 
-@property (nonatomic, assign) IBInspectable BOOL verticalIcon;
+@property (nonatomic, strong) id<FSPThemed> themed;
+- (void) setupColor;
 
-+ (FSPButtonText*) instance;
++ (FSPButtonText*) instance: (id<FSPThemed>) themed;
 
 @end
 
@@ -51,6 +58,8 @@ typedef void (^FSPCheckBoxDidChange)(BOOL);
 
 @interface FSPCheckBox : UIView
 
+@property (nonatomic, strong) id<FSPThemed> themed;
+
 @property (strong, nonatomic) FSPTextView *textView;
 
 @property (strong, nonatomic) UIImageView *imageView;
@@ -70,6 +79,8 @@ typedef void (^FSPRadioButtonGroupDidChange)(NSUInteger);
 
 @interface FSPRadioButtonGroup : UIView
 
+@property (nonatomic, strong) id<FSPThemed> themed;
+
 @property (strong, nonatomic) NSArray<NSString*>* options;
 @property FSPRadioButtonGroupDidChange didChange;
 
@@ -83,7 +94,10 @@ typedef void (^FSPSwitchDidChange)(BOOL);
 
 @interface FSPSwitch : UIView
 
+@property (nonatomic, strong) id<FSPThemed> themed;
+
 @property (strong, nonatomic) FSPTextView *textView;
+@property UISwitch* switchButton;
 
 @property FSPSwitchDidChange didChange;
 
@@ -98,6 +112,7 @@ typedef void (^FSPToggleButtonsDidChange)(id, NSUInteger, BOOL);
 
 @interface FSPToggleButtons : UIView
 
+@property (nonatomic, strong) id<FSPThemed> themed;
 @property UIStackView* stackView;
 
 @property BOOL singleSelection;

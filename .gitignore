@@ -1,4 +1,10 @@
 .DS_Store
+.build/
+.swiftpm/
+Example/Pods
+ExampleObjc/Pods
+Example/Example.xcworkspace/xcuserdata
+ExampleObjc/ExampleObjc.xcworkspace/xcuserdata
 SmartPromo.xcodeproj/project.xcworkspace/xcuserdata
 Example/Example.xcworkspace/xcuserdata
 SmartPromo.xcodeproj/xcuserdata

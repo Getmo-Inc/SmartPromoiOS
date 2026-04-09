@@ -1,0 +1,4516 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SmartPromoCore",
+    "printedName": "SmartPromoCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartPromoShared",
+        "printedName": "SmartPromoShared",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPOptInFormView",
+        "printedName": "FSPOptInFormView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(consumer:filter:themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPOptInFormView",
+                "printedName": "SmartPromoCore.FSPOptInFormView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInFormView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPConsumerCore",
+                "printedName": "SmartPromoShared.FSPConsumerCore",
+                "usr": "c:objc(cs)SPSFSPConsumerCore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInFormView(im)initWithConsumer:filter:themed:",
+            "mangledName": "$s14SmartPromoCore16FSPOptInFormViewC8consumer6filter6themedACSo014SPSFSPConsumerC0C_SaySSGSgSo9FSPThemed_ptcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithConsumer:filter:themed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPOptInFormView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPOptInFormView",
+                    "printedName": "SmartPromoCore.FSPOptInFormView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInFormView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInFormView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore16FSPOptInFormViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInFormView",
+        "mangledName": "$s14SmartPromoCore16FSPOptInFormViewC",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Final",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPOptInBaseFormView",
+          "SmartPromoCore.FSPBaseOptInView",
+          "SmartPromoCore.FSPFormView",
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPOptInBaseFormView",
+        "printedName": "FSPOptInBaseFormView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "consumer",
+            "printedName": "consumer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPConsumerCore",
+                "printedName": "SmartPromoShared.FSPConsumerCore",
+                "usr": "c:objc(cs)SPSFSPConsumerCore"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(py)consumer",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC8consumerSo014SPSFSPConsumerC0Cvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPConsumerCore",
+                    "printedName": "SmartPromoShared.FSPConsumerCore",
+                    "usr": "c:objc(cs)SPSFSPConsumerCore"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)consumer",
+                "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC8consumerSo014SPSFSPConsumerC0Cvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(consumer:filter:themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPOptInBaseFormView",
+                "printedName": "SmartPromoCore.FSPOptInBaseFormView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPConsumerCore",
+                "printedName": "SmartPromoShared.FSPConsumerCore",
+                "usr": "c:objc(cs)SPSFSPConsumerCore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)initWithConsumer:filter:themed:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC8consumer6filter6themedACSo014SPSFSPConsumerC0C_SaySSGSgSo9FSPThemed_ptcfc",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPOptInBaseFormView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPOptInBaseFormView",
+                    "printedName": "SmartPromoCore.FSPOptInBaseFormView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Required",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "actionTap",
+            "printedName": "actionTap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)actionTap",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC9actionTapyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "actionTap",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldDidBeginEditing",
+            "printedName": "textFieldDidBeginEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)textFieldDidBeginEditing:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC24textFieldDidBeginEditingyySo06UITextJ0CF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "textFieldDidBeginEditing:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textField",
+            "printedName": "textField(_:shouldChangeCharactersIn:replacementString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)textField:shouldChangeCharactersInRange:replacementString:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC9textField_022shouldChangeCharactersE017replacementStringSbSo06UITextJ0C_So8_NSRangeVSStF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "textField:shouldChangeCharactersInRange:replacementString:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPOptInBaseFormView",
+                "printedName": "SmartPromoCore.FSPOptInBaseFormView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithThemed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfComponents",
+            "printedName": "numberOfComponents(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPickerView",
+                "printedName": "UIKit.UIPickerView",
+                "usr": "c:objc(cs)UIPickerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)numberOfComponentsInPickerView:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC18numberOfComponents2inSiSo08UIPickerH0C_tF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "numberOfComponentsInPickerView:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickerView",
+            "printedName": "pickerView(_:numberOfRowsInComponent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPickerView",
+                "printedName": "UIKit.UIPickerView",
+                "usr": "c:objc(cs)UIPickerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)pickerView:numberOfRowsInComponent:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC06pickerH0_012numberOfRowsE9ComponentSiSo08UIPickerH0C_SitF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "pickerView:numberOfRowsInComponent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickerView",
+            "printedName": "pickerView(_:titleForRow:forComponent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPickerView",
+                "printedName": "UIKit.UIPickerView",
+                "usr": "c:objc(cs)UIPickerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)pickerView:titleForRow:forComponent:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC06pickerH0_11titleForRow12forComponentSSSgSo08UIPickerH0C_S2itF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "pickerView:titleForRow:forComponent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickerView",
+            "printedName": "pickerView(_:didSelectRow:inComponent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPickerView",
+                "printedName": "UIKit.UIPickerView",
+                "usr": "c:objc(cs)UIPickerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SmartPromoCore@objc(cs)FSPOptInBaseFormView(im)pickerView:didSelectRow:inComponent:",
+            "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC06pickerH0_12didSelectRow11inComponentySo08UIPickerH0C_S2itF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "pickerView:didSelectRow:inComponent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView",
+        "mangledName": "$s14SmartPromoCore20FSPOptInBaseFormViewC",
+        "moduleName": "SmartPromoCore",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView",
+        "superclassNames": [
+          "SmartPromoCore.FSPBaseOptInView",
+          "SmartPromoCore.FSPFormView",
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPOptInAuthView",
+        "printedName": "FSPOptInAuthView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(authRequired:themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPOptInAuthView",
+                "printedName": "SmartPromoCore.FSPOptInAuthView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPAuthRequired",
+                "printedName": "SmartPromoShared.FSPAuthRequired",
+                "usr": "c:objc(cs)SPSFSPAuthRequired"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)initWithAuthRequired:themed:",
+            "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC12authRequired6themedACSo010SPSFSPAuthI0C_So9FSPThemed_ptcfc",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "codeTextField",
+            "printedName": "codeTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPCodeInput",
+                "printedName": "SmartPromoCore.FSPCodeInput",
+                "usr": "c:objc(cs)FSPCodeInput"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(py)codeTextField",
+            "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC13codeTextFieldSo12FSPCodeInputCvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPCodeInput",
+                    "printedName": "SmartPromoCore.FSPCodeInput",
+                    "usr": "c:objc(cs)FSPCodeInput"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)codeTextField",
+                "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC13codeTextFieldSo12FSPCodeInputCvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPCodeInput",
+                    "printedName": "SmartPromoCore.FSPCodeInput",
+                    "usr": "c:objc(cs)FSPCodeInput"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)setCodeTextField:",
+                "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC13codeTextFieldSo12FSPCodeInputCvs",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SmartPromoCore16FSPOptInAuthViewC13codeTextFieldSo12FSPCodeInputCvM",
+                "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC13codeTextFieldSo12FSPCodeInputCvM",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupOptInUI",
+            "printedName": "setupOptInUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)setupOptInUI",
+            "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC08setupOptE2UIyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "setupOptInUI",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)viewDidAppear",
+            "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC13viewDidAppearyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "viewDidAppear",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionTap",
+            "printedName": "actionTap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)actionTap",
+            "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC9actionTapyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "actionTap",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPOptInAuthView",
+                "printedName": "SmartPromoCore.FSPOptInAuthView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithThemed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInAuthView",
+        "mangledName": "$s14SmartPromoCore16FSPOptInAuthViewC",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPBaseOptInView",
+          "SmartPromoCore.FSPFormView",
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPFormView",
+        "printedName": "FSPFormView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "textFieldDidBeginEditing",
+            "printedName": "textFieldDidBeginEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView(im)textFieldDidBeginEditing:",
+            "mangledName": "$s14SmartPromoCore11FSPFormViewC24textFieldDidBeginEditingyySo06UITextG0CF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "textFieldDidBeginEditing:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldShouldBeginEditing",
+            "printedName": "textFieldShouldBeginEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView(im)textFieldShouldBeginEditing:",
+            "mangledName": "$s14SmartPromoCore11FSPFormViewC27textFieldShouldBeginEditingySbSo06UITextG0CF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "textFieldShouldBeginEditing:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textFieldShouldReturn",
+            "printedName": "textFieldShouldReturn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView(im)textFieldShouldReturn:",
+            "mangledName": "$s14SmartPromoCore11FSPFormViewC21textFieldShouldReturnySbSo06UITextG0CF",
+            "moduleName": "SmartPromoCore",
+            "objc_name": "textFieldShouldReturn:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPFormView",
+                "printedName": "SmartPromoCore.FSPFormView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore11FSPFormViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithThemed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPFormView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPFormView",
+                    "printedName": "SmartPromoCore.FSPFormView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore11FSPFormViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPFormView",
+        "mangledName": "$s14SmartPromoCore11FSPFormViewC",
+        "moduleName": "SmartPromoCore",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPView",
+        "printedName": "FSPView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "themed",
+            "printedName": "themed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(py)themed",
+            "mangledName": "$s14SmartPromoCore7FSPViewC6themedSo9FSPThemed_pvp",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPThemed",
+                    "printedName": "any SmartPromoCore.FSPThemed",
+                    "usr": "c:objc(pl)FSPThemed"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)themed",
+                "mangledName": "$s14SmartPromoCore7FSPViewC6themedSo9FSPThemed_pvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPThemed",
+                    "printedName": "any SmartPromoCore.FSPThemed",
+                    "usr": "c:objc(pl)FSPThemed"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)setThemed:",
+                "mangledName": "$s14SmartPromoCore7FSPViewC6themedSo9FSPThemed_pvs",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SmartPromoCore7FSPViewC6themedSo9FSPThemed_pvM",
+                "mangledName": "$s14SmartPromoCore7FSPViewC6themedSo9FSPThemed_pvM",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPView",
+                "printedName": "SmartPromoCore.FSPView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore7FSPViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPView",
+                    "printedName": "SmartPromoCore.FSPView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore7FSPViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupUI",
+            "printedName": "setupUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)setupUI",
+            "mangledName": "$s14SmartPromoCore7FSPViewC7setupUIyyF",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateColors",
+            "printedName": "updateColors()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)updateColors",
+            "mangledName": "$s14SmartPromoCore7FSPViewC12updateColorsyyF",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attach",
+            "printedName": "attach(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)attachTo:",
+            "mangledName": "$s14SmartPromoCore7FSPViewC6attach2toySo16UIViewControllerC_tF",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)viewDidAppear",
+            "mangledName": "$s14SmartPromoCore7FSPViewC13viewDidAppearyyF",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPView",
+                "printedName": "SmartPromoCore.FSPView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPView(im)initWithFrame:",
+            "mangledName": "$s14SmartPromoCore7FSPViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPView",
+        "mangledName": "$s14SmartPromoCore7FSPViewC",
+        "moduleName": "SmartPromoCore",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPHTMLParser",
+        "printedName": "FSPHTMLParser",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "parseNative",
+            "printedName": "parseNative(html:font:alignment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPHTMLParser(cm)parseNativeWithHtml:font:alignment:",
+            "mangledName": "$s14SmartPromoCore13FSPHTMLParserC11parseNative4html4font9alignmentSo18NSAttributedStringCSgSS_So6UIFontCSgSo15NSTextAlignmentVtFZ",
+            "moduleName": "SmartPromoCore",
+            "static": true,
+            "objc_name": "parseNativeWithHtml:font:alignment:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPHTMLParser",
+                "printedName": "SmartPromoCore.FSPHTMLParser",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPHTMLParser"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPHTMLParser(im)init",
+            "mangledName": "$s14SmartPromoCore13FSPHTMLParserCACycfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPHTMLParser",
+        "mangledName": "$s14SmartPromoCore13FSPHTMLParserC",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPBaseOptInView",
+        "printedName": "FSPBaseOptInView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(py)action",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC6actionyycSgvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)action",
+                "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC6actionyycSgvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)setAction:",
+                "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC6actionyycSgvs",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SmartPromoCore16FSPBaseOptInViewC6actionyycSgvM",
+                "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC6actionyycSgvM",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionButton",
+            "printedName": "actionButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPButtonText",
+                "printedName": "SmartPromoCore.FSPButtonText",
+                "usr": "c:objc(cs)FSPButtonText"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(py)actionButton",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC12actionButtonSo13FSPButtonTextCvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPButtonText",
+                    "printedName": "SmartPromoCore.FSPButtonText",
+                    "usr": "c:objc(cs)FSPButtonText"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)actionButton",
+                "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC12actionButtonSo13FSPButtonTextCvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPButtonText",
+                    "printedName": "SmartPromoCore.FSPButtonText",
+                    "usr": "c:objc(cs)FSPButtonText"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)setActionButton:",
+                "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC12actionButtonSo13FSPButtonTextCvs",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SmartPromoCore16FSPBaseOptInViewC12actionButtonSo13FSPButtonTextCvM",
+                "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC12actionButtonSo13FSPButtonTextCvM",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(title:button:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)setupWithTitle:button:",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC5setup5title6buttonySS_SStF",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupUI",
+            "printedName": "setupUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)setupUI",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC7setupUIyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "setupUI",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionTap",
+            "printedName": "actionTap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)actionTap",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC9actionTapyyF",
+            "moduleName": "SmartPromoCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPBaseOptInView",
+                "printedName": "SmartPromoCore.FSPBaseOptInView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithThemed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPBaseOptInView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPBaseOptInView",
+                    "printedName": "SmartPromoCore.FSPBaseOptInView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView",
+        "mangledName": "$s14SmartPromoCore16FSPBaseOptInViewC",
+        "moduleName": "SmartPromoCore",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPFormView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPFormView",
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPScrollableView",
+        "printedName": "FSPScrollableView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "scrollView",
+            "printedName": "scrollView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(py)scrollView",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC06scrollE0So08UIScrollE0Cvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)scrollView",
+                "mangledName": "$s14SmartPromoCore17FSPScrollableViewC06scrollE0So08UIScrollE0Cvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentView",
+            "printedName": "contentView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(py)contentView",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC07contentE0So6UIViewCvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)contentView",
+                "mangledName": "$s14SmartPromoCore17FSPScrollableViewC07contentE0So6UIViewCvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stackView",
+            "printedName": "stackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(py)stackView",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC05stackE0So07UIStackE0Cvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)stackView",
+                "mangledName": "$s14SmartPromoCore17FSPScrollableViewC05stackE0So07UIStackE0Cvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupUI",
+            "printedName": "setupUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)setupUI",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC7setupUIyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "setupUI",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addArrangedSubview",
+            "printedName": "addArrangedSubview(_:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SmartPromoCore17FSPScrollableViewC18addArrangedSubview_2atySo6UIViewC_SiSgtF",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC18addArrangedSubview_2atySo6UIViewC_SiSgtF",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addFlexibleSpacer",
+            "printedName": "addFlexibleSpacer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)addFlexibleSpacer",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC17addFlexibleSpacerSo6UIViewCyF",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addFixedSpacer",
+            "printedName": "addFixedSpacer(height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)addFixedSpacerWithHeight:",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC14addFixedSpacer6heightSo6UIViewC0C8Graphics7CGFloatV_tF",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPScrollableView",
+                "printedName": "SmartPromoCore.FSPScrollableView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithThemed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPScrollableView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPScrollableView",
+                    "printedName": "SmartPromoCore.FSPScrollableView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore17FSPScrollableViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPScrollableView",
+        "mangledName": "$s14SmartPromoCore17FSPScrollableViewC",
+        "moduleName": "SmartPromoCore",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPMyDataFormView",
+        "printedName": "FSPMyDataFormView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cpfTextField",
+            "printedName": "cpfTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPTextField",
+                "printedName": "SmartPromoCore.FSPTextField",
+                "usr": "c:objc(cs)FSPTextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(py)cpfTextField",
+            "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC12cpfTextFieldSo07FSPTextJ0Cvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPTextField",
+                    "printedName": "SmartPromoCore.FSPTextField",
+                    "usr": "c:objc(cs)FSPTextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)cpfTextField",
+                "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC12cpfTextFieldSo07FSPTextJ0Cvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPTextField",
+                    "printedName": "SmartPromoCore.FSPTextField",
+                    "usr": "c:objc(cs)FSPTextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)setCpfTextField:",
+                "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC12cpfTextFieldSo07FSPTextJ0Cvs",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SmartPromoCore17FSPMyDataFormViewC12cpfTextFieldSo07FSPTextJ0CvM",
+                "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC12cpfTextFieldSo07FSPTextJ0CvM",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupUI",
+            "printedName": "setupUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)setupUI",
+            "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC7setupUIyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "setupUI",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildFields",
+            "printedName": "buildFields()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)buildFields",
+            "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC11buildFieldsyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "buildFields",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionTap",
+            "printedName": "actionTap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)actionTap",
+            "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC9actionTapyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "actionTap",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(consumer:filter:themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPMyDataFormView",
+                "printedName": "SmartPromoCore.FSPMyDataFormView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPConsumerCore",
+                "printedName": "SmartPromoShared.FSPConsumerCore",
+                "usr": "c:objc(cs)SPSFSPConsumerCore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)initWithConsumer:filter:themed:",
+            "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC8consumer6filter6themedACSo014SPSFSPConsumerC0C_SaySSGSgSo9FSPThemed_ptcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithConsumer:filter:themed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPMyDataFormView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPMyDataFormView",
+                    "printedName": "SmartPromoCore.FSPMyDataFormView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPMyDataFormView",
+        "mangledName": "$s14SmartPromoCore17FSPMyDataFormViewC",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Final",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPOptInBaseFormView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPOptInBaseFormView",
+          "SmartPromoCore.FSPBaseOptInView",
+          "SmartPromoCore.FSPFormView",
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPUserDefaults",
+        "printedName": "FSPUserDefaults",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaults",
+                "printedName": "Foundation.UserDefaults",
+                "usr": "c:objc(cs)NSUserDefaults"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPUserDefaults(cpy)shared",
+            "mangledName": "$s14SmartPromoCore15FSPUserDefaultsC6sharedSo06NSUserE0CvpZ",
+            "moduleName": "SmartPromoCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefaults",
+                    "printedName": "Foundation.UserDefaults",
+                    "usr": "c:objc(cs)NSUserDefaults"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPUserDefaults(cm)shared",
+                "mangledName": "$s14SmartPromoCore15FSPUserDefaultsC6sharedSo06NSUserE0CvgZ",
+                "moduleName": "SmartPromoCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPUserDefaults",
+                "printedName": "SmartPromoCore.FSPUserDefaults",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPUserDefaults"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPUserDefaults(im)init",
+            "mangledName": "$s14SmartPromoCore15FSPUserDefaultsCACycfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPUserDefaults",
+        "mangledName": "$s14SmartPromoCore15FSPUserDefaultsC",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartPromoShared",
+        "printedName": "SmartPromoShared",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartPromoShared",
+        "printedName": "SmartPromoShared",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FSPOptInIDView",
+        "printedName": "FSPOptInIDView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cpfTextField",
+            "printedName": "cpfTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPTextField",
+                "printedName": "SmartPromoCore.FSPTextField",
+                "usr": "c:objc(cs)FSPTextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(py)cpfTextField",
+            "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC12cpfTextFieldSo07FSPTextI0Cvp",
+            "moduleName": "SmartPromoCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPTextField",
+                    "printedName": "SmartPromoCore.FSPTextField",
+                    "usr": "c:objc(cs)FSPTextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)cpfTextField",
+                "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC12cpfTextFieldSo07FSPTextI0Cvg",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPTextField",
+                    "printedName": "SmartPromoCore.FSPTextField",
+                    "usr": "c:objc(cs)FSPTextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)setCpfTextField:",
+                "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC12cpfTextFieldSo07FSPTextI0Cvs",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SmartPromoCore14FSPOptInIDViewC12cpfTextFieldSo07FSPTextI0CvM",
+                "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC12cpfTextFieldSo07FSPTextI0CvM",
+                "moduleName": "SmartPromoCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setupOptInUI",
+            "printedName": "setupOptInUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)setupOptInUI",
+            "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC08setupOptE2UIyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "setupOptInUI",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)viewDidAppear",
+            "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC13viewDidAppearyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "viewDidAppear",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "actionTap",
+            "printedName": "actionTap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)actionTap",
+            "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC9actionTapyyF",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "objc_name": "actionTap",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(themed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FSPOptInIDView",
+                "printedName": "SmartPromoCore.FSPOptInIDView",
+                "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSPThemed",
+                "printedName": "any SmartPromoCore.FSPThemed",
+                "usr": "c:objc(pl)FSPThemed"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)initWithThemed:",
+            "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC6themedACSo9FSPThemed_p_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithThemed:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartPromoCore.FSPOptInIDView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FSPOptInIDView",
+                    "printedName": "SmartPromoCore.FSPOptInIDView",
+                    "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView(im)initWithCoder:",
+            "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "SmartPromoCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SmartPromoCore@objc(cs)FSPOptInIDView",
+        "mangledName": "$s14SmartPromoCore14FSPOptInIDViewC",
+        "moduleName": "SmartPromoCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@SmartPromoCore@objc(cs)FSPBaseOptInView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "SmartPromoCore.FSPBaseOptInView",
+          "SmartPromoCore.FSPFormView",
+          "SmartPromoCore.FSPScrollableView",
+          "SmartPromoCore.FSPView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "SmartPromoCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSAttributedString",
+        "printedName": "NSAttributedString",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "strike",
+            "printedName": "strike()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So18NSAttributedStringC14SmartPromoCoreE6strikeAByF",
+            "mangledName": "$sSo18NSAttributedStringC14SmartPromoCoreE6strikeAByF",
+            "moduleName": "SmartPromoCore",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSAttributedString",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "3.2",
+        "objc_name": "NSAttributedString",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
+      "kind": "Array",
+      "offset": 1357,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Form\/FSPOptInBaseFormView.swift",
+      "kind": "Array",
+      "offset": 1443,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Auth\/FSPOptInAuthView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Auth\/FSPOptInAuthView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 959,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/Auth\/FSPOptInAuthView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1203,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1758,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/FSPBaseOptInView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 324,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/FSPBaseOptInView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/FSPBaseOptInView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 711,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 979,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1044,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Base\/FSPScrollableView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4897,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 16,
+      "value": "\"000.000.000-00\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 5,
+      "value": "\"CPF\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 441,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 16,
+      "value": "\"000.000.000-00\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 8,
+      "value": "\"Limpar\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 123,
+      "value": "\"Estes dados não são enviados para nosso servidor, estão aqui apenas para te ajudar a preencher os dados das campanhas.\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/MyData\/FSPMyDataFormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Util\/Extensions\/UserDefaults+SmartPromo.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 25,
+      "value": "\"br.com.getmo.SmartPromo\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/ID\/FSPOptInIDView.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 16,
+      "value": "\"000.000.000-00\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/ID\/FSPOptInIDView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/ID\/FSPOptInIDView.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 16,
+      "value": "\"000.000.000-00\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/ID\/FSPOptInIDView.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 5,
+      "value": "\"CPF\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Projects\/Getmo\/Promo\/ios-smartpromo-core\/SmartPromoCore\/Views\/Optin\/ID\/FSPOptInIDView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 732,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
+      "length": 11,
+      "value": "\"ic_clover\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 11,
+      "value": "\"ic_delete\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 13,
+      "value": "\"ic_whatsapp\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 21,
+      "value": "\"img_scratch_overlay\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 14,
+      "value": "\"manual_input\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1586,
+      "length": 8,
+      "value": "\"qrcode\""
+    },
+    {
+      "filePath": "\/Users\/busata\/Library\/Developer\/Xcode\/DerivedData\/SmartPromoCore-axeqsdxlgowoxtgxnklqkmmhiokt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartPromoCore\/IntermediateBuildFilesPath\/SmartPromoCore.build\/Release-iphoneos\/SmartPromoCore.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 13,
+      "value": "\"qrcode_mask\""
+    }
+  ]
+}

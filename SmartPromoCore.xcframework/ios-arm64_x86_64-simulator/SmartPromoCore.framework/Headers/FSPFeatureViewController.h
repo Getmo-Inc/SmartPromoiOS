@@ -6,20 +6,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FSPFormViewController.h"
-#import "FSPFeature.h"
-#import "FSPFilter.h"
+#import <SmartPromoCore/FSPPromptCoordinator.h>
+#import <SmartPromoCore/SmartPromoSharedAliases.h>
 
-@interface FSPFeatureViewController : FSPFormViewController
+@interface FSPFeatureViewController : FSPBaseViewController
 
 @property (strong, nonatomic) UITableView *tableView;
 
 @property (strong, nonatomic) id campaignService;
 @property NSArray* filteredItems;
 
-@property (weak, nonatomic) IBOutlet UIView *actionButton;
-@property (weak, nonatomic) IBOutlet UIImageView *actionButtonImage;
-@property (weak, nonatomic) IBOutlet UILabel *actionButtonTitle;
+@property (strong, nonatomic) FSPPromptCoordinator* promptCoordinator;
 
 @property NSString* searchQuery;
 
@@ -34,6 +31,6 @@
 - (void) setupViews;
 - (void) refresh;
 - (void) handleResponse: (BOOL) success;
-- (void) action:(id) sender;
-- (void) updateActionButtonAnimated: (BOOL) animated;
+- (void) updateActionButton;
+- (FSPConfigViewState*) viewConfig;
 @end

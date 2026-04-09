@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "JMStringMask.h"
+#import <SmartPromoCore/JMStringMask.h>
 
 IB_DESIGNABLE
 @interface JMMaskTextField : UITextField
@@ -24,5 +24,4 @@ IB_DESIGNABLE
 - (void)textFieldDidEndEditing:(UITextField *)textField;
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
-
 @end
