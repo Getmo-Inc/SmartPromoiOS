@@ -11,11 +11,9 @@ SmartPromo é compatível com `iOS 14+` e pode ser adicionado no seu projeto `Sw
 4. Clique em **Add Package**
 
 ### Cocoapods (Descontinuado)
-> **Nota:** O CocoaPods será descontinuado e não receberá mais atualizações após Dezembro de 2026, pois o próprio CocoaPods não permitirá mais publicações. Recomendamos migrar para o Swift Package Manager.
+> **Nota:** O CocoaPods não é mais suportado. A última versão disponível via CocoaPods é a `2.6.4` e não receberá mais atualizações. Recomendamos migrar para o Swift Package Manager.
 
-SmartPromo pode ser adicionado no seu projeto `Objective-C` ou `Swift` utilizando o [CocoaPods](https://cocoapods.org), para isto basta adicionar a linha a seguir no seu arquivo `Podfile`:
-
-    pod 'SmartPromo', '3.0.0'
+    pod 'SmartPromo', '2.6.4'
 
 ## Utilização
 ### Basico
