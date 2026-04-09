@@ -2,8 +2,18 @@
 O SmartPromo é uma SDK para envio de notas em campanhas promocionais.
 
 ## Instalação
-### Cocoapods
-SmartPromo é compatível com `iOS 11+` e pode ser adicionado no seu projeto `Objective-C` ou `Swift` utilizando o  [CocoaPods](https://cocoapods.org), para isto basta adicionar a linha a seguir no seu arquivo `Podfile`:
+### Swift Package Manager (Recomendado)
+SmartPromo é compatível com `iOS 14+` e pode ser adicionado no seu projeto `Swift` utilizando o [Swift Package Manager](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app):
+
+1. No Xcode, vá em **File → Add Package Dependencies...**
+2. Insira a URL do repositório: `https://github.com/Getmo-Inc/SmartPromoiOS.git`
+3. Selecione a versão desejada (ex: `3.0.0`)
+4. Clique em **Add Package**
+
+### Cocoapods (Descontinuado)
+> **Nota:** O CocoaPods será descontinuado e não receberá mais atualizações após Dezembro de 2026, pois o próprio CocoaPods não permitirá mais publicações. Recomendamos migrar para o Swift Package Manager.
+
+SmartPromo pode ser adicionado no seu projeto `Objective-C` ou `Swift` utilizando o [CocoaPods](https://cocoapods.org), para isto basta adicionar a linha a seguir no seu arquivo `Podfile`:
 
     pod 'SmartPromo', '3.0.0'
 
