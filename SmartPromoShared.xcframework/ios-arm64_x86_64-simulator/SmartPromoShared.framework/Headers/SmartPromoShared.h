@@ -563,12 +563,12 @@ __attribute__((swift_name("FSPConfigIPrizes")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPConfig.Messages")))
 @interface SPSFSPConfigMessages : SPSBase
-- (instancetype)initWithPhotoWarning:(SPSFSPPrompt *)photoWarning invalidQrcode:(SPSFSPPrompt *)invalidQrcode delayWarning:(SPSFSPPrompt *)delayWarning receiptSent:(SPSFSPPrompt *)receiptSent cameraPermissionDenied:(SPSFSPPrompt *)cameraPermissionDenied __attribute__((swift_name("init(photoWarning:invalidQrcode:delayWarning:receiptSent:cameraPermissionDenied:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhotoWarning:(SPSFSPPrompt * _Nullable)photoWarning invalidQrcode:(SPSFSPPrompt * _Nullable)invalidQrcode delayWarning:(SPSFSPPrompt * _Nullable)delayWarning receiptSent:(SPSFSPPrompt *)receiptSent cameraPermissionDenied:(SPSFSPPrompt *)cameraPermissionDenied __attribute__((swift_name("init(photoWarning:invalidQrcode:delayWarning:receiptSent:cameraPermissionDenied:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPConfigMessagesCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) SPSFSPPrompt *cameraPermissionDenied __attribute__((swift_name("cameraPermissionDenied")));
-@property (readonly) SPSFSPPrompt *delayWarning __attribute__((swift_name("delayWarning")));
-@property (readonly) SPSFSPPrompt *invalidQrcode __attribute__((swift_name("invalidQrcode")));
-@property (readonly) SPSFSPPrompt *photoWarning __attribute__((swift_name("photoWarning")));
+@property (readonly) SPSFSPPrompt * _Nullable delayWarning __attribute__((swift_name("delayWarning")));
+@property (readonly) SPSFSPPrompt * _Nullable invalidQrcode __attribute__((swift_name("invalidQrcode")));
+@property (readonly) SPSFSPPrompt * _Nullable photoWarning __attribute__((swift_name("photoWarning")));
 @property (readonly) SPSFSPPrompt *receiptSent __attribute__((swift_name("receiptSent")));
 @end
 
