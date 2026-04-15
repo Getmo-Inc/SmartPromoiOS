@@ -3,21 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83177DC86B000B90E79C7151 /* Pods_ExampleObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50193D3817D22FD802284E6 /* Pods_ExampleObjc.framework */; };
 		8C108B83264CA05200756D24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C108B82264CA05200756D24 /* AppDelegate.m */; };
 		8C108B89264CA05200756D24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C108B88264CA05200756D24 /* ViewController.m */; };
 		8C108B8C264CA05200756D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C108B8A264CA05200756D24 /* Main.storyboard */; };
 		8C108B8E264CA05400756D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C108B8D264CA05400756D24 /* Assets.xcassets */; };
 		8C108B91264CA05400756D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C108B8F264CA05400756D24 /* LaunchScreen.storyboard */; };
 		8C108B94264CA05400756D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C108B93264CA05400756D24 /* main.m */; };
+		FA7729F72F8FB83D004B50BC /* SmartPromo in Frameworks */ = {isa = PBXBuildFile; productRef = FA7729F62F8FB83D004B50BC /* SmartPromo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		453D6FC1F0CA36374B1BC380 /* Pods-ExampleObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleObjc.debug.xcconfig"; path = "Target Support Files/Pods-ExampleObjc/Pods-ExampleObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		8C108B7E264CA05200756D24 /* ExampleObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C108B81264CA05200756D24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C108B82264CA05200756D24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +28,6 @@
 		8C108B92264CA05400756D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C108B93264CA05400756D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C50193D3817D22FD802284E6 /* Pods_ExampleObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE4F046591CDC0A5AF76B415 /* Pods-ExampleObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleObjc.release.xcconfig"; path = "Target Support Files/Pods-ExampleObjc/Pods-ExampleObjc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,28 +35,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83177DC86B000B90E79C7151 /* Pods_ExampleObjc.framework in Frameworks */,
+				FA7729F72F8FB83D004B50BC /* SmartPromo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		61E10C129FA2F9AD1181DA02 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				453D6FC1F0CA36374B1BC380 /* Pods-ExampleObjc.debug.xcconfig */,
-				EE4F046591CDC0A5AF76B415 /* Pods-ExampleObjc.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		8C108B75264CA05200756D24 = {
 			isa = PBXGroup;
 			children = (
 				8C108B80264CA05200756D24 /* ExampleObjc */,
 				8C108B7F264CA05200756D24 /* Products */,
-				61E10C129FA2F9AD1181DA02 /* Pods */,
 				C3455551220308406002C7AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -102,11 +90,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C108B97264CA05400756D24 /* Build configuration list for PBXNativeTarget "ExampleObjc" */;
 			buildPhases = (
-				3A94CEC4C2459CB22F92F454 /* [CP] Check Pods Manifest.lock */,
 				8C108B7A264CA05200756D24 /* Sources */,
 				8C108B7B264CA05200756D24 /* Frameworks */,
 				8C108B7C264CA05200756D24 /* Resources */,
-				55A043710296AEA36074BA51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 8C108B75264CA05200756D24;
+			packageReferences = (
+				FA7729F52F8FB83D004B50BC /* XCLocalSwiftPackageReference "../../ios-smartpromo" */,
+			);
 			productRefGroup = 8C108B7F264CA05200756D24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,48 +149,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3A94CEC4C2459CB22F92F454 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExampleObjc-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55A043710296AEA36074BA51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleObjc/Pods-ExampleObjc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleObjc/Pods-ExampleObjc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleObjc/Pods-ExampleObjc-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C108B7A264CA05200756D24 /* Sources */ = {
@@ -350,7 +297,6 @@
 		};
 		8C108B98264CA05400756D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 453D6FC1F0CA36374B1BC380 /* Pods-ExampleObjc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,7 +316,6 @@
 		};
 		8C108B99264CA05400756D24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE4F046591CDC0A5AF76B415 /* Pods-ExampleObjc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,6 +355,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FA7729F52F8FB83D004B50BC /* XCLocalSwiftPackageReference "../../ios-smartpromo" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../ios-smartpromo";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA7729F62F8FB83D004B50BC /* SmartPromo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SmartPromo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C108B76264CA05200756D24 /* Project object */;
 }

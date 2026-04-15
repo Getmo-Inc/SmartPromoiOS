@@ -1,8 +1,0 @@
-platform :ios, '14.0'
-
-target 'ExampleObjc' do
-  use_frameworks!
-
-  pod 'SmartPromo', path: '../'
-
-end
