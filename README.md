@@ -7,7 +7,7 @@ SmartPromo é compatível com `iOS 14+` e pode ser adicionado no seu projeto `Sw
 
 1. No Xcode, vá em **File → Add Package Dependencies...**
 2. Insira a URL do repositório: `https://github.com/Getmo-Inc/SmartPromoiOS.git`
-3. Selecione a versão desejada (ex: `3.0.0`)
+3. Selecione a versão desejada (ex: `3.0.1`)
 4. Clique em **Add Package**
 
 ### Cocoapods (Descontinuado)
