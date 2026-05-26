@@ -13,8 +13,6 @@ SmartPromo é compatível com `iOS 14+` e pode ser adicionado no seu projeto `Sw
 ### Cocoapods (Descontinuado)
 > **Nota:** O CocoaPods não é mais suportado. A última versão disponível via CocoaPods é a `2.6.4` e não receberá mais atualizações. Recomendamos migrar para o Swift Package Manager.
 
-    pod 'SmartPromo', '2.6.4'
-
 ## Utilização
 ### Basico
 Antes de mais nada, confira se o seu projeto tem declarada a permissão de camera (`NSCameraUsageDescription`) no arquivo `info.plist` a chave `NSCameraUsageDescription`.
