@@ -174,6 +174,7 @@ __attribute__((swift_name("FSPSharedSmartPromo.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SPSFSPSharedSmartPromoCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) SPSFSPSharedSmartPromo *instance __attribute__((swift_name("instance")));
+@property (readonly) NSString *smartpromoVersion __attribute__((swift_name("smartpromoVersion")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1509,6 +1510,7 @@ __attribute__((swift_name("FSPPrompt")))
 @interface SPSFSPPrompt : SPSBase
 - (instancetype)initWithId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> *)content __attribute__((swift_name("init(id:closable:content:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPromptCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)canContinue __attribute__((swift_name("canContinue()")));
 - (SPSFSPPrompt *)doCopyId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> *)content __attribute__((swift_name("doCopy(id:closable:content:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1600,18 +1602,21 @@ __attribute__((swift_name("FSPPrompt.ContentType")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrompt.Input")))
 @interface SPSFSPPromptInput : SPSBase
-- (instancetype)initWithMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction __attribute__((swift_name("init(mask:type:options:answer:answerAdmission:answerRegex:image:alternativeAction:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex answerErrorMessage:(NSString * _Nullable)answerErrorMessage image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction __attribute__((swift_name("init(mask:type:options:answer:answerAdmission:answerRegex:answerErrorMessage:image:alternativeAction:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPromptInputCompanion *companion __attribute__((swift_name("companion")));
 - (BOOL)answerAsBoolean __attribute__((swift_name("answerAsBoolean()")));
 - (BOOL)answerMatches __attribute__((swift_name("answerMatches()")));
-- (SPSFSPPromptInput *)doCopyMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction __attribute__((swift_name("doCopy(mask:type:options:answer:answerAdmission:answerRegex:image:alternativeAction:)")));
+- (SPSFSPPromptInput *)doCopyMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex answerErrorMessage:(NSString * _Nullable)answerErrorMessage image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction __attribute__((swift_name("doCopy(mask:type:options:answer:answerAdmission:answerRegex:answerErrorMessage:image:alternativeAction:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (BOOL)isValid __attribute__((swift_name("isValid()")));
+- (BOOL)shouldShowCheckmark __attribute__((swift_name("shouldShowCheckmark()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString * _Nullable alternativeAction __attribute__((swift_name("alternativeAction")));
 @property NSArray<NSString *> * _Nullable answer __attribute__((swift_name("answer")));
 @property (readonly) SPSFSPPromptInputAdmission *answerAdmission __attribute__((swift_name("answerAdmission")));
+@property NSString * _Nullable answerErrorMessage __attribute__((swift_name("answerErrorMessage")));
 @property NSString * _Nullable answerRegex __attribute__((swift_name("answerRegex")));
 @property NSString * _Nullable image __attribute__((swift_name("image")));
 @property (readonly) NSString * _Nullable mask __attribute__((swift_name("mask")));

@@ -17,9 +17,6 @@ echo "▶ Version: $VERSION ($BUILD)"
 # Update SmartPromo.h comment
 sed -i '' "s|//  [0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*.*|//  $VERSION ($BUILD)|" "$SMARTPROMO_ROOT/SmartPromo/SmartPromo.h"
 
-# Update podspec
-sed -i '' "/s\.version/s/'[^']*'/'$VERSION'/" "$SMARTPROMO_ROOT/SmartPromo.podspec"
-
 # Update MARKETING_VERSION and CURRENT_PROJECT_VERSION in Xcode project
 sed -i '' "s/MARKETING_VERSION = .*;/MARKETING_VERSION = $VERSION;/" "$SMARTPROMO_ROOT/SmartPromo.xcodeproj/project.pbxproj"
 sed -i '' "s/CURRENT_PROJECT_VERSION = .*;/CURRENT_PROJECT_VERSION = $BUILD;/" "$SMARTPROMO_ROOT/SmartPromo.xcodeproj/project.pbxproj"
@@ -53,9 +50,5 @@ xcodebuild -create-xcframework \
 -framework ./output/SmartPromo-iphonesimulator.xcarchive/Products/Library/Frameworks/SmartPromo.framework \
 -framework ./output/SmartPromo-iphoneos.xcarchive/Products/Library/Frameworks/SmartPromo.framework \
 -output ./output/SmartPromo.xcframework
-
-# Update samples
-cd "$SMARTPROMO_ROOT/Example" && pod install
-cd "$SMARTPROMO_ROOT/ExampleObjc" && pod install
 
 afplay /System/Library/Sounds/Glass.aiff

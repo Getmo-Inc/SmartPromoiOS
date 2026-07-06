@@ -14,5 +14,4 @@ framework module SmartPromoCore {
 
 module SmartPromoCore.Swift {
   header "SmartPromoCore-Swift.h"
-  requires objc
 }

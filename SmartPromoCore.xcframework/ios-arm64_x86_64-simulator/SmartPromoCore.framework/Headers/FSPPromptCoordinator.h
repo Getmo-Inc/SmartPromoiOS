@@ -54,6 +54,7 @@ typedef void (^FSPAction)(NSString* action);
 - (void) dismiss;
 - (void) dismissWithCompletion: (FSPBlock) completion;
 - (void) setButtonEnabled: (NSString*) action enabled:(BOOL) enabled;
+- (BOOL) validateAndShowInputErrors;
 
 + (UILabel*) makeTitle: (FSPPromptContent*) content;
 + (UITextView*) makeBody: (FSPPromptContent*) content themed: (id<FSPThemed>) themed;

@@ -11,5 +11,6 @@
 @interface FSPTextView : UITextView
 
 @property (nonatomic, strong) id<FSPThemed> themed;
+@property (nonatomic, assign) BOOL selectionDisabled;
 
 @end
