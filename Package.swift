@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "SmartPromo",
-            targets: ["SmartPromo", "SmartPromoCore", "SmartPromoShared"]
+            targets: ["SmartPromo", "SmartPromoCore"]
         )
     ],
     targets: [
