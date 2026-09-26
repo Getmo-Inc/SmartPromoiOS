@@ -55,6 +55,12 @@ extension SmartPromoCore.FSPOptInBaseFormView : UIKit.UIPickerViewDelegate, UIKi
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPKeyboardToolbar : UIKit.UIToolbar {
+  @objc @_Concurrency.MainActor @preconcurrency public static func instance(title: Swift.String, tintColor: UIKit.UIColor, target: Any, action: ObjectiveC.Selector) -> SmartPromoCore.FSPKeyboardToolbar
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPView : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency open var themed: any SmartPromoCore.FSPThemed {
     @objc get
@@ -68,9 +74,45 @@ extension SmartPromoCore.FSPOptInBaseFormView : UIKit.UIPickerViewDelegate, UIKi
   @objc @_Concurrency.MainActor @preconcurrency open func viewDidAppear()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPPrizeHistoryViewController : SmartPromoCore.FSPBaseViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(xib xibName: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension SmartPromoCore.FSPPrizeHistoryViewController : UIKit.UITableViewDataSource {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class FSPPrizeHistoryViewModel : ObjectiveC.NSObject {
+  public typealias State = SmartPromoShared.FSPSharedPrizeHistoryViewModel.State
+  public typealias Entry = SmartPromoShared.FSPSharedPrizeHistoryViewModel.Entry
+  @objc public func observe(_ onState: @escaping (SmartPromoCore.FSPPrizeHistoryViewModel.State) -> Swift.Void)
+  @objc public func reload()
+  @objc public func refresh()
+  @objc public func clear()
+  @objc deinit
+  @objc public func statusColor(pending: Swift.Bool) -> UIKit.UIColor
+  @objc public func statusIcon(pending: Swift.Bool) -> UIKit.UIImage?
+  @objc override dynamic public init()
+}
 @_inheritsConvenienceInitializers @objc public class FSPHTMLParser : ObjectiveC.NSObject {
   @objc public static func parseNative(html: Swift.String, font: UIKit.UIFont?, alignment: UIKit.NSTextAlignment) -> Foundation.NSAttributedString?
   @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPLabel : UIKit.UILabel {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var padding: UIKit.UIEdgeInsets {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func drawText(in rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func textRect(forBounds bounds: CoreFoundation.CGRect, limitedToNumberOfLines numberOfLines: Swift.Int) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class FSPBaseOptInView : SmartPromoCore.FSPFormView {
@@ -100,6 +142,27 @@ extension SmartPromoCore.FSPOptInBaseFormView : UIKit.UIPickerViewDelegate, UIKi
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class FSPFeatureHeaderView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public static let contentHeight: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency public static let contentTopPadding: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency public static let contentBottomPadding: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency final public let headnoteLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let titleLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let messageLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let iconView: UIKit.UIImageView
+  @objc @_Concurrency.MainActor @preconcurrency final public let progressView: SmartPromoCore.FSPCircularProgressBarView
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPSectionTitleView : UIKit.UICollectionReusableView {
+  @objc @_Concurrency.MainActor @preconcurrency public var titleLabel: UIKit.UILabel {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency final public class FSPMyDataFormView : SmartPromoCore.FSPOptInBaseFormView {
   @objc @_Concurrency.MainActor @preconcurrency final public var cpfTextField: SmartPromoCore.FSPTextField {
     @objc get
@@ -126,6 +189,120 @@ extension SmartPromoCore.FSPOptInBaseFormView : UIKit.UIPickerViewDelegate, UIKi
   @_Concurrency.MainActor @preconcurrency @objc override public func viewDidAppear()
   @_Concurrency.MainActor @preconcurrency @objc override public func actionTap()
   @_Concurrency.MainActor @preconcurrency @objc override public init(themed: any SmartPromoCore.FSPThemed)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class FSPCartBottomSheet : ObjectiveC.NSObject {
+  @objc deinit
+  @objc public func show(above: UIKit.UIViewController)
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class FSPCartIcon : ObjectiveC.NSObject {
+  @objc public static func image(count: Swift.Int) -> UIKit.UIImage?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPPrizeCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @discardableResult
+  @objc(bind:hasCart:themed:onAction:) @_Concurrency.MainActor @preconcurrency public func bind(prize: SmartPromoShared.FSPPrizeItem, hasCart: Swift.Bool, themed: any SmartPromoCore.FSPThemed, onAction: @escaping (SmartPromoShared.FSPPrizeItem) -> Swift.Void) -> Self
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPPrizeGridCell : SmartPromoCore.FSPPrizeCell {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPPrizeStampFooterView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var onAction: (() -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public var onClear: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc(bindTitle:themed:) @_Concurrency.MainActor @preconcurrency public func bind(title: Swift.String, themed: any SmartPromoCore.FSPThemed)
+  @objc(setVisible:animated:) @_Concurrency.MainActor @preconcurrency public func setVisible(_ visible: Swift.Bool, animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPPrizeStampCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @discardableResult
+  @objc(bindStamped:points:themed:) @_Concurrency.MainActor @preconcurrency public func bind(stamped: Swift.Bool, points: Swift.Int, themed: any SmartPromoCore.FSPThemed) -> Self
+  @discardableResult
+  @objc(bindPrize:alsoHolding:selected:themed:) @_Concurrency.MainActor @preconcurrency public func bind(prize: SmartPromoShared.FSPPrizeItem, alsoHolding otherPrizes: Swift.Int, selected: Swift.Bool, themed: any SmartPromoCore.FSPThemed) -> Self
+  @objc deinit
+}
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPPrizeCardView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var onAction: ((SmartPromoShared.FSPPrizeItem) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public init(axis: UIKit.NSLayoutConstraint.Axis)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @discardableResult
+  @objc(bind:hasCart:themed:) @_Concurrency.MainActor @preconcurrency public func bind(prize: SmartPromoShared.FSPPrizeItem, hasCart: Swift.Bool, themed: any SmartPromoCore.FSPThemed) -> Self
+  @objc deinit
+}
+extension UIKit.UIView {
+  @objc(applyShadow) @_Concurrency.MainActor @preconcurrency dynamic public func applyShadow()
+  @objc(applyShadow:) @_Concurrency.MainActor @preconcurrency dynamic public func applyShadow(cornerRadius: CoreFoundation.CGFloat)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class FSPShimmerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc @_Concurrency.MainActor @preconcurrency public func startShimmer()
+  @objc @_Concurrency.MainActor @preconcurrency public func stopShimmer()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class FSPCircularProgressBarView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var value: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var maxValue: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var borderPadding: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var progressAngle: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var progressRotationAngle: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var progressLineWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var progressColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var progressStrokeColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var emptyLineWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var emptyLineColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var emptyLineStrokeColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }

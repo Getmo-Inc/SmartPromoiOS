@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class NSDate, SPSFSPAddress, SPSFSPAddressCompanion, SPSFSPAuthRequired, SPSFSPAuthRequiredCompanion, SPSFSPCampaign, SPSFSPCampaignCompanion, SPSFSPCampaignContact, SPSFSPCampaignContactCompanion, SPSFSPCampaignItem, SPSFSPCampaignItemCompanion, SPSFSPCampaignResponse, SPSFSPCampaignResponseCompanion, SPSFSPCampaignStatus, SPSFSPCampaignWinner, SPSFSPCampaignWinnerCompanion, SPSFSPCaptureAction, SPSFSPCaptureMode, SPSFSPConfig, SPSFSPConfigCompanion, SPSFSPConfigMessages, SPSFSPConfigMessagesCompanion, SPSFSPConfigViews, SPSFSPConfigViewsCompanion, SPSFSPConfigViewsHome, SPSFSPConfigViewsHomeCompanion, SPSFSPConfigViewsInstantPrizes, SPSFSPConfigViewsInstantPrizesCompanion, SPSFSPConfigViewsOptInAuth, SPSFSPConfigViewsOptInAuthCompanion, SPSFSPConfigViewsOptInForm, SPSFSPConfigViewsOptInFormCompanion, SPSFSPConfigViewsOptInId, SPSFSPConfigViewsOptInIdCompanion, SPSFSPConfigViewsPrizes, SPSFSPConfigViewsPrizesCompanion, SPSFSPConfigViewsReceipt, SPSFSPConfigViewsReceiptCompanion, SPSFSPConfigViewsReceiptConfirm, SPSFSPConfigViewsReceiptConfirmCompanion, SPSFSPConfigViewsReceiptConfirmRecommendSeller, SPSFSPConfigViewsReceiptConfirmRecommendSellerCompanion, SPSFSPConfigViewsReceipts, SPSFSPConfigViewsReceiptsCompanion, SPSFSPConfigViewsState, SPSFSPConfigViewsStateCompanion, SPSFSPConsumerCore, SPSFSPConsumerCoreCompanion, SPSFSPConsumerFields, SPSFSPCryptoService, SPSFSPCryptoServiceShared, SPSFSPDateSerializer, SPSFSPErrorResponse, SPSFSPErrorResponseCompanion, SPSFSPFeatureCard, SPSFSPFeatureCardCompanion, SPSFSPFileDataPart, SPSFSPFilter, SPSFSPFilterCompanion, SPSFSPGenericItem, SPSFSPGenericItemCompanion, SPSFSPGenre, SPSFSPGenreCompanion, SPSFSPInstantPrize, SPSFSPInstantPrizeCompanion, SPSFSPInstantPrizeItem, SPSFSPInstantPrizeItemCompanion, SPSFSPInstantPrizeType, SPSFSPJsonBridge, SPSFSPLink, SPSFSPLinkCompanion, SPSFSPLogger, SPSFSPLoggerShared, SPSFSPLottie, SPSFSPLottieCompanion, SPSFSPLottieFeature, SPSFSPOptInResponse, SPSFSPOptInResponseCompanion, SPSFSPPaymentParameters, SPSFSPPaymentParametersCompanion, SPSFSPPrize, SPSFSPPrizeCompanion, SPSFSPPrizeItem, SPSFSPPrizeItemCompanion, SPSFSPPrizeItemDetail, SPSFSPPrizeItemDetailCompanion, SPSFSPPrizeItemDetailFSPGroup, SPSFSPPrizeItemDetailFSPGroupCompanion, SPSFSPPrompt, SPSFSPPromptCompanion, SPSFSPPromptContent, SPSFSPPromptContentAlignment, SPSFSPPromptContentCompanion, SPSFSPPromptContentType, SPSFSPPromptInput, SPSFSPPromptInputAdmission, SPSFSPPromptInputCompanion, SPSFSPPromptInputType, SPSFSPReceipt, SPSFSPReceiptCompanion, SPSFSPReceiptSection, SPSFSPReceiptSectionCompanion, SPSFSPReceiptStatus, SPSFSPResponse<T>, SPSFSPResponseFailed<T>, SPSFSPResponseSuccess<T>, SPSFSPSeller, SPSFSPSellerCompanion, SPSFSPServiceProvider, SPSFSPServiceProviderCompanion, SPSFSPSharedSmartPromo, SPSFSPSharedSmartPromoCompanion, SPSFSPSharedStoreService, SPSFSPSharedViewModel, SPSFSPStatement, SPSFSPStatementCompanion, SPSFSPStatementItem, SPSFSPStatementItemCompanion, SPSFSPStoreKey, SPSFSPStoreService, SPSFSPSurvey, SPSFSPSurveyCompanion, SPSFSPTokenResponse, SPSFSPTokenResponseCompanion, SPSFSPZipCodeAddress, SPSFSPZipCodeAddressCompanion, SPSFSPrizeStatus, SPSKotlinAbstractCoroutineContextElement, SPSKotlinAbstractCoroutineContextKey<B, E>, SPSKotlinArray<T>, SPSKotlinByteArray, SPSKotlinByteIterator, SPSKotlinCancellationException, SPSKotlinEnum<E>, SPSKotlinEnumCompanion, SPSKotlinException, SPSKotlinIllegalStateException, SPSKotlinKTypeProjection, SPSKotlinKTypeProjectionCompanion, SPSKotlinKVariance, SPSKotlinNothing, SPSKotlinRuntimeException, SPSKotlinThrowable, SPSKotlinUnit, SPSKotlinx_coroutines_coreCoroutineDispatcher, SPSKotlinx_coroutines_coreCoroutineDispatcherKey, SPSKotlinx_datetimeDayOfWeek, SPSKotlinx_datetimeDayOfWeekNames, SPSKotlinx_datetimeDayOfWeekNamesCompanion, SPSKotlinx_datetimeLocalDate, SPSKotlinx_datetimeLocalDateCompanion, SPSKotlinx_datetimeLocalDateProgression, SPSKotlinx_datetimeLocalDateProgressionCompanion, SPSKotlinx_datetimeLocalDateRange, SPSKotlinx_datetimeLocalDateRangeCompanion, SPSKotlinx_datetimeMonth, SPSKotlinx_datetimeMonthNames, SPSKotlinx_datetimeMonthNamesCompanion, SPSKotlinx_datetimePadding, SPSKotlinx_io_coreBuffer, SPSKotlinx_serialization_coreSerialKind, SPSKotlinx_serialization_coreSerializersModule, SPSKotlinx_serialization_jsonClassDiscriminatorMode, SPSKotlinx_serialization_jsonJson, SPSKotlinx_serialization_jsonJsonConfiguration, SPSKotlinx_serialization_jsonJsonDefault, SPSKotlinx_serialization_jsonJsonElement, SPSKotlinx_serialization_jsonJsonElementCompanion, SPSKtor_client_coreHttpClient, SPSKtor_client_coreHttpClientCall, SPSKtor_client_coreHttpClientCallCompanion, SPSKtor_client_coreHttpClientConfig<T>, SPSKtor_client_coreHttpClientEngineConfig, SPSKtor_client_coreHttpReceivePipeline, SPSKtor_client_coreHttpReceivePipelinePhases, SPSKtor_client_coreHttpRequestBuilder, SPSKtor_client_coreHttpRequestBuilderCompanion, SPSKtor_client_coreHttpRequestData, SPSKtor_client_coreHttpRequestPipeline, SPSKtor_client_coreHttpRequestPipelinePhases, SPSKtor_client_coreHttpResponse, SPSKtor_client_coreHttpResponseContainer, SPSKtor_client_coreHttpResponseData, SPSKtor_client_coreHttpResponsePipeline, SPSKtor_client_coreHttpResponsePipelinePhases, SPSKtor_client_coreHttpSendPipeline, SPSKtor_client_coreHttpSendPipelinePhases, SPSKtor_client_coreProxyConfig, SPSKtor_eventsEventDefinition<T>, SPSKtor_eventsEvents, SPSKtor_httpContentType, SPSKtor_httpContentTypeCompanion, SPSKtor_httpHeaderValueParam, SPSKtor_httpHeaderValueWithParameters, SPSKtor_httpHeaderValueWithParametersCompanion, SPSKtor_httpHeadersBuilder, SPSKtor_httpHttpMethod, SPSKtor_httpHttpMethodCompanion, SPSKtor_httpHttpProtocolVersion, SPSKtor_httpHttpProtocolVersionCompanion, SPSKtor_httpHttpStatusCode, SPSKtor_httpHttpStatusCodeCompanion, SPSKtor_httpOutgoingContent, SPSKtor_httpURLBuilder, SPSKtor_httpURLBuilderCompanion, SPSKtor_httpURLProtocol, SPSKtor_httpURLProtocolCompanion, SPSKtor_httpUrl, SPSKtor_httpUrlCompanion, SPSKtor_utilsAttributeKey<T>, SPSKtor_utilsGMTDate, SPSKtor_utilsGMTDateCompanion, SPSKtor_utilsMonth, SPSKtor_utilsMonthCompanion, SPSKtor_utilsPipeline<TSubject, TContext>, SPSKtor_utilsPipelinePhase, SPSKtor_utilsStringValuesBuilderImpl, SPSKtor_utilsTypeInfo, SPSKtor_utilsWeekDay, SPSKtor_utilsWeekDayCompanion, SPSSmartPromoEvents;
+@class NSDate, SPSFSPAPIServiceImplCompanion, SPSFSPAddress, SPSFSPAddressCompanion, SPSFSPAuthRequired, SPSFSPAuthRequiredCompanion, SPSFSPCampaign, SPSFSPCampaignCompanion, SPSFSPCampaignContact, SPSFSPCampaignContactCompanion, SPSFSPCampaignContext, SPSFSPCampaignContextCompanion, SPSFSPCampaignItem, SPSFSPCampaignItemCompanion, SPSFSPCampaignStatus, SPSFSPCampaignWinner, SPSFSPCampaignWinnerCompanion, SPSFSPCaptureAction, SPSFSPCaptureMode, SPSFSPCartEntry, SPSFSPCartState, SPSFSPConfig, SPSFSPConfigCompanion, SPSFSPConfigMessages, SPSFSPConfigMessagesCompanion, SPSFSPConfigViews, SPSFSPConfigViewsCart, SPSFSPConfigViewsCartCompanion, SPSFSPConfigViewsCompanion, SPSFSPConfigViewsHome, SPSFSPConfigViewsHomeCompanion, SPSFSPConfigViewsInstantPrizes, SPSFSPConfigViewsInstantPrizesCompanion, SPSFSPConfigViewsOptInAuth, SPSFSPConfigViewsOptInAuthCompanion, SPSFSPConfigViewsOptInForm, SPSFSPConfigViewsOptInFormCompanion, SPSFSPConfigViewsOptInId, SPSFSPConfigViewsOptInIdCompanion, SPSFSPConfigViewsPrizes, SPSFSPConfigViewsPrizesCompanion, SPSFSPConfigViewsReceipt, SPSFSPConfigViewsReceiptCompanion, SPSFSPConfigViewsReceiptConfirm, SPSFSPConfigViewsReceiptConfirmCompanion, SPSFSPConfigViewsReceiptConfirmRecommendSeller, SPSFSPConfigViewsReceiptConfirmRecommendSellerCompanion, SPSFSPConfigViewsReceipts, SPSFSPConfigViewsReceiptsCompanion, SPSFSPConfigViewsRedemptions, SPSFSPConfigViewsRedemptionsCompanion, SPSFSPConfigViewsState, SPSFSPConfigViewsStateCompanion, SPSFSPConsumerCore, SPSFSPConsumerCoreCompanion, SPSFSPConsumerFields, SPSFSPCryptoServiceShared, SPSFSPDateSerializer, SPSFSPDoubleFormat, SPSFSPFeatureCard, SPSFSPFeatureCardCompanion, SPSFSPFileDataPart, SPSFSPGenericItem, SPSFSPGenericItemCompanion, SPSFSPGenre, SPSFSPGenreCompanion, SPSFSPInstantPrize, SPSFSPInstantPrizeCompanion, SPSFSPInstantPrizeItem, SPSFSPInstantPrizeItemCompanion, SPSFSPInstantPrizeType, SPSFSPJsonBridge, SPSFSPLink, SPSFSPLinkCompanion, SPSFSPLogger, SPSFSPLoggerShared, SPSFSPLottie, SPSFSPLottieCompanion, SPSFSPLottieFeature, SPSFSPPaymentParameters, SPSFSPPaymentParametersCompanion, SPSFSPPlatform, SPSFSPPrize, SPSFSPPrizeCompanion, SPSFSPPrizeItem, SPSFSPPrizeItemCompanion, SPSFSPPrizeItemDetail, SPSFSPPrizeItemDetailCompanion, SPSFSPPrizeItemDetailFSPGroup, SPSFSPPrizeItemDetailFSPGroupCompanion, SPSFSPPrizeLayout, SPSFSPPrizeLayoutCompanion, SPSFSPPrizeSection, SPSFSPPrizeSectionCompanion, SPSFSPPrompt, SPSFSPPromptCompanion, SPSFSPPromptContent, SPSFSPPromptContentAlignment, SPSFSPPromptContentCompanion, SPSFSPPromptContentType, SPSFSPPromptInput, SPSFSPPromptInputAdmission, SPSFSPPromptInputCompanion, SPSFSPPromptInputType, SPSFSPReceipt, SPSFSPReceiptCompanion, SPSFSPReceiptSection, SPSFSPReceiptSectionCompanion, SPSFSPReceiptStatus, SPSFSPRedemptions, SPSFSPRedemptionsCompanion, SPSFSPResponse<T>, SPSFSPResponseFailed<T>, SPSFSPResponseSuccess<T>, SPSFSPRoute, SPSFSPRouteCompanion, SPSFSPSeller, SPSFSPSellerCompanion, SPSFSPServiceProviderCompanion, SPSFSPSharedCampaignViewModel<State>, SPSFSPSharedCartViewModelRow, SPSFSPSharedCartViewModelState, SPSFSPSharedPrizeHistoryViewModelEntry, SPSFSPSharedPrizeHistoryViewModelState, SPSFSPSharedPrizesViewModelState, SPSFSPSharedReceiptCaptureViewModelState, SPSFSPSharedSmartPromo, SPSFSPSharedSmartPromoCompanion, SPSFSPSharedStoreService, SPSFSPSharedViewModel<State>, SPSFSPSignUpResponse, SPSFSPSignUpResponseCompanion, SPSFSPStatement, SPSFSPStatementCompanion, SPSFSPStatementItem, SPSFSPStatementItemCompanion, SPSFSPStoreKey, SPSFSPStringFormat, SPSFSPStringFormatMask, SPSFSPSurvey, SPSFSPSurveyCompanion, SPSFSPTemplate, SPSFSPTestNetworkConfig, SPSFSPTokenResponse, SPSFSPTokenResponseCompanion, SPSFSPZipCodeAddress, SPSFSPZipCodeAddressCompanion, SPSFSPrizeStatus, SPSKotlinAbstractCoroutineContextElement, SPSKotlinAbstractCoroutineContextKey<B, E>, SPSKotlinArray<T>, SPSKotlinByteArray, SPSKotlinByteIterator, SPSKotlinCancellationException, SPSKotlinEnum<E>, SPSKotlinEnumCompanion, SPSKotlinException, SPSKotlinIllegalStateException, SPSKotlinKTypeProjection, SPSKotlinKTypeProjectionCompanion, SPSKotlinKVariance, SPSKotlinNothing, SPSKotlinRuntimeException, SPSKotlinThrowable, SPSKotlinUnit, SPSKotlinx_coroutines_coreCoroutineDispatcher, SPSKotlinx_coroutines_coreCoroutineDispatcherKey, SPSKotlinx_datetimeDayOfWeek, SPSKotlinx_datetimeDayOfWeekNames, SPSKotlinx_datetimeDayOfWeekNamesCompanion, SPSKotlinx_datetimeLocalDate, SPSKotlinx_datetimeLocalDateCompanion, SPSKotlinx_datetimeLocalDateProgression, SPSKotlinx_datetimeLocalDateProgressionCompanion, SPSKotlinx_datetimeLocalDateRange, SPSKotlinx_datetimeLocalDateRangeCompanion, SPSKotlinx_datetimeMonth, SPSKotlinx_datetimeMonthNames, SPSKotlinx_datetimeMonthNamesCompanion, SPSKotlinx_datetimePadding, SPSKotlinx_io_coreBuffer, SPSKotlinx_serialization_coreSerialKind, SPSKotlinx_serialization_coreSerializersModule, SPSKotlinx_serialization_jsonClassDiscriminatorMode, SPSKotlinx_serialization_jsonJson, SPSKotlinx_serialization_jsonJsonConfiguration, SPSKotlinx_serialization_jsonJsonDefault, SPSKotlinx_serialization_jsonJsonElement, SPSKotlinx_serialization_jsonJsonElementCompanion, SPSKtor_client_coreHttpClient, SPSKtor_client_coreHttpClientCall, SPSKtor_client_coreHttpClientCallCompanion, SPSKtor_client_coreHttpClientConfig<T>, SPSKtor_client_coreHttpClientEngineConfig, SPSKtor_client_coreHttpReceivePipeline, SPSKtor_client_coreHttpReceivePipelinePhases, SPSKtor_client_coreHttpRequestBuilder, SPSKtor_client_coreHttpRequestBuilderCompanion, SPSKtor_client_coreHttpRequestData, SPSKtor_client_coreHttpRequestPipeline, SPSKtor_client_coreHttpRequestPipelinePhases, SPSKtor_client_coreHttpResponse, SPSKtor_client_coreHttpResponseContainer, SPSKtor_client_coreHttpResponseData, SPSKtor_client_coreHttpResponsePipeline, SPSKtor_client_coreHttpResponsePipelinePhases, SPSKtor_client_coreHttpSendPipeline, SPSKtor_client_coreHttpSendPipelinePhases, SPSKtor_client_coreProxyConfig, SPSKtor_eventsEventDefinition<T>, SPSKtor_eventsEvents, SPSKtor_httpContentType, SPSKtor_httpContentTypeCompanion, SPSKtor_httpHeaderValueParam, SPSKtor_httpHeaderValueWithParameters, SPSKtor_httpHeaderValueWithParametersCompanion, SPSKtor_httpHeadersBuilder, SPSKtor_httpHttpMethod, SPSKtor_httpHttpMethodCompanion, SPSKtor_httpHttpProtocolVersion, SPSKtor_httpHttpProtocolVersionCompanion, SPSKtor_httpHttpStatusCode, SPSKtor_httpHttpStatusCodeCompanion, SPSKtor_httpOutgoingContent, SPSKtor_httpURLBuilder, SPSKtor_httpURLBuilderCompanion, SPSKtor_httpURLProtocol, SPSKtor_httpURLProtocolCompanion, SPSKtor_httpUrl, SPSKtor_httpUrlCompanion, SPSKtor_utilsAttributeKey<T>, SPSKtor_utilsGMTDate, SPSKtor_utilsGMTDateCompanion, SPSKtor_utilsMonth, SPSKtor_utilsMonthCompanion, SPSKtor_utilsPipeline<TSubject, TContext>, SPSKtor_utilsPipelinePhase, SPSKtor_utilsStringValuesBuilderImpl, SPSKtor_utilsTypeInfo, SPSKtor_utilsWeekDay, SPSKtor_utilsWeekDayCompanion, SPSSmartPromoEvents;
 
-@protocol SPSFSPAPIService, SPSFSPAddressService, SPSFSPAuthService, SPSFSPCampaignService, SPSFSPConfigIPrizes, SPSFSPConfigIState, SPSFSPFilterable, SPSFSPReceiptService, SPSFSPSearchable, SPSKotlinAnnotation, SPSKotlinAppendable, SPSKotlinAutoCloseable, SPSKotlinClosedRange, SPSKotlinCollection, SPSKotlinComparable, SPSKotlinContinuation, SPSKotlinContinuationInterceptor, SPSKotlinCoroutineContext, SPSKotlinCoroutineContextElement, SPSKotlinCoroutineContextKey, SPSKotlinFunction, SPSKotlinIterable, SPSKotlinIterator, SPSKotlinKAnnotatedElement, SPSKotlinKClass, SPSKotlinKClassifier, SPSKotlinKDeclarationContainer, SPSKotlinKType, SPSKotlinMapEntry, SPSKotlinOpenEndRange, SPSKotlinSequence, SPSKotlinSuspendFunction2, SPSKotlinx_coroutines_coreChildHandle, SPSKotlinx_coroutines_coreChildJob, SPSKotlinx_coroutines_coreCoroutineScope, SPSKotlinx_coroutines_coreDisposableHandle, SPSKotlinx_coroutines_coreJob, SPSKotlinx_coroutines_coreParentJob, SPSKotlinx_coroutines_coreRunnable, SPSKotlinx_coroutines_coreSelectClause, SPSKotlinx_coroutines_coreSelectClause0, SPSKotlinx_coroutines_coreSelectInstance, SPSKotlinx_datetimeDateTimeFormat, SPSKotlinx_datetimeDateTimeFormatBuilder, SPSKotlinx_datetimeDateTimeFormatBuilderWithDate, SPSKotlinx_datetimeDateTimeFormatBuilderWithYearMonth, SPSKotlinx_io_coreRawSink, SPSKotlinx_io_coreRawSource, SPSKotlinx_io_coreSink, SPSKotlinx_io_coreSource, SPSKotlinx_serialization_coreCompositeDecoder, SPSKotlinx_serialization_coreCompositeEncoder, SPSKotlinx_serialization_coreDecoder, SPSKotlinx_serialization_coreDeserializationStrategy, SPSKotlinx_serialization_coreEncoder, SPSKotlinx_serialization_coreKSerializer, SPSKotlinx_serialization_coreSerialDescriptor, SPSKotlinx_serialization_coreSerialFormat, SPSKotlinx_serialization_coreSerializationStrategy, SPSKotlinx_serialization_coreSerializersModuleCollector, SPSKotlinx_serialization_coreStringFormat, SPSKotlinx_serialization_jsonJsonNamingStrategy, SPSKtor_client_coreHttpClientEngine, SPSKtor_client_coreHttpClientEngineCapability, SPSKtor_client_coreHttpClientPlugin, SPSKtor_client_coreHttpRequest, SPSKtor_httpHeaders, SPSKtor_httpHttpMessage, SPSKtor_httpHttpMessageBuilder, SPSKtor_httpParameters, SPSKtor_httpParametersBuilder, SPSKtor_ioByteReadChannel, SPSKtor_ioCloseable, SPSKtor_ioJvmSerializable, SPSKtor_utilsAttributes, SPSKtor_utilsStringValues, SPSKtor_utilsStringValuesBuilder, SPSSmartPromoListener;
+@protocol SPSFSPAPIService, SPSFSPAddressService, SPSFSPCampaignPlatformService, SPSFSPCampaignService, SPSFSPCartManager, SPSFSPCloseable, SPSFSPConfigIPrizes, SPSFSPConfigIState, SPSFSPCryptoService, SPSFSPReceiptService, SPSFSPSearchable, SPSFSPServiceProvider, SPSFSPSessionService, SPSFSPStoreService, SPSKotlinAnnotation, SPSKotlinAppendable, SPSKotlinAutoCloseable, SPSKotlinClosedRange, SPSKotlinCollection, SPSKotlinComparable, SPSKotlinContinuation, SPSKotlinContinuationInterceptor, SPSKotlinCoroutineContext, SPSKotlinCoroutineContextElement, SPSKotlinCoroutineContextKey, SPSKotlinFunction, SPSKotlinIterable, SPSKotlinIterator, SPSKotlinKAnnotatedElement, SPSKotlinKClass, SPSKotlinKClassifier, SPSKotlinKDeclarationContainer, SPSKotlinKType, SPSKotlinMapEntry, SPSKotlinOpenEndRange, SPSKotlinSequence, SPSKotlinSuspendFunction2, SPSKotlinx_coroutines_coreChildHandle, SPSKotlinx_coroutines_coreChildJob, SPSKotlinx_coroutines_coreCoroutineScope, SPSKotlinx_coroutines_coreDisposableHandle, SPSKotlinx_coroutines_coreFlow, SPSKotlinx_coroutines_coreFlowCollector, SPSKotlinx_coroutines_coreJob, SPSKotlinx_coroutines_coreParentJob, SPSKotlinx_coroutines_coreRunnable, SPSKotlinx_coroutines_coreSelectClause, SPSKotlinx_coroutines_coreSelectClause0, SPSKotlinx_coroutines_coreSelectInstance, SPSKotlinx_coroutines_coreSharedFlow, SPSKotlinx_coroutines_coreStateFlow, SPSKotlinx_datetimeDateTimeFormat, SPSKotlinx_datetimeDateTimeFormatBuilder, SPSKotlinx_datetimeDateTimeFormatBuilderWithDate, SPSKotlinx_datetimeDateTimeFormatBuilderWithYearMonth, SPSKotlinx_io_coreRawSink, SPSKotlinx_io_coreRawSource, SPSKotlinx_io_coreSink, SPSKotlinx_io_coreSource, SPSKotlinx_serialization_coreCompositeDecoder, SPSKotlinx_serialization_coreCompositeEncoder, SPSKotlinx_serialization_coreDecoder, SPSKotlinx_serialization_coreDeserializationStrategy, SPSKotlinx_serialization_coreEncoder, SPSKotlinx_serialization_coreKSerializer, SPSKotlinx_serialization_coreSerialDescriptor, SPSKotlinx_serialization_coreSerialFormat, SPSKotlinx_serialization_coreSerializationStrategy, SPSKotlinx_serialization_coreSerializersModuleCollector, SPSKotlinx_serialization_coreStringFormat, SPSKotlinx_serialization_jsonJsonNamingStrategy, SPSKtor_client_coreHttpClientEngine, SPSKtor_client_coreHttpClientEngineCapability, SPSKtor_client_coreHttpClientPlugin, SPSKtor_client_coreHttpRequest, SPSKtor_httpHeaders, SPSKtor_httpHttpMessage, SPSKtor_httpHttpMessageBuilder, SPSKtor_httpParameters, SPSKtor_httpParametersBuilder, SPSKtor_ioByteReadChannel, SPSKtor_ioCloseable, SPSKtor_ioJvmSerializable, SPSKtor_utilsAttributes, SPSKtor_utilsStringValues, SPSKtor_utilsStringValuesBuilder, SPSSmartPromoListener;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -144,26 +144,98 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end
 
+__attribute__((swift_name("KotlinComparable")))
+@protocol SPSKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
+@end
+
+__attribute__((swift_name("KotlinEnum")))
+@interface SPSKotlinEnum<E> : SPSBase <SPSKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPPlatform")))
+@interface SPSFSPPlatform : SPSKotlinEnum<SPSFSPPlatform *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) SPSFSPPlatform *android __attribute__((swift_name("android")));
+@property (class, readonly) SPSFSPPlatform *ios __attribute__((swift_name("ios")));
++ (SPSKotlinArray<SPSFSPPlatform *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<SPSFSPPlatform *> *entries __attribute__((swift_name("entries")));
+@end
+
 __attribute__((swift_name("FSPSharedSmartPromo")))
 @interface SPSFSPSharedSmartPromo : SPSBase
 - (instancetype)initWithAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey isHomolog:(BOOL)isHomolog __attribute__((swift_name("init(accessKey:secretKey:isHomolog:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPSharedSmartPromoCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)configurePlatformServicesContext:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("configurePlatformServices(context:)")));
 - (void)enableSwitchCampaignHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message __attribute__((swift_name("enableSwitchCampaign(headnote:title:message:)")));
-- (void)goCampaignId:(NSString *)campaignId context:(id)context __attribute__((swift_name("go(campaignId:context:)")));
-- (void)goMultiHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message context:(id)context __attribute__((swift_name("goMulti(headnote:title:message:context:)")));
-- (void)goScanCampaignId:(NSString *)campaignId consumerId:(NSString *)consumerId context:(id)context __attribute__((swift_name("goScan(campaignId:consumerId:context:)")));
-- (void)goSwitchCurrentCampaignId:(NSString * _Nullable)currentCampaignId context:(id)context __attribute__((swift_name("goSwitch(currentCampaignId:context:)")));
-- (void)performGoCampaignId:(NSString *)campaignId context:(id)context __attribute__((swift_name("performGo(campaignId:context:)")));
-- (void)performGoMultiHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message currentCampaignId:(NSString * _Nullable)currentCampaignId context:(id)context __attribute__((swift_name("performGoMulti(headnote:title:message:currentCampaignId:context:)")));
-- (void)performGoScanCampaignId:(NSString *)campaignId consumerId:(NSString *)consumerId context:(id)context __attribute__((swift_name("performGoScan(campaignId:consumerId:context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)goCampaignId:(NSString *)campaignId context:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("go(campaignId:context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)goMultiHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message context:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("goMulti(headnote:title:message:context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)goScanCampaignId:(NSString *)campaignId consumerId:(NSString *)consumerId context:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("goScan(campaignId:consumerId:context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)goSwitchCurrentCampaignId:(NSString * _Nullable)currentCampaignId context:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("goSwitch(currentCampaignId:context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)performGoContext:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("performGo(context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)performGoMultiHeadnote:(NSString *)headnote title:(NSString *)title message:(NSString *)message currentCampaignId:(NSString * _Nullable)currentCampaignId context:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("performGoMulti(headnote:title:message:currentCampaignId:context:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)performGoScanContext:(id)context error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("performGoScan(context:)")));
 - (SPSFSPSharedSmartPromo *)setConsumerConsumer:(SPSFSPConsumerCore * _Nullable)consumer __attribute__((swift_name("setConsumer(consumer:)")));
 - (SPSFSPSharedSmartPromo *)setMetadataMetadata:(NSString * _Nullable)metadata __attribute__((swift_name("setMetadata(metadata:)")));
 @property (readonly) BOOL isBoon __attribute__((swift_name("isBoon")));
+@property (readonly) BOOL isHomolog __attribute__((swift_name("isHomolog")));
 @property BOOL isSwitchCampaignEnabled __attribute__((swift_name("isSwitchCampaignEnabled")));
 @property id<SPSSmartPromoListener> _Nullable listener __attribute__((swift_name("listener")));
 @property (readonly) NSString * _Nullable metadata __attribute__((swift_name("metadata")));
 @property (readonly) SPSFSPConsumerCore * _Nullable presetConsumer __attribute__((swift_name("presetConsumer")));
-@property (readonly) SPSFSPServiceProvider *serviceProvider __attribute__((swift_name("serviceProvider")));
+@property (readonly) id<SPSFSPServiceProvider> serviceProvider __attribute__((swift_name("serviceProvider")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -175,6 +247,16 @@ __attribute__((swift_name("FSPSharedSmartPromo.Companion")))
 @property (class, readonly, getter=shared) SPSFSPSharedSmartPromoCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) SPSFSPSharedSmartPromo *instance __attribute__((swift_name("instance")));
 @property (readonly) NSString *smartpromoVersion __attribute__((swift_name("smartpromoVersion")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPTestNetworkConfig")))
+@interface SPSFSPTestNetworkConfig : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)fSPTestNetworkConfig __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPTestNetworkConfig *shared __attribute__((swift_name("shared")));
+- (void)enableMockServer __attribute__((swift_name("enableMockServer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -191,6 +273,55 @@ __attribute__((swift_name("SmartPromoListener")))
 @protocol SPSSmartPromoListener
 @required
 - (void)didReceiveEventEventKey:(NSString *)eventKey values:(NSDictionary<NSString *, id> * _Nullable)values __attribute__((swift_name("didReceiveEvent(eventKey:values:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPDoubleFormat")))
+@interface SPSFSPDoubleFormat : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)fSPDoubleFormat __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPDoubleFormat *shared __attribute__((swift_name("shared")));
+- (NSString *)toBRLValue:(double)value __attribute__((swift_name("toBRL(value:)")));
+- (NSString *)toPointsValue:(double)value __attribute__((swift_name("toPoints(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPStringFormat")))
+@interface SPSFSPStringFormat : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)fSPStringFormat __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPStringFormat *shared __attribute__((swift_name("shared")));
+- (NSString *)dateStringBRValue:(NSString *)value __attribute__((swift_name("dateStringBR(value:)")));
+- (BOOL)isCPFValue:(NSString *)value __attribute__((swift_name("isCPF(value:)")));
+- (BOOL)isValidEmailValue:(NSString *)value __attribute__((swift_name("isValidEmail(value:)")));
+- (NSString *)maskValue:(NSString *)value format:(NSString *)format __attribute__((swift_name("mask(value:format:)")));
+- (NSString *)unmaskValue:(NSString *)value __attribute__((swift_name("unmask(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPStringFormat.Mask")))
+@interface SPSFSPStringFormatMask : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)mask __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPStringFormatMask *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *CEP __attribute__((swift_name("CEP")));
+@property (readonly) NSString *CNPJ __attribute__((swift_name("CNPJ")));
+@property (readonly) NSString *CPF __attribute__((swift_name("CPF")));
+@property (readonly) NSString *DATE __attribute__((swift_name("DATE")));
+@property (readonly) NSString *PHONE __attribute__((swift_name("PHONE")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPTemplate")))
+@interface SPSFSPTemplate : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)fSPTemplate __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPTemplate *shared __attribute__((swift_name("shared")));
+- (NSString *)renderTemplate:(NSString *)template_ tokens:(NSDictionary<NSString *, NSString *> *)tokens __attribute__((swift_name("render(template:tokens:)")));
 @end
 
 
@@ -343,6 +474,43 @@ __attribute__((swift_name("FSPCampaignContact.Companion")))
 - (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPCampaignContext")))
+@interface SPSFSPCampaignContext : SPSBase
+- (instancetype)initWithCampaign:(SPSFSPCampaign *)campaign consumer:(SPSFSPConsumerCore * _Nullable)consumer errorMessage:(SPSFSPPrompt * _Nullable)errorMessage authRequired:(SPSFSPAuthRequired * _Nullable)authRequired __attribute__((swift_name("init(campaign:consumer:errorMessage:authRequired:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPCampaignContextCompanion *companion __attribute__((swift_name("companion")));
+- (SPSFSPCampaignContext *)doCopyCampaign:(SPSFSPCampaign *)campaign consumer:(SPSFSPConsumerCore * _Nullable)consumer errorMessage:(SPSFSPPrompt * _Nullable)errorMessage authRequired:(SPSFSPAuthRequired * _Nullable)authRequired __attribute__((swift_name("doCopy(campaign:consumer:errorMessage:authRequired:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (void)markAsOutdated __attribute__((swift_name("markAsOutdated()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SPSFSPAuthRequired * _Nullable authRequired __attribute__((swift_name("authRequired")));
+@property (readonly) SPSFSPCampaign *campaign __attribute__((swift_name("campaign")));
+@property SPSFSPConsumerCore * _Nullable consumer __attribute__((swift_name("consumer")));
+@property (readonly) SPSFSPPrompt * _Nullable errorMessage __attribute__((swift_name("errorMessage")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Transient
+*/
+@property (readonly) BOOL isOutdated __attribute__((swift_name("isOutdated")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPCampaignContext.Companion")))
+@interface SPSFSPCampaignContextCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPCampaignContextCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((swift_name("FSPSearchable")))
 @protocol SPSFSPSearchable
 @required
@@ -387,54 +555,6 @@ __attribute__((swift_name("FSPCampaignItem.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SPSFSPCampaignItemCompanion *shared __attribute__((swift_name("shared")));
 - (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPCampaignResponse")))
-@interface SPSFSPCampaignResponse : SPSBase
-- (instancetype)initWithCampaign:(SPSFSPCampaign *)campaign consumer:(SPSFSPConsumerCore * _Nullable)consumer errorMessage:(SPSFSPPrompt * _Nullable)errorMessage authRequired:(SPSFSPAuthRequired * _Nullable)authRequired __attribute__((swift_name("init(campaign:consumer:errorMessage:authRequired:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SPSFSPCampaignResponseCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPCampaignResponse *)doCopyCampaign:(SPSFSPCampaign *)campaign consumer:(SPSFSPConsumerCore * _Nullable)consumer errorMessage:(SPSFSPPrompt * _Nullable)errorMessage authRequired:(SPSFSPAuthRequired * _Nullable)authRequired __attribute__((swift_name("doCopy(campaign:consumer:errorMessage:authRequired:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SPSFSPAuthRequired * _Nullable authRequired __attribute__((swift_name("authRequired")));
-@property (readonly) SPSFSPCampaign *campaign __attribute__((swift_name("campaign")));
-@property (readonly) SPSFSPConsumerCore * _Nullable consumer __attribute__((swift_name("consumer")));
-@property (readonly) SPSFSPPrompt * _Nullable errorMessage __attribute__((swift_name("errorMessage")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPCampaignResponse.Companion")))
-@interface SPSFSPCampaignResponseCompanion : SPSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SPSFSPCampaignResponseCompanion *shared __attribute__((swift_name("shared")));
-- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("KotlinComparable")))
-@protocol SPSKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end
-
-__attribute__((swift_name("KotlinEnum")))
-@interface SPSKotlinEnum<E> : SPSBase <SPSKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SPSKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -536,7 +656,6 @@ __attribute__((swift_name("FSPConfig.Companion")))
 @property (class, readonly, getter=shared) SPSFSPConfigCompanion *shared __attribute__((swift_name("shared")));
 - (SPSFSPConfig * _Nullable)parseJson:(NSString *)json __attribute__((swift_name("parse(json:)")));
 - (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@property SPSFSPConfig * _Nullable globalConfig __attribute__((swift_name("globalConfig")));
 @end
 
 __attribute__((swift_name("FSPConfigIState")))
@@ -554,6 +673,8 @@ __attribute__((swift_name("FSPConfigIPrizes")))
 @protocol SPSFSPConfigIPrizes <SPSFSPConfigIState>
 @required
 @property (readonly) NSString * _Nullable floatAction __attribute__((swift_name("floatAction")));
+@property (readonly) NSArray<SPSFSPPrizeLayout *> * _Nullable layouts __attribute__((swift_name("layouts")));
+@property (readonly) SPSInt * _Nullable stampValue __attribute__((swift_name("stampValue")));
 @end
 
 
@@ -591,21 +712,61 @@ __attribute__((swift_name("FSPConfig.MessagesCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPConfig.Views")))
 @interface SPSFSPConfigViews : SPSBase
-- (instancetype)initWithHome:(SPSFSPConfigViewsHome *)home optInId:(SPSFSPConfigViewsOptInId *)optInId optInAuth:(SPSFSPConfigViewsOptInAuth *)optInAuth optInForm:(SPSFSPConfigViewsOptInForm *)optInForm receiptConfirm:(SPSFSPConfigViewsReceiptConfirm *)receiptConfirm receipt:(SPSFSPConfigViewsReceipt *)receipt gifts:(SPSFSPConfigViewsPrizes *)gifts awards:(SPSFSPConfigViewsPrizes *)awards coupons:(SPSFSPConfigViewsState *)coupons instantPrizes:(SPSFSPConfigViewsInstantPrizes *)instantPrizes receipts:(SPSFSPConfigViewsReceipts *)receipts statements:(SPSFSPConfigViewsState *)statements winners:(SPSFSPConfigViewsState *)winners __attribute__((swift_name("init(home:optInId:optInAuth:optInForm:receiptConfirm:receipt:gifts:awards:coupons:instantPrizes:receipts:statements:winners:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithHome:(SPSFSPConfigViewsHome *)home optInId:(SPSFSPConfigViewsOptInId *)optInId optInAuth:(SPSFSPConfigViewsOptInAuth *)optInAuth optInForm:(SPSFSPConfigViewsOptInForm *)optInForm receiptConfirm:(SPSFSPConfigViewsReceiptConfirm *)receiptConfirm receipt:(SPSFSPConfigViewsReceipt *)receipt gifts:(SPSFSPConfigViewsPrizes *)gifts loyaltyCatalog:(SPSFSPConfigViewsPrizes *)loyaltyCatalog coupons:(SPSFSPConfigViewsState *)coupons instantPrizes:(SPSFSPConfigViewsInstantPrizes *)instantPrizes receipts:(SPSFSPConfigViewsReceipts *)receipts statements:(SPSFSPConfigViewsState *)statements winners:(SPSFSPConfigViewsState *)winners cart:(SPSFSPConfigViewsCart * _Nullable)cart redemptions:(SPSFSPConfigViewsRedemptions * _Nullable)redemptions __attribute__((swift_name("init(home:optInId:optInAuth:optInForm:receiptConfirm:receipt:gifts:loyaltyCatalog:coupons:instantPrizes:receipts:statements:winners:cart:redemptions:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPConfigViewsCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) SPSFSPConfigViewsPrizes *awards __attribute__((swift_name("awards")));
+@property (readonly) SPSFSPConfigViewsCart * _Nullable cart __attribute__((swift_name("cart")));
 @property (readonly) SPSFSPConfigViewsState *coupons __attribute__((swift_name("coupons")));
 @property (readonly) SPSFSPConfigViewsPrizes *gifts __attribute__((swift_name("gifts")));
 @property (readonly) SPSFSPConfigViewsHome *home __attribute__((swift_name("home")));
 @property (readonly) SPSFSPConfigViewsInstantPrizes *instantPrizes __attribute__((swift_name("instantPrizes")));
+@property (readonly) SPSFSPConfigViewsPrizes *loyaltyCatalog __attribute__((swift_name("loyaltyCatalog")));
 @property (readonly) SPSFSPConfigViewsOptInAuth *optInAuth __attribute__((swift_name("optInAuth")));
 @property (readonly) SPSFSPConfigViewsOptInForm *optInForm __attribute__((swift_name("optInForm")));
 @property (readonly) SPSFSPConfigViewsOptInId *optInId __attribute__((swift_name("optInId")));
 @property (readonly) SPSFSPConfigViewsReceipt *receipt __attribute__((swift_name("receipt")));
 @property (readonly) SPSFSPConfigViewsReceiptConfirm *receiptConfirm __attribute__((swift_name("receiptConfirm")));
 @property (readonly) SPSFSPConfigViewsReceipts *receipts __attribute__((swift_name("receipts")));
+@property (readonly) SPSFSPConfigViewsRedemptions * _Nullable redemptions __attribute__((swift_name("redemptions")));
 @property (readonly) SPSFSPConfigViewsState *statements __attribute__((swift_name("statements")));
 @property (readonly) SPSFSPConfigViewsState *winners __attribute__((swift_name("winners")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPConfig.ViewsCart")))
+@interface SPSFSPConfigViewsCart : SPSBase
+- (instancetype)initWithTitle:(NSString *)title emptyText:(NSString *)emptyText emptyHint:(NSString *)emptyHint unitCost:(NSString *)unitCost lineTotal:(NSString *)lineTotal total:(NSString *)total balance:(NSString *)balance remaining:(NSString *)remaining insufficient:(NSString *)insufficient itemsOne:(NSString *)itemsOne itemsOther:(NSString *)itemsOther redeemAction:(NSString *)redeemAction addMoreAction:(NSString * _Nullable)addMoreAction openOnAdd:(BOOL)openOnAdd confirmMessage:(SPSFSPPrompt *)confirmMessage successMessage:(SPSFSPPrompt *)successMessage __attribute__((swift_name("init(title:emptyText:emptyHint:unitCost:lineTotal:total:balance:remaining:insufficient:itemsOne:itemsOther:redeemAction:addMoreAction:openOnAdd:confirmMessage:successMessage:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPConfigViewsCartCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString * _Nullable addMoreAction __attribute__((swift_name("addMoreAction")));
+@property (readonly) NSString *balance __attribute__((swift_name("balance")));
+@property (readonly) SPSFSPPrompt *confirmMessage __attribute__((swift_name("confirmMessage")));
+@property (readonly) NSString *emptyHint __attribute__((swift_name("emptyHint")));
+@property (readonly) NSString *emptyText __attribute__((swift_name("emptyText")));
+@property (readonly) NSString *insufficient __attribute__((swift_name("insufficient")));
+@property (readonly) NSString *itemsOne __attribute__((swift_name("itemsOne")));
+@property (readonly) NSString *itemsOther __attribute__((swift_name("itemsOther")));
+@property (readonly) NSString *lineTotal __attribute__((swift_name("lineTotal")));
+@property (readonly) BOOL openOnAdd __attribute__((swift_name("openOnAdd")));
+@property (readonly) NSString *redeemAction __attribute__((swift_name("redeemAction")));
+@property (readonly) NSString *remaining __attribute__((swift_name("remaining")));
+@property (readonly) SPSFSPPrompt *successMessage __attribute__((swift_name("successMessage")));
+@property (readonly) NSString *title __attribute__((swift_name("title")));
+@property (readonly) NSString *total __attribute__((swift_name("total")));
+@property (readonly) NSString *unitCost __attribute__((swift_name("unitCost")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPConfig.ViewsCartCompanion")))
+@interface SPSFSPConfigViewsCartCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPConfigViewsCartCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -659,12 +820,18 @@ __attribute__((swift_name("FSPConfig.ViewsHomeCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPConfig.ViewsInstantPrizes")))
 @interface SPSFSPConfigViewsInstantPrizes : SPSBase <SPSFSPConfigIPrizes>
-- (instancetype)initWithMessageActionAgain:(NSString *)messageActionAgain messageActionEnd:(NSString *)messageActionEnd messageActionClose:(NSString *)messageActionClose messageCarousel:(NSString *)messageCarousel messageScratch:(NSString *)messageScratch floatAction:(NSString * _Nullable)floatAction emptyText:(NSString *)emptyText searchPlaceholder:(NSString *)searchPlaceholder searchEmptyText:(NSString *)searchEmptyText errorText:(NSString *)errorText emptyLottie:(NSString *)emptyLottie reloadAction:(NSString *)reloadAction __attribute__((swift_name("init(messageActionAgain:messageActionEnd:messageActionClose:messageCarousel:messageScratch:floatAction:emptyText:searchPlaceholder:searchEmptyText:errorText:emptyLottie:reloadAction:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessageActionAgain:(NSString *)messageActionAgain messageActionEnd:(NSString *)messageActionEnd messageActionClose:(NSString *)messageActionClose messageCarousel:(NSString *)messageCarousel messageScratch:(NSString *)messageScratch floatAction:(NSString * _Nullable)floatAction layouts:(NSArray<SPSFSPPrizeLayout *> * _Nullable)layouts stampValue:(SPSInt * _Nullable)stampValue emptyText:(NSString *)emptyText searchPlaceholder:(NSString *)searchPlaceholder searchEmptyText:(NSString *)searchEmptyText errorText:(NSString *)errorText emptyLottie:(NSString *)emptyLottie reloadAction:(NSString *)reloadAction __attribute__((swift_name("init(messageActionAgain:messageActionEnd:messageActionClose:messageCarousel:messageScratch:floatAction:layouts:stampValue:emptyText:searchPlaceholder:searchEmptyText:errorText:emptyLottie:reloadAction:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPConfigViewsInstantPrizesCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) NSString *emptyLottie __attribute__((swift_name("emptyLottie")));
 @property (readonly) NSString *emptyText __attribute__((swift_name("emptyText")));
 @property (readonly) NSString *errorText __attribute__((swift_name("errorText")));
 @property (readonly) NSString * _Nullable floatAction __attribute__((swift_name("floatAction")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=br/com/getmo/smartpromo/shared/models/FSPPrizeLayoutListSerializer))
+*/
+@property (readonly) NSArray<SPSFSPPrizeLayout *> * _Nullable layouts __attribute__((swift_name("layouts")));
 @property (readonly) NSString *messageActionAgain __attribute__((swift_name("messageActionAgain")));
 @property (readonly) NSString *messageActionClose __attribute__((swift_name("messageActionClose")));
 @property (readonly) NSString *messageActionEnd __attribute__((swift_name("messageActionEnd")));
@@ -673,6 +840,7 @@ __attribute__((swift_name("FSPConfig.ViewsInstantPrizes")))
 @property (readonly) NSString *reloadAction __attribute__((swift_name("reloadAction")));
 @property (readonly) NSString *searchEmptyText __attribute__((swift_name("searchEmptyText")));
 @property (readonly) NSString *searchPlaceholder __attribute__((swift_name("searchPlaceholder")));
+@property (readonly) SPSInt * _Nullable stampValue __attribute__((swift_name("stampValue")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -766,15 +934,22 @@ __attribute__((swift_name("FSPConfig.ViewsOptInIdCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPConfig.ViewsPrizes")))
 @interface SPSFSPConfigViewsPrizes : SPSBase <SPSFSPConfigIPrizes>
-- (instancetype)initWithFloatAction:(NSString * _Nullable)floatAction emptyText:(NSString *)emptyText searchEmptyText:(NSString *)searchEmptyText searchPlaceholder:(NSString *)searchPlaceholder errorText:(NSString *)errorText emptyLottie:(NSString *)emptyLottie reloadAction:(NSString *)reloadAction __attribute__((swift_name("init(floatAction:emptyText:searchEmptyText:searchPlaceholder:errorText:emptyLottie:reloadAction:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithFloatAction:(NSString * _Nullable)floatAction layouts:(NSArray<SPSFSPPrizeLayout *> * _Nullable)layouts stampValue:(SPSInt * _Nullable)stampValue emptyText:(NSString *)emptyText searchEmptyText:(NSString *)searchEmptyText searchPlaceholder:(NSString *)searchPlaceholder errorText:(NSString *)errorText emptyLottie:(NSString *)emptyLottie reloadAction:(NSString *)reloadAction __attribute__((swift_name("init(floatAction:layouts:stampValue:emptyText:searchEmptyText:searchPlaceholder:errorText:emptyLottie:reloadAction:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPConfigViewsPrizesCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) NSString *emptyLottie __attribute__((swift_name("emptyLottie")));
 @property (readonly) NSString *emptyText __attribute__((swift_name("emptyText")));
 @property (readonly) NSString *errorText __attribute__((swift_name("errorText")));
 @property (readonly) NSString * _Nullable floatAction __attribute__((swift_name("floatAction")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=br/com/getmo/smartpromo/shared/models/FSPPrizeLayoutListSerializer))
+*/
+@property (readonly) NSArray<SPSFSPPrizeLayout *> * _Nullable layouts __attribute__((swift_name("layouts")));
 @property (readonly) NSString *reloadAction __attribute__((swift_name("reloadAction")));
 @property (readonly) NSString *searchEmptyText __attribute__((swift_name("searchEmptyText")));
 @property (readonly) NSString *searchPlaceholder __attribute__((swift_name("searchPlaceholder")));
+@property (readonly) SPSInt * _Nullable stampValue __attribute__((swift_name("stampValue")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -910,6 +1085,33 @@ __attribute__((swift_name("FSPConfig.ViewsReceiptsCompanion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPConfig.ViewsRedemptions")))
+@interface SPSFSPConfigViewsRedemptions : SPSBase
+- (instancetype)initWithTitle:(NSString *)title emptyText:(NSString *)emptyText redeemedLabel:(NSString *)redeemedLabel pickedUpLabel:(NSString *)pickedUpLabel pendingText:(NSString *)pendingText __attribute__((swift_name("init(title:emptyText:redeemedLabel:pickedUpLabel:pendingText:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPConfigViewsRedemptionsCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *emptyText __attribute__((swift_name("emptyText")));
+@property (readonly) NSString *pendingText __attribute__((swift_name("pendingText")));
+@property (readonly) NSString *pickedUpLabel __attribute__((swift_name("pickedUpLabel")));
+@property (readonly) NSString *redeemedLabel __attribute__((swift_name("redeemedLabel")));
+@property (readonly) NSString *title __attribute__((swift_name("title")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPConfig.ViewsRedemptionsCompanion")))
+@interface SPSFSPConfigViewsRedemptionsCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPConfigViewsRedemptionsCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPConfig.ViewsState")))
 @interface SPSFSPConfigViewsState : SPSBase <SPSFSPConfigIState>
 - (instancetype)initWithEmptyText:(NSString *)emptyText searchEmptyText:(NSString *)searchEmptyText searchPlaceholder:(NSString *)searchPlaceholder errorText:(NSString *)errorText emptyLottie:(NSString *)emptyLottie reloadAction:(NSString *)reloadAction __attribute__((swift_name("init(emptyText:searchEmptyText:searchPlaceholder:errorText:emptyLottie:reloadAction:)"))) __attribute__((objc_designated_initializer));
@@ -947,7 +1149,7 @@ __attribute__((swift_name("FSPConsumerCore")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property SPSFSPAddress * _Nullable address __attribute__((swift_name("address")));
-@property SPSFSPPrize * _Nullable awards __attribute__((swift_name("awards")));
+@property SPSDouble * _Nullable balance __attribute__((swift_name("balance")));
 @property NSString * _Nullable bdate __attribute__((swift_name("bdate")));
 @property NSArray<SPSFSPGenericItem *> * _Nullable coupons __attribute__((swift_name("coupons")));
 @property NSString * _Nullable cpf __attribute__((swift_name("cpf")));
@@ -957,11 +1159,13 @@ __attribute__((swift_name("FSPConsumerCore")))
 @property SPSFSPGenre * _Nullable genre __attribute__((swift_name("genre")));
 @property SPSFSPPrize * _Nullable gifts __attribute__((swift_name("gifts")));
 @property SPSFSPPrize * _Nullable instantPrizes __attribute__((swift_name("instantPrizes")));
+@property SPSFSPPrize * _Nullable loyaltyCatalog __attribute__((swift_name("loyaltyCatalog")));
 @property NSString * _Nullable name __attribute__((swift_name("name")));
 @property NSArray<SPSFSPPrompt *> * _Nullable optinSurvey __attribute__((swift_name("optinSurvey")));
 @property NSString * _Nullable phone __attribute__((swift_name("phone")));
 @property SPSFSPPrompt * _Nullable profile __attribute__((swift_name("profile")));
 @property NSArray<SPSFSPReceiptSection *> * _Nullable receipts __attribute__((swift_name("receipts")));
+@property SPSFSPRedemptions * _Nullable redemptions __attribute__((swift_name("redemptions")));
 @property NSArray<SPSFSPStatement *> * _Nullable statements __attribute__((swift_name("statements")));
 @end
 
@@ -991,33 +1195,6 @@ __attribute__((swift_name("FSPConsumerFields")))
 + (SPSKotlinArray<SPSFSPConsumerFields *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<SPSFSPConsumerFields *> *entries __attribute__((swift_name("entries")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPErrorResponse")))
-@interface SPSFSPErrorResponse : SPSBase
-- (instancetype)initWithErrorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("init(errorMessage:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SPSFSPErrorResponseCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPErrorResponse *)doCopyErrorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("doCopy(errorMessage:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SPSFSPPrompt * _Nullable errorMessage __attribute__((swift_name("errorMessage")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPErrorResponse.Companion")))
-@interface SPSFSPErrorResponseCompanion : SPSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SPSFSPErrorResponseCompanion *shared __attribute__((swift_name("shared")));
-- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -1059,41 +1236,6 @@ __attribute__((swift_name("FSPFeatureCard.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SPSFSPFeatureCardCompanion *shared __attribute__((swift_name("shared")));
 - (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPFilter")))
-@interface SPSFSPFilter : SPSBase
-- (instancetype)initWithAction:(NSString *)action titleOn:(NSString *)titleOn titleOff:(NSString *)titleOff __attribute__((swift_name("init(action:titleOn:titleOff:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SPSFSPFilterCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPFilter *)doCopyAction:(NSString *)action titleOn:(NSString *)titleOn titleOff:(NSString *)titleOff __attribute__((swift_name("doCopy(action:titleOn:titleOff:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *action __attribute__((swift_name("action")));
-@property (readonly) NSString *titleOff __attribute__((swift_name("titleOff")));
-@property (readonly) NSString *titleOn __attribute__((swift_name("titleOn")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPFilter.Companion")))
-@interface SPSFSPFilterCompanion : SPSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SPSFSPFilterCompanion *shared __attribute__((swift_name("shared")));
-- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("FSPFilterable")))
-@protocol SPSFSPFilterable
-@required
-@property (readonly) NSString * _Nullable filter __attribute__((swift_name("filter")));
 @end
 
 
@@ -1311,34 +1453,6 @@ __attribute__((swift_name("FSPLottie.Feature")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPOptInResponse")))
-@interface SPSFSPOptInResponse : SPSBase
-- (instancetype)initWithToken:(NSString * _Nullable)token errorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("init(token:errorMessage:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SPSFSPOptInResponseCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPOptInResponse *)doCopyToken:(NSString * _Nullable)token errorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("doCopy(token:errorMessage:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SPSFSPPrompt * _Nullable errorMessage __attribute__((swift_name("errorMessage")));
-@property (readonly) NSString * _Nullable token __attribute__((swift_name("token")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPOptInResponse.Companion")))
-@interface SPSFSPOptInResponseCompanion : SPSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SPSFSPOptInResponseCompanion *shared __attribute__((swift_name("shared")));
-- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPaymentParameters")))
 @interface SPSFSPPaymentParameters : SPSBase
 - (instancetype)initWithPaymentUrl:(NSString *)paymentUrl paymentReceivedPath:(NSString *)paymentReceivedPath paymentReceivedMessage:(SPSFSPPrompt *)paymentReceivedMessage errorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("init(paymentUrl:paymentReceivedPath:paymentReceivedMessage:errorMessage:)"))) __attribute__((objc_designated_initializer));
@@ -1371,20 +1485,21 @@ __attribute__((swift_name("FSPPaymentParameters.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrize")))
 @interface SPSFSPPrize : SPSBase
-- (instancetype)initWithFilter:(SPSFSPFilter * _Nullable)filter items:(NSMutableArray<SPSFSPPrizeItem *> *)items message:(NSString * _Nullable)message chooseItems:(NSMutableArray<SPSFSPPrizeItem *> *)chooseItems pending:(int32_t)pending needsPayment:(SPSBoolean * _Nullable)needsPayment shareDataToPayMessage:(SPSFSPPrompt * _Nullable)shareDataToPayMessage chooseItemToPayMessage:(SPSFSPPrompt * _Nullable)chooseItemToPayMessage primaryAction:(NSString * _Nullable)primaryAction __attribute__((swift_name("init(filter:items:message:chooseItems:pending:needsPayment:shareDataToPayMessage:chooseItemToPayMessage:primaryAction:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithItems:(NSMutableArray<SPSFSPPrizeItem *> *)items message:(NSString * _Nullable)message chooseItems:(NSMutableArray<SPSFSPPrizeItem *> *)chooseItems pending:(int32_t)pending needsPayment:(SPSBoolean * _Nullable)needsPayment shareDataToPayMessage:(SPSFSPPrompt * _Nullable)shareDataToPayMessage chooseItemToPayMessage:(SPSFSPPrompt * _Nullable)chooseItemToPayMessage primaryAction:(NSString * _Nullable)primaryAction sections:(NSMutableArray<SPSFSPPrizeSection *> *)sections __attribute__((swift_name("init(items:message:chooseItems:pending:needsPayment:shareDataToPayMessage:chooseItemToPayMessage:primaryAction:sections:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPrizeCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPPrize *)doCopyFilter:(SPSFSPFilter * _Nullable)filter items:(NSMutableArray<SPSFSPPrizeItem *> *)items message:(NSString * _Nullable)message chooseItems:(NSMutableArray<SPSFSPPrizeItem *> *)chooseItems pending:(int32_t)pending needsPayment:(SPSBoolean * _Nullable)needsPayment shareDataToPayMessage:(SPSFSPPrompt * _Nullable)shareDataToPayMessage chooseItemToPayMessage:(SPSFSPPrompt * _Nullable)chooseItemToPayMessage primaryAction:(NSString * _Nullable)primaryAction __attribute__((swift_name("doCopy(filter:items:message:chooseItems:pending:needsPayment:shareDataToPayMessage:chooseItemToPayMessage:primaryAction:)")));
+- (SPSFSPPrize *)doCopyItems:(NSMutableArray<SPSFSPPrizeItem *> *)items message:(NSString * _Nullable)message chooseItems:(NSMutableArray<SPSFSPPrizeItem *> *)chooseItems pending:(int32_t)pending needsPayment:(SPSBoolean * _Nullable)needsPayment shareDataToPayMessage:(SPSFSPPrompt * _Nullable)shareDataToPayMessage chooseItemToPayMessage:(SPSFSPPrompt * _Nullable)chooseItemToPayMessage primaryAction:(NSString * _Nullable)primaryAction sections:(NSMutableArray<SPSFSPPrizeSection *> *)sections __attribute__((swift_name("doCopy(items:message:chooseItems:pending:needsPayment:shareDataToPayMessage:chooseItemToPayMessage:primaryAction:sections:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SPSFSPPrizeItem *> *allItems __attribute__((swift_name("allItems")));
 @property SPSFSPPrompt * _Nullable chooseItemToPayMessage __attribute__((swift_name("chooseItemToPayMessage")));
 @property NSMutableArray<SPSFSPPrizeItem *> *chooseItems __attribute__((swift_name("chooseItems")));
-@property (readonly) SPSFSPFilter * _Nullable filter __attribute__((swift_name("filter")));
 @property NSMutableArray<SPSFSPPrizeItem *> *items __attribute__((swift_name("items")));
 @property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
 @property SPSBoolean * _Nullable needsPayment __attribute__((swift_name("needsPayment")));
 @property int32_t pending __attribute__((swift_name("pending")));
 @property NSString * _Nullable primaryAction __attribute__((swift_name("primaryAction")));
+@property NSMutableArray<SPSFSPPrizeSection *> *sections __attribute__((swift_name("sections")));
 @property SPSFSPPrompt * _Nullable shareDataToPayMessage __attribute__((swift_name("shareDataToPayMessage")));
 @end
 
@@ -1405,28 +1520,30 @@ __attribute__((swift_name("FSPPrize.Companion")))
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrizeItem")))
-@interface SPSFSPPrizeItem : SPSBase <SPSFSPSearchable, SPSFSPFilterable>
-- (instancetype)initWithId:(NSString * _Nullable)id images:(NSArray<NSString *> * _Nullable)images headnote:(NSString * _Nullable)headnote title:(NSString * _Nullable)title body:(NSString * _Nullable)body status:(SPSFSPrizeStatus * _Nullable)status filter:(NSString * _Nullable)filter details:(SPSFSPPrizeItemDetail * _Nullable)details voucher:(SPSFSPPrompt * _Nullable)voucher confirmationMessage:(SPSFSPPrompt * _Nullable)confirmationMessage badge:(NSString * _Nullable)badge progress:(SPSInt * _Nullable)progress __attribute__((swift_name("init(id:images:headnote:title:body:status:filter:details:voucher:confirmationMessage:badge:progress:)"))) __attribute__((objc_designated_initializer));
+@interface SPSFSPPrizeItem : SPSBase <SPSFSPSearchable>
+- (instancetype)initWithId:(NSString * _Nullable)id images:(NSArray<NSString *> * _Nullable)images headnote:(NSString * _Nullable)headnote amount:(SPSDouble * _Nullable)amount title:(NSString * _Nullable)title body:(NSString * _Nullable)body status:(SPSFSPrizeStatus * _Nullable)status details:(SPSFSPPrizeItemDetail * _Nullable)details voucher:(SPSFSPPrompt * _Nullable)voucher confirmationMessage:(SPSFSPPrompt * _Nullable)confirmationMessage badge:(NSString * _Nullable)badge progress:(SPSInt * _Nullable)progress redeemedAt:(NSString * _Nullable)redeemedAt pickedUpAt:(NSString * _Nullable)pickedUpAt __attribute__((swift_name("init(id:images:headnote:amount:title:body:status:details:voucher:confirmationMessage:badge:progress:redeemedAt:pickedUpAt:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPrizeItemCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPPrizeItem *)doCopyId:(NSString * _Nullable)id images:(NSArray<NSString *> * _Nullable)images headnote:(NSString * _Nullable)headnote title:(NSString * _Nullable)title body:(NSString * _Nullable)body status:(SPSFSPrizeStatus * _Nullable)status filter:(NSString * _Nullable)filter details:(SPSFSPPrizeItemDetail * _Nullable)details voucher:(SPSFSPPrompt * _Nullable)voucher confirmationMessage:(SPSFSPPrompt * _Nullable)confirmationMessage badge:(NSString * _Nullable)badge progress:(SPSInt * _Nullable)progress __attribute__((swift_name("doCopy(id:images:headnote:title:body:status:filter:details:voucher:confirmationMessage:badge:progress:)")));
+- (SPSFSPPrizeItem *)doCopyId:(NSString * _Nullable)id images:(NSArray<NSString *> * _Nullable)images headnote:(NSString * _Nullable)headnote amount:(SPSDouble * _Nullable)amount title:(NSString * _Nullable)title body:(NSString * _Nullable)body status:(SPSFSPrizeStatus * _Nullable)status details:(SPSFSPPrizeItemDetail * _Nullable)details voucher:(SPSFSPPrompt * _Nullable)voucher confirmationMessage:(SPSFSPPrompt * _Nullable)confirmationMessage badge:(NSString * _Nullable)badge progress:(SPSInt * _Nullable)progress redeemedAt:(NSString * _Nullable)redeemedAt pickedUpAt:(NSString * _Nullable)pickedUpAt __attribute__((swift_name("doCopy(id:images:headnote:amount:title:body:status:details:voucher:confirmationMessage:badge:progress:redeemedAt:pickedUpAt:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)matchesQuery:(NSString *)query __attribute__((swift_name("matches(query:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SPSDouble * _Nullable amount __attribute__((swift_name("amount")));
 @property NSString * _Nullable badge __attribute__((swift_name("badge")));
 @property (readonly) NSString * _Nullable body __attribute__((swift_name("body")));
 @property SPSFSPPrompt * _Nullable confirmationMessage __attribute__((swift_name("confirmationMessage")));
 @property (readonly) SPSFSPPrizeItemDetail * _Nullable details __attribute__((swift_name("details")));
-@property (readonly) NSString * _Nullable filter __attribute__((swift_name("filter")));
 @property (readonly) NSString * _Nullable headnote __attribute__((swift_name("headnote")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSArray<NSString *> * _Nullable images __attribute__((swift_name("images")));
+@property (readonly) NSString * _Nullable pickedUpAt __attribute__((swift_name("pickedUpAt")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.SerialName(value="percentage")
 */
 @property (readonly) SPSInt * _Nullable progress __attribute__((swift_name("progress")));
+@property (readonly) NSString * _Nullable redeemedAt __attribute__((swift_name("redeemedAt")));
 @property SPSFSPrizeStatus * _Nullable status __attribute__((swift_name("status")));
 @property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
 @property SPSFSPPrompt * _Nullable voucher __attribute__((swift_name("voucher")));
@@ -1450,9 +1567,9 @@ __attribute__((swift_name("FSPPrizeItem.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrizeItemDetail")))
 @interface SPSFSPPrizeItemDetail : SPSBase
-- (instancetype)initWithDescription:(NSString *)description chooseGroupAction:(NSString * _Nullable)chooseGroupAction groups:(NSArray<SPSFSPPrizeItemDetailFSPGroup *> * _Nullable)groups primaryAction:(NSString * _Nullable)primaryAction __attribute__((swift_name("init(description:chooseGroupAction:groups:primaryAction:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDescription:(NSString *)description chooseGroupAction:(NSString * _Nullable)chooseGroupAction groups:(NSArray<SPSFSPPrizeItemDetailFSPGroup *> * _Nullable)groups primaryAction:(NSString * _Nullable)primaryAction shortPrimaryAction:(NSString * _Nullable)shortPrimaryAction __attribute__((swift_name("init(description:chooseGroupAction:groups:primaryAction:shortPrimaryAction:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPrizeItemDetailCompanion *companion __attribute__((swift_name("companion")));
-- (SPSFSPPrizeItemDetail *)doCopyDescription:(NSString *)description chooseGroupAction:(NSString * _Nullable)chooseGroupAction groups:(NSArray<SPSFSPPrizeItemDetailFSPGroup *> * _Nullable)groups primaryAction:(NSString * _Nullable)primaryAction __attribute__((swift_name("doCopy(description:chooseGroupAction:groups:primaryAction:)")));
+- (SPSFSPPrizeItemDetail *)doCopyDescription:(NSString *)description chooseGroupAction:(NSString * _Nullable)chooseGroupAction groups:(NSArray<SPSFSPPrizeItemDetailFSPGroup *> * _Nullable)groups primaryAction:(NSString * _Nullable)primaryAction shortPrimaryAction:(NSString * _Nullable)shortPrimaryAction __attribute__((swift_name("doCopy(description:chooseGroupAction:groups:primaryAction:shortPrimaryAction:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1460,6 +1577,7 @@ __attribute__((swift_name("FSPPrizeItemDetail")))
 @property (readonly) NSString *description_ __attribute__((swift_name("description_")));
 @property (readonly) NSArray<SPSFSPPrizeItemDetailFSPGroup *> * _Nullable groups __attribute__((swift_name("groups")));
 @property (readonly) NSString * _Nullable primaryAction __attribute__((swift_name("primaryAction")));
+@property (readonly) NSString * _Nullable shortPrimaryAction __attribute__((swift_name("shortPrimaryAction")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1506,6 +1624,64 @@ __attribute__((swift_name("FSPPrizeItemDetail.FSPGroupCompanion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPPrizeLayout")))
+@interface SPSFSPPrizeLayout : SPSKotlinEnum<SPSFSPPrizeLayout *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) SPSFSPPrizeLayoutCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) SPSFSPPrizeLayout *list __attribute__((swift_name("list")));
+@property (class, readonly) SPSFSPPrizeLayout *grid __attribute__((swift_name("grid")));
+@property (class, readonly) SPSFSPPrizeLayout *stampCard __attribute__((swift_name("stampCard")));
++ (SPSKotlinArray<SPSFSPPrizeLayout *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<SPSFSPPrizeLayout *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPPrizeLayout.Companion")))
+@interface SPSFSPPrizeLayoutCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPPrizeLayoutCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(SPSKotlinArray<id<SPSKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPPrizeSection")))
+@interface SPSFSPPrizeSection : SPSBase
+- (instancetype)initWithTitle:(NSString * _Nullable)title items:(NSMutableArray<SPSFSPPrizeItem *> *)items __attribute__((swift_name("init(title:items:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPPrizeSectionCompanion *companion __attribute__((swift_name("companion")));
+- (SPSFSPPrizeSection *)doCopyTitle:(NSString * _Nullable)title items:(NSMutableArray<SPSFSPPrizeItem *> *)items __attribute__((swift_name("doCopy(title:items:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSMutableArray<SPSFSPPrizeItem *> *items __attribute__((swift_name("items")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPPrizeSection.Companion")))
+@interface SPSFSPPrizeSectionCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPPrizeSectionCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrompt")))
 @interface SPSFSPPrompt : SPSBase
 - (instancetype)initWithId:(NSString * _Nullable)id closable:(BOOL)closable content:(NSMutableArray<SPSFSPPromptContent *> *)content __attribute__((swift_name("init(id:closable:content:)"))) __attribute__((objc_designated_initializer));
@@ -1528,6 +1704,7 @@ __attribute__((swift_name("FSPPrompt.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SPSFSPPromptCompanion *shared __attribute__((swift_name("shared")));
 - (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (readonly) NSString *CONFIRM_ACTION __attribute__((swift_name("CONFIRM_ACTION")));
 @end
 
 
@@ -1602,11 +1779,11 @@ __attribute__((swift_name("FSPPrompt.ContentType")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPPrompt.Input")))
 @interface SPSFSPPromptInput : SPSBase
-- (instancetype)initWithMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex answerErrorMessage:(NSString * _Nullable)answerErrorMessage image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction __attribute__((swift_name("init(mask:type:options:answer:answerAdmission:answerRegex:answerErrorMessage:image:alternativeAction:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex answerErrorMessage:(NSString * _Nullable)answerErrorMessage image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction placeholder:(NSString * _Nullable)placeholder __attribute__((swift_name("init(mask:type:options:answer:answerAdmission:answerRegex:answerErrorMessage:image:alternativeAction:placeholder:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SPSFSPPromptInputCompanion *companion __attribute__((swift_name("companion")));
 - (BOOL)answerAsBoolean __attribute__((swift_name("answerAsBoolean()")));
 - (BOOL)answerMatches __attribute__((swift_name("answerMatches()")));
-- (SPSFSPPromptInput *)doCopyMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex answerErrorMessage:(NSString * _Nullable)answerErrorMessage image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction __attribute__((swift_name("doCopy(mask:type:options:answer:answerAdmission:answerRegex:answerErrorMessage:image:alternativeAction:)")));
+- (SPSFSPPromptInput *)doCopyMask:(NSString * _Nullable)mask type:(SPSFSPPromptInputType * _Nullable)type options:(NSArray<NSString *> * _Nullable)options answer:(NSArray<NSString *> * _Nullable)answer answerAdmission:(SPSFSPPromptInputAdmission *)answerAdmission answerRegex:(NSString * _Nullable)answerRegex answerErrorMessage:(NSString * _Nullable)answerErrorMessage image:(NSString * _Nullable)image alternativeAction:(NSString * _Nullable)alternativeAction placeholder:(NSString * _Nullable)placeholder __attribute__((swift_name("doCopy(mask:type:options:answer:answerAdmission:answerRegex:answerErrorMessage:image:alternativeAction:placeholder:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
@@ -1621,6 +1798,7 @@ __attribute__((swift_name("FSPPrompt.Input")))
 @property NSString * _Nullable image __attribute__((swift_name("image")));
 @property (readonly) NSString * _Nullable mask __attribute__((swift_name("mask")));
 @property (readonly) NSArray<NSString *> * _Nullable options __attribute__((swift_name("options")));
+@property (readonly) NSString * _Nullable placeholder __attribute__((swift_name("placeholder")));
 @property (readonly) SPSFSPPromptInputType * _Nullable type __attribute__((swift_name("type")));
 @end
 
@@ -1768,6 +1946,70 @@ __attribute__((swift_name("FSPReceiptStatus")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPRedemptions")))
+@interface SPSFSPRedemptions : SPSBase
+- (instancetype)initWithHeadnote:(NSString * _Nullable)headnote title:(NSString * _Nullable)title message:(NSString * _Nullable)message items:(NSMutableArray<SPSFSPPrizeItem *> *)items __attribute__((swift_name("init(headnote:title:message:items:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPRedemptionsCompanion *companion __attribute__((swift_name("companion")));
+- (SPSFSPRedemptions *)doCopyHeadnote:(NSString * _Nullable)headnote title:(NSString * _Nullable)title message:(NSString * _Nullable)message items:(NSMutableArray<SPSFSPPrizeItem *> *)items __attribute__((swift_name("doCopy(headnote:title:message:items:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable headnote __attribute__((swift_name("headnote")));
+@property NSMutableArray<SPSFSPPrizeItem *> *items __attribute__((swift_name("items")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPRedemptions.Companion")))
+@interface SPSFSPRedemptionsCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPRedemptionsCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPRoute")))
+@interface SPSFSPRoute : SPSKotlinEnum<SPSFSPRoute *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) SPSFSPRouteCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) SPSFSPRoute *receipts __attribute__((swift_name("receipts")));
+@property (class, readonly) SPSFSPRoute *coupons __attribute__((swift_name("coupons")));
+@property (class, readonly) SPSFSPRoute *gifts __attribute__((swift_name("gifts")));
+@property (class, readonly) SPSFSPRoute *instantPrizes __attribute__((swift_name("instantPrizes")));
+@property (class, readonly) SPSFSPRoute *statement __attribute__((swift_name("statement")));
+@property (class, readonly) SPSFSPRoute *winners __attribute__((swift_name("winners")));
+@property (class, readonly) SPSFSPRoute *capture __attribute__((swift_name("capture")));
+@property (class, readonly) SPSFSPRoute *survey __attribute__((swift_name("survey")));
+@property (class, readonly) SPSFSPRoute *alerts __attribute__((swift_name("alerts")));
+@property (class, readonly) SPSFSPRoute *choose __attribute__((swift_name("choose")));
+@property (class, readonly) SPSFSPRoute *loyaltyCatalog __attribute__((swift_name("loyaltyCatalog")));
+@property (class, readonly) SPSFSPRoute *redemptions __attribute__((swift_name("redemptions")));
++ (SPSKotlinArray<SPSFSPRoute *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<SPSFSPRoute *> *entries __attribute__((swift_name("entries")));
+@property (readonly) NSString *path __attribute__((swift_name("path")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPRoute.Companion")))
+@interface SPSFSPRouteCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPRouteCompanion *shared __attribute__((swift_name("shared")));
+- (NSString * _Nullable)pathOfAction:(NSString * _Nullable)action __attribute__((swift_name("pathOf(action:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPSeller")))
 @interface SPSFSPSeller : SPSBase
 - (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
@@ -1786,6 +2028,34 @@ __attribute__((swift_name("FSPSeller.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SPSFSPSellerCompanion *shared __attribute__((swift_name("shared")));
+- (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSignUpResponse")))
+@interface SPSFSPSignUpResponse : SPSBase
+- (instancetype)initWithToken:(NSString * _Nullable)token errorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("init(token:errorMessage:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPSignUpResponseCompanion *companion __attribute__((swift_name("companion")));
+- (SPSFSPSignUpResponse *)doCopyToken:(NSString * _Nullable)token errorMessage:(SPSFSPPrompt * _Nullable)errorMessage __attribute__((swift_name("doCopy(token:errorMessage:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SPSFSPPrompt * _Nullable errorMessage __attribute__((swift_name("errorMessage")));
+@property (readonly) NSString * _Nullable token __attribute__((swift_name("token")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSignUpResponse.Companion")))
+@interface SPSFSPSignUpResponseCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPSignUpResponseCompanion *shared __attribute__((swift_name("shared")));
 - (id<SPSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1994,7 +2264,13 @@ __attribute__((swift_name("FSPAPIService")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)postEndpoint:(NSString *)endpoint body:(id _Nullable)body requestSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)requestSerializer completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("post(endpoint:body:requestSerializer:completionHandler:)")));
+- (void)postEndpoint:(NSString *)endpoint completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("post(endpoint:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)postEndpoint:(NSString *)endpoint body:(id _Nullable)body requestSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)requestSerializer retryKey:(NSString * _Nullable)retryKey completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("post(endpoint:body:requestSerializer:retryKey:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -2013,19 +2289,33 @@ __attribute__((swift_name("FSPAPIService")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)putEndpoint:(NSString *)endpoint responseSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)responseSerializer body:(id _Nullable)body requestSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)requestSerializer completionHandler:(void (^)(SPSFSPResponse<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("put(endpoint:responseSerializer:body:requestSerializer:completionHandler:)")));
-- (void)setupConsumerID:(NSString * _Nullable)consumerID authToken:(NSString * _Nullable)authToken __attribute__((swift_name("setup(consumerID:authToken:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)uploadEndpoint:(NSString *)endpoint file:(SPSFSPFileDataPart *)file formFields:(NSDictionary<NSString *, id> * _Nullable)formFields completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("upload(endpoint:file:formFields:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)uploadEndpoint:(NSString *)endpoint responseSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)responseSerializer file:(SPSFSPFileDataPart *)file formFields:(NSDictionary<NSString *, id> * _Nullable)formFields completionHandler:(void (^)(SPSFSPResponse<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("upload(endpoint:responseSerializer:file:formFields:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)uploadImageEndpoint:(NSString *)endpoint source:(id)source maxSize:(SPSInt * _Nullable)maxSize formFields:(NSDictionary<NSString *, id> * _Nullable)formFields completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("uploadImage(endpoint:source:maxSize:formFields:completionHandler:)")));
+@property NSString * _Nullable metadata __attribute__((swift_name("metadata")));
+@property void (^ _Nullable onForceSignOut)(void) __attribute__((swift_name("onForceSignOut")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPAPIServiceImpl")))
 @interface SPSFSPAPIServiceImpl : SPSBase <SPSFSPAPIService>
-- (instancetype)initWithAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey isHomolog:(BOOL)isHomolog client:(SPSKtor_client_coreHttpClient * _Nullable)client cryptoService:(SPSFSPCryptoService *)cryptoService __attribute__((swift_name("init(accessKey:secretKey:isHomolog:client:cryptoService:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey isHomolog:(BOOL)isHomolog client:(SPSKtor_client_coreHttpClient * _Nullable)client serviceProvider:(id<SPSFSPServiceProvider>)serviceProvider __attribute__((swift_name("init(accessKey:secretKey:isHomolog:client:serviceProvider:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SPSFSPAPIServiceImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -2049,7 +2339,13 @@ __attribute__((swift_name("FSPAPIServiceImpl")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)postEndpoint:(NSString *)endpoint body:(id _Nullable)body requestSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)requestSerializer completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("post(endpoint:body:requestSerializer:completionHandler:)")));
+- (void)postEndpoint:(NSString *)endpoint completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("post(endpoint:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)postEndpoint:(NSString *)endpoint body:(id _Nullable)body requestSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)requestSerializer retryKey:(NSString * _Nullable)retryKey completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("post(endpoint:body:requestSerializer:retryKey:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -2068,33 +2364,222 @@ __attribute__((swift_name("FSPAPIServiceImpl")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)putEndpoint:(NSString *)endpoint responseSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)responseSerializer body:(id _Nullable)body requestSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)requestSerializer completionHandler:(void (^)(SPSFSPResponse<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("put(endpoint:responseSerializer:body:requestSerializer:completionHandler:)")));
-- (void)setupConsumerID:(NSString * _Nullable)consumerID authToken:(NSString * _Nullable)authToken __attribute__((swift_name("setup(consumerID:authToken:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)uploadEndpoint:(NSString *)endpoint file:(SPSFSPFileDataPart *)file formFields:(NSDictionary<NSString *, id> * _Nullable)formFields completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("upload(endpoint:file:formFields:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)uploadEndpoint:(NSString *)endpoint responseSerializer:(id<SPSKotlinx_serialization_coreKSerializer>)responseSerializer file:(SPSFSPFileDataPart *)file formFields:(NSDictionary<NSString *, id> * _Nullable)formFields completionHandler:(void (^)(SPSFSPResponse<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("upload(endpoint:responseSerializer:file:formFields:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)uploadImageEndpoint:(NSString *)endpoint source:(id)source maxSize:(SPSInt * _Nullable)maxSize formFields:(NSDictionary<NSString *, id> * _Nullable)formFields completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("uploadImage(endpoint:source:maxSize:formFields:completionHandler:)")));
+@property NSString * _Nullable metadata __attribute__((swift_name("metadata")));
+@property void (^ _Nullable onForceSignOut)(void) __attribute__((swift_name("onForceSignOut")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPAPIServiceImpl.Companion")))
+@interface SPSFSPAPIServiceImplCompanion : SPSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SPSFSPAPIServiceImplCompanion *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((swift_name("FSPAddressService")))
 @protocol SPSFSPAddressService
 @required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)fetchAddressZipCode:(NSString *)zipCode completionHandler:(void (^)(SPSFSPResponse<SPSFSPAddress *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchAddress(zipCode:completionHandler:)")));
+@property BOOL useNewAddressService __attribute__((swift_name("useNewAddressService")));
 @end
 
-__attribute__((swift_name("FSPAuthService")))
-@protocol SPSFSPAuthService
+__attribute__((swift_name("FSPCampaignPlatformService")))
+@protocol SPSFSPCampaignPlatformService
 @required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onCampaignFetchedContext:(SPSFSPCampaignContext *)context completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onCampaignFetched(context:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onConfigFetchedConfig:(SPSFSPConfig *)config completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onConfigFetched(config:completionHandler:)")));
 @end
 
 __attribute__((swift_name("FSPCampaignService")))
 @protocol SPSFSPCampaignService
 @required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)choosePrizeBenefitId:(NSString *)benefitId giftId:(NSString * _Nullable)giftId groupId:(NSString * _Nullable)groupId completionHandler:(void (^)(SPSFSPResponse<SPSFSPPrizeItem *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("choosePrize(benefitId:giftId:groupId:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)consultReceiptReceiptURL:(NSString *)receiptURL completionHandler:(void (^)(SPSFSPResponse<SPSFSPReceipt *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("consultReceipt(receiptURL:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)fetchAllCampaignsWithCompletionHandler:(void (^)(SPSFSPResponse<NSArray<SPSFSPCampaignItem *> *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchAllCampaigns(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)fetchCampaignWithCompletionHandler:(void (^)(SPSFSPResponse<SPSFSPCampaignContext *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchCampaign(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)fetchConfigWithCompletionHandler:(void (^)(SPSFSPResponse<SPSFSPConfig *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchConfig(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)fetchInstantPrizeQrcode:(NSString * _Nullable)qrcode completionHandler:(void (^)(SPSFSPResponse<SPSFSPInstantPrize *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchInstantPrize(qrcode:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)fetchSellerCode:(NSString *)code completionHandler:(void (^)(SPSFSPResponse<SPSFSPSeller *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("fetchSeller(code:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)redeemCartEntries:(NSArray<SPSFSPCartEntry *> *)entries redeemKey:(NSString *)redeemKey completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("redeemCart(entries:redeemKey:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)requestMuatTokenWithCompletionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("requestMuatToken(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendSurveyId:(NSString *)id prompts:(NSArray<SPSFSPPrompt *> * _Nullable)prompts completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("sendSurvey(id:prompts:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)signUpConsumerConsumer:(SPSFSPConsumerCore *)consumer completionHandler:(void (^)(SPSFSPResponse<SPSFSPSignUpResponse *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("signUpConsumer(consumer:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)uploadReceiptReceipt:(SPSFSPReceipt *)receipt seller:(NSString * _Nullable)seller completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("uploadReceipt(receipt:seller:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)uploadReceiptImageSource:(id)source seller:(NSString * _Nullable)seller completionHandler:(void (^)(SPSFSPResponse<SPSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("uploadReceiptImage(source:seller:completionHandler:)")));
+@property id<SPSFSPCampaignPlatformService> platformService __attribute__((swift_name("platformService")));
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPCartEntry")))
+@interface SPSFSPCartEntry : SPSBase
+- (instancetype)initWithPrize:(SPSFSPPrizeItem *)prize quantity:(int32_t)quantity __attribute__((swift_name("init(prize:quantity:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPCartEntry *)doCopyPrize:(SPSFSPPrizeItem *)prize quantity:(int32_t)quantity __attribute__((swift_name("doCopy(prize:quantity:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable imageUrl __attribute__((swift_name("imageUrl")));
+@property (readonly) SPSFSPPrizeItem *prize __attribute__((swift_name("prize")));
+@property (readonly) int32_t quantity __attribute__((swift_name("quantity")));
+@property (readonly) NSString *title __attribute__((swift_name("title")));
+@property (readonly) double totalCost __attribute__((swift_name("totalCost")));
+@property (readonly) double unitCost __attribute__((swift_name("unitCost")));
+@end
+
+__attribute__((swift_name("FSPCartManager")))
+@protocol SPSFSPCartManager
+@required
+- (void)addPrize:(SPSFSPPrizeItem *)prize __attribute__((swift_name("add(prize:)")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)isEnabledForRoute:(NSString * _Nullable)route __attribute__((swift_name("isEnabledFor(route:)")));
+- (id<SPSFSPCloseable>)observeOnCart:(void (^)(SPSFSPCartState *))onCart __attribute__((swift_name("observe(onCart:)")));
+- (void)reload __attribute__((swift_name("reload()")));
+- (void)removeOnePrize:(SPSFSPPrizeItem *)prize __attribute__((swift_name("removeOne(prize:)")));
+- (NSString *)renderCostTemplate:(NSString *)template_ prize:(SPSFSPPrizeItem *)prize __attribute__((swift_name("renderCost(template:prize:)")));
+@property (readonly) BOOL isEnabled __attribute__((swift_name("isEnabled")));
+@property (readonly) BOOL openOnAdd __attribute__((swift_name("openOnAdd")));
+@property (readonly) NSString *redeemKey __attribute__((swift_name("redeemKey")));
+@property (readonly) id<SPSKotlinx_coroutines_coreStateFlow> state __attribute__((swift_name("state")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPCartState")))
+@interface SPSFSPCartState : SPSBase
+- (instancetype)initWithEntries:(NSArray<SPSFSPCartEntry *> *)entries consumerBalance:(double)consumerBalance __attribute__((swift_name("init(entries:consumerBalance:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPCartState *)doCopyEntries:(NSArray<SPSFSPCartEntry *> *)entries consumerBalance:(double)consumerBalance __attribute__((swift_name("doCopy(entries:consumerBalance:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL canRedeem __attribute__((swift_name("canRedeem")));
+@property (readonly) double consumerBalance __attribute__((swift_name("consumerBalance")));
+@property (readonly) NSArray<SPSFSPCartEntry *> *entries __attribute__((swift_name("entries")));
+@property (readonly) BOOL hasEnoughPoints __attribute__((swift_name("hasEnoughPoints")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) int32_t itemCount __attribute__((swift_name("itemCount")));
+@property (readonly) double missingPoints __attribute__((swift_name("missingPoints")));
+@property (readonly) double remainingBalance __attribute__((swift_name("remainingBalance")));
+@property (readonly) double totalCost __attribute__((swift_name("totalCost")));
+@end
+
 __attribute__((swift_name("FSPCryptoService")))
-@interface SPSFSPCryptoService : SPSBase
+@protocol SPSFSPCryptoService
+@required
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (NSString * _Nullable)decryptString:(NSString *)string key:(NSString *)key error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("decrypt(string:key:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (NSString * _Nullable)encryptString:(NSString *)string key:(NSString *)key error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("encrypt(string:key:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPCryptoServiceImpl")))
+@interface SPSFSPCryptoServiceImpl : SPSBase <SPSFSPCryptoService>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 
@@ -2213,6 +2698,9 @@ __attribute__((swift_name("FSPLoggerShared")))
 __attribute__((swift_name("FSPReceiptService")))
 @protocol SPSFSPReceiptService
 @required
+- (NSString * _Nullable)extractDateFromKeyAccessKey:(NSString *)accessKey __attribute__((swift_name("extractDateFromKey(accessKey:)")));
+- (SPSFSPReceipt * _Nullable)extractInfoFromReceiptQrCodeOrAccessKey:(NSString * _Nullable)qrCodeOrAccessKey fromQRCode:(BOOL)fromQRCode __attribute__((swift_name("extractInfoFromReceipt(qrCodeOrAccessKey:fromQRCode:)")));
+- (BOOL)isValidReceiptKeyKey:(NSString * _Nullable)key __attribute__((swift_name("isValidReceiptKey(key:)")));
 @end
 
 __attribute__((swift_name("FSPResponse")))
@@ -2245,27 +2733,42 @@ __attribute__((swift_name("FSPResponseSuccess")))
 @property (readonly) int32_t statusCode __attribute__((swift_name("statusCode")));
 @end
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPServiceProvider")))
-@interface SPSFSPServiceProvider : SPSBase
-- (instancetype)initWithApiService:(id<SPSFSPAPIService>)apiService __attribute__((swift_name("init(apiService:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SPSFSPServiceProviderCompanion *companion __attribute__((swift_name("companion")));
-- (void)doInitContextualServicesContext:(id)context __attribute__((swift_name("doInitContextualServices(context:)")));
+@protocol SPSFSPServiceProvider
+@required
+- (void)setupCampaignCampaignId:(NSString *)campaignId __attribute__((swift_name("setupCampaign(campaignId:)")));
+- (void)setupContextualServicesContext:(id)context __attribute__((swift_name("setupContextualServices(context:)")));
 @property (readonly) id<SPSFSPAddressService> addressService __attribute__((swift_name("addressService")));
-@property (readonly) id<SPSFSPAuthService> authService __attribute__((swift_name("authService")));
+@property (readonly) id<SPSFSPAPIService> apiService __attribute__((swift_name("apiService")));
 @property (readonly) id<SPSFSPCampaignService> campaignService __attribute__((swift_name("campaignService")));
+@property (readonly) id<SPSFSPCryptoService> cryptoService __attribute__((swift_name("cryptoService")));
 @property (readonly) id<SPSFSPReceiptService> receiptService __attribute__((swift_name("receiptService")));
-@property (readonly) SPSFSPStoreService *storeService __attribute__((swift_name("storeService")));
+@property (readonly) id<SPSFSPSessionService> sessionService __attribute__((swift_name("sessionService")));
+@property (readonly) id<SPSFSPStoreService> storeService __attribute__((swift_name("storeService")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FSPServiceProvider.Companion")))
+__attribute__((swift_name("FSPServiceProviderCompanion")))
 @interface SPSFSPServiceProviderCompanion : SPSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SPSFSPServiceProviderCompanion *shared __attribute__((swift_name("shared")));
-- (SPSFSPServiceProvider *)createAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey isHomolog:(BOOL)isHomolog __attribute__((swift_name("create(accessKey:secretKey:isHomolog:)")));
+- (id<SPSFSPServiceProvider>)createAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey isHomolog:(BOOL)isHomolog __attribute__((swift_name("create(accessKey:secretKey:isHomolog:)")));
+@end
+
+__attribute__((swift_name("FSPSessionService")))
+@protocol SPSFSPSessionService
+@required
+- (void)clearConsumer __attribute__((swift_name("clearConsumer()")));
+- (void)saveAuthTokenToken:(NSString *)token __attribute__((swift_name("saveAuthToken(token:)")));
+- (void)saveConsumerIdConsumerId:(NSString *)consumerId __attribute__((swift_name("saveConsumerId(consumerId:)")));
+@property (readonly) NSString * _Nullable authToken __attribute__((swift_name("authToken")));
+@property SPSFSPCampaignContext * _Nullable campaignContext __attribute__((swift_name("campaignContext")));
+@property (readonly) NSString *campaignId __attribute__((swift_name("campaignId")));
+@property (readonly) id<SPSFSPCartManager> cartManager __attribute__((swift_name("cartManager")));
+@property (readonly) NSString * _Nullable consumerId __attribute__((swift_name("consumerId")));
+@property SPSFSPConfig * _Nullable globalConfig __attribute__((swift_name("globalConfig")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2290,14 +2793,28 @@ __attribute__((swift_name("FSPStoreKey")))
 @property (class, readonly) SPSFSPStoreKey *consumer __attribute__((swift_name("consumer")));
 @property (class, readonly) SPSFSPStoreKey *campaignId __attribute__((swift_name("campaignId")));
 @property (class, readonly) SPSFSPStoreKey *metadata __attribute__((swift_name("metadata")));
+@property (class, readonly) SPSFSPStoreKey *prizeLayout __attribute__((swift_name("prizeLayout")));
 + (SPSKotlinArray<SPSFSPStoreKey *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<SPSFSPStoreKey *> *entries __attribute__((swift_name("entries")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPStoreService")))
-@interface SPSFSPStoreService : SPSBase
+@protocol SPSFSPStoreService
+@required
+- (void)clear __attribute__((swift_name("clear()")));
+- (SPSMutableSet<NSString *> *)getListKey:(SPSFSPStoreKey *)key __attribute__((swift_name("getList(key:)")));
+- (NSString * _Nullable)getStringKey:(SPSFSPStoreKey *)key __attribute__((swift_name("getString(key:)")));
+- (NSString * _Nullable)getStringKey:(SPSFSPStoreKey *)key prefix:(NSString *)prefix __attribute__((swift_name("getString(key:prefix:)")));
+- (void)putInListKey:(SPSFSPStoreKey *)key value:(NSString *)value source:(SPSMutableSet<NSString *> *)source __attribute__((swift_name("putInList(key:value:source:)")));
+- (void)removeFromListKey:(SPSFSPStoreKey *)key value:(NSString *)value source:(SPSMutableSet<NSString *> *)source __attribute__((swift_name("removeFromList(key:value:source:)")));
+- (void)setStringKey:(SPSFSPStoreKey *)key value:(NSString * _Nullable)value __attribute__((swift_name("setString(key:value:)")));
+- (void)setStringKey:(SPSFSPStoreKey *)key value:(NSString * _Nullable)value prefix:(NSString *)prefix __attribute__((swift_name("setString(key:value:prefix:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPStoreServiceImpl")))
+@interface SPSFSPStoreServiceImpl : SPSBase <SPSFSPStoreService>
 - (instancetype)initWithContext:(id)context __attribute__((swift_name("init(context:)"))) __attribute__((objc_designated_initializer));
 - (void)clear __attribute__((swift_name("clear()")));
 - (SPSMutableSet<NSString *> *)getListKey:(SPSFSPStoreKey *)key __attribute__((swift_name("getList(key:)")));
@@ -2309,16 +2826,34 @@ __attribute__((swift_name("FSPStoreService")))
 - (void)setStringKey:(SPSFSPStoreKey *)key value:(NSString * _Nullable)value prefix:(NSString *)prefix __attribute__((swift_name("setString(key:value:prefix:)")));
 @end
 
+__attribute__((swift_name("FSPCloseable")))
+@protocol SPSFSPCloseable
+@required
+- (void)close __attribute__((swift_name("close()")));
+@end
+
 __attribute__((swift_name("FSPSharedViewModel")))
-@interface SPSFSPSharedViewModel : SPSBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@interface SPSFSPSharedViewModel<State> : SPSBase
+- (instancetype)initWithInjectedServiceProvider:(id<SPSFSPServiceProvider> _Nullable)injectedServiceProvider __attribute__((swift_name("init(injectedServiceProvider:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (State)buildState __attribute__((swift_name("buildState()")));
 - (void)clear __attribute__((swift_name("clear()")));
+- (id<SPSFSPCloseable>)observeOnState:(void (^)(State))onState __attribute__((swift_name("observe(onState:)")));
+- (void)reload __attribute__((swift_name("reload()")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-@property (readonly) SPSFSPServiceProvider *serviceProvider __attribute__((swift_name("serviceProvider")));
+@property (readonly) id<SPSFSPServiceProvider> serviceProvider __attribute__((swift_name("serviceProvider")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) id<SPSFSPSessionService> sessionService __attribute__((swift_name("sessionService")));
+@property (readonly) id<SPSKotlinx_coroutines_coreStateFlow> state __attribute__((swift_name("state")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
@@ -2326,16 +2861,179 @@ __attribute__((swift_name("FSPSharedViewModel")))
 @property (readonly) id<SPSKotlinx_coroutines_coreCoroutineScope> viewModelScope __attribute__((swift_name("viewModelScope")));
 @end
 
+__attribute__((swift_name("FSPSharedCampaignViewModel")))
+@interface SPSFSPSharedCampaignViewModel<State> : SPSFSPSharedViewModel<State>
+- (instancetype)initWithServiceProvider:(id<SPSFSPServiceProvider> _Nullable)serviceProvider __attribute__((swift_name("init(serviceProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithInjectedServiceProvider:(id<SPSFSPServiceProvider> _Nullable)injectedServiceProvider __attribute__((swift_name("init(injectedServiceProvider:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)refresh __attribute__((swift_name("refresh()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) SPSFSPPrompt * _Nullable error __attribute__((swift_name("error")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedCartViewModel")))
+@interface SPSFSPSharedCartViewModel : SPSFSPSharedViewModel<SPSFSPSharedCartViewModelState *>
+- (instancetype)initWithServiceProvider:(id<SPSFSPServiceProvider> _Nullable)serviceProvider __attribute__((swift_name("init(serviceProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithInjectedServiceProvider:(id<SPSFSPServiceProvider> _Nullable)injectedServiceProvider __attribute__((swift_name("init(injectedServiceProvider:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)addPrize:(SPSFSPPrizeItem *)prize __attribute__((swift_name("add(prize:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (SPSFSPSharedCartViewModelState *)buildState __attribute__((swift_name("buildState()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (SPSFSPPrompt * _Nullable)confirmPrompt __attribute__((swift_name("confirmPrompt()")));
+- (void)redeemOnFinished:(void (^)(SPSFSPResponse<SPSKotlinUnit *> *))onFinished __attribute__((swift_name("redeem(onFinished:)")));
+- (void)reload __attribute__((swift_name("reload()")));
+- (void)removeOnePrize:(SPSFSPPrizeItem *)prize __attribute__((swift_name("removeOne(prize:)")));
+- (SPSFSPPrompt * _Nullable)successPrompt __attribute__((swift_name("successPrompt()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedCartViewModel.Row")))
+@interface SPSFSPSharedCartViewModelRow : SPSBase
+- (instancetype)initWithPrize:(SPSFSPPrizeItem *)prize imageUrl:(NSString * _Nullable)imageUrl title:(NSString *)title unitCost:(NSString *)unitCost lineTotal:(NSString *)lineTotal quantity:(int32_t)quantity __attribute__((swift_name("init(prize:imageUrl:title:unitCost:lineTotal:quantity:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPSharedCartViewModelRow *)doCopyPrize:(SPSFSPPrizeItem *)prize imageUrl:(NSString * _Nullable)imageUrl title:(NSString *)title unitCost:(NSString *)unitCost lineTotal:(NSString *)lineTotal quantity:(int32_t)quantity __attribute__((swift_name("doCopy(prize:imageUrl:title:unitCost:lineTotal:quantity:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable imageUrl __attribute__((swift_name("imageUrl")));
+@property (readonly) NSString *lineTotal __attribute__((swift_name("lineTotal")));
+@property (readonly) SPSFSPPrizeItem *prize __attribute__((swift_name("prize")));
+@property (readonly) int32_t quantity __attribute__((swift_name("quantity")));
+@property (readonly) NSString *title __attribute__((swift_name("title")));
+@property (readonly) NSString *unitCost __attribute__((swift_name("unitCost")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedCartViewModel.State")))
+@interface SPSFSPSharedCartViewModelState : SPSBase
+- (instancetype)initWithTitle:(NSString * _Nullable)title emptyText:(NSString * _Nullable)emptyText emptyHint:(NSString * _Nullable)emptyHint rows:(NSArray<SPSFSPSharedCartViewModelRow *> *)rows total:(NSString * _Nullable)total balance:(NSString * _Nullable)balance status:(NSString * _Nullable)status hasEnoughPoints:(BOOL)hasEnoughPoints redeemAction:(NSString * _Nullable)redeemAction addMoreAction:(NSString * _Nullable)addMoreAction canRedeem:(BOOL)canRedeem itemCount:(int32_t)itemCount isRedeeming:(BOOL)isRedeeming __attribute__((swift_name("init(title:emptyText:emptyHint:rows:total:balance:status:hasEnoughPoints:redeemAction:addMoreAction:canRedeem:itemCount:isRedeeming:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPSharedCartViewModelState *)doCopyTitle:(NSString * _Nullable)title emptyText:(NSString * _Nullable)emptyText emptyHint:(NSString * _Nullable)emptyHint rows:(NSArray<SPSFSPSharedCartViewModelRow *> *)rows total:(NSString * _Nullable)total balance:(NSString * _Nullable)balance status:(NSString * _Nullable)status hasEnoughPoints:(BOOL)hasEnoughPoints redeemAction:(NSString * _Nullable)redeemAction addMoreAction:(NSString * _Nullable)addMoreAction canRedeem:(BOOL)canRedeem itemCount:(int32_t)itemCount isRedeeming:(BOOL)isRedeeming __attribute__((swift_name("doCopy(title:emptyText:emptyHint:rows:total:balance:status:hasEnoughPoints:redeemAction:addMoreAction:canRedeem:itemCount:isRedeeming:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable addMoreAction __attribute__((swift_name("addMoreAction")));
+@property (readonly) NSString * _Nullable balance __attribute__((swift_name("balance")));
+@property (readonly) BOOL canRedeem __attribute__((swift_name("canRedeem")));
+@property (readonly) NSString * _Nullable emptyHint __attribute__((swift_name("emptyHint")));
+@property (readonly) NSString * _Nullable emptyText __attribute__((swift_name("emptyText")));
+@property (readonly) BOOL hasEnoughPoints __attribute__((swift_name("hasEnoughPoints")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) BOOL isRedeeming __attribute__((swift_name("isRedeeming")));
+@property (readonly) int32_t itemCount __attribute__((swift_name("itemCount")));
+@property (readonly) NSString * _Nullable redeemAction __attribute__((swift_name("redeemAction")));
+@property (readonly) NSArray<SPSFSPSharedCartViewModelRow *> *rows __attribute__((swift_name("rows")));
+@property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+@property (readonly) NSString * _Nullable total __attribute__((swift_name("total")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedPrizesViewModel")))
+@interface SPSFSPSharedPrizesViewModel : SPSFSPSharedViewModel<SPSFSPSharedPrizesViewModelState *>
+- (instancetype)initWithAction:(NSString * _Nullable)action serviceProvider:(id<SPSFSPServiceProvider> _Nullable)serviceProvider __attribute__((swift_name("init(action:serviceProvider:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithInjectedServiceProvider:(id<SPSFSPServiceProvider> _Nullable)injectedServiceProvider __attribute__((swift_name("init(injectedServiceProvider:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (SPSFSPSharedPrizesViewModelState *)buildState __attribute__((swift_name("buildState()")));
+- (void)toggleLayout __attribute__((swift_name("toggleLayout()")));
+@property (readonly) id<SPSFSPConfigIPrizes> _Nullable config __attribute__((swift_name("config")));
+@property (readonly) NSString * _Nullable route __attribute__((swift_name("route")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedPrizesViewModel.State")))
+@interface SPSFSPSharedPrizesViewModelState : SPSBase
+- (instancetype)initWithLayout:(SPSFSPPrizeLayout *)layout nextLayout:(SPSFSPPrizeLayout * _Nullable)nextLayout stampValue:(SPSInt * _Nullable)stampValue hasCart:(BOOL)hasCart __attribute__((swift_name("init(layout:nextLayout:stampValue:hasCart:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPSharedPrizesViewModelState *)doCopyLayout:(SPSFSPPrizeLayout *)layout nextLayout:(SPSFSPPrizeLayout * _Nullable)nextLayout stampValue:(SPSInt * _Nullable)stampValue hasCart:(BOOL)hasCart __attribute__((swift_name("doCopy(layout:nextLayout:stampValue:hasCart:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL hasCart __attribute__((swift_name("hasCart")));
+@property (readonly) SPSFSPPrizeLayout *layout __attribute__((swift_name("layout")));
+@property (readonly) SPSFSPPrizeLayout * _Nullable nextLayout __attribute__((swift_name("nextLayout")));
+@property (readonly) SPSInt * _Nullable stampValue __attribute__((swift_name("stampValue")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPSharedReceiptCaptureViewModel")))
-@interface SPSFSPSharedReceiptCaptureViewModel : SPSFSPSharedViewModel
+@interface SPSFSPSharedReceiptCaptureViewModel : SPSFSPSharedViewModel<SPSFSPSharedReceiptCaptureViewModelState *>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithInjectedServiceProvider:(id<SPSFSPServiceProvider> _Nullable)injectedServiceProvider __attribute__((swift_name("init(injectedServiceProvider:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (SPSFSPSharedReceiptCaptureViewModelState *)buildState __attribute__((swift_name("buildState()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedReceiptCaptureViewModel.State")))
+@interface SPSFSPSharedReceiptCaptureViewModelState : SPSBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
-@interface SPSFSPStoreService (Extensions)
-- (id _Nullable)getObjectKey:(SPSFSPStoreKey *)key __attribute__((swift_name("getObject(key:)")));
-- (void)setObjectKey:(SPSFSPStoreKey *)key value:(id _Nullable)value __attribute__((swift_name("setObject(key:value:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedPrizeHistoryViewModel")))
+@interface SPSFSPSharedPrizeHistoryViewModel : SPSFSPSharedCampaignViewModel<SPSFSPSharedPrizeHistoryViewModelState *>
+- (instancetype)initWithServiceProvider:(id<SPSFSPServiceProvider> _Nullable)serviceProvider __attribute__((swift_name("init(serviceProvider:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (SPSFSPSharedPrizeHistoryViewModelState *)buildState __attribute__((swift_name("buildState()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedPrizeHistoryViewModel.Entry")))
+@interface SPSFSPSharedPrizeHistoryViewModelEntry : SPSBase
+- (instancetype)initWithId:(NSString *)id imageUrl:(NSString * _Nullable)imageUrl title:(NSString * _Nullable)title headnote:(NSString * _Nullable)headnote redeemedLabel:(NSString * _Nullable)redeemedLabel redeemedValue:(NSString * _Nullable)redeemedValue pickedUpLabel:(NSString * _Nullable)pickedUpLabel pickedUpValue:(NSString * _Nullable)pickedUpValue isPending:(BOOL)isPending voucher:(SPSFSPPrompt * _Nullable)voucher __attribute__((swift_name("init(id:imageUrl:title:headnote:redeemedLabel:redeemedValue:pickedUpLabel:pickedUpValue:isPending:voucher:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPSharedPrizeHistoryViewModelEntry *)doCopyId:(NSString *)id imageUrl:(NSString * _Nullable)imageUrl title:(NSString * _Nullable)title headnote:(NSString * _Nullable)headnote redeemedLabel:(NSString * _Nullable)redeemedLabel redeemedValue:(NSString * _Nullable)redeemedValue pickedUpLabel:(NSString * _Nullable)pickedUpLabel pickedUpValue:(NSString * _Nullable)pickedUpValue isPending:(BOOL)isPending voucher:(SPSFSPPrompt * _Nullable)voucher __attribute__((swift_name("doCopy(id:imageUrl:title:headnote:redeemedLabel:redeemedValue:pickedUpLabel:pickedUpValue:isPending:voucher:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable headnote __attribute__((swift_name("headnote")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable imageUrl __attribute__((swift_name("imageUrl")));
+@property (readonly) BOOL isPending __attribute__((swift_name("isPending")));
+@property (readonly) NSString * _Nullable pickedUpLabel __attribute__((swift_name("pickedUpLabel")));
+@property (readonly) NSString * _Nullable pickedUpValue __attribute__((swift_name("pickedUpValue")));
+@property (readonly) NSString * _Nullable redeemedLabel __attribute__((swift_name("redeemedLabel")));
+@property (readonly) NSString * _Nullable redeemedValue __attribute__((swift_name("redeemedValue")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+@property (readonly) SPSFSPPrompt * _Nullable voucher __attribute__((swift_name("voucher")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPSharedPrizeHistoryViewModel.State")))
+@interface SPSFSPSharedPrizeHistoryViewModelState : SPSBase
+- (instancetype)initWithScreenTitle:(NSString * _Nullable)screenTitle headnote:(NSString * _Nullable)headnote title:(NSString * _Nullable)title message:(NSString * _Nullable)message emptyText:(NSString * _Nullable)emptyText entries:(NSArray<SPSFSPSharedPrizeHistoryViewModelEntry *> *)entries isLoading:(BOOL)isLoading error:(SPSFSPPrompt * _Nullable)error __attribute__((swift_name("init(screenTitle:headnote:title:message:emptyText:entries:isLoading:error:)"))) __attribute__((objc_designated_initializer));
+- (SPSFSPSharedPrizeHistoryViewModelState *)doCopyScreenTitle:(NSString * _Nullable)screenTitle headnote:(NSString * _Nullable)headnote title:(NSString * _Nullable)title message:(NSString * _Nullable)message emptyText:(NSString * _Nullable)emptyText entries:(NSArray<SPSFSPSharedPrizeHistoryViewModelEntry *> *)entries isLoading:(BOOL)isLoading error:(SPSFSPPrompt * _Nullable)error __attribute__((swift_name("doCopy(screenTitle:headnote:title:message:emptyText:entries:isLoading:error:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable emptyText __attribute__((swift_name("emptyText")));
+@property (readonly) NSArray<SPSFSPSharedPrizeHistoryViewModelEntry *> *entries __attribute__((swift_name("entries")));
+@property (readonly) SPSFSPPrompt * _Nullable error __attribute__((swift_name("error")));
+@property (readonly) NSString * _Nullable headnote __attribute__((swift_name("headnote")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) BOOL isLoading __attribute__((swift_name("isLoading")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+@property (readonly) NSString * _Nullable screenTitle __attribute__((swift_name("screenTitle")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
 @end
 
 
@@ -2388,6 +3086,25 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("FSPLocalDateKt")))
 @interface SPSFSPLocalDateKt : SPSBase
 + (SPSKotlinx_datetimeLocalDate * _Nullable)fromBasePtBRString:(NSString *)receiver __attribute__((swift_name("fromBasePtBRString(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPObservableKt")))
+@interface SPSFSPObservableKt : SPSBase
++ (id<SPSFSPCloseable>)observe:(id<SPSKotlinx_coroutines_coreStateFlow>)receiver scope:(id<SPSKotlinx_coroutines_coreCoroutineScope>)scope onState:(void (^)(id))onState __attribute__((swift_name("observe(_:scope:onState:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPPlatform_iosKt")))
+@interface SPSFSPPlatform_iosKt : SPSBase
+@property (class, readonly) SPSFSPPlatform *currentPlatform __attribute__((swift_name("currentPlatform")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FSPStoreServiceKt")))
+@interface SPSFSPStoreServiceKt : SPSBase
++ (id _Nullable)getObject:(id<SPSFSPStoreService>)receiver key:(SPSFSPStoreKey *)key __attribute__((swift_name("getObject(_:key:)")));
++ (void)setObject:(id<SPSFSPStoreService>)receiver key:(SPSFSPStoreKey *)key value:(id _Nullable)value __attribute__((swift_name("setObject(_:key:value:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2521,6 +3238,29 @@ __attribute__((swift_name("Ktor_client_coreHttpClient")))
 @property (readonly) SPSKtor_client_coreHttpRequestPipeline *requestPipeline __attribute__((swift_name("requestPipeline")));
 @property (readonly) SPSKtor_client_coreHttpResponsePipeline *responsePipeline __attribute__((swift_name("responsePipeline")));
 @property (readonly) SPSKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol SPSKotlinx_coroutines_coreFlow
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<SPSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
+@protocol SPSKotlinx_coroutines_coreSharedFlow <SPSKotlinx_coroutines_coreFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreStateFlow")))
+@protocol SPSKotlinx_coroutines_coreStateFlow <SPSKotlinx_coroutines_coreSharedFlow>
+@required
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -2932,6 +3672,17 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
 - (instancetype)initWithPhase:(SPSKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<SPSKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) SPSKtor_client_coreHttpSendPipelinePhases *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol SPSKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))

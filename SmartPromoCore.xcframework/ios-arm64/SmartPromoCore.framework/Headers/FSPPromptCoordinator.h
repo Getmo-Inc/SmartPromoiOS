@@ -20,8 +20,12 @@ typedef void (^FSPAction)(NSString* action);
 @property UIView* frontView;
 @property FSPAction onTap;
 
-+ (FSPPromptItem*) instanceWithPrompt: (FSPPrompt*) prompt;
-+ (FSPPromptItem*) errorWithOnTap:(FSPAction)onTap;
++ (nonnull FSPPromptItem*) instanceWithPrompt: (nonnull FSPPrompt*) prompt;
++ (nonnull FSPPromptItem*) errorWithOnTap:(nullable FSPAction)onTap NS_SWIFT_NAME(error(onTap:));
+
+/// A failed call's prompt when the API sent one, the generic error when it did not. Either way
+/// [onTap] receives the action of the button tapped, so a retry sent by the API still runs.
++ (nonnull FSPPromptItem*) errorWithPrompt:(nullable FSPPrompt*)prompt onTap:(nullable FSPAction)onTap NS_SWIFT_NAME(error(_:onTap:));
 
 @end
 
@@ -41,7 +45,7 @@ typedef void (^FSPAction)(NSString* action);
 
 @property FSPBlock inputDidUpdate;
 
-+ (FSPPromptCoordinator*) instance;
++ (nonnull FSPPromptCoordinator*) instance;
 
 - (FSPPromptCoordinator*) setClosable: (BOOL) internalClosable;
 - (FSPPromptCoordinator*) setWillDismiss: (FSPBlock) willDismiss;
