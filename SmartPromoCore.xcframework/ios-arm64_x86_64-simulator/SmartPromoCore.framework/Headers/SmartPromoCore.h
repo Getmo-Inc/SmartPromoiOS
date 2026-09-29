@@ -4,13 +4,12 @@
 //
 //  Created by Rodrigo Busata on 05/11/21.
 //
-//  3.0.5 (25)
+//  3.1.0 (23)
 //
 
 #import <UIKit/UIKit.h>
 #import <SmartPromoCore/SmartPromoSharedAliases.h>
 #import <SmartPromoCore/FSPMultiCampaignViewController.h>
-#import <SmartPromoCore/FSPWebService.h>
 #import <SmartPromoCore/InternalSmartPromoCore.h>
 
 extern NSString* _Nonnull const SmartPromoEventCampaignSelected;
@@ -38,7 +37,7 @@ extern NSString* _Nonnull const SmartPromoEventCampaignSelected;
               viewController: (nonnull UIViewController*) viewController;
 
 - (void) goSwitch: (nonnull UINavigationController *) viewController;
-- (void) goSwitch: (nonnull UINavigationController *) viewController currentCampaignId: (nonnull NSString*) currentCampaignId;
+- (void) goSwitch: (nonnull UINavigationController *) viewController currentCampaignId: (NSString* _Nullable) currentCampaignId;
 
 - (void) goScan: (nonnull NSString*) campaignId consumerId: (nonnull NSString*) consumerId viewController: (nonnull UIViewController *) viewController;
 

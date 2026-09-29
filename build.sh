@@ -51,4 +51,7 @@ xcodebuild -create-xcframework \
 -framework ./output/SmartPromo-iphoneos.xcarchive/Products/Library/Frameworks/SmartPromo.framework \
 -output ./output/SmartPromo.xcframework
 
+# Stage the rebuilt xcframeworks in git
+git add -A SmartPromoCore.xcframework SmartPromoShared.xcframework output
+
 afplay /System/Library/Sounds/Glass.aiff

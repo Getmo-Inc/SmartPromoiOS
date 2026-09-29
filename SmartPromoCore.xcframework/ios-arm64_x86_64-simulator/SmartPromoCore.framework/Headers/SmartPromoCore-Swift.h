@@ -352,6 +352,8 @@ extern "C" {
 @import UIKit;
 #endif
 
+#import <SmartPromoCore/SmartPromoCore.h>
+
 #endif // defined(__OBJC__)
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -431,12 +433,89 @@ SWIFT_CLASS("_TtC14SmartPromoCore16FSPBaseOptInView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC14SmartPromoCore18FSPCartBottomSheet")
+@interface FSPCartBottomSheet : NSObject
+- (void)showAbove:(UIViewController * _Nonnull)above;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+/// The cart icon for the navigation bar with the count baked in — the <em>pre-iOS 26 fallback only</em>.
+/// From 26 on, <code>FSPPrizesViewController.updateCartButton</code> uses the system <code>UIBarButtonItem.badge</code>
+/// and this is not called; delete it when the deployment target reaches 26.
+/// Before 26 a bar item draws either its image or its title, never both, and has no badge, so the
+/// count is drawn into the image: the SF Symbol, a filled pill, and the number knocked out of the
+/// pill. It stays monochrome and is vended as a template image on purpose, and that is the whole
+/// point: the item goes on inheriting the navigation bar tint that <code>setupHeader</code> resolves (white
+/// over the colored header, <code>textSecondary</code> otherwise). A two-colour badge would mean painting the
+/// symbol by hand too, and getting it wrong on one of the two headers.
+SWIFT_CLASS("_TtC14SmartPromoCore11FSPCartIcon")
+@interface FSPCartIcon : NSObject
++ (UIImage * _Nullable)imageWithCount:(NSInteger)count SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+SWIFT_CLASS("_TtC14SmartPromoCore26FSPCircularProgressBarView")
+@interface FSPCircularProgressBarView : UIView
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
++ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) NSInteger value;
+@property (nonatomic) NSInteger maxValue;
+@property (nonatomic) CGFloat borderPadding;
+@property (nonatomic) CGFloat progressAngle;
+@property (nonatomic) CGFloat progressRotationAngle;
+@property (nonatomic) CGFloat progressLineWidth;
+@property (nonatomic, strong) UIColor * _Nonnull progressColor;
+@property (nonatomic, strong) UIColor * _Nonnull progressStrokeColor;
+@property (nonatomic) CGFloat emptyLineWidth;
+@property (nonatomic, strong) UIColor * _Nonnull emptyLineColor;
+@property (nonatomic, strong) UIColor * _Nonnull emptyLineStrokeColor;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UIImageView;
+SWIFT_CLASS("_TtC14SmartPromoCore20FSPFeatureHeaderView")
+@interface FSPFeatureHeaderView : UIView
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat contentHeight;)
++ (CGFloat)contentHeight SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat contentTopPadding;)
++ (CGFloat)contentTopPadding SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat contentBottomPadding;)
++ (CGFloat)contentBottomPadding SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, strong) UILabel * _Nonnull headnoteLabel;
+@property (nonatomic, readonly, strong) UILabel * _Nonnull titleLabel;
+@property (nonatomic, readonly, strong) UILabel * _Nonnull messageLabel;
+@property (nonatomic, readonly, strong) UIImageView * _Nonnull iconView;
+@property (nonatomic, readonly, strong) FSPCircularProgressBarView * _Nonnull progressView;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIFont;
 @class NSAttributedString;
 SWIFT_CLASS("_TtC14SmartPromoCore13FSPHTMLParser")
 @interface FSPHTMLParser : NSObject
 + (NSAttributedString * _Nullable)parseNativeWithHtml:(NSString * _Nonnull)html font:(UIFont * _Nullable)font alignment:(NSTextAlignment)alignment SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore18FSPKeyboardToolbar")
+@interface FSPKeyboardToolbar : UIToolbar
++ (FSPKeyboardToolbar * _Nonnull)instanceWithTitle:(NSString * _Nonnull)title tintColor:(UIColor * _Nonnull)tintColor target:(id _Nonnull)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore8FSPLabel")
+@interface FSPLabel : UILabel
+@property (nonatomic) IBInspectable UIEdgeInsets padding;
+- (void)drawTextInRect:(CGRect)rect;
+- (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class SPSFSPConsumerCore;
@@ -499,12 +578,124 @@ SWIFT_CLASS("_TtC14SmartPromoCore14FSPOptInIDView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class SPSFSPPrizeItem;
+/// <code>.horizontal</code> is the list’s card, image beside the text; <code>.vertical</code> is the grid’s tile, image
+/// over the text.
+SWIFT_CLASS("_TtC14SmartPromoCore16FSPPrizeCardView")
+@interface FSPPrizeCardView : UIView
+@property (nonatomic, copy) void (^ _Nullable onAction)(SPSFSPPrizeItem * _Nonnull);
+- (nonnull instancetype)initWithAxis:(UILayoutConstraintAxis)axis OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)bind:(SPSFSPPrizeItem * _Nonnull)prize hasCart:(BOOL)hasCart themed:(id <FSPThemed> _Nonnull)themed;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore12FSPPrizeCell")
+@interface FSPPrizeCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)bind:(SPSFSPPrizeItem * _Nonnull)prize hasCart:(BOOL)hasCart themed:(id <FSPThemed> _Nonnull)themed onAction:(void (^ _Nonnull)(SPSFSPPrizeItem * _Nonnull))onAction;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore16FSPPrizeGridCell")
+@interface FSPPrizeGridCell : FSPPrizeCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
+SWIFT_CLASS("_TtC14SmartPromoCore29FSPPrizeHistoryViewController")
+@interface FSPPrizeHistoryViewController : FSPBaseViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initXib:(NSString * _Nonnull)xibName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
+@interface FSPPrizeHistoryViewController (SWIFT_EXTENSION(SmartPromoCore)) <UITableViewDataSource>
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+/// A consumer who has redeemed nothing still reaches the screen from the home card, so the
+/// empty copy takes the single row the timeline would have had.
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class SPSFSPSharedPrizeHistoryViewModelState;
+SWIFT_CLASS("_TtC14SmartPromoCore24FSPPrizeHistoryViewModel")
+@interface FSPPrizeHistoryViewModel : NSObject
+/// Subscribes, delivering the current state right away — the screen never draws an empty frame.
+/// The shared ViewModel collects on <code>Dispatchers.Main</code>, so this already arrives on the main
+/// thread and needs no <code>FSPDispatchQueue</code> hop.
+- (void)observe:(void (^ _Nonnull)(SPSFSPSharedPrizeHistoryViewModelState * _Nonnull))onState;
+/// Rebuilds from the campaign already in memory, without a fetch.
+- (void)reload;
+/// Re-fetches the campaign — pull-to-refresh, and coming back from a redemption.
+- (void)refresh;
+- (void)clear;
+/// Waiting at the counter, or picked up. Mirrored by the timeline dot and by the pickup line.
+- (UIColor * _Nonnull)statusColorWithPending:(BOOL)pending SWIFT_WARN_UNUSED_RESULT;
+- (UIImage * _Nullable)statusIconWithPending:(BOOL)pending SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// One square of the stamp card: a slice of points, or the prize that closes it.
+SWIFT_CLASS("_TtC14SmartPromoCore17FSPPrizeStampCell")
+@interface FSPPrizeStampCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)bindStamped:(BOOL)stamped points:(NSInteger)points themed:(id <FSPThemed> _Nonnull)themed;
+- (nonnull instancetype)bindPrize:(SPSFSPPrizeItem * _Nonnull)prize alsoHolding:(NSInteger)otherPrizes selected:(BOOL)selected themed:(id <FSPThemed> _Nonnull)themed;
+@end
+
+@class UIEvent;
+/// Floats over the stamp card while a prize is picked: confirm it, or drop the pick.
+SWIFT_CLASS("_TtC14SmartPromoCore23FSPPrizeStampFooterView")
+@interface FSPPrizeStampFooterView : UIView
+@property (nonatomic, copy) void (^ _Nullable onAction)(void);
+@property (nonatomic, copy) void (^ _Nullable onClear)(void);
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+/// Only the controls take a touch; the rest passes through to the card underneath.
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (void)bindTitle:(NSString * _Nonnull)title themed:(id <FSPThemed> _Nonnull)themed;
+- (void)setVisible:(BOOL)visible animated:(BOOL)animated;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore19FSPSectionTitleView")
+@interface FSPSectionTitleView : UICollectionReusableView
+@property (nonatomic, readonly, strong) UILabel * _Nonnull titleLabel;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore14FSPShimmerView")
+@interface FSPShimmerView : UIView
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)didMoveToSuperview;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (void)startShimmer;
+- (void)stopShimmer;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 @class NSUserDefaults;
 SWIFT_CLASS("_TtC14SmartPromoCore15FSPUserDefaults")
 @interface FSPUserDefaults : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSUserDefaults * _Nonnull shared;)
 + (NSUserDefaults * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface UIView (SWIFT_EXTENSION(SmartPromoCore))
+- (void)applyShadow;
+- (void)applyShadow:(CGFloat)cornerRadius;
 @end
 
 #endif // defined(__OBJC__)
@@ -869,6 +1060,8 @@ extern "C" {
 @import UIKit;
 #endif
 
+#import <SmartPromoCore/SmartPromoCore.h>
+
 #endif // defined(__OBJC__)
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -948,12 +1141,89 @@ SWIFT_CLASS("_TtC14SmartPromoCore16FSPBaseOptInView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC14SmartPromoCore18FSPCartBottomSheet")
+@interface FSPCartBottomSheet : NSObject
+- (void)showAbove:(UIViewController * _Nonnull)above;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+/// The cart icon for the navigation bar with the count baked in — the <em>pre-iOS 26 fallback only</em>.
+/// From 26 on, <code>FSPPrizesViewController.updateCartButton</code> uses the system <code>UIBarButtonItem.badge</code>
+/// and this is not called; delete it when the deployment target reaches 26.
+/// Before 26 a bar item draws either its image or its title, never both, and has no badge, so the
+/// count is drawn into the image: the SF Symbol, a filled pill, and the number knocked out of the
+/// pill. It stays monochrome and is vended as a template image on purpose, and that is the whole
+/// point: the item goes on inheriting the navigation bar tint that <code>setupHeader</code> resolves (white
+/// over the colored header, <code>textSecondary</code> otherwise). A two-colour badge would mean painting the
+/// symbol by hand too, and getting it wrong on one of the two headers.
+SWIFT_CLASS("_TtC14SmartPromoCore11FSPCartIcon")
+@interface FSPCartIcon : NSObject
++ (UIImage * _Nullable)imageWithCount:(NSInteger)count SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+SWIFT_CLASS("_TtC14SmartPromoCore26FSPCircularProgressBarView")
+@interface FSPCircularProgressBarView : UIView
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
++ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) NSInteger value;
+@property (nonatomic) NSInteger maxValue;
+@property (nonatomic) CGFloat borderPadding;
+@property (nonatomic) CGFloat progressAngle;
+@property (nonatomic) CGFloat progressRotationAngle;
+@property (nonatomic) CGFloat progressLineWidth;
+@property (nonatomic, strong) UIColor * _Nonnull progressColor;
+@property (nonatomic, strong) UIColor * _Nonnull progressStrokeColor;
+@property (nonatomic) CGFloat emptyLineWidth;
+@property (nonatomic, strong) UIColor * _Nonnull emptyLineColor;
+@property (nonatomic, strong) UIColor * _Nonnull emptyLineStrokeColor;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UIImageView;
+SWIFT_CLASS("_TtC14SmartPromoCore20FSPFeatureHeaderView")
+@interface FSPFeatureHeaderView : UIView
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat contentHeight;)
++ (CGFloat)contentHeight SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat contentTopPadding;)
++ (CGFloat)contentTopPadding SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat contentBottomPadding;)
++ (CGFloat)contentBottomPadding SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly, strong) UILabel * _Nonnull headnoteLabel;
+@property (nonatomic, readonly, strong) UILabel * _Nonnull titleLabel;
+@property (nonatomic, readonly, strong) UILabel * _Nonnull messageLabel;
+@property (nonatomic, readonly, strong) UIImageView * _Nonnull iconView;
+@property (nonatomic, readonly, strong) FSPCircularProgressBarView * _Nonnull progressView;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIFont;
 @class NSAttributedString;
 SWIFT_CLASS("_TtC14SmartPromoCore13FSPHTMLParser")
 @interface FSPHTMLParser : NSObject
 + (NSAttributedString * _Nullable)parseNativeWithHtml:(NSString * _Nonnull)html font:(UIFont * _Nullable)font alignment:(NSTextAlignment)alignment SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore18FSPKeyboardToolbar")
+@interface FSPKeyboardToolbar : UIToolbar
++ (FSPKeyboardToolbar * _Nonnull)instanceWithTitle:(NSString * _Nonnull)title tintColor:(UIColor * _Nonnull)tintColor target:(id _Nonnull)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore8FSPLabel")
+@interface FSPLabel : UILabel
+@property (nonatomic) IBInspectable UIEdgeInsets padding;
+- (void)drawTextInRect:(CGRect)rect;
+- (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class SPSFSPConsumerCore;
@@ -1016,12 +1286,124 @@ SWIFT_CLASS("_TtC14SmartPromoCore14FSPOptInIDView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class SPSFSPPrizeItem;
+/// <code>.horizontal</code> is the list’s card, image beside the text; <code>.vertical</code> is the grid’s tile, image
+/// over the text.
+SWIFT_CLASS("_TtC14SmartPromoCore16FSPPrizeCardView")
+@interface FSPPrizeCardView : UIView
+@property (nonatomic, copy) void (^ _Nullable onAction)(SPSFSPPrizeItem * _Nonnull);
+- (nonnull instancetype)initWithAxis:(UILayoutConstraintAxis)axis OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)bind:(SPSFSPPrizeItem * _Nonnull)prize hasCart:(BOOL)hasCart themed:(id <FSPThemed> _Nonnull)themed;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore12FSPPrizeCell")
+@interface FSPPrizeCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)bind:(SPSFSPPrizeItem * _Nonnull)prize hasCart:(BOOL)hasCart themed:(id <FSPThemed> _Nonnull)themed onAction:(void (^ _Nonnull)(SPSFSPPrizeItem * _Nonnull))onAction;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore16FSPPrizeGridCell")
+@interface FSPPrizeGridCell : FSPPrizeCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
+SWIFT_CLASS("_TtC14SmartPromoCore29FSPPrizeHistoryViewController")
+@interface FSPPrizeHistoryViewController : FSPBaseViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initXib:(NSString * _Nonnull)xibName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
+@interface FSPPrizeHistoryViewController (SWIFT_EXTENSION(SmartPromoCore)) <UITableViewDataSource>
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+/// A consumer who has redeemed nothing still reaches the screen from the home card, so the
+/// empty copy takes the single row the timeline would have had.
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class SPSFSPSharedPrizeHistoryViewModelState;
+SWIFT_CLASS("_TtC14SmartPromoCore24FSPPrizeHistoryViewModel")
+@interface FSPPrizeHistoryViewModel : NSObject
+/// Subscribes, delivering the current state right away — the screen never draws an empty frame.
+/// The shared ViewModel collects on <code>Dispatchers.Main</code>, so this already arrives on the main
+/// thread and needs no <code>FSPDispatchQueue</code> hop.
+- (void)observe:(void (^ _Nonnull)(SPSFSPSharedPrizeHistoryViewModelState * _Nonnull))onState;
+/// Rebuilds from the campaign already in memory, without a fetch.
+- (void)reload;
+/// Re-fetches the campaign — pull-to-refresh, and coming back from a redemption.
+- (void)refresh;
+- (void)clear;
+/// Waiting at the counter, or picked up. Mirrored by the timeline dot and by the pickup line.
+- (UIColor * _Nonnull)statusColorWithPending:(BOOL)pending SWIFT_WARN_UNUSED_RESULT;
+- (UIImage * _Nullable)statusIconWithPending:(BOOL)pending SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// One square of the stamp card: a slice of points, or the prize that closes it.
+SWIFT_CLASS("_TtC14SmartPromoCore17FSPPrizeStampCell")
+@interface FSPPrizeStampCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)bindStamped:(BOOL)stamped points:(NSInteger)points themed:(id <FSPThemed> _Nonnull)themed;
+- (nonnull instancetype)bindPrize:(SPSFSPPrizeItem * _Nonnull)prize alsoHolding:(NSInteger)otherPrizes selected:(BOOL)selected themed:(id <FSPThemed> _Nonnull)themed;
+@end
+
+@class UIEvent;
+/// Floats over the stamp card while a prize is picked: confirm it, or drop the pick.
+SWIFT_CLASS("_TtC14SmartPromoCore23FSPPrizeStampFooterView")
+@interface FSPPrizeStampFooterView : UIView
+@property (nonatomic, copy) void (^ _Nullable onAction)(void);
+@property (nonatomic, copy) void (^ _Nullable onClear)(void);
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+/// Only the controls take a touch; the rest passes through to the card underneath.
+- (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (void)bindTitle:(NSString * _Nonnull)title themed:(id <FSPThemed> _Nonnull)themed;
+- (void)setVisible:(BOOL)visible animated:(BOOL)animated;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore19FSPSectionTitleView")
+@interface FSPSectionTitleView : UICollectionReusableView
+@property (nonatomic, readonly, strong) UILabel * _Nonnull titleLabel;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC14SmartPromoCore14FSPShimmerView")
+@interface FSPShimmerView : UIView
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)didMoveToSuperview;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (void)startShimmer;
+- (void)stopShimmer;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 @class NSUserDefaults;
 SWIFT_CLASS("_TtC14SmartPromoCore15FSPUserDefaults")
 @interface FSPUserDefaults : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSUserDefaults * _Nonnull shared;)
 + (NSUserDefaults * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface UIView (SWIFT_EXTENSION(SmartPromoCore))
+- (void)applyShadow;
+- (void)applyShadow:(CGFloat)cornerRadius;
 @end
 
 #endif // defined(__OBJC__)

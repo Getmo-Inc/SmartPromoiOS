@@ -9,3 +9,6 @@
 #import <SmartPromoCore/FSPTextField.h>
 #import <SmartPromoCore/FSPCodeInput.h>
 #import <SmartPromoCore/SmartPromoSharedAliases.h>
+#import <SmartPromoCore/UIImageView+SmartPromo.h>
+#import <SmartPromoCore/UIColor+SmartPromo.h>
+#import <SmartPromoCore/FSPThemed.h>

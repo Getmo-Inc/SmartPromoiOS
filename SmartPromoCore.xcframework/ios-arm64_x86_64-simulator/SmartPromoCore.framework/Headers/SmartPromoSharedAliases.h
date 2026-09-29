@@ -16,10 +16,9 @@
     - (NSDictionary * _Nullable)toDict; \
     @end
 
-// MARK: - FSPSearchable / FSPFilterable
+// MARK: - FSPSearchable
 
 #define FSPSearchable SPSFSPSearchable
-#define FSPFilterable SPSFSPFilterable
 
 // MARK: - FSPJsonBridge
 
@@ -31,7 +30,10 @@
 FSP_PARSING_INTERFACE(SPSFSPPrompt)
 
 @interface SPSFSPPromptContent (Convenience)
-+ (nonnull instancetype)withValue:(NSString * _Nullable)value type:(nonnull SPSFSPPromptContentType *)type;
+/// The two fields a plain line of copy needs. Kotlin default arguments do not cross over, so
+/// without this every caller spells out `alignment:nil input:nil action:nil`.
++ (nonnull instancetype)withValue:(NSString * _Nullable)value
+                             type:(nonnull SPSFSPPromptContentType *)type NS_SWIFT_NAME(init(value:type:));
 @end
 
 @interface SPSFSPPrompt (New)
@@ -79,9 +81,9 @@ FSP_PARSING_INTERFACE(SPSFSPAddress)
 #define FSPGenre                 SPSFSPGenre
 #define FSPPrize                 SPSFSPPrize
 #define FSPPrizeItem             SPSFSPPrizeItem
-#define FSPFilter                SPSFSPFilter
 #define FSPPrizeItemDetail       SPSFSPPrizeItemDetail
 #define FSPPrizeItemDetailGroup  SPSFSPPrizeItemDetailFSPGroup
+#define FSPPrizeSection          SPSFSPPrizeSection
 #define FSPPrizeStatus           SPSFSPrizeStatus
 
 // MARK: - FSPLottie
@@ -195,10 +197,15 @@ FSP_PARSING_INTERFACE(SPSFSPCampaignItem)
 
 #define FSPInstantPrizeType      SPSFSPInstantPrizeType
 
+// MARK: - FSPRoute
+
+#define FSPRoute                 SPSFSPRoute
+
 // MARK: - FSPCampaign
 
 #define FSPCampaign              SPSFSPCampaign
 #define FSPCampaignCompanion     SPSFSPCampaignCompanion
+#define FSPCampaignContext       SPSFSPCampaignContext
 FSP_PARSING_INTERFACE(SPSFSPCampaign)
 
 // MARK: - FSPConfig
@@ -223,7 +230,7 @@ FSP_PARSING_INTERFACE(SPSFSPConfig)
 
 @interface SPSFSPConfig (Migration)
 + (void)setGlobalConfig:(SPSFSPConfig * _Nullable)config;
-+ (SPSFSPConfig * _Nullable)globalConfig;
++ (SPSFSPConfig * _Nullable)globalConfig NS_SWIFT_NAME(global());
 + (nonnull instancetype)new;
 + (BOOL)isRunningUITest;
 @end
@@ -237,3 +244,44 @@ FSP_PARSING_INTERFACE(SPSFSPConfig)
 
 #define FSPStoreService          SPSFSPStoreService
 #define FSPStoreKey              SPSFSPStoreKey
+
+// MARK: - Cart
+
+#define FSPCartManager           SPSFSPCartManager
+#define FSPCartState             SPSFSPCartState
+#define FSPCartEntry             SPSFSPCartEntry
+
+// MARK: - Prize layout
+
+#define FSPPrizeLayout           SPSFSPPrizeLayout
+
+// MARK: - Shared ViewModels
+
+/// Token returned by every `observe` — the KMP side has no `Job` to hand out.
+#define FSPCloseable                     SPSFSPCloseable
+#define FSPSharedCartViewModel           SPSFSPSharedCartViewModel
+#define FSPSharedPrizeHistoryViewModel   SPSFSPSharedPrizeHistoryViewModel
+#define FSPSharedPrizesViewModel         SPSFSPSharedPrizesViewModel
+#define FSPSharedPrizesViewModelState    SPSFSPSharedPrizesViewModelState
+
+/// Kotlin default arguments do not cross to ObjC, so the no-provider form has to be declared here
+/// rather than every call site passing an explicit `nil`. Not `+new`: `SPSBase` marks that
+/// unavailable, and the attribute follows into Swift.
+@interface SPSFSPSharedCartViewModel (Convenience)
++ (nonnull instancetype)make;
+@end
+
+@interface SPSFSPSharedPrizesViewModel (Convenience)
++ (nonnull instancetype)makeWithAction:(nullable NSString *)action;
+@end
+
+// MARK: - Response typedefs
+
+typedef void(^FSPSimpleResponse)(BOOL success);
+typedef void(^FSPPromptResponse)(FSPPrompt* _Nullable prompt, BOOL success);
+
+// MARK: - Format / Validation
+
+#define FSPDoubleFormat          SPSFSPDoubleFormat
+#define FSPStringFormat          SPSFSPStringFormat
+#define FSPStringFormatMask      SPSFSPStringFormatMask
